@@ -13,6 +13,8 @@ Caveat that never goes away: Wikipedia records the TITLE holder, not the
 play-caller. Treat output as candidates to verify, not truth.
 """
 
+from __future__ import annotations
+
 import argparse
 import json
 import re

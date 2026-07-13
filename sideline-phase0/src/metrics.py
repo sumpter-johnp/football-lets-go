@@ -21,6 +21,8 @@ Known limitations, stated so the verdict stays honest:
     the four as a pure "coach dial."
 """
 
+from __future__ import annotations
+
 from statistics import median
 
 PASS_TYPES = {

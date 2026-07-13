@@ -6,6 +6,8 @@ so re-runs cost zero API calls. Delete the cache dir to force a refresh.
 Requires CFBD_API_KEY in the environment (free key: https://collegefootballdata.com/key).
 """
 
+from __future__ import annotations
+
 import hashlib
 import json
 import os
