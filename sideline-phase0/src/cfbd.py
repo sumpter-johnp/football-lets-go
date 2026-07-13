@@ -18,8 +18,23 @@ from pathlib import Path
 import requests
 
 BASE_URL = "https://api.collegefootballdata.com"
-CACHE_DIR = Path(__file__).resolve().parent.parent / "data" / "cache"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+CACHE_DIR = PROJECT_ROOT / "data" / "cache"
 SLEEP_BETWEEN_CALLS = 0.35  # be polite to the free tier
+
+
+def _load_dotenv() -> None:
+    """Load KEY=value lines from the project-root .env into os.environ.
+    Real environment variables win; no dependency on python-dotenv."""
+    env_file = PROJECT_ROOT / ".env"
+    if not env_file.exists():
+        return
+    for line in env_file.read_text().splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, value = line.partition("=")
+        os.environ.setdefault(key.strip(), value.strip().strip("'\""))
 
 _CAMEL_RE = re.compile(r"(?<!^)(?=[A-Z])")
 
@@ -33,10 +48,12 @@ def _snake_keys(play: dict) -> dict:
 
 class CFBDClient:
     def __init__(self, api_key: str | None = None):
+        _load_dotenv()
         self.api_key = api_key or os.environ.get("CFBD_API_KEY")
         if not self.api_key:
             raise RuntimeError(
-                "No CFBD API key found. Set CFBD_API_KEY in your environment.\n"
+                "No CFBD API key found. Set CFBD_API_KEY in your environment\n"
+                "or in sideline-phase0/.env (see .env.example).\n"
                 "Get a free key at https://collegefootballdata.com/key"
             )
         CACHE_DIR.mkdir(parents=True, exist_ok=True)
