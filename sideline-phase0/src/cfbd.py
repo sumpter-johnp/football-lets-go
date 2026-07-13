@@ -11,6 +11,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import re
 import time
 from pathlib import Path
 
@@ -19,6 +20,15 @@ import requests
 BASE_URL = "https://api.collegefootballdata.com"
 CACHE_DIR = Path(__file__).resolve().parent.parent / "data" / "cache"
 SLEEP_BETWEEN_CALLS = 0.35  # be polite to the free tier
+
+_CAMEL_RE = re.compile(r"(?<!^)(?=[A-Z])")
+
+
+def _snake_keys(play: dict) -> dict:
+    """The CFBD /plays payload uses camelCase (playType, yardsToGoal, ...);
+    the metrics layer expects snake_case. Normalize at the API boundary so
+    cached (camelCase) responses keep working without a re-download."""
+    return {_CAMEL_RE.sub("_", k).lower(): v for k, v in play.items()}
 
 
 class CFBDClient:
@@ -67,7 +77,7 @@ class CFBDClient:
             "/plays",
             {"year": year, "week": 1, "offense": team, "seasonType": "postseason"},
         )
-        return plays
+        return [_snake_keys(p) for p in plays]
 
     def coaches(self, year: int) -> list[dict]:
         """Head coach records for a season (HEAD COACHES ONLY — no coordinators)."""

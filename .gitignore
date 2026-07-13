@@ -1,1 +1,4 @@
 .DS_Store
+
+# CFBD API response cache — regenerable, large (~32MB), keyed by URL hash
+sideline-phase0/data/cache/
