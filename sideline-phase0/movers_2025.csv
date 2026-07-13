@@ -1,0 +1,20 @@
+coach,unit,new_team,prior_stops,notes
+# 2024-25 cycle: offensive play-callers moving FBS-to-FBS. Sources: 247Sports P4 coordinator
+# carousel article (Feb 2025) + FootballScoop 2024-25 OC tracker. Rows marked VERIFY need a
+# quick check against a school announcement before trusting the prior_stops years.
+# prior_stops = seasons the coach ACTUALLY CALLED PLAYS. Single season: "Team:2024-2024".
+Gus Malzahn,offense,Florida State,"UCF:2021-2023","Play-called UCF; handed duties to Tim Harris Jr late 2024 so 2024 excluded (FootballScoop)"
+Jeff Grimes,offense,Wisconsin,"Kansas:2024-2024; Baylor:2021-2023","Play-calling stops confirmed by 247Sports; BYU 2018-20 also available if more history wanted"
+Ben Arbuckle,offense,Oklahoma,"Washington State:2023-2024","Wazzu play-caller; QB Mateer transferred with him - roster confound to note in writeup"
+Mack Leftwich,offense,Texas Tech,"Texas State:2023-2024","Texas State OC past two seasons per 247Sports"
+Chip Lindsey,offense,Michigan,"North Carolina:2023-2024","UNC OC under Mack Brown; VERIFY 2023 start year"
+Seth Doege,offense,Arizona,"Marshall:2024-2024","Only 1 prior season - thin sample; note he is the OC the Sideline Arizona brief will profile"
+Jason Beck,offense,Utah,"New Mexico:2024-2024","1 prior season; QB Dampier followed him - roster confound"
+Slade Nagle,offense,Houston,"Tulane:2023-2024","VERIFY exact play-calling seasons at Tulane (interim OC late 2022 then full OC)"
+Ryan Grubb,offense,Alabama,"Washington:2022-2023","2024 spent with Seahawks (NFL) - one-year gap in college data"
+Rich Rodriguez,offense,West Virginia,"Jacksonville State:2023-2024","HC who runs his own offense; VERIFY play-calling arrangement at JSU"
+# --- excluded candidates, kept for the record ---
+# Dana Holgorsen,offense,Nebraska,"Houston:2019-2023","Took over Nebraska play-calling IN-SEASON Nov 2024, so the 2024 program baseline is contaminated by his own plays - breaks predictor (b)"
+# Bryan Harsin,offense,California,"","No recent play-calling stops (HC at Auburn/Boise with dedicated OCs)"
+# Josh Henson,offense,Purdue,"","Held OC title at USC but Lincoln Riley called plays - the canonical title-vs-play-caller trap"
+# Tino Sunseri,offense,UCLA,"","Co-OC at Indiana (attribution murky) and was fired 3 games into 2025 - actual-2025 sample too small"
