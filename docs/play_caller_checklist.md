@@ -30,20 +30,26 @@ Check the box here and paste the URL next to it when done.
 
 ---
 
-## Tier 1 — Arizona (flagship brief, Sept 12) — verify first
+## Tier 1 — Arizona (flagship brief, Sept 12) — VERIFIED 2026-07-13 ✅
 
-- [ ] **Seth Doege, Arizona OC 2025–26** — confirmed play-caller for 2025?
-      Retained duties into 2026? (Second year under Brennan; Phase 0's
-      movers file verified Marshall 2024 play-calling, not the Arizona
-      arrangement itself.) Two verdicts: `start_year=2025` stint covers both
-      years — verify each season's arrangement before setting the flag.
-- [ ] **Brent Brennan, Arizona HC 2024–26** — confirm he does NOT call
-      offensive plays (career WR/ST background suggests not; confirm and set
-      `play_caller = false` so attribution queries can exclude him cleanly).
-- [ ] **Seth Doege prior stops** — from the announcement, list every season
-      he actually called plays before Arizona (Phase 0 has Marshall 2024
-      verified). Needed for his DNA profile → add rows to `coach_stints`
-      and queue those team-seasons for CFBD ingest.
+- [x] **Seth Doege, Arizona OC 2025–26** — `play_caller = true`, both seasons.
+      2025: Brennan's own postgame remarks — "Coach Doege called a great game"
+      ([Colorado 11/1/25 postgame PDF](https://cubuffs.com/documents/download/2025/11/2/Postgame_Quotes.pdf),
+      repeated after the [Territorial Cup](https://www.azdesertswarm.com/football/72966/arizona-wildcats-football-postgame-comments-territorial-cup-brent-brennan-treydan-stukes)).
+      2026: returning for Year 2 per [Tucson.com interview, 7/3/26](https://tucson.com/sports/college/football/wildcats/article_fdcfa6c4-f6fd-4e8a-8529-c8d6301b7a39.html),
+      coordinator extension through 2028.
+- [x] **Brent Brennan, Arizona HC 2024–26** — `play_caller = false`. Credits
+      Doege with play-calling in his own postgame remarks; career WR/ST
+      background, no play-calling history.
+- [x] **Seth Doege prior stops** — narrower than hoped: **Marshall 2024 is his
+      only prior play-calling season.** Official Arizona bio: Bowling Green
+      2016–18 (GA/WR/STC), USC 2019–21 (QC → TEs), Ole Miss 2022 (analyst),
+      Purdue 2023 (TEs), Marshall 2024 (OC — [announced as play-caller at
+      hire](https://wchstv.com/sports/top-sports/marshall-hires-seth-doege-as-new-offensive-coordinator)).
+      Marshall 2024 stint added to `coach_stints` (`play_caller = true`);
+      Marshall 2024 queued for ingest. **Brief implication:** his DNA profile
+      rests on one Marshall season + Arizona 2025 — sample-size caveat
+      mandatory, and Arizona 2025 self-scout becomes the stronger signal.
 
 ## Tier 2 — 2026 opponents, in schedule order (offense)
 
@@ -115,4 +121,6 @@ Already verified in prose during Phase 0 (`sideline-phase0/movers_2025.csv`)
 
 ### Ingest queue (fill as Tier 1/2 answers come in)
 
-- (empty)
+- [ ] **Marshall 2024** — Doege's only pre-Arizona play-calling season
+      (Sun Belt, outside the 12-team scope). ~37 CFBD calls; run after the
+      quota resets Aug 1: `python3 ingest/ingest_team_season.py Marshall 2024`
