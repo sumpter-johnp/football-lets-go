@@ -24,7 +24,11 @@ import urllib.parse
 import urllib.request
 
 API = "https://en.wikipedia.org/w/api.php"
-HEADERS = {"User-Agent": "sideline-phase0/0.1 (personal research project)"}
+# Wikimedia UA policy asks for contact info; requests without it get throttled
+HEADERS = {"User-Agent": (
+    "sideline-phase0/0.1 (https://github.com/sumpter-johnp/football-lets-go; "
+    "johnpsumpter@gmail.com) python-urllib"
+)}
 
 
 def fetch_wikitext(page_title: str) -> str | None:
@@ -33,12 +37,25 @@ def fetch_wikitext(page_title: str) -> str | None:
         "format": "json", "formatversion": "2", "redirects": "1",
     })
     req = urllib.request.Request(f"{API}?{params}", headers=HEADERS)
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.load(resp)
-        return data["parse"]["wikitext"]
-    except Exception:
-        return None
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = json.load(resp)
+            if "error" in data:  # e.g. missingtitle — a real 404, don't retry
+                return None
+            return data["parse"]["wikitext"]
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 403) and attempt < 3:  # burst throttle — back off
+                wait = 5 * 2 ** attempt
+                print(f"  {e.code} on '{page_title}', retrying in {wait}s", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            print(f"  HTTP {e.code} on '{page_title}'", file=sys.stderr)
+            return None
+        except Exception as e:
+            print(f"  {type(e).__name__} on '{page_title}': {e}", file=sys.stderr)
+            return None
+    return None
 
 
 def _clean_names(raw: str) -> list[str]:
@@ -90,7 +107,7 @@ def main():
             c = parse_coordinators(wt)
             url = "https://en.wikipedia.org/wiki/" + urllib.parse.quote(title.replace(" ", "_"))
             print(f'"{team}",{year},"{"; ".join(c["hc"])}","{"; ".join(c["oc"])}","{"; ".join(c["dc"])}",{url}')
-            time.sleep(0.5)  # be polite
+            time.sleep(3.0)  # be polite (faster pacing drew burst throttling in practice)
 
 
 if __name__ == "__main__":
