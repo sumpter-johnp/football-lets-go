@@ -3,5 +3,6 @@
 # Secrets — never commit
 .env
 
-# CFBD API response cache — regenerable, large (~32MB), keyed by URL hash
+# CFBD API response cache — regenerable, large, keyed by URL hash
 sideline-phase0/data/cache/
+data/cache/
