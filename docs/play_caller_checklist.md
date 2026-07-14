@@ -136,9 +136,15 @@ Already verified in prose during Phase 0 (`sideline-phase0/movers_2025.csv`)
       2017 use with caution (Andersen mid-season resignation)
 - [ ] **Kansas 2021–23 + 2025** — Kotelnicki's verified KU seasons + the
       Zebrowski 2025 season (Kansas already scoped; lands with the Aug 1 batch)
-- [ ] Penn State 2024–25 — **hold**: Kotelnicki's play-calling there is
-      UNVERIFIED; verify before spending the ~74 API calls
-- [ ] San Jose State 2018–23 — **hold**: McGiven per-season play-calling
-      unverified; verify before ingesting six seasons
+- [ ] **Penn State 2024 2025** — hold RESOLVED 2026-07-13: Kotelnicki
+      CONFIRMED calling both seasons end-to-end (incl. through Franklin's
+      Oct 2025 firing and the Pinstripe Bowl — no splits). Ingest both;
+      completes his 5-season DNA base (KU 21-23 + PSU 24-25) for the wk 12
+      Kansas game.
+- [ ] **San José State 2018–23** — hold RESOLVED 2026-07-13: McGiven
+      era-wide CONFIRMED (per-season LIKELY; retrospective sourcing; 2024 =
+      Stutzmann, not McGiven). Six seasons ≈ 220 API calls — consider
+      2021–23 first if rationing. ⚠️ CFBD name is "San José State"
+      (accented é) — use it verbatim in the ingest command.
 - North Dakota State 2019–23 (Roehl) — **not ingestable**: FCS PBP coverage
   too thin; the brief states the gap honestly instead
