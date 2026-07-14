@@ -51,38 +51,35 @@ Check the box here and paste the URL next to it when done.
       rests on one Marshall season + Arizona 2025 — sample-size caveat
       mandatory, and Arizona 2025 self-scout becomes the stronger signal.
 
-## Tier 2 — 2026 opponents, in schedule order (offense)
+## Tier 2 — 2026 opponents, in schedule order (offense) — VERIFIED 2026-07-13 ✅
 
-**New-to-team 2026 play-callers (highest value — this is the coach-DNA case):**
+All verdicts recorded in `coach_stints` with sources + notes. Summary
+(grade in parens; LIKELY = solid indirect evidence, upgrade when a direct
+quote appears):
 
-- [ ] wk 3, **Colorado State**: Jim L. Mora (HC, new) + Pryce Tracy (OC, new)
-      — who calls it? Then Tracy's/Mora's prior play-calling stops → stints + ingest queue.
-- [ ] wk 5, **TCU**: Gordon Sammis (OC, new) — does he call plays or does
-      Sonny Dykes take it back? Dykes has historically delegated (Riley,
-      Briles) but verify this hire's arrangement. Sammis prior stops → queue.
-- [ ] wk 6, **Iowa State**: entire staff new (Jimmy Rogers HC, Tyler Roehl OC).
-      Who calls plays? Prior stops likely FCS (thin CFBD data — flag expected
-      coverage gap in the brief rather than faking a profile). 
-- [ ] wk 10, **Utah**: entire staff new (Morgan Scalley HC promoted, Kevin
-      McGiven OC). Scalley is a career DC — almost certainly delegates
-      offense; verify McGiven's arrangement + his prior play-calling stops → queue.
-- [ ] wk 13, **Cincinnati**: Pete Thomas (OC, new) — play-caller or does
-      Satterfield keep calling? Satterfield has a history of calling his own
-      offense; this one genuinely matters. Thomas prior stops → queue.
+| wk | Team | 2026 play-caller | Grade | DNA base (prior play-calling) |
+|---|---|---|---|---|
+| 3 | Colorado State | **Pryce Tracy** (OC) | CONFIRMED | **None — first-time caller.** No baseline exists |
+| 5 | TCU | **Gordon Sammis** (OC) | CONFIRMED | UConn 2024–25 (queued). NOT W&M — title was OL/run-game |
+| 6 | Iowa State | **Tyler Roehl** (OC) | LIKELY | NDSU 2019–23, FCS — public PBP too thin; say so in brief |
+| 7 | Notre Dame | **Mike Denbrock** (OC) | CONFIRMED | ND 2024–25 in-scope; (LSU before, not yet needed) |
+| 8 | UCF | **Scott Frost (HC)** — not OC Cooper | CONFIRMED '25 / LIKELY '26 | UCF 2025 + his HC history; Cooper flagged false |
+| 9 | Arizona State | **Marcus Arroyo** (OC) | CONFIRMED '24–25 / LIKELY '26 | ASU 2024–25 (early-'24 Dillingham-contaminated) |
+| 11 | Baylor | **Jake Spavital** (OC) | CONFIRMED '24 / LIKELY '25–26 | Baylor 2024–25 in-scope |
+| 12 | Kansas | **Andy Kotelnicki** (assoc HC) | CONFIRMED | KU 2021–23 verified; PSU 2024–25 OC title only — play-calling UNVERIFIED |
+| 13 | Cincinnati | **Scott Satterfield (HC)** — not co-OCs Thomas/Cardwell | CONFIRMED | Cincy 2023–25 ("fourth season calling") |
 
-**Continuity staffs (verify once, mostly presser-quote checks):**
-
-- [ ] wk 7, **Notre Dame**: Mike Denbrock (OC since 2024) — confirm he calls it
-      (Freeman is defense-side).
-- [ ] wk 8, **UCF**: Scott Frost (HC) vs Steve Cooper (OC) — Frost has
-      historically called his own plays; confirm the 2025/26 arrangement.
-- [ ] wk 9, **Arizona State**: Kenny Dillingham (offense-background HC) vs
-      Marcus Arroyo (OC) — known shared-duties ambiguity; pin down who holds
-      the call sheet.
-- [ ] wk 11, **Baylor**: Jake Spavital (OC since 2024) — confirm (Aranda is
-      defense-side and has never called offense).
-- [ ] wk 12, **Kansas**: Jim Zebrowski (OC since 2025) vs Leipold — confirm
-      (Kotelnicki-era precedent says the OC calls it).
+**Findings that corrected our data:**
+- **Kansas**: Wikipedia's 2026 page missed Kotelnicki's January return from
+  Penn State — he retakes play-calling; Zebrowski (2025 caller) slides to
+  passing-game coordinator. Stint table corrected.
+- **Cincinnati**: Satterfield has called plays all along (2023–26); OCs Glenn
+  and now Thomas/Cardwell were/are never the play-caller. Attribution 2023–25
+  goes to Satterfield.
+- **ASU 2023 splits mid-season**: Baldwin weeks 1–3 → Dillingham week 4 on.
+  Dillingham HC stint split into 2023 (caller) and 2024–26 (not) rows.
+- **Two HC play-callers on the 2026 slate**: Frost and Satterfield — for
+  these teams, HC history (not OC history) is the DNA source.
 
 ## Tier 3 — historical attribution for ingested plays (2023–25)
 
@@ -95,8 +92,9 @@ for these team-seasons:
       widely reported as the primary offensive play-caller; verify and set
       flags on BOTH rows (this flips attribution of Arizona 2021–23 film).
 - [ ] **Arizona 2024**: Dino Babers (OC, one year) — play-caller under Brennan?
-- [ ] **TCU 2023–25**: Kendal Briles — confirm play-calling (strong prior:
-      career play-caller).
+- [x] **TCU 2023–25**: Kendal Briles — CONFIRMED via Tier 2 research (coverage
+      of Sammis's hire names Briles the 2023–25 caller; departed for South
+      Carolina). Recorded in DB.
 
 ## Tier 4 — Phase 0 verified facts, carry into the DB
 
@@ -106,8 +104,10 @@ Already verified in prose during Phase 0 (`sideline-phase0/movers_2025.csv`)
 - [ ] Gus Malzahn play-called UCF **2021–2023**, handed duties to Tim Harris
       Jr. **late 2024** (FootballScoop) → `play_caller=true` on Malzahn
       2021–23 portion; note the 2024 split on both his and Harris's rows.
-- [ ] Jeff Grimes play-called Baylor **2021–23** and Kansas **2024**
-      (247Sports) → flags on both stints.
+- [x] Jeff Grimes play-called Baylor **2021–23** (LIKELY grade — widely
+      credited, Broyles finalist, no flat quote found) and Kansas **2024**
+      (CONFIRMED — called all season; week-4 booth move was location only).
+      Recorded in DB via Tier 2 research.
 - [ ] Jason Beck play-called Utah **2025** (his stint pre-dates the 2026
       staff turnover).
 
@@ -121,6 +121,17 @@ Already verified in prose during Phase 0 (`sideline-phase0/movers_2025.csv`)
 
 ### Ingest queue (fill as Tier 1/2 answers come in)
 
-- [ ] **Marshall 2024** — Doege's only pre-Arizona play-calling season
-      (Sun Belt, outside the 12-team scope). ~37 CFBD calls; run after the
-      quota resets Aug 1: `python3 ingest/ingest_team_season.py Marshall 2024`
+- [ ] **Marshall 2024** — Doege's only pre-Arizona play-calling season:
+      `python3 ingest/ingest_team_season.py Marshall 2024`
+- [ ] **UConn 2024 2025** — Sammis (TCU) play-calling seasons
+- [ ] **Utah State 2025** — McGiven (Utah) confirmed play-calling season
+- [ ] **Oregon State 2016 2017** — McGiven; 2016 confirmed primary caller,
+      2017 use with caution (Andersen mid-season resignation)
+- [ ] **Kansas 2021–23 + 2025** — Kotelnicki's verified KU seasons + the
+      Zebrowski 2025 season (Kansas already scoped; lands with the Aug 1 batch)
+- [ ] Penn State 2024–25 — **hold**: Kotelnicki's play-calling there is
+      UNVERIFIED; verify before spending the ~74 API calls
+- [ ] San Jose State 2018–23 — **hold**: McGiven per-season play-calling
+      unverified; verify before ingesting six seasons
+- North Dakota State 2019–23 (Roehl) — **not ingestable**: FCS PBP coverage
+  too thin; the brief states the gap honestly instead
