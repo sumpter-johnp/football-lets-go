@@ -81,17 +81,24 @@ quote appears):
 - **Two HC play-callers on the 2026 slate**: Frost and Satterfield — for
   these teams, HC history (not OC history) is the DNA source.
 
-## Tier 3 — historical attribution for ingested plays (2023–25)
+## Tier 3 — historical attribution for ingested plays — VERIFIED 2026-07-13 ✅
 
-Needed before Phase 2 attributes tendencies to coaches. Plays already in DB
-for these team-seasons:
-
-- [ ] **BYU 2023–25**: Aaron Roderick play-called all three seasons? (Also
-      2021–22 for continuity when those seasons ingest.)
-- [ ] **Arizona 2023**: Jedd Fisch (HC) vs Brennan Carroll (OC) — Fisch was
-      widely reported as the primary offensive play-caller; verify and set
-      flags on BOTH rows (this flips attribution of Arizona 2021–23 film).
-- [ ] **Arizona 2024**: Dino Babers (OC, one year) — play-caller under Brennan?
+- [x] **BYU 2021–25**: Aaron Roderick — CONFIRMED every season with per-season
+      quotes (2025 Broyles semifinalist; 2026 LIKELY, retained). He's called
+      since MID-2019 under Grimes's OC title. Fesi Sitake (PGC) and TJ Woods
+      (RGC, 2024–) are support titles, not callers.
+- [x] **Arizona 2021–23**: **Jedd Fisch called the plays, not OC Carroll** —
+      his own words in-season 2022 ("wrapped up in just calling the offense")
+      + tenure-wide retrospectives ("For 13 years, I've called plays"; SI: his
+      OCs "don't coordinate in the traditional sense"). 2021 is
+      CONFIRMED-retrospective. **Arizona 2021–23 film = Fisch — irrelevant to
+      the 2026 opponent profile.**
+- [x] **Arizona 2024**: **SPLIT AT GAME 4** — Babers called games 1–3, then TE
+      coach/PGC **Matt Adkins** called the rest of the season (handoff hidden
+      through the bye week before the Utah upset). Adkins wasn't in the
+      Wikipedia infobox; row added via research. **Net effect for the flagship:
+      Arizona's last three seasons of film belong to Fisch / Babers+Adkins /
+      Doege — only Doege 2025 is current-staff film.**
 - [x] **TCU 2023–25**: Kendal Briles — CONFIRMED via Tier 2 research (coverage
       of Sammis's hire names Briles the 2023–25 caller; departed for South
       Carolina). Recorded in DB.
@@ -101,15 +108,15 @@ for these team-seasons:
 Already verified in prose during Phase 0 (`sideline-phase0/movers_2025.csv`)
 — transcribe, don't re-research:
 
-- [ ] Gus Malzahn play-called UCF **2021–2023**, handed duties to Tim Harris
-      Jr. **late 2024** (FootballScoop) → `play_caller=true` on Malzahn
-      2021–23 portion; note the 2024 split on both his and Harris's rows.
+- [x] Gus Malzahn play-called UCF **2021–2023**, handed duties to Tim Harris
+      Jr. **late 2024** (FootballScoop) — transcribed; mid-season split noted
+      on both rows.
 - [x] Jeff Grimes play-called Baylor **2021–23** (LIKELY grade — widely
       credited, Broyles finalist, no flat quote found) and Kansas **2024**
       (CONFIRMED — called all season; week-4 booth move was location only).
       Recorded in DB via Tier 2 research.
-- [ ] Jason Beck play-called Utah **2025** (his stint pre-dates the 2026
-      staff turnover).
+- [x] Jason Beck play-called Utah **2025** — transcribed, plus his New Mexico
+      2024 stint added (his single prior play-calling season).
 
 ## Bookkeeping as you go
 
