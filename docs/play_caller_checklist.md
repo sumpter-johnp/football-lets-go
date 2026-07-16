@@ -128,6 +128,13 @@ Already verified in prose during Phase 0 (`sideline-phase0/movers_2025.csv`)
 
 ### Ingest queue (fill as Tier 1/2 answers come in)
 
+**⛔ BLOCKED until Aug 1 — monthly CFBD quota exhausted** (verified 2026-07-15:
+API returns 429 "Monthly call quota exceeded", 999/1,000 calls used on the
+Arizona/BYU/TCU ingests). The whole queue is ~670 calls and fits in one
+month's quota: run `ingest/run_ingest_queue.sh` when the quota resets (team
+name spellings pre-verified against cached CFBD data). Attempted Marshall
+2024 first on 7/15 — zero rows ingested, blocked on the first call.
+
 - [ ] **Marshall 2024** — Doege's only pre-Arizona play-calling season:
       `python3 ingest/ingest_team_season.py Marshall 2024`
 - [ ] **UConn 2024 2025** — Sammis (TCU) play-calling seasons
