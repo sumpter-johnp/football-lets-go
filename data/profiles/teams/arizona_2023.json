@@ -1,0 +1,183 @@
+{
+  "school": "Arizona",
+  "season": 2023,
+  "games_in_db": 13,
+  "profile": {
+    "n_plays": 1129,
+    "n_games": 13,
+    "sticky": {
+      "neutral_pass_rate": {
+        "value": 0.550185873605948,
+        "n": 269
+      },
+      "sec_per_play": {
+        "value": 34,
+        "n": 191
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.12682926829268293,
+        "n": 205
+      }
+    },
+    "run_pass_by_down_distance": {
+      "1:long": {
+        "value": 0.5675675675675675,
+        "n": 148,
+        "ppa_mean": 0.12321722763919035
+      },
+      "1:medium": {
+        "value": 0.5,
+        "n": 2,
+        "ppa_mean": 0.606006648498657
+      },
+      "1:short": {
+        "value": 0.5,
+        "n": 4,
+        "ppa_mean": 0.5549598350490901
+      },
+      "1:xlong": {
+        "value": 0.5,
+        "n": 6,
+        "ppa_mean": 0.11079841976779782
+      },
+      "2:long": {
+        "value": 0.6363636363636364,
+        "n": 55,
+        "ppa_mean": 0.3922520524637486
+      },
+      "2:medium": {
+        "value": 0.5217391304347826,
+        "n": 23,
+        "ppa_mean": -0.2942831839154718
+      },
+      "2:short": {
+        "value": 0.0,
+        "n": 15,
+        "ppa_mean": -0.10846748269908028
+      },
+      "2:xlong": {
+        "value": 0.6875,
+        "n": 16,
+        "ppa_mean": 0.06041815028908399
+      },
+      "3:long": {
+        "value": 0.8823529411764706,
+        "n": 17,
+        "ppa_mean": 0.9928742596536951
+      },
+      "3:medium": {
+        "value": 0.8235294117647058,
+        "n": 17,
+        "ppa_mean": 0.5951977560918341
+      },
+      "3:short": {
+        "value": 0.65,
+        "n": 20,
+        "ppa_mean": 1.4872088317061505
+      },
+      "3:xlong": {
+        "value": 0.9230769230769231,
+        "n": 13,
+        "ppa_mean": 0.5883769854847564
+      }
+    },
+    "run_pass_by_field_zone": {
+      "backed_up": {
+        "value": 0.6666666666666666,
+        "n": 30,
+        "ppa_mean": 0.5296196341211598
+      },
+      "fringe": {
+        "value": 0.6041666666666666,
+        "n": 48,
+        "ppa_mean": -0.13223555021860428
+      },
+      "midfield": {
+        "value": 0.48333333333333334,
+        "n": 60,
+        "ppa_mean": -0.16169235381139307
+      },
+      "own_side": {
+        "value": 0.5612244897959183,
+        "n": 98,
+        "ppa_mean": 0.21145142329085642
+      },
+      "red_zone": {
+        "value": 0.45454545454545453,
+        "n": 33,
+        "ppa_mean": 0.48229817572811995
+      }
+    },
+    "pace_by_game_state": {
+      "neutral": {
+        "value": 33.0,
+        "n": 256
+      },
+      "leading": {
+        "value": 32,
+        "n": 161
+      },
+      "trailing": {
+        "value": 28,
+        "n": 65
+      }
+    },
+    "red_zone": {
+      "value": 0.44696969696969696,
+      "n": 132,
+      "ppa_mean": 0.4676074211795991,
+      "trips": 56,
+      "td_per_trip": 0.6607142857142857
+    },
+    "short_yardage": {
+      "rush_rate": 0.4,
+      "n": 20,
+      "ppa_mean": 1.24307446293604,
+      "conversion_rate": 0.8
+    },
+    "opening_script": {
+      "pass_rate_early_downs": 0.5454545454545454,
+      "n": 154,
+      "delta_vs_neutral": -0.004731328151402536
+    }
+  },
+  "predictability": {
+    "index": 0.10905639930992952,
+    "n": 246,
+    "per_bucket": {
+      "1:long": {
+        "pass_rate": 0.5675675675675675,
+        "league": 0.4852459016393443,
+        "deviation": 0.08232166592822326,
+        "n": 148
+      },
+      "2:long": {
+        "pass_rate": 0.6363636363636364,
+        "league": 0.5316455696202531,
+        "deviation": 0.10471806674338324,
+        "n": 55
+      },
+      "2:medium": {
+        "pass_rate": 0.5217391304347826,
+        "league": 0.4133949191685912,
+        "deviation": 0.10834421126619137,
+        "n": 23
+      },
+      "3:short": {
+        "pass_rate": 0.65,
+        "league": 0.33035714285714285,
+        "deviation": 0.3196428571428572,
+        "n": 20
+      }
+    },
+    "most_predictable": [
+      "3:short",
+      "2:medium",
+      "2:long"
+    ]
+  }
+}

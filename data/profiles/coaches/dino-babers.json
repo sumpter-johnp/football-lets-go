@@ -1,0 +1,212 @@
+{
+  "coach": "Dino Babers",
+  "stints_profiled": [
+    {
+      "school": "Arizona",
+      "season": 2024,
+      "n_games": 3,
+      "n_plays": 237
+    }
+  ],
+  "fragments_excluded": [],
+  "pooled_profile": {
+    "n_plays": 237,
+    "n_games": 3,
+    "sticky": {
+      "neutral_pass_rate": {
+        "value": 0.5769230769230769,
+        "n": 78
+      },
+      "sec_per_play": {
+        "value": 36,
+        "n": 91
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 1
+      },
+      "explosive_pass_rate": {
+        "value": 0.11475409836065574,
+        "n": 61
+      }
+    },
+    "run_pass_by_down_distance": {
+      "1:long": {
+        "value": 0.45,
+        "n": 40,
+        "ppa_mean": 0.4869101645582948
+      },
+      "1:medium": {
+        "value": 0.0,
+        "n": 1,
+        "ppa_mean": -0.406326501555107
+      },
+      "1:short": {
+        "value": 0.0,
+        "n": 2,
+        "ppa_mean": -0.18870520999469848
+      },
+      "1:xlong": {
+        "value": 1.0,
+        "n": 4,
+        "ppa_mean": 0.46956244404637215
+      },
+      "2:long": {
+        "value": 0.7142857142857143,
+        "n": 14,
+        "ppa_mean": -0.15370758243551164
+      },
+      "2:medium": {
+        "value": 0.6,
+        "n": 5,
+        "ppa_mean": 0.48651879718929497
+      },
+      "2:short": {
+        "value": 0.6666666666666666,
+        "n": 6,
+        "ppa_mean": -0.8641716777547455
+      },
+      "2:xlong": {
+        "value": 1.0,
+        "n": 6,
+        "ppa_mean": 0.142791938155725
+      },
+      "3:long": {
+        "value": 0.8571428571428571,
+        "n": 7,
+        "ppa_mean": 0.9164877934499381
+      },
+      "3:medium": {
+        "value": 1.0,
+        "n": 5,
+        "ppa_mean": -0.47995668600323976
+      },
+      "3:short": {
+        "value": 0.3333333333333333,
+        "n": 3,
+        "ppa_mean": -0.13182344271298815
+      },
+      "3:xlong": {
+        "value": 1.0,
+        "n": 4,
+        "ppa_mean": 1.4525262904307534
+      }
+    },
+    "run_pass_by_field_zone": {
+      "backed_up": {
+        "value": 0.5,
+        "n": 6,
+        "ppa_mean": 0.3317045032069223
+      },
+      "fringe": {
+        "value": 0.4,
+        "n": 10,
+        "ppa_mean": -0.3540561661001761
+      },
+      "midfield": {
+        "value": 0.631578947368421,
+        "n": 19,
+        "ppa_mean": -0.27747543198915997
+      },
+      "own_side": {
+        "value": 0.6875,
+        "n": 32,
+        "ppa_mean": 0.5497835558991533
+      },
+      "red_zone": {
+        "value": 0.36363636363636365,
+        "n": 11,
+        "ppa_mean": 0.5229657174553933
+      }
+    },
+    "pace_by_game_state": {
+      "neutral": {
+        "value": 35.0,
+        "n": 106
+      },
+      "leading": {
+        "value": 41.5,
+        "n": 26
+      },
+      "trailing": {
+        "value": 34.0,
+        "n": 24
+      }
+    },
+    "red_zone": {
+      "value": 0.42857142857142855,
+      "n": 14,
+      "ppa_mean": 0.3370855886428534,
+      "trips": 6,
+      "td_per_trip": 0.6666666666666666
+    },
+    "short_yardage": {
+      "rush_rate": 1.0,
+      "n": 3,
+      "ppa_mean": 1.5370566803905283,
+      "conversion_rate": 1.0
+    },
+    "opening_script": {
+      "pass_rate_early_downs": 0.5277777777777778,
+      "n": 36,
+      "delta_vs_neutral": -0.04914529914529908
+    }
+  },
+  "predictability": {
+    "index": 0.03524590163934427,
+    "n": 40,
+    "per_bucket": {
+      "1:long": {
+        "pass_rate": 0.45,
+        "league": 0.4852459016393443,
+        "deviation": -0.03524590163934427,
+        "n": 40
+      }
+    },
+    "most_predictable": [
+      "1:long"
+    ]
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    }
+  },
+  "sticky_by_season": {
+    "Arizona 2024": {
+      "neutral_pass_rate": {
+        "value": 0.5769230769230769,
+        "n": 78
+      },
+      "sec_per_play": {
+        "value": 36,
+        "n": 91
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 1
+      },
+      "explosive_pass_rate": {
+        "value": 0.11475409836065574,
+        "n": 61
+      }
+    }
+  }
+}

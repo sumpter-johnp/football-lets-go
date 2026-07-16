@@ -1,0 +1,177 @@
+{
+  "school": "BYU",
+  "season": 2024,
+  "games_in_db": 13,
+  "profile": {
+    "n_plays": 1153,
+    "n_games": 13,
+    "sticky": {
+      "neutral_pass_rate": {
+        "value": 0.483271375464684,
+        "n": 269
+      },
+      "sec_per_play": {
+        "value": 37,
+        "n": 257
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.13218390804597702,
+        "n": 174
+      }
+    },
+    "run_pass_by_down_distance": {
+      "1:long": {
+        "value": 0.5448275862068965,
+        "n": 145,
+        "ppa_mean": -0.048329793599630154
+      },
+      "1:medium": {
+        "value": 0.0,
+        "n": 3,
+        "ppa_mean": -0.4152362610928226
+      },
+      "1:short": {
+        "value": 0.0,
+        "n": 4,
+        "ppa_mean": 0.5526447581926107
+      },
+      "1:xlong": {
+        "value": 0.4,
+        "n": 5,
+        "ppa_mean": 0.41277834652789663
+      },
+      "2:long": {
+        "value": 0.36666666666666664,
+        "n": 60,
+        "ppa_mean": 0.5756854664872879
+      },
+      "2:medium": {
+        "value": 0.5,
+        "n": 22,
+        "ppa_mean": 0.29640788955287445
+      },
+      "2:short": {
+        "value": 0.2857142857142857,
+        "n": 14,
+        "ppa_mean": 0.07480649455639883
+      },
+      "2:xlong": {
+        "value": 0.75,
+        "n": 16,
+        "ppa_mean": -0.03227676405209043
+      },
+      "3:long": {
+        "value": 0.6428571428571429,
+        "n": 14,
+        "ppa_mean": 0.5027707038330919
+      },
+      "3:medium": {
+        "value": 0.6875,
+        "n": 16,
+        "ppa_mean": 1.0912442363452006
+      },
+      "3:short": {
+        "value": 0.3125,
+        "n": 16,
+        "ppa_mean": 0.27152322361208103
+      },
+      "3:xlong": {
+        "value": 0.7857142857142857,
+        "n": 14,
+        "ppa_mean": 0.4922000442377377
+      }
+    },
+    "run_pass_by_field_zone": {
+      "backed_up": {
+        "value": 0.6,
+        "n": 25,
+        "ppa_mean": 0.3258265885906516
+      },
+      "fringe": {
+        "value": 0.5098039215686274,
+        "n": 51,
+        "ppa_mean": -0.2399268398362878
+      },
+      "midfield": {
+        "value": 0.4925373134328358,
+        "n": 67,
+        "ppa_mean": -0.0015303449389951398
+      },
+      "own_side": {
+        "value": 0.4946236559139785,
+        "n": 93,
+        "ppa_mean": 0.31268523250250285
+      },
+      "red_zone": {
+        "value": 0.30303030303030304,
+        "n": 33,
+        "ppa_mean": 0.3856762658668496
+      }
+    },
+    "pace_by_game_state": {
+      "neutral": {
+        "value": 34,
+        "n": 355
+      },
+      "leading": {
+        "value": 35.0,
+        "n": 256
+      },
+      "trailing": {
+        "value": 18,
+        "n": 47
+      }
+    },
+    "red_zone": {
+      "value": 0.32558139534883723,
+      "n": 129,
+      "ppa_mean": 0.31801235529040595,
+      "trips": 50,
+      "td_per_trip": 0.58
+    },
+    "short_yardage": {
+      "rush_rate": 0.6666666666666666,
+      "n": 18,
+      "ppa_mean": 0.4478760296751792,
+      "conversion_rate": 0.5555555555555556
+    },
+    "opening_script": {
+      "pass_rate_early_downs": 0.48717948717948717,
+      "n": 156,
+      "delta_vs_neutral": 0.003908111714803153
+    }
+  },
+  "predictability": {
+    "index": 0.09005898774361788,
+    "n": 227,
+    "per_bucket": {
+      "1:long": {
+        "pass_rate": 0.5448275862068965,
+        "league": 0.4852459016393443,
+        "deviation": 0.05958168456755225,
+        "n": 145
+      },
+      "2:long": {
+        "pass_rate": 0.36666666666666664,
+        "league": 0.5316455696202531,
+        "deviation": -0.16497890295358647,
+        "n": 60
+      },
+      "2:medium": {
+        "pass_rate": 0.5,
+        "league": 0.4133949191685912,
+        "deviation": 0.08660508083140878,
+        "n": 22
+      }
+    },
+    "most_predictable": [
+      "2:long",
+      "2:medium",
+      "1:long"
+    ]
+  }
+}

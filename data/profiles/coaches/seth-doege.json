@@ -1,0 +1,244 @@
+{
+  "coach": "Seth Doege",
+  "stints_profiled": [
+    {
+      "school": "Arizona",
+      "season": 2025,
+      "n_games": 13,
+      "n_plays": 1196
+    }
+  ],
+  "fragments_excluded": [],
+  "pooled_profile": {
+    "n_plays": 1196,
+    "n_games": 13,
+    "sticky": {
+      "neutral_pass_rate": {
+        "value": 0.4804270462633452,
+        "n": 281
+      },
+      "sec_per_play": {
+        "value": 29,
+        "n": 347
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.06598984771573604,
+        "n": 197
+      }
+    },
+    "run_pass_by_down_distance": {
+      "1:long": {
+        "value": 0.45394736842105265,
+        "n": 152,
+        "ppa_mean": -0.026676877654492122
+      },
+      "1:medium": {
+        "value": 0.5,
+        "n": 4,
+        "ppa_mean": -0.28331100530467535
+      },
+      "1:short": {
+        "value": 0.0,
+        "n": 2,
+        "ppa_mean": 0.26305917893559494
+      },
+      "1:xlong": {
+        "value": 0.3333333333333333,
+        "n": 3,
+        "ppa_mean": 1.495426724459848
+      },
+      "2:long": {
+        "value": 0.5645161290322581,
+        "n": 62,
+        "ppa_mean": 0.29885677788261517
+      },
+      "2:medium": {
+        "value": 0.41379310344827586,
+        "n": 29,
+        "ppa_mean": 0.10312925446382432
+      },
+      "2:short": {
+        "value": 0.5384615384615384,
+        "n": 13,
+        "ppa_mean": 0.10859346457165929
+      },
+      "2:xlong": {
+        "value": 0.5625,
+        "n": 16,
+        "ppa_mean": 0.24119896843674915
+      },
+      "3:long": {
+        "value": 0.9375,
+        "n": 16,
+        "ppa_mean": 0.15068519411865577
+      },
+      "3:medium": {
+        "value": 1.0,
+        "n": 21,
+        "ppa_mean": 0.7998772754174917
+      },
+      "3:short": {
+        "value": 0.3,
+        "n": 20,
+        "ppa_mean": 0.2048612337768176
+      },
+      "3:xlong": {
+        "value": 0.8235294117647058,
+        "n": 17,
+        "ppa_mean": 0.18096243789928412
+      }
+    },
+    "run_pass_by_field_zone": {
+      "backed_up": {
+        "value": 0.3157894736842105,
+        "n": 19,
+        "ppa_mean": 0.21083603252416938
+      },
+      "fringe": {
+        "value": 0.4897959183673469,
+        "n": 49,
+        "ppa_mean": -0.14736869163242478
+      },
+      "midfield": {
+        "value": 0.527027027027027,
+        "n": 74,
+        "ppa_mean": -0.05248489403999091
+      },
+      "own_side": {
+        "value": 0.4777777777777778,
+        "n": 90,
+        "ppa_mean": 0.2998883406114501
+      },
+      "red_zone": {
+        "value": 0.46938775510204084,
+        "n": 49,
+        "ppa_mean": 0.13722753112449496
+      }
+    },
+    "pace_by_game_state": {
+      "neutral": {
+        "value": 28,
+        "n": 467
+      },
+      "leading": {
+        "value": 26,
+        "n": 223
+      },
+      "trailing": {
+        "value": 22,
+        "n": 149
+      }
+    },
+    "red_zone": {
+      "value": 0.5058823529411764,
+      "n": 170,
+      "ppa_mean": 0.11452203298985572,
+      "trips": 55,
+      "td_per_trip": 0.45454545454545453
+    },
+    "short_yardage": {
+      "rush_rate": 0.7894736842105263,
+      "n": 19,
+      "ppa_mean": 0.5188424005105594,
+      "conversion_rate": 0.6842105263157895
+    },
+    "opening_script": {
+      "pass_rate_early_downs": 0.4873417721518987,
+      "n": 158,
+      "delta_vs_neutral": 0.006914725888553519
+    }
+  },
+  "predictability": {
+    "index": 0.043987582065237216,
+    "n": 284,
+    "per_bucket": {
+      "1:long": {
+        "pass_rate": 0.45394736842105265,
+        "league": 0.4852459016393443,
+        "deviation": -0.031298533218291624,
+        "n": 152
+      },
+      "2:long": {
+        "pass_rate": 0.5645161290322581,
+        "league": 0.5316455696202531,
+        "deviation": 0.03287055941200501,
+        "n": 62
+      },
+      "2:medium": {
+        "pass_rate": 0.41379310344827586,
+        "league": 0.4133949191685912,
+        "deviation": 0.00039818427968463244,
+        "n": 29
+      },
+      "3:medium": {
+        "pass_rate": 1.0,
+        "league": 0.7581699346405228,
+        "deviation": 0.24183006535947715,
+        "n": 21
+      },
+      "3:short": {
+        "pass_rate": 0.3,
+        "league": 0.33035714285714285,
+        "deviation": -0.03035714285714286,
+        "n": 20
+      }
+    },
+    "most_predictable": [
+      "3:medium",
+      "2:long",
+      "1:long"
+    ]
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Arizona 2025": 0.4804270462633452
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Arizona 2025": 29
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Arizona 2025": 0.06598984771573604
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  },
+  "sticky_by_season": {
+    "Arizona 2025": {
+      "neutral_pass_rate": {
+        "value": 0.4804270462633452,
+        "n": 281
+      },
+      "sec_per_play": {
+        "value": 29,
+        "n": 347
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.06598984771573604,
+        "n": 197
+      }
+    }
+  }
+}

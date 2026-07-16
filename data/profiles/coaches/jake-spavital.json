@@ -1,0 +1,18 @@
+{
+  "coach": "Jake Spavital",
+  "stints_profiled": [],
+  "fragments_excluded": [
+    {
+      "school": "Baylor",
+      "season": 2024,
+      "n_games": 2,
+      "n_plays": 202
+    },
+    {
+      "school": "Baylor",
+      "season": 2025,
+      "n_games": 2,
+      "n_plays": 210
+    }
+  ]
+}

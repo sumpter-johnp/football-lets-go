@@ -1,0 +1,18 @@
+{
+  "coach": "Marcus Arroyo",
+  "stints_profiled": [],
+  "fragments_excluded": [
+    {
+      "school": "Arizona State",
+      "season": 2024,
+      "n_games": 2,
+      "n_plays": 169
+    },
+    {
+      "school": "Arizona State",
+      "season": 2025,
+      "n_games": 2,
+      "n_plays": 182
+    }
+  ]
+}

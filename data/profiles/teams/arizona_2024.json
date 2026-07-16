@@ -1,0 +1,177 @@
+{
+  "school": "Arizona",
+  "season": 2024,
+  "games_in_db": 12,
+  "profile": {
+    "n_plays": 1019,
+    "n_games": 12,
+    "sticky": {
+      "neutral_pass_rate": {
+        "value": 0.5741626794258373,
+        "n": 209
+      },
+      "sec_per_play": {
+        "value": 34.5,
+        "n": 248
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 1
+      },
+      "explosive_pass_rate": {
+        "value": 0.09036144578313253,
+        "n": 166
+      }
+    },
+    "run_pass_by_down_distance": {
+      "1:long": {
+        "value": 0.4864864864864865,
+        "n": 111,
+        "ppa_mean": 0.12295190742847431
+      },
+      "1:medium": {
+        "value": 0.0,
+        "n": 1,
+        "ppa_mean": -0.406326501555107
+      },
+      "1:short": {
+        "value": 0.0,
+        "n": 4,
+        "ppa_mean": 0.5062656469655957
+      },
+      "1:xlong": {
+        "value": 0.8571428571428571,
+        "n": 7,
+        "ppa_mean": 0.5249072194343717
+      },
+      "2:long": {
+        "value": 0.7333333333333333,
+        "n": 45,
+        "ppa_mean": -0.19775884557838094
+      },
+      "2:medium": {
+        "value": 0.5384615384615384,
+        "n": 13,
+        "ppa_mean": 0.47340315942556443
+      },
+      "2:short": {
+        "value": 0.5,
+        "n": 14,
+        "ppa_mean": -0.18311324745008228
+      },
+      "2:xlong": {
+        "value": 0.9285714285714286,
+        "n": 14,
+        "ppa_mean": 0.38142365040545645
+      },
+      "3:long": {
+        "value": 0.88,
+        "n": 25,
+        "ppa_mean": 0.7861934673864013
+      },
+      "3:medium": {
+        "value": 0.8888888888888888,
+        "n": 9,
+        "ppa_mean": 0.2382281680370403
+      },
+      "3:short": {
+        "value": 0.2727272727272727,
+        "n": 11,
+        "ppa_mean": 0.42385559432787223
+      },
+      "3:xlong": {
+        "value": 1.0,
+        "n": 13,
+        "ppa_mean": 0.7189938172554439
+      }
+    },
+    "run_pass_by_field_zone": {
+      "backed_up": {
+        "value": 0.5357142857142857,
+        "n": 28,
+        "ppa_mean": 0.155562601083126
+      },
+      "fringe": {
+        "value": 0.5357142857142857,
+        "n": 28,
+        "ppa_mean": -0.32725990268592814
+      },
+      "midfield": {
+        "value": 0.5087719298245614,
+        "n": 57,
+        "ppa_mean": -0.2417567453519579
+      },
+      "own_side": {
+        "value": 0.7361111111111112,
+        "n": 72,
+        "ppa_mean": 0.44759767315016735
+      },
+      "red_zone": {
+        "value": 0.3333333333333333,
+        "n": 24,
+        "ppa_mean": 0.22220056137154112
+      }
+    },
+    "pace_by_game_state": {
+      "neutral": {
+        "value": 33.5,
+        "n": 296
+      },
+      "leading": {
+        "value": 38.0,
+        "n": 66
+      },
+      "trailing": {
+        "value": 32,
+        "n": 331
+      }
+    },
+    "red_zone": {
+      "value": 0.4805194805194805,
+      "n": 77,
+      "ppa_mean": 0.2072110862778538,
+      "trips": 24,
+      "td_per_trip": 0.625
+    },
+    "short_yardage": {
+      "rush_rate": 0.8181818181818182,
+      "n": 11,
+      "ppa_mean": 0.46757501767548776,
+      "conversion_rate": 0.7272727272727273
+    },
+    "opening_script": {
+      "pass_rate_early_downs": 0.5416666666666666,
+      "n": 144,
+      "delta_vs_neutral": -0.03249601275917069
+    }
+  },
+  "predictability": {
+    "index": 0.057830859825441866,
+    "n": 181,
+    "per_bucket": {
+      "1:long": {
+        "pass_rate": 0.4864864864864865,
+        "league": 0.4852459016393443,
+        "deviation": 0.0012405848471422343,
+        "n": 111
+      },
+      "2:long": {
+        "pass_rate": 0.7333333333333333,
+        "league": 0.5316455696202531,
+        "deviation": 0.20168776371308017,
+        "n": 45
+      },
+      "3:long": {
+        "pass_rate": 0.88,
+        "league": 0.8298507462686567,
+        "deviation": 0.05014925373134327,
+        "n": 25
+      }
+    },
+    "most_predictable": [
+      "2:long",
+      "3:long",
+      "1:long"
+    ]
+  }
+}

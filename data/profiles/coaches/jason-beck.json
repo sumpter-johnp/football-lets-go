@@ -1,0 +1,18 @@
+{
+  "coach": "Jason Beck",
+  "stints_profiled": [],
+  "fragments_excluded": [
+    {
+      "school": "New Mexico",
+      "season": 2024,
+      "n_games": 1,
+      "n_plays": 107
+    },
+    {
+      "school": "Utah",
+      "season": 2025,
+      "n_games": 1,
+      "n_plays": 96
+    }
+  ]
+}
