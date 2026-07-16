@@ -27,14 +27,24 @@ the run).
 Run: `python3 src/backtest.py` in `sideline-phase0/` reading the target CSV
 (parameterize or swap the filename), after the quota resets.
 
-**API budget.** Offense-side pulls cost ~17 calls per uncached team-season.
-The Phase 0 client now shares the repo-root `data/cache/` with the ingest
-layer (identical cache keys, verified), so every team-season the ingest
-queue lands in August is free here, and vice versa. Rough uncached cost:
-~600–900 calls per mover season. August quota (1,000) is already ~670
-committed to the ingest queue → **2024-cycle backtest: fill August's
-remainder, finish in September; 2023 cycle: September.** Alternative: a CFBD
-Patreon tier lifts the quota and collapses this to one run.
+**API budget (measured against the shared cache, 2026-07-15).** Offense-side
+pulls cost ~17 calls per uncached team-season. The Phase 0 client now shares
+the repo-root `data/cache/` with the ingest layer (identical cache keys,
+verified by reproducing the Phase 0 verdict byte-for-byte from cache), so
+ingest-queue pulls and backtest pulls never double-pay. Even so, the rosters
+are big: **2024 cycle = 1,258 uncached calls; 2023 cycle = 1,547** (15 and
+13 movers, 83 and 92 distinct team-seasons; running 2024 first shrinks 2023
+via overlap). The free tier's 1,000/month cannot fit either cycle alongside
+the ~670-call ingest queue. Options:
+
+1. **Free tier**: Aug = ingest queue + start of 2024 cycle (the backtest is
+   resumable — cache-first, so partial months accumulate); Sept = finish
+   2024; Oct = 2023. Backtest results arrive mid-season — fine for the
+   portfolio, late for the flagship brief.
+2. **CFBD Patreon tier for a month or two** (~$5–10/mo, much higher call
+   limit): everything — queue + both cycles — lands in early August, and the
+   expanded validation can be cited in the Arizona brief. Recommended if the
+   flagship matters; cancel after.
 
 ## 3. In-season prediction ledger — 2026 (the credibility loop)
 
