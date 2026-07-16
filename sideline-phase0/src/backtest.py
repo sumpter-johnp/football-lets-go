@@ -14,7 +14,9 @@ Output: output/results.csv + output/verdict.md
 
 Usage:
     export CFBD_API_KEY=...
-    python src/backtest.py --movers movers_2025.csv
+    python src/backtest.py --test-year 2025            # reads movers_2025.csv
+    python src/backtest.py --test-year 2024            # expansion cycles
+    Outputs: output/results_<year>.csv + output/verdict_<year>.md
 """
 
 import argparse
@@ -28,8 +30,6 @@ from metrics import MIN_SAMPLES, compute_metrics, pool_metrics
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "output"
 METRIC_NAMES = list(MIN_SAMPLES)
-TEST_YEAR = 2025
-PRIOR_YEAR = 2024
 
 
 def load_movers(path: Path) -> list[dict]:
@@ -79,7 +79,8 @@ def binom_p_two_sided(wins: int, n: int) -> float:
     return min(1.0, 2 * tail)
 
 
-def run(movers_path: Path):
+def run(movers_path: Path, test_year: int):
+    prior_year = test_year - 1
     client = CFBDClient()
     movers = load_movers(movers_path)
     if not movers:
@@ -87,7 +88,7 @@ def run(movers_path: Path):
             f"No offensive movers found in {movers_path}. Fill in the CSV first "
             "(seed HC candidates with: python src/find_hc_movers.py)."
         )
-    print(f"Backtesting {len(movers)} offensive play-caller moves into {TEST_YEAR}...\n")
+    print(f"Backtesting {len(movers)} offensive play-caller moves into {test_year}...\n")
 
     rows = []
     for mv in movers:
@@ -107,8 +108,8 @@ def run(movers_path: Path):
                 a_seasons.append(compute_metrics(plays))
         prof_a = pool_metrics(a_seasons) if a_seasons else None
 
-        prof_b = profile(client, new_team, [PRIOR_YEAR])     # predictor (b)
-        actual = profile(client, new_team, [TEST_YEAR])      # ground truth
+        prof_b = profile(client, new_team, [prior_year])     # predictor (b)
+        actual = profile(client, new_team, [test_year])      # ground truth
 
         for m in METRIC_NAMES:
             av = prof_a[m]["value"] if prof_a else None
@@ -125,7 +126,7 @@ def run(movers_path: Path):
                 "coach": coach, "new_team": new_team, "metric": m,
                 "coach_dna_pred": round(av, 4) if av is not None else "",
                 "program_pred": round(bv, 4) if bv is not None else "",
-                "actual_2025": round(tv, 4) if tv is not None else "",
+                "actual": round(tv, 4) if tv is not None else "",
                 "coach_dna_err": round(abs(av - tv), 4) if usable else "",
                 "program_err": round(abs(bv - tv), 4) if usable else "",
                 "n_coach": an, "n_program": prof_b[m]["n"], "n_actual": actual[m]["n"],
@@ -136,18 +137,19 @@ def run(movers_path: Path):
             })
 
     OUT.mkdir(exist_ok=True)
-    results = OUT / "results.csv"
+    results = OUT / f"results_{test_year}.csv"
     with open(results, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0]))
         w.writeheader()
         w.writerows(rows)
 
-    write_verdict(rows)
-    print(f"\nDone. {results} and {OUT/'verdict.md'} written.")
+    verdict = OUT / f"verdict_{test_year}.md"
+    write_verdict(rows, verdict, test_year)
+    print(f"\nDone. {results} and {verdict} written.")
 
 
-def write_verdict(rows: list[dict]):
-    lines = ["# Phase 0 verdict — does coach DNA travel?\n"]
+def write_verdict(rows: list[dict], path: Path, test_year: int):
+    lines = [f"# Backtest verdict, {test_year} movers — does coach DNA travel?\n"]
     overall_a = overall_b = 0
     for m in METRIC_NAMES:
         sub = [r for r in rows if r["metric"] == m and r["usable"]]
@@ -182,10 +184,15 @@ def write_verdict(rows: list[dict]):
         "Caveats: one season of ~15 movers is a small n; explosive_pass_rate is "
         "personnel-contaminated; scrambles are logged as rushes."
     )
-    (OUT / "verdict.md").write_text("\n".join(lines))
+    path.write_text("\n".join(lines))
 
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--movers", default=str(ROOT / "movers_2025.csv"))
-    run(Path(ap.parse_args().movers))
+    ap.add_argument("--test-year", type=int, default=2025,
+                    help="season the movers moved INTO; prior year is the program baseline")
+    ap.add_argument("--movers", default=None,
+                    help="movers CSV (default: movers_<test-year>.csv)")
+    args = ap.parse_args()
+    movers = Path(args.movers) if args.movers else ROOT / f"movers_{args.test_year}.csv"
+    run(movers, args.test_year)

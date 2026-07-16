@@ -1,0 +1,41 @@
+coach,new_team,metric,coach_dna_pred,program_pred,actual,coach_dna_err,program_err,n_coach,n_program,n_actual,usable,winner
+Gus Malzahn,Florida State,neutral_pass_rate,0.3914,0.4118,0.3092,0.0822,0.1025,953,204,249,True,coach_dna
+Gus Malzahn,Florida State,sec_per_play,24.5526,31.0,26.0,1.4474,5.0,532,234,318,True,coach_dna
+Gus Malzahn,Florida State,fourth_down_go_rate,0.3333,0.0,0.75,,,12,4,4,False,
+Gus Malzahn,Florida State,explosive_pass_rate,0.101,0.0968,0.1186,0.0177,0.0219,525,124,118,True,coach_dna
+Jeff Grimes,Wisconsin,neutral_pass_rate,0.4449,0.4808,0.4103,0.0346,0.0705,1207,260,234,True,coach_dna
+Jeff Grimes,Wisconsin,sec_per_play,31.1606,31.0,36.0,4.8394,5.0,934,305,300,True,coach_dna
+Jeff Grimes,Wisconsin,fourth_down_go_rate,0.8378,0.6667,0.3571,,,37,3,14,False,
+Jeff Grimes,Wisconsin,explosive_pass_rate,0.1077,0.0739,0.0672,0.0405,0.0067,715,176,134,True,program
+Ben Arbuckle,Oklahoma,neutral_pass_rate,0.6006,0.3865,0.5,0.1006,0.1135,631,282,320,True,coach_dna
+Ben Arbuckle,Oklahoma,sec_per_play,30.1146,25.0,26.5,3.6146,1.5,541,318,360,True,program
+Ben Arbuckle,Oklahoma,fourth_down_go_rate,0.8235,0.8,0.4286,,,17,5,7,False,
+Ben Arbuckle,Oklahoma,explosive_pass_rate,0.0996,0.053,0.1164,0.0168,0.0634,472,151,232,True,coach_dna
+Mack Leftwich,Texas Tech,neutral_pass_rate,0.4483,0.5354,0.4519,0.0036,0.0835,658,297,239,True,coach_dna
+Mack Leftwich,Texas Tech,sec_per_play,24.8742,27.0,23.0,1.8742,4.0,453,362,281,True,coach_dna
+Mack Leftwich,Texas Tech,fourth_down_go_rate,0.5714,0.5714,0.6,,,7,7,5,False,
+Mack Leftwich,Texas Tech,explosive_pass_rate,0.113,0.078,0.0932,0.0199,0.0152,407,218,161,True,program
+Chip Lindsey,Michigan,neutral_pass_rate,0.4557,0.336,0.4272,0.0285,0.0912,689,247,323,True,coach_dna
+Chip Lindsey,Michigan,sec_per_play,28.9482,38.0,32.0,3.0518,6.0,386,210,363,True,coach_dna
+Chip Lindsey,Michigan,fourth_down_go_rate,0.6667,0.2857,0.5,,,12,7,2,False,
+Chip Lindsey,Michigan,explosive_pass_rate,0.0928,0.0551,0.0979,0.0052,0.0428,442,127,194,True,coach_dna
+Seth Doege,Arizona,neutral_pass_rate,0.3673,0.5742,0.4804,0.1131,0.0937,294,209,281,True,program
+Seth Doege,Arizona,sec_per_play,30.0,34.5,29.0,1.0,5.5,294,248,347,True,coach_dna
+Seth Doege,Arizona,fourth_down_go_rate,0.1429,0.0,0.2,,,7,1,5,False,
+Seth Doege,Arizona,explosive_pass_rate,0.0788,0.0904,0.066,0.0128,0.0244,165,166,197,True,coach_dna
+Jason Beck,Utah,neutral_pass_rate,0.4818,0.4407,0.4104,0.0713,0.0303,274,270,307,True,program
+Jason Beck,Utah,sec_per_play,27.0,38.0,26.0,1.0,12.0,280,322,395,True,coach_dna
+Jason Beck,Utah,fourth_down_go_rate,0.3333,0.2857,0.6,,,3,7,5,False,
+Jason Beck,Utah,explosive_pass_rate,0.1,0.0983,0.096,0.004,0.0022,170,173,177,True,program
+Slade Nagle,Houston,neutral_pass_rate,0.3824,0.355,0.3571,0.0252,0.0021,578,200,322,True,program
+Slade Nagle,Houston,sec_per_play,32.1641,36.0,31.0,1.1641,5.0,463,235,359,True,coach_dna
+Slade Nagle,Houston,fourth_down_go_rate,0.4,0.6667,0.5,,,15,6,10,False,
+Slade Nagle,Houston,explosive_pass_rate,0.1304,0.0727,0.0914,0.039,0.0187,322,110,186,True,program
+Ryan Grubb,Alabama,neutral_pass_rate,0.5895,0.4132,0.5034,0.0861,0.0902,721,288,296,True,coach_dna
+Ryan Grubb,Alabama,sec_per_play,29.0,27.0,31.0,2.0,4.0,578,329,372,True,coach_dna
+Ryan Grubb,Alabama,fourth_down_go_rate,0.7778,0.5,0.7778,,,9,4,9,False,
+Ryan Grubb,Alabama,explosive_pass_rate,0.1238,0.135,0.1268,0.0029,0.0082,533,163,213,True,coach_dna
+Rich Rodriguez,West Virginia,neutral_pass_rate,0.2853,0.3745,0.2955,0.0102,0.0791,659,275,220,True,coach_dna
+Rich Rodriguez,West Virginia,sec_per_play,22.9167,36.0,23.0,,,480,125,222,False,
+Rich Rodriguez,West Virginia,fourth_down_go_rate,0.55,0.2,0.3333,,,20,5,6,False,
+Rich Rodriguez,West Virginia,explosive_pass_rate,0.0844,0.0952,0.0926,0.0082,0.0026,308,147,108,True,program

@@ -1,0 +1,32 @@
+coach,unit,new_team,prior_stops,notes
+# 2022-23 cycle: offensive play-callers moving into new FBS jobs for 2023. Researched
+# 2026-07-15 (agent sweep, verified against school announcements/beat coverage; grades in
+# notes). Rows marked VERIFY need a spot-check before trusting prior_stops years.
+# prior_stops = seasons the coach ACTUALLY CALLED PLAYS. Single season: "Team:2022-2022".
+# Run: python3 src/backtest.py --test-year 2023   (after quota reset; shares repo-root cache)
+Phil Longo,offense,Wisconsin,"Ole Miss:2017-2018; North Carolina:2019-2022","CONFIRMED — hired Dec 2022 to call Wisconsin's Air Raid under non-calling Fickell (later fired Nov 2024 over his play-calling). Predecessor clean: Engram called UW 2022. kenoshanews.com hire story; abc11.com UNC"
+Bobby Petrino,offense,Texas A&M,"Louisville:2014-2018; Missouri State:2020-2022","CONFIRMED — Fisher relinquished play-calling to Petrino for 2023 (Petrino confirmed on record Aug 2023). Missouri State = FCS priors, public PBP thin. Predecessor: Fisher called A&M through 2022. goodbullhunting.com 8/6/2023; espn.com"
+Garrett Riley,offense,Clemson,"SMU:2020-2021; TCU:2022-2022","CONFIRMED — Clemson play-caller 2023 under non-calling Swinney; primary caller at SMU and TCU (2022 Broyles winner). Predecessor clean: Streeter called Clemson 2022. clemsontigers.com 1/13/2023; espn.com"
+Tommy Rees,offense,Alabama,"Notre Dame:2020-2022","CONFIRMED — 'first season calling plays for Nick Saban' (2023); ND play-caller 2020-22. Predecessor clean: O'Brien called Alabama 2021-22. timesfreepress.com 8/23/2023; espn.com"
+Kendal Briles,offense,TCU,"FAU:2017-2017; Florida State:2018-2018; Houston:2019-2019; Arkansas:2020-2022","CONFIRMED for TCU 2023 + most priors (TCU bio; SI). VERIFY Houston 2019 (under Holgorsen, a career caller). Baylor 2015-16 omitted (Art Briles attribution ambiguous). Predecessor clean: G. Riley called TCU 2022. gofrogs.com bio"
+Graham Harrell,offense,Purdue,"USC:2019-2021; West Virginia:2022-2022","CONFIRMED — first year calling at Purdue 2023 (fired 2024, analyst promoted 'to call plays'); Neal Brown ceded WVU calling to him 2022; called USC under Helton. Predecessor: Jeff Brohm (HC) called Purdue through 2022. wvgazettemail.com; foxsports.com"
+Marcus Satterfield,offense,Nebraska,"South Carolina:2021-2022","CONFIRMED — Rhule (non-caller) hire; in-season 2023 coverage of 'how Satterfield is calling offense'; removed from play-calling 2024 (confirms he held it). Predecessor: Whipple called Nebraska 2022 (Frost fired Sept 2022 — mild regime noise on baseline). on3.com; huskers.com"
+Jamey Chadwell,offense,Liberty,"Coastal Carolina:2019-2022","CONFIRMED — play-calling HC at Coastal (bio) and at Liberty 2023 (first-person play-caller quotes). Predecessor clean: Freeze called Liberty through 2022. newsadvance.com; libertyflames.com"
+Troy Taylor,offense,Stanford,"Utah:2017-2018; Sacramento State:2019-2022","CONFIRMED — said at intro he'd call Stanford plays 'just as he did at Sacramento State'; hired at Utah 2017 expressly to call plays. Sac State = FCS priors, PBP thin; Utah 2017-18 is the FBS prior. Predecessor clean: Pritchard called Stanford 2022. espn.com x2"
+Jeff Brohm,offense,Louisville,"Western Kentucky:2014-2016; Purdue:2017-2022","CONFIRMED — play-calling HC at all stops ('I would be cheating my team if I didn't'); brother Brian holds OC title. Predecessor: Scott Satterfield regime called 2022 (full season). espn.com; gocards.com"
+Kevin Barbay,offense,Mississippi State,"Appalachian State:2022-2022","CONFIRMED — MSU release credits his App State play-calling; called MSU 2023 under defensive HC Arnett. Single prior season — thin sample. Predecessor: Leach called all of MSU 2022 (died Dec 2022; 2022 profile intact). hailstate.com 1/12/2023"
+Shannon Dawson,offense,Miami,"Kentucky:2015-2015; Southern Miss:2016-2018; Houston:2020-2022","VERIFY — hire coverage says he called plays incl. at Houston, and Cristobal doesn't call; but Houston 2020-22 under Holgorsen + Kentucky/So. Miss attribution are title+circumstantial. Check per stop before trusting. Predecessor clean: Gattis called Miami 2022. miamihurricanes.com bio"
+Scott Satterfield,offense,Cincinnati,"Appalachian State:2013-2018; Louisville:2019-2022","ADDED FROM OUR TIER 2 WORK — agent couldn't resolve Cincy 2023, but our checklist confirmed Satterfield has called Cincinnati 2023-26 (SI: 'fourth season calling'; his own Jan 2023 quote 'I plan on calling the plays'). VERIFY prior-stop attribution (App State/Louisville OCs existed; he calls his process 'very collaborative'). Predecessor: Fickell regime called Cincy 2022"
+# --- excluded candidates, kept for the record ---
+# Dan Enos,offense,Arkansas,"Arkansas:2015-2017; Miami:2019-2019; Maryland:2021-2022","EXCLUDED: fired Oct 22 2023, Guiton called the rest — target season splits mid-year and the backtest measures full-season profiles. Also a return-to-former-stop confound (Arkansas priors share the team)"
+# Sean Lewis,offense,Colorado,"Kent State:2018-2022","EXCLUDED: called only games 1-8 of 2023 before Shurmur took over (Nov 3) — target profile contaminated. Also CU 2022 baseline noisy (Dorrell fired midseason)"
+# Kenny Dillingham / Beau Baldwin (Arizona State): 2023 target split at week 4 (see our game-level attribution work) — uninterpretable as a single-caller season
+# Philip Montgomery (Auburn): Freeze encroached late-season (contested split); Auburn 2022 baseline chaotic (Harsin fired midseason)
+# Alex Golesh (USF): Tennessee prior attribution contested (Heupel widely credited) — unresolvable
+# Will Stein (Oregon): UTSA co-OC was a position role — first-time primary caller in 2023
+# Kevin Wilson (Tulsa): delegated to Spurrier Jr. — not the caller
+# Liam Coen (Kentucky): only prior college stop is Kentucky itself — coach/team confounded, not out-of-sample
+# Dowell Loggains (South Carolina): priors all NFL — no college data to predict from
+# Gerad Parker (Notre Dame), Mike Bobo (Georgia): internal promotions
+# Lance Taylor (W. Michigan), Kirby Moore (Missouri), Buster Faulkner (Ga Tech): prior play-calling attribution unresolved / likely first-time callers
+# Jake Spavital (Cal): EXCLUDED BY OUR OWN DB — his 2023 Cal role was quality control, not OC/play-caller (per verified coach_stints notes); Texas State HC 2019-22 priors are real but there is no 2023 play-calling target

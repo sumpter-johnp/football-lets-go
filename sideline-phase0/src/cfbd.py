@@ -19,7 +19,12 @@ import requests
 
 BASE_URL = "https://api.collegefootballdata.com"
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-CACHE_DIR = PROJECT_ROOT / "data" / "cache"
+# Shared with the Phase 1 ingest layer: both clients derive identical cache
+# keys (md5 of endpoint + sorted params), so pointing at the repo-root cache
+# means backtests never re-fetch a team-season the ingest already pulled
+# (verified 2026-07-15: the old phase0 cache was a strict subset). The old
+# sideline-phase0/data/cache/ dir is retired.
+CACHE_DIR = PROJECT_ROOT.parent / "data" / "cache"
 SLEEP_BETWEEN_CALLS = 0.35  # be polite to the free tier
 
 
