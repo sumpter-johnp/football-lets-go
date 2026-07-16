@@ -118,6 +118,24 @@ Already verified in prose during Phase 0 (`sideline-phase0/movers_2025.csv`)
 - [x] Jason Beck play-called Utah **2025** — transcribed, plus his New Mexico
       2024 stint added (his single prior play-calling season).
 
+## Game-level attribution layer (added 2026-07-15)
+
+Migration `0002_play_caller_attribution.sql` resolves the mid-season splits
+that year-granular stints can't express. **Phase 2 must read plays through
+`sideline.play_attribution`** (play → verified offensive caller + basis),
+never by joining `coach_stints` directly. `sideline.game_play_callers` holds
+per-game overrides (16 rows seeded: Arizona 2024 ×12, ASU 2023 ×1, UCF 2024
+×3); `sideline.attribution_coverage` is the QA rollup — any `ambiguous` row
+there means a split season is missing overrides.
+
+- UCF 2024 handoff pinned exactly: announced **10/28/24** — Malzahn through
+  BYU (10/26), Harris from Arizona (11/2) on
+  ([News 13](https://mynews13.com/fl/orlando/sports/2024/10/29/ucf-s-malzahn-fires-defensive-coordinator--will-no-longer-calls-offensive-plays)).
+  Stint notes updated.
+- ⚠️ Pending override once Kansas 2023 ingests (Aug 1 batch): the Guaranteed
+  Rate Bowl → **Zebrowski** (interim), not Kotelnicki. The batch script
+  prints this reminder.
+
 ## Bookkeeping as you go
 
 - Every "prior stops" answer that names a team-season we haven't ingested
