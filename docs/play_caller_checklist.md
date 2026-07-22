@@ -132,9 +132,10 @@ there means a split season is missing overrides.
   BYU (10/26), Harris from Arizona (11/2) on
   ([News 13](https://mynews13.com/fl/orlando/sports/2024/10/29/ucf-s-malzahn-fires-defensive-coordinator--will-no-longer-calls-offensive-plays)).
   Stint notes updated.
-- ⚠️ Pending override once Kansas 2023 ingests (Aug 1 batch): the Guaranteed
-  Rate Bowl → **Zebrowski** (interim), not Kotelnicki. The batch script
-  prints this reminder.
+- ✅ DONE 2026-07-21: Kansas 2023 Guaranteed Rate Bowl override inserted
+  (game 401551757 → **Zebrowski**, interim — not Kotelnicki). QA verified:
+  93 plays credit Zebrowski via `game_override`, 949 regular-season plays
+  stay with Kotelnicki; zero `ambiguous` rows in `attribution_coverage`.
 
 ## Bookkeeping as you go
 
@@ -146,27 +147,25 @@ there means a split season is missing overrides.
 
 ### Ingest queue (fill as Tier 1/2 answers come in)
 
-**⛔ BLOCKED until Aug 1 — monthly CFBD quota exhausted** (verified 2026-07-15:
-API returns 429 "Monthly call quota exceeded", 999/1,000 calls used on the
-Arizona/BYU/TCU ingests). The whole queue is ~670 calls and fits in one
-month's quota: run `ingest/run_ingest_queue.sh` when the quota resets (team
-name spellings pre-verified against cached CFBD data). Attempted Marshall
-2024 first on 7/15 — zero rows ingested, blocked on the first call.
+**✅ QUEUE RUN 2026-07-21** — unblocked early by CFBD Patreon Tier 2
+(30,000 calls/month; the old "blocked until Aug 1" free-tier note is
+obsolete). `ingest/run_ingest_queue.sh` completed cleanly: 18 team-seasons,
+all play counts verified in `sideline.plays`, attribution clean.
 
-- [ ] **Marshall 2024** — Doege's only pre-Arizona play-calling season:
+- [x] **Marshall 2024** — Doege's only pre-Arizona play-calling season:
       `python3 ingest/ingest_team_season.py Marshall 2024`
-- [ ] **UConn 2024 2025** — Sammis (TCU) play-calling seasons
-- [ ] **Utah State 2025** — McGiven (Utah) confirmed play-calling season
-- [ ] **Oregon State 2016 2017** — McGiven; 2016 confirmed primary caller,
+- [x] **UConn 2024 2025** — Sammis (TCU) play-calling seasons
+- [x] **Utah State 2025** — McGiven (Utah) confirmed play-calling season
+- [x] **Oregon State 2016 2017** — McGiven; 2016 confirmed primary caller,
       2017 use with caution (Andersen mid-season resignation)
-- [ ] **Kansas 2021–23 + 2025** — Kotelnicki's verified KU seasons + the
+- [x] **Kansas 2021–23 + 2025** — Kotelnicki's verified KU seasons + the
       Zebrowski 2025 season (Kansas already scoped; lands with the Aug 1 batch)
-- [ ] **Penn State 2024 2025** — hold RESOLVED 2026-07-13: Kotelnicki
+- [x] **Penn State 2024 2025** — hold RESOLVED 2026-07-13: Kotelnicki
       CONFIRMED calling both seasons end-to-end (incl. through Franklin's
       Oct 2025 firing and the Pinstripe Bowl — no splits). Ingest both;
       completes his 5-season DNA base (KU 21-23 + PSU 24-25) for the wk 12
       Kansas game.
-- [ ] **San José State 2018–23** — hold RESOLVED 2026-07-13: McGiven
+- [x] **San José State 2018–23** — hold RESOLVED 2026-07-13: McGiven
       era-wide CONFIRMED (per-season LIKELY; retrospective sourcing; 2024 =
       Stutzmann, not McGiven). Six seasons ≈ 220 API calls — consider
       2021–23 first if rationing. ⚠️ CFBD name is "San José State"
