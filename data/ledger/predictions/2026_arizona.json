@@ -1,0 +1,79 @@
+{
+  "school": "Arizona",
+  "season": 2026,
+  "play_caller": "Seth Doege",
+  "caller_role": "OC",
+  "generated_at": "2026-07-22T02:43:41+00:00",
+  "metrics": [
+    "neutral_pass_rate",
+    "sec_per_play",
+    "fourth_down_go_rate",
+    "explosive_pass_rate"
+  ],
+  "predictors": {
+    "coach_dna": {
+      "sticky": {
+        "neutral_pass_rate": {
+          "value": 0.4226086956521739,
+          "n": 575
+        },
+        "sec_per_play": {
+          "value": 30,
+          "n": 641
+        },
+        "fourth_down_go_rate": {
+          "value": 0.16666666666666666,
+          "n": 12
+        },
+        "explosive_pass_rate": {
+          "value": 0.0718232044198895,
+          "n": 362
+        }
+      },
+      "based_on": [
+        {
+          "school": "Marshall",
+          "season": 2024,
+          "n_games": 13,
+          "n_plays": 1154
+        },
+        {
+          "school": "Arizona",
+          "season": 2025,
+          "n_games": 13,
+          "n_plays": 1196
+        }
+      ],
+      "source": "data/profiles/coaches/seth-doege.json"
+    },
+    "program": {
+      "sticky": {
+        "neutral_pass_rate": {
+          "value": 0.4804270462633452,
+          "n": 281
+        },
+        "sec_per_play": {
+          "value": 29,
+          "n": 347
+        },
+        "fourth_down_go_rate": {
+          "value": 0.2,
+          "n": 5
+        },
+        "explosive_pass_rate": {
+          "value": 0.06598984771573604,
+          "n": 197
+        }
+      },
+      "based_on": [
+        {
+          "school": "Arizona",
+          "season": 2025,
+          "n_games": 13
+        }
+      ],
+      "source": "data/profiles/teams/arizona_2025.json"
+    }
+  },
+  "note": "Frozen prediction \u2014 do not edit after games begin. Scoring unit is the cumulative season profile, never a single game."
+}

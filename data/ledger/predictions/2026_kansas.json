@@ -1,0 +1,97 @@
+{
+  "school": "Kansas",
+  "season": 2026,
+  "play_caller": "Andy Kotelnicki",
+  "caller_role": "other",
+  "generated_at": "2026-07-22T02:43:45+00:00",
+  "metrics": [
+    "neutral_pass_rate",
+    "sec_per_play",
+    "fourth_down_go_rate",
+    "explosive_pass_rate"
+  ],
+  "predictors": {
+    "coach_dna": {
+      "sticky": {
+        "neutral_pass_rate": {
+          "value": 0.3962686567164179,
+          "n": 1340
+        },
+        "sec_per_play": {
+          "value": 34.0,
+          "n": 1070
+        },
+        "fourth_down_go_rate": {
+          "value": 0.38461538461538464,
+          "n": 39
+        },
+        "explosive_pass_rate": {
+          "value": 0.12133333333333333,
+          "n": 750
+        }
+      },
+      "based_on": [
+        {
+          "school": "Kansas",
+          "season": 2021,
+          "n_games": 12,
+          "n_plays": 979
+        },
+        {
+          "school": "Kansas",
+          "season": 2022,
+          "n_games": 13,
+          "n_plays": 1081
+        },
+        {
+          "school": "Kansas",
+          "season": 2023,
+          "n_games": 12,
+          "n_plays": 949
+        },
+        {
+          "school": "Penn State",
+          "season": 2024,
+          "n_games": 16,
+          "n_plays": 1367
+        },
+        {
+          "school": "Penn State",
+          "season": 2025,
+          "n_games": 13,
+          "n_plays": 1040
+        }
+      ],
+      "source": "data/profiles/coaches/andy-kotelnicki.json"
+    },
+    "program": {
+      "sticky": {
+        "neutral_pass_rate": {
+          "value": 0.4115384615384615,
+          "n": 260
+        },
+        "sec_per_play": {
+          "value": 35,
+          "n": 279
+        },
+        "fourth_down_go_rate": {
+          "value": 0.5714285714285714,
+          "n": 7
+        },
+        "explosive_pass_rate": {
+          "value": 0.152317880794702,
+          "n": 151
+        }
+      },
+      "based_on": [
+        {
+          "school": "Kansas",
+          "season": 2025,
+          "n_games": 12
+        }
+      ],
+      "source": "data/profiles/teams/kansas_2025.json"
+    }
+  },
+  "note": "Frozen prediction \u2014 do not edit after games begin. Scoring unit is the cumulative season profile, never a single game."
+}

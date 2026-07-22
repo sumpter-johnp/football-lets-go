@@ -1,0 +1,85 @@
+{
+  "school": "BYU",
+  "season": 2026,
+  "play_caller": "Aaron Roderick",
+  "caller_role": "OC",
+  "generated_at": "2026-07-22T02:43:43+00:00",
+  "metrics": [
+    "neutral_pass_rate",
+    "sec_per_play",
+    "fourth_down_go_rate",
+    "explosive_pass_rate"
+  ],
+  "predictors": {
+    "coach_dna": {
+      "sticky": {
+        "neutral_pass_rate": {
+          "value": 0.47435897435897434,
+          "n": 780
+        },
+        "sec_per_play": {
+          "value": 35.0,
+          "n": 692
+        },
+        "fourth_down_go_rate": {
+          "value": 0.9411764705882353,
+          "n": 17
+        },
+        "explosive_pass_rate": {
+          "value": 0.11591355599214145,
+          "n": 509
+        }
+      },
+      "based_on": [
+        {
+          "school": "BYU",
+          "season": 2023,
+          "n_games": 12,
+          "n_plays": 1030
+        },
+        {
+          "school": "BYU",
+          "season": 2024,
+          "n_games": 13,
+          "n_plays": 1153
+        },
+        {
+          "school": "BYU",
+          "season": 2025,
+          "n_games": 14,
+          "n_plays": 1284
+        }
+      ],
+      "source": "data/profiles/coaches/aaron-roderick.json"
+    },
+    "program": {
+      "sticky": {
+        "neutral_pass_rate": {
+          "value": 0.4359861591695502,
+          "n": 289
+        },
+        "sec_per_play": {
+          "value": 33.5,
+          "n": 352
+        },
+        "fourth_down_go_rate": {
+          "value": 1.0,
+          "n": 5
+        },
+        "explosive_pass_rate": {
+          "value": 0.09195402298850575,
+          "n": 174
+        }
+      },
+      "based_on": [
+        {
+          "school": "BYU",
+          "season": 2025,
+          "n_games": 14
+        }
+      ],
+      "source": "data/profiles/teams/byu_2025.json"
+    }
+  },
+  "note": "Frozen prediction \u2014 do not edit after games begin. Scoring unit is the cumulative season profile, never a single game."
+}

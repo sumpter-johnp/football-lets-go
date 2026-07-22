@@ -1,0 +1,91 @@
+{
+  "school": "Utah",
+  "season": 2026,
+  "play_caller": "Kevin McGiven",
+  "caller_role": "OC",
+  "generated_at": "2026-07-22T02:43:47+00:00",
+  "metrics": [
+    "neutral_pass_rate",
+    "sec_per_play",
+    "fourth_down_go_rate",
+    "explosive_pass_rate"
+  ],
+  "predictors": {
+    "coach_dna": {
+      "sticky": {
+        "neutral_pass_rate": {
+          "value": 0.5057790106333796,
+          "n": 2163
+        },
+        "sec_per_play": {
+          "value": 31,
+          "n": 883
+        },
+        "fourth_down_go_rate": {
+          "value": 0.16279069767441862,
+          "n": 43
+        },
+        "explosive_pass_rate": {
+          "value": 0.09934640522875816,
+          "n": 1530
+        }
+      },
+      "based_on": [
+        {
+          "school": "Oregon State",
+          "season": 2016,
+          "n_games": 12,
+          "n_plays": 1067
+        },
+        {
+          "school": "Oregon State",
+          "season": 2017,
+          "n_games": 12,
+          "n_plays": 1021
+        },
+        {
+          "school": "San Jos\u00e9 State",
+          "season": 2018,
+          "n_games": 12,
+          "n_plays": 1082
+        },
+        {
+          "school": "San Jos\u00e9 State",
+          "season": 2019,
+          "n_games": 12,
+          "n_plays": 1059
+        },
+        {
+          "school": "San Jos\u00e9 State",
+          "season": 2021,
+          "n_games": 12,
+          "n_plays": 1015
+        },
+        {
+          "school": "San Jos\u00e9 State",
+          "season": 2022,
+          "n_games": 12,
+          "n_plays": 1024
+        },
+        {
+          "school": "San Jos\u00e9 State",
+          "season": 2023,
+          "n_games": 13,
+          "n_plays": 1066
+        },
+        {
+          "school": "Utah State",
+          "season": 2025,
+          "n_games": 13,
+          "n_plays": 1160
+        }
+      ],
+      "source": "data/profiles/coaches/kevin-mcgiven.json"
+    },
+    "program": {
+      "sticky": null,
+      "reason": "Utah 2025 not fully ingested"
+    }
+  },
+  "note": "Frozen prediction \u2014 do not edit after games begin. Scoring unit is the cumulative season profile, never a single game."
+}

@@ -1,0 +1,79 @@
+{
+  "school": "TCU",
+  "season": 2026,
+  "play_caller": "Gordon Sammis",
+  "caller_role": "OC",
+  "generated_at": "2026-07-22T02:43:46+00:00",
+  "metrics": [
+    "neutral_pass_rate",
+    "sec_per_play",
+    "fourth_down_go_rate",
+    "explosive_pass_rate"
+  ],
+  "predictors": {
+    "coach_dna": {
+      "sticky": {
+        "neutral_pass_rate": {
+          "value": 0.48484848484848486,
+          "n": 594
+        },
+        "sec_per_play": {
+          "value": 31,
+          "n": 577
+        },
+        "fourth_down_go_rate": {
+          "value": 0.3,
+          "n": 10
+        },
+        "explosive_pass_rate": {
+          "value": 0.09693877551020408,
+          "n": 392
+        }
+      },
+      "based_on": [
+        {
+          "school": "UConn",
+          "season": 2024,
+          "n_games": 13,
+          "n_plays": 1210
+        },
+        {
+          "school": "UConn",
+          "season": 2025,
+          "n_games": 13,
+          "n_plays": 1121
+        }
+      ],
+      "source": "data/profiles/coaches/gordon-sammis.json"
+    },
+    "program": {
+      "sticky": {
+        "neutral_pass_rate": {
+          "value": 0.5159420289855072,
+          "n": 345
+        },
+        "sec_per_play": {
+          "value": 26.0,
+          "n": 392
+        },
+        "fourth_down_go_rate": {
+          "value": 1.0,
+          "n": 1
+        },
+        "explosive_pass_rate": {
+          "value": 0.08163265306122448,
+          "n": 245
+        }
+      },
+      "based_on": [
+        {
+          "school": "TCU",
+          "season": 2025,
+          "n_games": 13
+        }
+      ],
+      "source": "data/profiles/teams/tcu_2025.json"
+    }
+  },
+  "note": "Frozen prediction \u2014 do not edit after games begin. Scoring unit is the cumulative season profile, never a single game."
+}
