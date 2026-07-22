@@ -1,0 +1,93 @@
+{
+  "coach": "Jeff Lebby",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2024,
+      "last": 2025,
+      "n_full": 1,
+      "school": "Mississippi State"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Mississippi State",
+      "year": 2024,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Mississippi State",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4030612244897959,
+      "n": 196
+    },
+    "sec_per_play": {
+      "value": 28.0,
+      "n": 236
+    },
+    "fourth_down_go_rate": {
+      "value": 0.4,
+      "n": 5
+    },
+    "explosive_pass_rate": {
+      "value": 0.0743801652892562,
+      "n": 121
+    }
+  },
+  "sticky_by_season": {
+    "Mississippi State 2024": {
+      "neutral_pass_rate": {
+        "value": 0.4030612244897959,
+        "n": 196
+      },
+      "sec_per_play": {
+        "value": 28.0,
+        "n": 236
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.0743801652892562,
+        "n": 121
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Mississippi State 2024": 0.4030612244897959
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Mississippi State 2024": 28.0
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Mississippi State 2024": 0.0743801652892562
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

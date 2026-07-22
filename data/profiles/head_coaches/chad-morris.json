@@ -1,0 +1,152 @@
+{
+  "coach": "Chad Morris",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2015,
+      "last": 2017,
+      "n_full": 3,
+      "school": "SMU"
+    },
+    {
+      "first": 2018,
+      "last": 2019,
+      "n_full": 2,
+      "school": "Arkansas"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "SMU",
+      "year": 2017,
+      "games": 13
+    },
+    {
+      "school": "Arkansas",
+      "year": 2018,
+      "games": 12
+    },
+    {
+      "school": "Arkansas",
+      "year": 2019,
+      "games": 10
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "SMU",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "SMU",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.43670886075949367,
+      "n": 790
+    },
+    "sec_per_play": {
+      "value": 22.836575875486382,
+      "n": 257
+    },
+    "fourth_down_go_rate": {
+      "value": 0.23529411764705882,
+      "n": 17
+    },
+    "explosive_pass_rate": {
+      "value": 0.08737864077669903,
+      "n": 515
+    }
+  },
+  "sticky_by_season": {
+    "SMU 2017": {
+      "neutral_pass_rate": {
+        "value": 0.4520123839009288,
+        "n": 323
+      },
+      "sec_per_play": {
+        "value": 20.0,
+        "n": 96
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.12558139534883722,
+        "n": 215
+      }
+    },
+    "Arkansas 2018": {
+      "neutral_pass_rate": {
+        "value": 0.37383177570093457,
+        "n": 214
+      },
+      "sec_per_play": {
+        "value": 24.0,
+        "n": 76
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.04918032786885246,
+        "n": 122
+      }
+    },
+    "Arkansas 2019": {
+      "neutral_pass_rate": {
+        "value": 0.47035573122529645,
+        "n": 253
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 85
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2857142857142857,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.06741573033707865,
+        "n": 178
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "SMU 2017": 0.4520123839009288,
+        "Arkansas 2018": 0.37383177570093457,
+        "Arkansas 2019": 0.47035573122529645
+      },
+      "spread": 0.09652395552436188,
+      "n_seasons": 3
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "SMU 2017": 0.12558139534883722,
+        "Arkansas 2018": 0.04918032786885246,
+        "Arkansas 2019": 0.06741573033707865
+      },
+      "spread": 0.07640106747998476,
+      "n_seasons": 3
+    }
+  }
+}

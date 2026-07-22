@@ -1,0 +1,96 @@
+{
+  "coach": "Kane Wommack",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2021,
+      "last": 2023,
+      "n_full": 3,
+      "school": "South Alabama"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "South Alabama",
+      "year": 2023,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "South Alabama",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "South Alabama",
+      "year": 2022,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.42857142857142855,
+      "n": 224
+    },
+    "sec_per_play": {
+      "value": 25.0,
+      "n": 21
+    },
+    "fourth_down_go_rate": {
+      "value": 0.6666666666666666,
+      "n": 3
+    },
+    "explosive_pass_rate": {
+      "value": 0.06060606060606061,
+      "n": 132
+    }
+  },
+  "sticky_by_season": {
+    "South Alabama 2023": {
+      "neutral_pass_rate": {
+        "value": 0.42857142857142855,
+        "n": 224
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 21
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6666666666666666,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.06060606060606061,
+        "n": 132
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "South Alabama 2023": 0.42857142857142855
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "South Alabama 2023": 0.06060606060606061
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

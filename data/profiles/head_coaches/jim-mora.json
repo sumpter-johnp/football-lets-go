@@ -1,0 +1,254 @@
+{
+  "coach": "Jim Mora",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2017,
+      "n_full": 4,
+      "school": "UCLA"
+    },
+    {
+      "first": 2022,
+      "last": 2025,
+      "n_full": 3,
+      "school": "UConn"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "UCLA",
+      "year": 2014,
+      "games": 13
+    },
+    {
+      "school": "UCLA",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "UCLA",
+      "year": 2016,
+      "games": 12
+    },
+    {
+      "school": "UCLA",
+      "year": 2017,
+      "games": 11
+    },
+    {
+      "school": "UConn",
+      "year": 2022,
+      "games": 13
+    },
+    {
+      "school": "UConn",
+      "year": 2024,
+      "games": 13
+    },
+    {
+      "school": "UConn",
+      "year": 2025,
+      "games": null
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "UConn",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4770431588613407,
+      "n": 2178
+    },
+    "sec_per_play": {
+      "value": 23.717741935483872,
+      "n": 1860
+    },
+    "fourth_down_go_rate": {
+      "value": 0.2826086956521739,
+      "n": 46
+    },
+    "explosive_pass_rate": {
+      "value": 0.09257998638529612,
+      "n": 1469
+    }
+  },
+  "sticky_by_season": {
+    "UCLA 2014": {
+      "neutral_pass_rate": {
+        "value": 0.4539877300613497,
+        "n": 326
+      },
+      "sec_per_play": {
+        "value": 21,
+        "n": 401
+      },
+      "fourth_down_go_rate": {
+        "value": 0.25,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.0625,
+        "n": 208
+      }
+    },
+    "UCLA 2015": {
+      "neutral_pass_rate": {
+        "value": 0.49673202614379086,
+        "n": 306
+      },
+      "sec_per_play": {
+        "value": 19.0,
+        "n": 340
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.102803738317757,
+        "n": 214
+      }
+    },
+    "UCLA 2016": {
+      "neutral_pass_rate": {
+        "value": 0.5484848484848485,
+        "n": 330
+      },
+      "sec_per_play": {
+        "value": 21.0,
+        "n": 274
+      },
+      "fourth_down_go_rate": {
+        "value": 0.125,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.09615384615384616,
+        "n": 260
+      }
+    },
+    "UCLA 2017": {
+      "neutral_pass_rate": {
+        "value": 0.5530085959885387,
+        "n": 349
+      },
+      "sec_per_play": {
+        "value": 18.0,
+        "n": 180
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6666666666666666,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.11567164179104478,
+        "n": 268
+      }
+    },
+    "UConn 2022": {
+      "neutral_pass_rate": {
+        "value": 0.28205128205128205,
+        "n": 273
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 88
+      },
+      "fourth_down_go_rate": {
+        "value": 0.42857142857142855,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.05511811023622047,
+        "n": 127
+      }
+    },
+    "UConn 2024": {
+      "neutral_pass_rate": {
+        "value": 0.4461538461538462,
+        "n": 260
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 287
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.05660377358490566,
+        "n": 159
+      }
+    },
+    "UConn 2025": {
+      "neutral_pass_rate": {
+        "value": 0.5149700598802395,
+        "n": 334
+      },
+      "sec_per_play": {
+        "value": 31.0,
+        "n": 290
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.12446351931330472,
+        "n": 233
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "UCLA 2014": 0.4539877300613497,
+        "UCLA 2015": 0.49673202614379086,
+        "UCLA 2016": 0.5484848484848485,
+        "UCLA 2017": 0.5530085959885387,
+        "UConn 2022": 0.28205128205128205,
+        "UConn 2024": 0.4461538461538462,
+        "UConn 2025": 0.5149700598802395
+      },
+      "spread": 0.27095731393725664,
+      "n_seasons": 7
+    },
+    "sec_per_play": {
+      "per_season": {
+        "UCLA 2014": 21,
+        "UCLA 2015": 19.0,
+        "UCLA 2016": 21.0,
+        "UCLA 2017": 18.0,
+        "UConn 2024": 30,
+        "UConn 2025": 31.0
+      },
+      "spread": 13.0,
+      "n_seasons": 6
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "UCLA 2014": 0.0625,
+        "UCLA 2015": 0.102803738317757,
+        "UCLA 2016": 0.09615384615384616,
+        "UCLA 2017": 0.11567164179104478,
+        "UConn 2022": 0.05511811023622047,
+        "UConn 2024": 0.05660377358490566,
+        "UConn 2025": 0.12446351931330472
+      },
+      "spread": 0.06934540907708425,
+      "n_seasons": 7
+    }
+  }
+}

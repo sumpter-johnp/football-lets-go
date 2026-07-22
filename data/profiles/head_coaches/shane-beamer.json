@@ -1,0 +1,128 @@
+{
+  "coach": "Shane Beamer",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2021,
+      "last": 2025,
+      "n_full": 4,
+      "school": "South Carolina"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "South Carolina",
+      "year": 2021,
+      "games": 13
+    },
+    {
+      "school": "South Carolina",
+      "year": 2022,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "South Carolina",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "South Carolina",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "South Carolina",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.47379454926624737,
+      "n": 477
+    },
+    "sec_per_play": {
+      "value": 27.83745583038869,
+      "n": 283
+    },
+    "fourth_down_go_rate": {
+      "value": 0.3333333333333333,
+      "n": 12
+    },
+    "explosive_pass_rate": {
+      "value": 0.12933753943217666,
+      "n": 317
+    }
+  },
+  "sticky_by_season": {
+    "South Carolina 2021": {
+      "neutral_pass_rate": {
+        "value": 0.43776824034334766,
+        "n": 233
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 130
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.11643835616438356,
+        "n": 146
+      }
+    },
+    "South Carolina 2022": {
+      "neutral_pass_rate": {
+        "value": 0.5081967213114754,
+        "n": 244
+      },
+      "sec_per_play": {
+        "value": 26,
+        "n": 153
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2857142857142857,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.14035087719298245,
+        "n": 171
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "South Carolina 2021": 0.43776824034334766,
+        "South Carolina 2022": 0.5081967213114754
+      },
+      "spread": 0.07042848096812776,
+      "n_seasons": 2
+    },
+    "sec_per_play": {
+      "per_season": {
+        "South Carolina 2022": 26
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "South Carolina 2021": 0.11643835616438356,
+        "South Carolina 2022": 0.14035087719298245
+      },
+      "spread": 0.023912521028598893,
+      "n_seasons": 2
+    }
+  }
+}

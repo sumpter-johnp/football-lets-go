@@ -1,0 +1,206 @@
+{
+  "coach": "Sean Lewis",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2018,
+      "last": 2022,
+      "n_full": 4,
+      "school": "Kent State"
+    },
+    {
+      "first": 2024,
+      "last": 2025,
+      "n_full": 1,
+      "school": "San Diego State"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Kent State",
+      "year": 2018,
+      "games": 12
+    },
+    {
+      "school": "Kent State",
+      "year": 2019,
+      "games": 13
+    },
+    {
+      "school": "Kent State",
+      "year": 2021,
+      "games": 14
+    },
+    {
+      "school": "Kent State",
+      "year": 2022,
+      "games": 12
+    },
+    {
+      "school": "San Diego State",
+      "year": 2024,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Kent State",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "San Diego State",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4214586255259467,
+      "n": 1426
+    },
+    "sec_per_play": {
+      "value": 23.005847953216374,
+      "n": 684
+    },
+    "fourth_down_go_rate": {
+      "value": 0.4444444444444444,
+      "n": 36
+    },
+    "explosive_pass_rate": {
+      "value": 0.08264462809917356,
+      "n": 847
+    }
+  },
+  "sticky_by_season": {
+    "Kent State 2018": {
+      "neutral_pass_rate": {
+        "value": 0.46511627906976744,
+        "n": 258
+      },
+      "sec_per_play": {
+        "value": 46.0,
+        "n": 4
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5833333333333334,
+        "n": 12
+      },
+      "explosive_pass_rate": {
+        "value": 0.0898876404494382,
+        "n": 178
+      }
+    },
+    "Kent State 2019": {
+      "neutral_pass_rate": {
+        "value": 0.3920863309352518,
+        "n": 278
+      },
+      "sec_per_play": {
+        "value": 23,
+        "n": 129
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2857142857142857,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.09395973154362416,
+        "n": 149
+      }
+    },
+    "Kent State 2021": {
+      "neutral_pass_rate": {
+        "value": 0.39666666666666667,
+        "n": 300
+      },
+      "sec_per_play": {
+        "value": 19,
+        "n": 139
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.08917197452229299,
+        "n": 157
+      }
+    },
+    "Kent State 2022": {
+      "neutral_pass_rate": {
+        "value": 0.3795620437956204,
+        "n": 274
+      },
+      "sec_per_play": {
+        "value": 26.0,
+        "n": 28
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.10948905109489052,
+        "n": 137
+      }
+    },
+    "San Diego State 2024": {
+      "neutral_pass_rate": {
+        "value": 0.47151898734177217,
+        "n": 316
+      },
+      "sec_per_play": {
+        "value": 24.0,
+        "n": 384
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5555555555555556,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.048672566371681415,
+        "n": 226
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Kent State 2018": 0.46511627906976744,
+        "Kent State 2019": 0.3920863309352518,
+        "Kent State 2021": 0.39666666666666667,
+        "Kent State 2022": 0.3795620437956204,
+        "San Diego State 2024": 0.47151898734177217
+      },
+      "spread": 0.09195694354615175,
+      "n_seasons": 5
+    },
+    "sec_per_play": {
+      "per_season": {
+        "San Diego State 2024": 24.0
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {
+        "Kent State 2018": 0.5833333333333334
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Kent State 2018": 0.0898876404494382,
+        "Kent State 2019": 0.09395973154362416,
+        "Kent State 2021": 0.08917197452229299,
+        "Kent State 2022": 0.10948905109489052,
+        "San Diego State 2024": 0.048672566371681415
+      },
+      "spread": 0.0608164847232091,
+      "n_seasons": 5
+    }
+  }
+}

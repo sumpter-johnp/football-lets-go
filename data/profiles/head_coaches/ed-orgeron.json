@@ -1,0 +1,113 @@
+{
+  "coach": "Ed Orgeron",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2016,
+      "last": 2021,
+      "n_full": 4,
+      "school": "LSU"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "LSU",
+      "year": 2021,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "LSU",
+      "year": 2016,
+      "reason": "partial season (8 games)"
+    },
+    {
+      "school": "LSU",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "LSU",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "LSU",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "LSU",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.5150501672240803,
+      "n": 299
+    },
+    "sec_per_play": {
+      "value": 28.0,
+      "n": 270
+    },
+    "fourth_down_go_rate": {
+      "value": 0.6666666666666666,
+      "n": 3
+    },
+    "explosive_pass_rate": {
+      "value": 0.07476635514018691,
+      "n": 214
+    }
+  },
+  "sticky_by_season": {
+    "LSU 2021": {
+      "neutral_pass_rate": {
+        "value": 0.5150501672240803,
+        "n": 299
+      },
+      "sec_per_play": {
+        "value": 28.0,
+        "n": 270
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6666666666666666,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.07476635514018691,
+        "n": 214
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "LSU 2021": 0.5150501672240803
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {
+        "LSU 2021": 28.0
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "LSU 2021": 0.07476635514018691
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "coach": "Manny Diaz",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2019,
+      "last": 2021,
+      "n_full": 2,
+      "school": "Miami"
+    },
+    {
+      "first": 2024,
+      "last": 2025,
+      "n_full": 1,
+      "school": "Duke"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Miami",
+      "year": 2019,
+      "games": 13
+    },
+    {
+      "school": "Miami",
+      "year": 2021,
+      "games": 12
+    },
+    {
+      "school": "Duke",
+      "year": 2024,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Miami",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Duke",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.557997557997558,
+      "n": 819
+    },
+    "sec_per_play": {
+      "value": 24.266862170087975,
+      "n": 682
+    },
+    "fourth_down_go_rate": {
+      "value": 0.26666666666666666,
+      "n": 15
+    },
+    "explosive_pass_rate": {
+      "value": 0.10204081632653061,
+      "n": 637
+    }
+  },
+  "sticky_by_season": {
+    "Miami 2019": {
+      "neutral_pass_rate": {
+        "value": 0.5524475524475524,
+        "n": 286
+      },
+      "sec_per_play": {
+        "value": 26.0,
+        "n": 190
+      },
+      "fourth_down_go_rate": {
+        "value": 0.25,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.08878504672897196,
+        "n": 214
+      }
+    },
+    "Miami 2021": {
+      "neutral_pass_rate": {
+        "value": 0.5601503759398496,
+        "n": 266
+      },
+      "sec_per_play": {
+        "value": 20,
+        "n": 197
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.13658536585365855,
+        "n": 205
+      }
+    },
+    "Duke 2024": {
+      "neutral_pass_rate": {
+        "value": 0.5617977528089888,
+        "n": 267
+      },
+      "sec_per_play": {
+        "value": 26,
+        "n": 295
+      },
+      "fourth_down_go_rate": {
+        "value": 0.14285714285714285,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.08256880733944955,
+        "n": 218
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Miami 2019": 0.5524475524475524,
+        "Miami 2021": 0.5601503759398496,
+        "Duke 2024": 0.5617977528089888
+      },
+      "spread": 0.009350200361436412,
+      "n_seasons": 3
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Miami 2019": 26.0,
+        "Miami 2021": 20,
+        "Duke 2024": 26
+      },
+      "spread": 6.0,
+      "n_seasons": 3
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Miami 2019": 0.08878504672897196,
+        "Miami 2021": 0.13658536585365855,
+        "Duke 2024": 0.08256880733944955
+      },
+      "spread": 0.054016558514209,
+      "n_seasons": 3
+    }
+  }
+}

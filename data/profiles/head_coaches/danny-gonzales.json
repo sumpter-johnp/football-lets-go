@@ -1,0 +1,103 @@
+{
+  "coach": "Danny Gonzales",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2020,
+      "last": 2023,
+      "n_full": 3,
+      "school": "New Mexico"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "New Mexico",
+      "year": 2023,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "New Mexico",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "New Mexico",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "New Mexico",
+      "year": 2022,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.39919354838709675,
+      "n": 248
+    },
+    "sec_per_play": {
+      "value": 35.0,
+      "n": 168
+    },
+    "fourth_down_go_rate": {
+      "value": 1.0,
+      "n": 1
+    },
+    "explosive_pass_rate": {
+      "value": 0.11940298507462686,
+      "n": 134
+    }
+  },
+  "sticky_by_season": {
+    "New Mexico 2023": {
+      "neutral_pass_rate": {
+        "value": 0.39919354838709675,
+        "n": 248
+      },
+      "sec_per_play": {
+        "value": 35.0,
+        "n": 168
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 1
+      },
+      "explosive_pass_rate": {
+        "value": 0.11940298507462686,
+        "n": 134
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "New Mexico 2023": 0.39919354838709675
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {
+        "New Mexico 2023": 35.0
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "New Mexico 2023": 0.11940298507462686
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

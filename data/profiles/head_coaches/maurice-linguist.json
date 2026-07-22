@@ -1,0 +1,96 @@
+{
+  "coach": "Maurice Linguist",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2021,
+      "last": 2023,
+      "n_full": 3,
+      "school": "Buffalo"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Buffalo",
+      "year": 2023,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Buffalo",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Buffalo",
+      "year": 2022,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.36283185840707965,
+      "n": 226
+    },
+    "sec_per_play": {
+      "value": 34.0,
+      "n": 139
+    },
+    "fourth_down_go_rate": {
+      "value": 0.625,
+      "n": 8
+    },
+    "explosive_pass_rate": {
+      "value": 0.06976744186046512,
+      "n": 129
+    }
+  },
+  "sticky_by_season": {
+    "Buffalo 2023": {
+      "neutral_pass_rate": {
+        "value": 0.36283185840707965,
+        "n": 226
+      },
+      "sec_per_play": {
+        "value": 34,
+        "n": 139
+      },
+      "fourth_down_go_rate": {
+        "value": 0.625,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.06976744186046512,
+        "n": 129
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Buffalo 2023": 0.36283185840707965
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Buffalo 2023": 0.06976744186046512
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

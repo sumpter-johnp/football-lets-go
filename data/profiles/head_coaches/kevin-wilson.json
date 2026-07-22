@@ -1,0 +1,179 @@
+{
+  "coach": "Kevin Wilson",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2016,
+      "n_full": 3,
+      "school": "Indiana"
+    },
+    {
+      "first": 2023,
+      "last": 2024,
+      "n_full": 2,
+      "school": "Tulsa"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Indiana",
+      "year": 2014,
+      "games": 12
+    },
+    {
+      "school": "Indiana",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "Indiana",
+      "year": 2016,
+      "games": 12
+    },
+    {
+      "school": "Tulsa",
+      "year": 2023,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Tulsa",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.3854625550660793,
+      "n": 1362
+    },
+    "sec_per_play": {
+      "value": 20.785926660059467,
+      "n": 1009
+    },
+    "fourth_down_go_rate": {
+      "value": 0.53125,
+      "n": 32
+    },
+    "explosive_pass_rate": {
+      "value": 0.1134020618556701,
+      "n": 776
+    }
+  },
+  "sticky_by_season": {
+    "Indiana 2014": {
+      "neutral_pass_rate": {
+        "value": 0.3716475095785441,
+        "n": 261
+      },
+      "sec_per_play": {
+        "value": 22.0,
+        "n": 216
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2727272727272727,
+        "n": 11
+      },
+      "explosive_pass_rate": {
+        "value": 0.04,
+        "n": 150
+      }
+    },
+    "Indiana 2015": {
+      "neutral_pass_rate": {
+        "value": 0.40425531914893614,
+        "n": 470
+      },
+      "sec_per_play": {
+        "value": 19,
+        "n": 295
+      },
+      "fourth_down_go_rate": {
+        "value": 0.9166666666666666,
+        "n": 12
+      },
+      "explosive_pass_rate": {
+        "value": 0.13432835820895522,
+        "n": 268
+      }
+    },
+    "Indiana 2016": {
+      "neutral_pass_rate": {
+        "value": 0.3937007874015748,
+        "n": 381
+      },
+      "sec_per_play": {
+        "value": 20.0,
+        "n": 334
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2857142857142857,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.13777777777777778,
+        "n": 225
+      }
+    },
+    "Tulsa 2023": {
+      "neutral_pass_rate": {
+        "value": 0.352,
+        "n": 250
+      },
+      "sec_per_play": {
+        "value": 24.0,
+        "n": 164
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.11278195488721804,
+        "n": 133
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Indiana 2014": 0.3716475095785441,
+        "Indiana 2015": 0.40425531914893614,
+        "Indiana 2016": 0.3937007874015748,
+        "Tulsa 2023": 0.352
+      },
+      "spread": 0.052255319148936163,
+      "n_seasons": 4
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Indiana 2014": 22.0,
+        "Indiana 2015": 19,
+        "Indiana 2016": 20.0,
+        "Tulsa 2023": 24.0
+      },
+      "spread": 5.0,
+      "n_seasons": 4
+    },
+    "fourth_down_go_rate": {
+      "per_season": {
+        "Indiana 2015": 0.9166666666666666
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Indiana 2014": 0.04,
+        "Indiana 2015": 0.13432835820895522,
+        "Indiana 2016": 0.13777777777777778,
+        "Tulsa 2023": 0.11278195488721804
+      },
+      "spread": 0.09777777777777777,
+      "n_seasons": 4
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "coach": "Zach Arnett",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2022,
+      "last": 2023,
+      "n_full": 1,
+      "school": "Mississippi State"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Mississippi State",
+      "year": 2023,
+      "games": 10
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Mississippi State",
+      "year": 2022,
+      "reason": "partial season (1 games)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.40186915887850466,
+      "n": 214
+    },
+    "sec_per_play": {
+      "value": 29.0,
+      "n": 102
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5,
+      "n": 6
+    },
+    "explosive_pass_rate": {
+      "value": 0.08661417322834646,
+      "n": 127
+    }
+  },
+  "sticky_by_season": {
+    "Mississippi State 2023": {
+      "neutral_pass_rate": {
+        "value": 0.40186915887850466,
+        "n": 214
+      },
+      "sec_per_play": {
+        "value": 29.0,
+        "n": 102
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.08661417322834646,
+        "n": 127
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Mississippi State 2023": 0.40186915887850466
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Mississippi State 2023": 0.08661417322834646
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

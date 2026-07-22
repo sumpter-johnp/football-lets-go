@@ -1,0 +1,316 @@
+{
+  "coach": "Bronco Mendenhall",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2015,
+      "n_full": 2,
+      "school": "BYU"
+    },
+    {
+      "first": 2016,
+      "last": 2021,
+      "n_full": 5,
+      "school": "Virginia"
+    },
+    {
+      "first": 2024,
+      "last": 2024,
+      "n_full": 1,
+      "school": "New Mexico"
+    },
+    {
+      "first": 2025,
+      "last": 2025,
+      "n_full": 0,
+      "school": "Utah State"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "BYU",
+      "year": 2014,
+      "games": 13
+    },
+    {
+      "school": "BYU",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "Virginia",
+      "year": 2016,
+      "games": 12
+    },
+    {
+      "school": "Virginia",
+      "year": 2017,
+      "games": 13
+    },
+    {
+      "school": "Virginia",
+      "year": 2018,
+      "games": 13
+    },
+    {
+      "school": "Virginia",
+      "year": 2019,
+      "games": 14
+    },
+    {
+      "school": "Virginia",
+      "year": 2021,
+      "games": 12
+    },
+    {
+      "school": "New Mexico",
+      "year": 2024,
+      "games": 12
+    },
+    {
+      "school": "Utah State",
+      "year": 2025,
+      "games": null
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Virginia",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.5415352260778128,
+      "n": 2853
+    },
+    "sec_per_play": {
+      "value": 25.743466666666666,
+      "n": 1875
+    },
+    "fourth_down_go_rate": {
+      "value": 0.45454545454545453,
+      "n": 44
+    },
+    "explosive_pass_rate": {
+      "value": 0.09187620889748549,
+      "n": 2068
+    }
+  },
+  "sticky_by_season": {
+    "BYU 2014": {
+      "neutral_pass_rate": {
+        "value": 0.5163043478260869,
+        "n": 368
+      },
+      "sec_per_play": {
+        "value": 19,
+        "n": 265
+      },
+      "fourth_down_go_rate": {
+        "value": 0.8333333333333334,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.10080645161290322,
+        "n": 248
+      }
+    },
+    "BYU 2015": {
+      "neutral_pass_rate": {
+        "value": 0.603030303030303,
+        "n": 330
+      },
+      "sec_per_play": {
+        "value": 24,
+        "n": 269
+      },
+      "fourth_down_go_rate": {
+        "value": 0.75,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.07692307692307693,
+        "n": 260
+      }
+    },
+    "Virginia 2016": {
+      "neutral_pass_rate": {
+        "value": 0.5555555555555556,
+        "n": 315
+      },
+      "sec_per_play": {
+        "value": 21.5,
+        "n": 116
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2222222222222222,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.0502092050209205,
+        "n": 239
+      }
+    },
+    "Virginia 2017": {
+      "neutral_pass_rate": {
+        "value": 0.573208722741433,
+        "n": 321
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 145
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.07114624505928854,
+        "n": 253
+      }
+    },
+    "Virginia 2018": {
+      "neutral_pass_rate": {
+        "value": 0.45751633986928103,
+        "n": 306
+      },
+      "sec_per_play": {
+        "value": 29,
+        "n": 127
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6666666666666666,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.10497237569060773,
+        "n": 181
+      }
+    },
+    "Virginia 2019": {
+      "neutral_pass_rate": {
+        "value": 0.5555555555555556,
+        "n": 360
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 162
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.09285714285714286,
+        "n": 280
+      }
+    },
+    "Virginia 2021": {
+      "neutral_pass_rate": {
+        "value": 0.6218181818181818,
+        "n": 275
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 159
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.14285714285714285,
+        "n": 217
+      }
+    },
+    "New Mexico 2024": {
+      "neutral_pass_rate": {
+        "value": 0.48175182481751827,
+        "n": 274
+      },
+      "sec_per_play": {
+        "value": 27.0,
+        "n": 280
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.1,
+        "n": 170
+      }
+    },
+    "Utah State 2025": {
+      "neutral_pass_rate": {
+        "value": 0.506578947368421,
+        "n": 304
+      },
+      "sec_per_play": {
+        "value": 28.0,
+        "n": 352
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.1,
+        "n": 220
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "BYU 2014": 0.5163043478260869,
+        "BYU 2015": 0.603030303030303,
+        "Virginia 2016": 0.5555555555555556,
+        "Virginia 2017": 0.573208722741433,
+        "Virginia 2018": 0.45751633986928103,
+        "Virginia 2019": 0.5555555555555556,
+        "Virginia 2021": 0.6218181818181818,
+        "New Mexico 2024": 0.48175182481751827,
+        "Utah State 2025": 0.506578947368421
+      },
+      "spread": 0.1643018419489008,
+      "n_seasons": 9
+    },
+    "sec_per_play": {
+      "per_season": {
+        "BYU 2014": 19,
+        "BYU 2015": 24,
+        "Virginia 2019": 30.0,
+        "Virginia 2021": 25,
+        "New Mexico 2024": 27.0,
+        "Utah State 2025": 28.0
+      },
+      "spread": 11.0,
+      "n_seasons": 6
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "BYU 2014": 0.10080645161290322,
+        "BYU 2015": 0.07692307692307693,
+        "Virginia 2016": 0.0502092050209205,
+        "Virginia 2017": 0.07114624505928854,
+        "Virginia 2018": 0.10497237569060773,
+        "Virginia 2019": 0.09285714285714286,
+        "Virginia 2021": 0.14285714285714285,
+        "New Mexico 2024": 0.1,
+        "Utah State 2025": 0.1
+      },
+      "spread": 0.09264793783622235,
+      "n_seasons": 9
+    }
+  }
+}

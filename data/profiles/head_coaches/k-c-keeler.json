@@ -1,0 +1,144 @@
+{
+  "coach": "K.C. Keeler",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2023,
+      "last": 2024,
+      "n_full": 2,
+      "school": "Sam Houston"
+    },
+    {
+      "first": 2025,
+      "last": 2025,
+      "n_full": 0,
+      "school": "Temple"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Sam Houston",
+      "year": 2023,
+      "games": 12
+    },
+    {
+      "school": "Sam Houston",
+      "year": 2024,
+      "games": 12
+    },
+    {
+      "school": "Temple",
+      "year": 2025,
+      "games": null
+    }
+  ],
+  "seasons_excluded": [],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.43647798742138366,
+      "n": 795
+    },
+    "sec_per_play": {
+      "value": 31.78082191780822,
+      "n": 438
+    },
+    "fourth_down_go_rate": {
+      "value": 0.3333333333333333,
+      "n": 15
+    },
+    "explosive_pass_rate": {
+      "value": 0.09940357852882704,
+      "n": 503
+    }
+  },
+  "sticky_by_season": {
+    "Sam Houston 2023": {
+      "neutral_pass_rate": {
+        "value": 0.4845360824742268,
+        "n": 291
+      },
+      "sec_per_play": {
+        "value": 33.0,
+        "n": 30
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.09803921568627451,
+        "n": 204
+      }
+    },
+    "Sam Houston 2024": {
+      "neutral_pass_rate": {
+        "value": 0.41580756013745707,
+        "n": 291
+      },
+      "sec_per_play": {
+        "value": 29.0,
+        "n": 164
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2857142857142857,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.07909604519774012,
+        "n": 177
+      }
+    },
+    "Temple 2025": {
+      "neutral_pass_rate": {
+        "value": 0.39906103286384975,
+        "n": 213
+      },
+      "sec_per_play": {
+        "value": 33.5,
+        "n": 244
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.13114754098360656,
+        "n": 122
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Sam Houston 2023": 0.4845360824742268,
+        "Sam Houston 2024": 0.41580756013745707,
+        "Temple 2025": 0.39906103286384975
+      },
+      "spread": 0.08547504961037705,
+      "n_seasons": 3
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Sam Houston 2024": 29.0,
+        "Temple 2025": 33.5
+      },
+      "spread": 4.5,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Sam Houston 2023": 0.09803921568627451,
+        "Sam Houston 2024": 0.07909604519774012,
+        "Temple 2025": 0.13114754098360656
+      },
+      "spread": 0.052051495785866445,
+      "n_seasons": 3
+    }
+  }
+}

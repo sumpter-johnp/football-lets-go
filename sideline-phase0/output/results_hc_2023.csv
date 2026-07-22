@@ -1,0 +1,25 @@
+coach,new_team,metric,hc_dna_pred,program_pred,actual,hc_dna_err,program_err,n_hc,n_program,n_actual,usable,winner
+Barry Odom,UNLV,neutral_pass_rate,0.4306,0.4895,0.3646,0.066,0.1248,1189,237,277,True,hc_dna
+Barry Odom,UNLV,sec_per_play,20.58,30.0,29.0,,,300,63,96,False,
+Barry Odom,UNLV,fourth_down_go_rate,0.3571,0.5,0.3333,,,28,2,6,False,
+Barry Odom,UNLV,explosive_pass_rate,0.1073,0.125,0.1576,0.0503,0.0326,699,152,165,True,program
+Jamey Chadwell,Liberty,neutral_pass_rate,0.4011,0.5183,0.3186,0.0826,0.1998,1219,355,361,True,hc_dna
+Jamey Chadwell,Liberty,sec_per_play,30.2414,35.0,34.0,,,319,58,29,False,
+Jamey Chadwell,Liberty,fourth_down_go_rate,0.4444,0.5333,0.4,,,27,15,5,False,
+Jamey Chadwell,Liberty,explosive_pass_rate,0.1308,0.07,0.1329,0.0021,0.0629,673,243,143,True,hc_dna
+Jeff Brohm,Louisville,neutral_pass_rate,0.5889,0.3769,0.4269,0.162,0.05,2620,321,349,True,program
+Jeff Brohm,Louisville,sec_per_play,25.7443,28.0,34.0,8.2557,6.0,872,272,353,True,program
+Jeff Brohm,Louisville,fourth_down_go_rate,0.5,0.4,0.4444,,,48,10,9,False,
+Jeff Brohm,Louisville,explosive_pass_rate,0.0972,0.0814,0.0825,0.0147,0.0011,2047,172,206,True,program
+Kevin Wilson,Tulsa,neutral_pass_rate,0.393,0.4877,0.352,0.041,0.1357,1112,244,250,True,hc_dna
+Kevin Wilson,Tulsa,sec_per_play,20.1621,28.0,24.0,,,845,102,164,False,
+Kevin Wilson,Tulsa,fourth_down_go_rate,0.5333,0.0,0.5,,,30,4,2,False,
+Kevin Wilson,Tulsa,explosive_pass_rate,0.1135,0.0814,0.1128,0.0007,0.0314,643,172,133,True,hc_dna
+Scott Satterfield,Cincinnati,neutral_pass_rate,0.3427,0.5275,0.3704,0.0277,0.1571,2177,273,297,True,hc_dna
+Scott Satterfield,Cincinnati,sec_per_play,28.2986,24.0,35.5,,,1085,171,32,False,
+Scott Satterfield,Cincinnati,fourth_down_go_rate,0.4314,0.3333,0.5,,,51,9,12,False,
+Scott Satterfield,Cincinnati,explosive_pass_rate,0.1217,0.0984,0.1242,0.0025,0.0257,1134,193,153,True,hc_dna
+Tom Herman,Florida Atlantic,neutral_pass_rate,0.4461,0.3534,0.4917,0.0456,0.1383,1735,266,240,True,hc_dna
+Tom Herman,Florida Atlantic,sec_per_play,23.7265,27.5,52.0,,,1448,86,7,False,
+Tom Herman,Florida Atlantic,fourth_down_go_rate,0.5294,0.2857,0.6,,,34,7,5,False,
+Tom Herman,Florida Atlantic,explosive_pass_rate,0.1042,0.1379,0.1111,0.0069,0.0268,1123,145,180,True,hc_dna

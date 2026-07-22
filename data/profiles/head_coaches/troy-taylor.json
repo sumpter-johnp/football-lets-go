@@ -1,0 +1,91 @@
+{
+  "coach": "Troy Taylor",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2023,
+      "last": 2024,
+      "n_full": 2,
+      "school": "Stanford"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Stanford",
+      "year": 2023,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Stanford",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.5183673469387755,
+      "n": 245
+    },
+    "sec_per_play": {
+      "value": 30.0,
+      "n": 83
+    },
+    "fourth_down_go_rate": {
+      "value": 0.4,
+      "n": 5
+    },
+    "explosive_pass_rate": {
+      "value": 0.10588235294117647,
+      "n": 170
+    }
+  },
+  "sticky_by_season": {
+    "Stanford 2023": {
+      "neutral_pass_rate": {
+        "value": 0.5183673469387755,
+        "n": 245
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 83
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.10588235294117647,
+        "n": 170
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Stanford 2023": 0.5183673469387755
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Stanford 2023": 0.10588235294117647
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

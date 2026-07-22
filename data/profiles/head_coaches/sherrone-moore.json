@@ -1,0 +1,113 @@
+{
+  "coach": "Sherrone Moore",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2024,
+      "last": 2025,
+      "n_full": 1,
+      "school": "Michigan"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Michigan",
+      "year": 2024,
+      "games": 13
+    },
+    {
+      "school": "Michigan",
+      "year": 2025,
+      "games": null
+    }
+  ],
+  "seasons_excluded": [],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.387719298245614,
+      "n": 570
+    },
+    "sec_per_play": {
+      "value": 34.19895287958115,
+      "n": 573
+    },
+    "fourth_down_go_rate": {
+      "value": 0.3333333333333333,
+      "n": 9
+    },
+    "explosive_pass_rate": {
+      "value": 0.08099688473520249,
+      "n": 321
+    }
+  },
+  "sticky_by_season": {
+    "Michigan 2024": {
+      "neutral_pass_rate": {
+        "value": 0.3360323886639676,
+        "n": 247
+      },
+      "sec_per_play": {
+        "value": 38.0,
+        "n": 210
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2857142857142857,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.05511811023622047,
+        "n": 127
+      }
+    },
+    "Michigan 2025": {
+      "neutral_pass_rate": {
+        "value": 0.42724458204334365,
+        "n": 323
+      },
+      "sec_per_play": {
+        "value": 32,
+        "n": 363
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.0979381443298969,
+        "n": 194
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Michigan 2024": 0.3360323886639676,
+        "Michigan 2025": 0.42724458204334365
+      },
+      "spread": 0.09121219337937603,
+      "n_seasons": 2
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Michigan 2024": 38.0,
+        "Michigan 2025": 32
+      },
+      "spread": 6.0,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Michigan 2024": 0.05511811023622047,
+        "Michigan 2025": 0.0979381443298969
+      },
+      "spread": 0.042820034093676435,
+      "n_seasons": 2
+    }
+  }
+}

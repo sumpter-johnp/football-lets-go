@@ -1,0 +1,250 @@
+{
+  "coach": "Barry Odom",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2016,
+      "last": 2019,
+      "n_full": 4,
+      "school": "Missouri"
+    },
+    {
+      "first": 2023,
+      "last": 2024,
+      "n_full": 2,
+      "school": "UNLV"
+    },
+    {
+      "first": 2025,
+      "last": 2025,
+      "n_full": 0,
+      "school": "Purdue"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Missouri",
+      "year": 2016,
+      "games": 12
+    },
+    {
+      "school": "Missouri",
+      "year": 2017,
+      "games": 13
+    },
+    {
+      "school": "Missouri",
+      "year": 2018,
+      "games": 13
+    },
+    {
+      "school": "Missouri",
+      "year": 2019,
+      "games": 12
+    },
+    {
+      "school": "UNLV",
+      "year": 2023,
+      "games": 14
+    },
+    {
+      "school": "UNLV",
+      "year": 2024,
+      "games": 14
+    },
+    {
+      "school": "Purdue",
+      "year": 2025,
+      "games": null
+    }
+  ],
+  "seasons_excluded": [],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.42483660130718953,
+      "n": 1989
+    },
+    "sec_per_play": {
+      "value": 26.383333333333333,
+      "n": 1020
+    },
+    "fourth_down_go_rate": {
+      "value": 0.43137254901960786,
+      "n": 51
+    },
+    "explosive_pass_rate": {
+      "value": 0.11394557823129252,
+      "n": 1176
+    }
+  },
+  "sticky_by_season": {
+    "Missouri 2016": {
+      "neutral_pass_rate": {
+        "value": 0.4394904458598726,
+        "n": 314
+      },
+      "sec_per_play": {
+        "value": 15.0,
+        "n": 72
+      },
+      "fourth_down_go_rate": {
+        "value": 0.42857142857142855,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.10215053763440861,
+        "n": 186
+      }
+    },
+    "Missouri 2017": {
+      "neutral_pass_rate": {
+        "value": 0.4911660777385159,
+        "n": 283
+      },
+      "sec_per_play": {
+        "value": 20,
+        "n": 95
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.14124293785310735,
+        "n": 177
+      }
+    },
+    "Missouri 2018": {
+      "neutral_pass_rate": {
+        "value": 0.40594059405940597,
+        "n": 303
+      },
+      "sec_per_play": {
+        "value": 26,
+        "n": 67
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.10344827586206896,
+        "n": 174
+      }
+    },
+    "Missouri 2019": {
+      "neutral_pass_rate": {
+        "value": 0.3875432525951557,
+        "n": 289
+      },
+      "sec_per_play": {
+        "value": 22.0,
+        "n": 66
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.08024691358024691,
+        "n": 162
+      }
+    },
+    "UNLV 2023": {
+      "neutral_pass_rate": {
+        "value": 0.36462093862815886,
+        "n": 277
+      },
+      "sec_per_play": {
+        "value": 29.0,
+        "n": 96
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.15757575757575756,
+        "n": 165
+      }
+    },
+    "UNLV 2024": {
+      "neutral_pass_rate": {
+        "value": 0.40625,
+        "n": 288
+      },
+      "sec_per_play": {
+        "value": 29.0,
+        "n": 338
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.125,
+        "n": 168
+      }
+    },
+    "Purdue 2025": {
+      "neutral_pass_rate": {
+        "value": 0.48936170212765956,
+        "n": 235
+      },
+      "sec_per_play": {
+        "value": 28.5,
+        "n": 286
+      },
+      "fourth_down_go_rate": {
+        "value": 0.8571428571428571,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.08333333333333333,
+        "n": 144
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Missouri 2016": 0.4394904458598726,
+        "Missouri 2017": 0.4911660777385159,
+        "Missouri 2018": 0.40594059405940597,
+        "Missouri 2019": 0.3875432525951557,
+        "UNLV 2023": 0.36462093862815886,
+        "UNLV 2024": 0.40625,
+        "Purdue 2025": 0.48936170212765956
+      },
+      "spread": 0.12654513911035703,
+      "n_seasons": 7
+    },
+    "sec_per_play": {
+      "per_season": {
+        "UNLV 2024": 29.0,
+        "Purdue 2025": 28.5
+      },
+      "spread": 0.5,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Missouri 2016": 0.10215053763440861,
+        "Missouri 2017": 0.14124293785310735,
+        "Missouri 2018": 0.10344827586206896,
+        "Missouri 2019": 0.08024691358024691,
+        "UNLV 2023": 0.15757575757575756,
+        "UNLV 2024": 0.125,
+        "Purdue 2025": 0.08333333333333333
+      },
+      "spread": 0.07732884399551065,
+      "n_seasons": 7
+    }
+  }
+}

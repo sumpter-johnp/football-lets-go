@@ -1,0 +1,126 @@
+{
+  "coach": "David Shaw",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2022,
+      "n_full": 8,
+      "school": "Stanford"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Stanford",
+      "year": 2022,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Stanford",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Stanford",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Stanford",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Stanford",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Stanford",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Stanford",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Stanford",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Stanford",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.5467289719626168,
+      "n": 214
+    },
+    "sec_per_play": {
+      "value": 28.5,
+      "n": 56
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5,
+      "n": 2
+    },
+    "explosive_pass_rate": {
+      "value": 0.06875,
+      "n": 160
+    }
+  },
+  "sticky_by_season": {
+    "Stanford 2022": {
+      "neutral_pass_rate": {
+        "value": 0.5467289719626168,
+        "n": 214
+      },
+      "sec_per_play": {
+        "value": 28.5,
+        "n": 56
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.06875,
+        "n": 160
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Stanford 2022": 0.5467289719626168
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Stanford 2022": 0.06875
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "coach": "Jonathan Smith",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2018,
+      "last": 2023,
+      "n_full": 5,
+      "school": "Oregon State"
+    },
+    {
+      "first": 2024,
+      "last": 2025,
+      "n_full": 1,
+      "school": "Michigan State"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Oregon State",
+      "year": 2018,
+      "games": 12
+    },
+    {
+      "school": "Oregon State",
+      "year": 2019,
+      "games": 12
+    },
+    {
+      "school": "Oregon State",
+      "year": 2021,
+      "games": 13
+    },
+    {
+      "school": "Oregon State",
+      "year": 2022,
+      "games": 13
+    },
+    {
+      "school": "Oregon State",
+      "year": 2023,
+      "games": 12
+    },
+    {
+      "school": "Michigan State",
+      "year": 2024,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Oregon State",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Michigan State",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.40649867374005305,
+      "n": 1508
+    },
+    "sec_per_play": {
+      "value": 33.500689655172415,
+      "n": 725
+    },
+    "fourth_down_go_rate": {
+      "value": 0.68,
+      "n": 25
+    },
+    "explosive_pass_rate": {
+      "value": 0.09808342728297632,
+      "n": 887
+    }
+  },
+  "sticky_by_season": {
+    "Oregon State 2018": {
+      "neutral_pass_rate": {
+        "value": 0.4260355029585799,
+        "n": 169
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 19
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.07964601769911504,
+        "n": 113
+      }
+    },
+    "Oregon State 2019": {
+      "neutral_pass_rate": {
+        "value": 0.4785714285714286,
+        "n": 280
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 59
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.10526315789473684,
+        "n": 190
+      }
+    },
+    "Oregon State 2021": {
+      "neutral_pass_rate": {
+        "value": 0.337037037037037,
+        "n": 270
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 147
+      },
+      "fourth_down_go_rate": {
+        "value": 0.7777777777777778,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.0851063829787234,
+        "n": 141
+      }
+    },
+    "Oregon State 2022": {
+      "neutral_pass_rate": {
+        "value": 0.35987261146496813,
+        "n": 314
+      },
+      "sec_per_play": {
+        "value": 34,
+        "n": 153
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.08125,
+        "n": 160
+      }
+    },
+    "Oregon State 2023": {
+      "neutral_pass_rate": {
+        "value": 0.4177215189873418,
+        "n": 237
+      },
+      "sec_per_play": {
+        "value": 34,
+        "n": 115
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6666666666666666,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.11851851851851852,
+        "n": 135
+      }
+    },
+    "Michigan State 2024": {
+      "neutral_pass_rate": {
+        "value": 0.4369747899159664,
+        "n": 238
+      },
+      "sec_per_play": {
+        "value": 38.0,
+        "n": 232
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.11486486486486487,
+        "n": 148
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Oregon State 2018": 0.4260355029585799,
+        "Oregon State 2019": 0.4785714285714286,
+        "Oregon State 2021": 0.337037037037037,
+        "Oregon State 2022": 0.35987261146496813,
+        "Oregon State 2023": 0.4177215189873418,
+        "Michigan State 2024": 0.4369747899159664
+      },
+      "spread": 0.14153439153439157,
+      "n_seasons": 6
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Oregon State 2022": 34,
+        "Michigan State 2024": 38.0
+      },
+      "spread": 4.0,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Oregon State 2018": 0.07964601769911504,
+        "Oregon State 2019": 0.10526315789473684,
+        "Oregon State 2021": 0.0851063829787234,
+        "Oregon State 2022": 0.08125,
+        "Oregon State 2023": 0.11851851851851852,
+        "Michigan State 2024": 0.11486486486486487
+      },
+      "spread": 0.03887250081940348,
+      "n_seasons": 6
+    }
+  }
+}

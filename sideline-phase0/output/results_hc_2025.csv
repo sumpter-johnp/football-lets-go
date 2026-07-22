@@ -1,0 +1,29 @@
+coach,new_team,metric,hc_dna_pred,program_pred,actual,hc_dna_err,program_err,n_hc,n_program,n_actual,usable,winner
+Barry Odom,Purdue,neutral_pass_rate,0.4162,0.4357,0.4894,,,1754,140,235,False,
+Barry Odom,Purdue,sec_per_play,25.5586,36.0,28.5,,,734,73,286,False,
+Barry Odom,Purdue,fourth_down_go_rate,0.3636,0.125,0.8571,,,44,8,7,False,
+Barry Odom,Purdue,explosive_pass_rate,0.1182,0.0532,0.0833,0.0349,0.0301,1032,94,144,True,program
+Bronco Mendenhall,Utah State,neutral_pass_rate,0.5457,0.4755,0.5066,0.0391,0.0311,2549,286,304,True,program
+Bronco Mendenhall,Utah State,sec_per_play,25.2219,22.0,28.0,2.7781,6.0,1523,267,352,True,hc_dna
+Bronco Mendenhall,Utah State,fourth_down_go_rate,0.4615,0.3333,0.4,,,39,9,5,False,
+Bronco Mendenhall,Utah State,explosive_pass_rate,0.0909,0.0963,0.1,0.0091,0.0037,1848,187,220,True,program
+Dan Mullen,UNLV,neutral_pass_rate,0.4571,0.4062,0.4774,0.0203,0.0711,2087,288,243,True,hc_dna
+Dan Mullen,UNLV,sec_per_play,24.5778,29.0,31.0,6.4222,2.0,1774,338,256,True,program
+Dan Mullen,UNLV,fourth_down_go_rate,0.3125,0.4,0.75,,,48,10,4,False,
+Dan Mullen,UNLV,explosive_pass_rate,0.0997,0.125,0.1384,0.0387,0.0134,1294,168,159,True,program
+Jake Dickert,Wake Forest,neutral_pass_rate,0.6233,0.4618,0.4608,0.1626,0.001,892,327,293,True,program
+Jake Dickert,Wake Forest,sec_per_play,29.4704,28.0,30.0,0.5296,2.0,778,173,335,True,hc_dna
+Jake Dickert,Wake Forest,fourth_down_go_rate,0.75,0.7143,0.6364,,,24,7,11,False,
+Jake Dickert,Wake Forest,explosive_pass_rate,0.0891,0.0878,0.1099,0.0208,0.0221,707,205,191,True,hc_dna
+K.C. Keeler,Temple,neutral_pass_rate,0.4502,0.4734,0.3991,0.0511,0.0744,582,207,213,True,hc_dna
+K.C. Keeler,Temple,sec_per_play,29.6186,32.0,33.5,3.8814,1.5,194,243,244,True,program
+K.C. Keeler,Temple,fourth_down_go_rate,0.2,0.0,0.6,,,10,1,5,False,
+K.C. Keeler,Temple,explosive_pass_rate,0.0892,0.068,0.1311,0.0419,0.0631,381,147,122,True,hc_dna
+Rich Rodriguez,West Virginia,neutral_pass_rate,0.3799,0.3745,0.2955,0.0844,0.0791,1798,275,220,True,program
+Rich Rodriguez,West Virginia,sec_per_play,21.0009,36.0,23.0,,,1097,125,222,False,
+Rich Rodriguez,West Virginia,fourth_down_go_rate,0.4324,0.2,0.3333,,,37,5,6,False,
+Rich Rodriguez,West Virginia,explosive_pass_rate,0.0921,0.0952,0.0926,0.0005,0.0026,999,147,108,True,hc_dna
+Tim Albin,Charlotte,neutral_pass_rate,0.4193,0.4889,0.4213,0.0021,0.0676,1257,225,197,True,hc_dna
+Tim Albin,Charlotte,sec_per_play,32.8138,35.0,32.0,0.8138,3.0,580,224,229,True,hc_dna
+Tim Albin,Charlotte,fourth_down_go_rate,0.36,0.6667,0.0,,,25,3,3,False,
+Tim Albin,Charlotte,explosive_pass_rate,0.1034,0.1203,0.0977,0.0057,0.0225,735,158,133,True,hc_dna

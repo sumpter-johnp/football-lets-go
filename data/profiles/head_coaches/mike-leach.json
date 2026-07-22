@@ -1,0 +1,134 @@
+{
+  "coach": "Mike Leach",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2019,
+      "n_full": 6,
+      "school": "Washington State"
+    },
+    {
+      "first": 2020,
+      "last": 2022,
+      "n_full": 2,
+      "school": "Mississippi State"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Mississippi State",
+      "year": 2022,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Mississippi State",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Washington State",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Washington State",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Washington State",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Washington State",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Washington State",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Washington State",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Mississippi State",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.6563573883161512,
+      "n": 291
+    },
+    "sec_per_play": {
+      "value": 25.0,
+      "n": 250
+    },
+    "fourth_down_go_rate": {
+      "value": 0.6,
+      "n": 10
+    },
+    "explosive_pass_rate": {
+      "value": 0.056451612903225805,
+      "n": 248
+    }
+  },
+  "sticky_by_season": {
+    "Mississippi State 2022": {
+      "neutral_pass_rate": {
+        "value": 0.6563573883161512,
+        "n": 291
+      },
+      "sec_per_play": {
+        "value": 25.0,
+        "n": 250
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.056451612903225805,
+        "n": 248
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Mississippi State 2022": 0.6563573883161512
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Mississippi State 2022": 25.0
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Mississippi State 2022": 0.056451612903225805
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

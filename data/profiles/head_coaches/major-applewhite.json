@@ -1,0 +1,155 @@
+{
+  "coach": "Major Applewhite",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2016,
+      "last": 2018,
+      "n_full": 2,
+      "school": "Houston"
+    },
+    {
+      "first": 2024,
+      "last": 2025,
+      "n_full": 1,
+      "school": "South Alabama"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Houston",
+      "year": 2017,
+      "games": 12
+    },
+    {
+      "school": "Houston",
+      "year": 2018,
+      "games": 13
+    },
+    {
+      "school": "South Alabama",
+      "year": 2024,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Houston",
+      "year": 2016,
+      "reason": "partial season (1 games)"
+    },
+    {
+      "school": "South Alabama",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4772727272727273,
+      "n": 880
+    },
+    "sec_per_play": {
+      "value": 23.78956834532374,
+      "n": 556
+    },
+    "fourth_down_go_rate": {
+      "value": 0.4375,
+      "n": 16
+    },
+    "explosive_pass_rate": {
+      "value": 0.1310344827586207,
+      "n": 580
+    }
+  },
+  "sticky_by_season": {
+    "Houston 2017": {
+      "neutral_pass_rate": {
+        "value": 0.44126984126984126,
+        "n": 315
+      },
+      "sec_per_play": {
+        "value": 23.0,
+        "n": 180
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.1073170731707317,
+        "n": 205
+      }
+    },
+    "Houston 2018": {
+      "neutral_pass_rate": {
+        "value": 0.5121107266435986,
+        "n": 289
+      },
+      "sec_per_play": {
+        "value": 17,
+        "n": 131
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.14925373134328357,
+        "n": 201
+      }
+    },
+    "South Alabama 2024": {
+      "neutral_pass_rate": {
+        "value": 0.48188405797101447,
+        "n": 276
+      },
+      "sec_per_play": {
+        "value": 28,
+        "n": 245
+      },
+      "fourth_down_go_rate": {
+        "value": 0.375,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.13793103448275862,
+        "n": 174
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Houston 2017": 0.44126984126984126,
+        "Houston 2018": 0.5121107266435986,
+        "South Alabama 2024": 0.48188405797101447
+      },
+      "spread": 0.07084088537375732,
+      "n_seasons": 3
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Houston 2017": 23.0,
+        "South Alabama 2024": 28
+      },
+      "spread": 5.0,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Houston 2017": 0.1073170731707317,
+        "Houston 2018": 0.14925373134328357,
+        "South Alabama 2024": 0.13793103448275862
+      },
+      "spread": 0.04193665817255186,
+      "n_seasons": 3
+    }
+  }
+}

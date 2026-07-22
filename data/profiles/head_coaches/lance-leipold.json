@@ -1,0 +1,227 @@
+{
+  "coach": "Lance Leipold",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2015,
+      "last": 2020,
+      "n_full": 5,
+      "school": "Buffalo"
+    },
+    {
+      "first": 2021,
+      "last": 2025,
+      "n_full": 4,
+      "school": "Kansas"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Kansas",
+      "year": 2021,
+      "games": 12
+    },
+    {
+      "school": "Kansas",
+      "year": 2022,
+      "games": 13
+    },
+    {
+      "school": "Kansas",
+      "year": 2023,
+      "games": 13
+    },
+    {
+      "school": "Kansas",
+      "year": 2024,
+      "games": 12
+    },
+    {
+      "school": "Kansas",
+      "year": 2025,
+      "games": null
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Buffalo",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Buffalo",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Buffalo",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Buffalo",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Buffalo",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Buffalo",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4045031055900621,
+      "n": 1288
+    },
+    "sec_per_play": {
+      "value": 34.73511111111111,
+      "n": 1125
+    },
+    "fourth_down_go_rate": {
+      "value": 0.41935483870967744,
+      "n": 31
+    },
+    "explosive_pass_rate": {
+      "value": 0.14603616133518776,
+      "n": 719
+    }
+  },
+  "sticky_by_season": {
+    "Kansas 2021": {
+      "neutral_pass_rate": {
+        "value": 0.3422222222222222,
+        "n": 225
+      },
+      "sec_per_play": {
+        "value": 34.0,
+        "n": 178
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.10655737704918032,
+        "n": 122
+      }
+    },
+    "Kansas 2022": {
+      "neutral_pass_rate": {
+        "value": 0.43434343434343436,
+        "n": 198
+      },
+      "sec_per_play": {
+        "value": 33,
+        "n": 127
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2857142857142857,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.1794871794871795,
+        "n": 117
+      }
+    },
+    "Kansas 2023": {
+      "neutral_pass_rate": {
+        "value": 0.42955326460481097,
+        "n": 291
+      },
+      "sec_per_play": {
+        "value": 35,
+        "n": 273
+      },
+      "fourth_down_go_rate": {
+        "value": 0.25,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.18072289156626506,
+        "n": 166
+      }
+    },
+    "Kansas 2024": {
+      "neutral_pass_rate": {
+        "value": 0.4012738853503185,
+        "n": 314
+      },
+      "sec_per_play": {
+        "value": 35.5,
+        "n": 268
+      },
+      "fourth_down_go_rate": {
+        "value": 0.75,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.11042944785276074,
+        "n": 163
+      }
+    },
+    "Kansas 2025": {
+      "neutral_pass_rate": {
+        "value": 0.4115384615384615,
+        "n": 260
+      },
+      "sec_per_play": {
+        "value": 35,
+        "n": 279
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5714285714285714,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.152317880794702,
+        "n": 151
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Kansas 2021": 0.3422222222222222,
+        "Kansas 2022": 0.43434343434343436,
+        "Kansas 2023": 0.42955326460481097,
+        "Kansas 2024": 0.4012738853503185,
+        "Kansas 2025": 0.4115384615384615
+      },
+      "spread": 0.09212121212121216,
+      "n_seasons": 5
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Kansas 2021": 34.0,
+        "Kansas 2023": 35,
+        "Kansas 2024": 35.5,
+        "Kansas 2025": 35
+      },
+      "spread": 1.5,
+      "n_seasons": 4
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Kansas 2021": 0.10655737704918032,
+        "Kansas 2022": 0.1794871794871795,
+        "Kansas 2023": 0.18072289156626506,
+        "Kansas 2024": 0.11042944785276074,
+        "Kansas 2025": 0.152317880794702
+      },
+      "spread": 0.07416551451708474,
+      "n_seasons": 5
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "coach": "Bryant Vincent",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2022,
+      "last": 2022,
+      "n_full": 1,
+      "school": "UAB"
+    },
+    {
+      "first": 2024,
+      "last": 2025,
+      "n_full": 1,
+      "school": "UL Monroe"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "UAB",
+      "year": 2022,
+      "games": 13
+    },
+    {
+      "school": "UL Monroe",
+      "year": 2024,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "UL Monroe",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.34124087591240876,
+      "n": 548
+    },
+    "sec_per_play": {
+      "value": 37.01186943620178,
+      "n": 337
+    },
+    "fourth_down_go_rate": {
+      "value": 0.6666666666666666,
+      "n": 9
+    },
+    "explosive_pass_rate": {
+      "value": 0.11851851851851852,
+      "n": 270
+    }
+  },
+  "sticky_by_season": {
+    "UAB 2022": {
+      "neutral_pass_rate": {
+        "value": 0.35668789808917195,
+        "n": 314
+      },
+      "sec_per_play": {
+        "value": 33.5,
+        "n": 74
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.14193548387096774,
+        "n": 155
+      }
+    },
+    "UL Monroe 2024": {
+      "neutral_pass_rate": {
+        "value": 0.32051282051282054,
+        "n": 234
+      },
+      "sec_per_play": {
+        "value": 38,
+        "n": 263
+      },
+      "fourth_down_go_rate": {
+        "value": 0.8333333333333334,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.08695652173913043,
+        "n": 115
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "UAB 2022": 0.35668789808917195,
+        "UL Monroe 2024": 0.32051282051282054
+      },
+      "spread": 0.03617507757635141,
+      "n_seasons": 2
+    },
+    "sec_per_play": {
+      "per_season": {
+        "UL Monroe 2024": 38
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "UAB 2022": 0.14193548387096774,
+        "UL Monroe 2024": 0.08695652173913043
+      },
+      "spread": 0.05497896213183731,
+      "n_seasons": 2
+    }
+  }
+}

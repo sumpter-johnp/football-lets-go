@@ -1,0 +1,215 @@
+{
+  "coach": "Kalani Sitake",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2016,
+      "last": 2025,
+      "n_full": 8,
+      "school": "BYU"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "BYU",
+      "year": 2018,
+      "games": 13
+    },
+    {
+      "school": "BYU",
+      "year": 2019,
+      "games": 13
+    },
+    {
+      "school": "BYU",
+      "year": 2023,
+      "games": 12
+    },
+    {
+      "school": "BYU",
+      "year": 2024,
+      "games": 13
+    },
+    {
+      "school": "BYU",
+      "year": 2025,
+      "games": null
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "BYU",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "BYU",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "BYU",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "BYU",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "BYU",
+      "year": 2022,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.46984572230014027,
+      "n": 1426
+    },
+    "sec_per_play": {
+      "value": 32.27464114832536,
+      "n": 1045
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5625,
+      "n": 32
+    },
+    "explosive_pass_rate": {
+      "value": 0.1054897739504844,
+      "n": 929
+    }
+  },
+  "sticky_by_season": {
+    "BYU 2018": {
+      "neutral_pass_rate": {
+        "value": 0.4305555555555556,
+        "n": 288
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 148
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2857142857142857,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.08522727272727272,
+        "n": 176
+      }
+    },
+    "BYU 2019": {
+      "neutral_pass_rate": {
+        "value": 0.49162011173184356,
+        "n": 358
+      },
+      "sec_per_play": {
+        "value": 26,
+        "n": 205
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.09836065573770492,
+        "n": 244
+      }
+    },
+    "BYU 2023": {
+      "neutral_pass_rate": {
+        "value": 0.5135135135135135,
+        "n": 222
+      },
+      "sec_per_play": {
+        "value": 32,
+        "n": 83
+      },
+      "fourth_down_go_rate": {
+        "value": 0.8,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.12422360248447205,
+        "n": 161
+      }
+    },
+    "BYU 2024": {
+      "neutral_pass_rate": {
+        "value": 0.483271375464684,
+        "n": 269
+      },
+      "sec_per_play": {
+        "value": 37,
+        "n": 257
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.13218390804597702,
+        "n": 174
+      }
+    },
+    "BYU 2025": {
+      "neutral_pass_rate": {
+        "value": 0.4359861591695502,
+        "n": 289
+      },
+      "sec_per_play": {
+        "value": 33.5,
+        "n": 352
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.09195402298850575,
+        "n": 174
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "BYU 2018": 0.4305555555555556,
+        "BYU 2019": 0.49162011173184356,
+        "BYU 2023": 0.5135135135135135,
+        "BYU 2024": 0.483271375464684,
+        "BYU 2025": 0.4359861591695502
+      },
+      "spread": 0.0829579579579579,
+      "n_seasons": 5
+    },
+    "sec_per_play": {
+      "per_season": {
+        "BYU 2019": 26,
+        "BYU 2024": 37,
+        "BYU 2025": 33.5
+      },
+      "spread": 11,
+      "n_seasons": 3
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "BYU 2018": 0.08522727272727272,
+        "BYU 2019": 0.09836065573770492,
+        "BYU 2023": 0.12422360248447205,
+        "BYU 2024": 0.13218390804597702,
+        "BYU 2025": 0.09195402298850575
+      },
+      "spread": 0.046956635318704296,
+      "n_seasons": 5
+    }
+  }
+}

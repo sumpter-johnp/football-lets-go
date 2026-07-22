@@ -1,0 +1,228 @@
+{
+  "coach": "Mike MacIntyre",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2018,
+      "n_full": 5,
+      "school": "Colorado"
+    },
+    {
+      "first": 2022,
+      "last": 2024,
+      "n_full": 3,
+      "school": "Florida International"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Colorado",
+      "year": 2014,
+      "games": 12
+    },
+    {
+      "school": "Colorado",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "Colorado",
+      "year": 2016,
+      "games": 14
+    },
+    {
+      "school": "Colorado",
+      "year": 2017,
+      "games": 12
+    },
+    {
+      "school": "Colorado",
+      "year": 2018,
+      "games": 11
+    },
+    {
+      "school": "Florida International",
+      "year": 2022,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Florida International",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Florida International",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4718066743383199,
+      "n": 1738
+    },
+    "sec_per_play": {
+      "value": 22.133435582822084,
+      "n": 652
+    },
+    "fourth_down_go_rate": {
+      "value": 0.35294117647058826,
+      "n": 34
+    },
+    "explosive_pass_rate": {
+      "value": 0.08916083916083917,
+      "n": 1144
+    }
+  },
+  "sticky_by_season": {
+    "Colorado 2014": {
+      "neutral_pass_rate": {
+        "value": 0.4804804804804805,
+        "n": 333
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 101
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5714285714285714,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.10176991150442478,
+        "n": 226
+      }
+    },
+    "Colorado 2015": {
+      "neutral_pass_rate": {
+        "value": 0.46048109965635736,
+        "n": 291
+      },
+      "sec_per_play": {
+        "value": 23.0,
+        "n": 138
+      },
+      "fourth_down_go_rate": {
+        "value": 0.42857142857142855,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.0918918918918919,
+        "n": 185
+      }
+    },
+    "Colorado 2016": {
+      "neutral_pass_rate": {
+        "value": 0.4535809018567639,
+        "n": 377
+      },
+      "sec_per_play": {
+        "value": 20.0,
+        "n": 308
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.08547008547008547,
+        "n": 234
+      }
+    },
+    "Colorado 2017": {
+      "neutral_pass_rate": {
+        "value": 0.4107142857142857,
+        "n": 280
+      },
+      "sec_per_play": {
+        "value": 20,
+        "n": 29
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.09467455621301775,
+        "n": 169
+      }
+    },
+    "Colorado 2018": {
+      "neutral_pass_rate": {
+        "value": 0.514018691588785,
+        "n": 321
+      },
+      "sec_per_play": {
+        "value": 24.0,
+        "n": 68
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.09009009009009009,
+        "n": 222
+      }
+    },
+    "Florida International 2022": {
+      "neutral_pass_rate": {
+        "value": 0.5514705882352942,
+        "n": 136
+      },
+      "sec_per_play": {
+        "value": 45.0,
+        "n": 8
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 1
+      },
+      "explosive_pass_rate": {
+        "value": 0.05555555555555555,
+        "n": 108
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Colorado 2014": 0.4804804804804805,
+        "Colorado 2015": 0.46048109965635736,
+        "Colorado 2016": 0.4535809018567639,
+        "Colorado 2017": 0.4107142857142857,
+        "Colorado 2018": 0.514018691588785
+      },
+      "spread": 0.1033044058744993,
+      "n_seasons": 5
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Colorado 2016": 20.0
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Colorado 2014": 0.10176991150442478,
+        "Colorado 2015": 0.0918918918918919,
+        "Colorado 2016": 0.08547008547008547,
+        "Colorado 2017": 0.09467455621301775,
+        "Colorado 2018": 0.09009009009009009,
+        "Florida International 2022": 0.05555555555555555
+      },
+      "spread": 0.04621435594886923,
+      "n_seasons": 6
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "coach": "Joey McGuire",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2022,
+      "last": 2025,
+      "n_full": 3,
+      "school": "Texas Tech"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Texas Tech",
+      "year": 2024,
+      "games": 13
+    },
+    {
+      "school": "Texas Tech",
+      "year": 2025,
+      "games": null
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Texas Tech",
+      "year": 2022,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Texas Tech",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.498134328358209,
+      "n": 536
+    },
+    "sec_per_play": {
+      "value": 25.25194401244168,
+      "n": 643
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5833333333333334,
+      "n": 12
+    },
+    "explosive_pass_rate": {
+      "value": 0.08443271767810026,
+      "n": 379
+    }
+  },
+  "sticky_by_season": {
+    "Texas Tech 2024": {
+      "neutral_pass_rate": {
+        "value": 0.5353535353535354,
+        "n": 297
+      },
+      "sec_per_play": {
+        "value": 27.0,
+        "n": 362
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5714285714285714,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.0779816513761468,
+        "n": 218
+      }
+    },
+    "Texas Tech 2025": {
+      "neutral_pass_rate": {
+        "value": 0.45188284518828453,
+        "n": 239
+      },
+      "sec_per_play": {
+        "value": 23,
+        "n": 281
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.09316770186335403,
+        "n": 161
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Texas Tech 2024": 0.5353535353535354,
+        "Texas Tech 2025": 0.45188284518828453
+      },
+      "spread": 0.08347069016525083,
+      "n_seasons": 2
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Texas Tech 2024": 27.0,
+        "Texas Tech 2025": 23
+      },
+      "spread": 4.0,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Texas Tech 2024": 0.0779816513761468,
+        "Texas Tech 2025": 0.09316770186335403
+      },
+      "spread": 0.01518605048720724,
+      "n_seasons": 2
+    }
+  }
+}

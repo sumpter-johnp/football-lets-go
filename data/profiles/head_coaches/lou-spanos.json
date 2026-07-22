@@ -1,0 +1,85 @@
+{
+  "coach": "Lou Spanos",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2021,
+      "last": 2021,
+      "n_full": 1,
+      "school": "UConn"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "UConn",
+      "year": 2021,
+      "games": 10
+    }
+  ],
+  "seasons_excluded": [],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.5,
+      "n": 226
+    },
+    "sec_per_play": {
+      "value": 49.5,
+      "n": 18
+    },
+    "fourth_down_go_rate": {
+      "value": 0.6,
+      "n": 5
+    },
+    "explosive_pass_rate": {
+      "value": 0.07738095238095238,
+      "n": 168
+    }
+  },
+  "sticky_by_season": {
+    "UConn 2021": {
+      "neutral_pass_rate": {
+        "value": 0.5,
+        "n": 226
+      },
+      "sec_per_play": {
+        "value": 49.5,
+        "n": 18
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.07738095238095238,
+        "n": 168
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "UConn 2021": 0.5
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "UConn 2021": 0.07738095238095238
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

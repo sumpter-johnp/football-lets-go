@@ -1,0 +1,93 @@
+{
+  "coach": "Biff Poggi",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2023,
+      "last": 2024,
+      "n_full": 2,
+      "school": "Charlotte"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Charlotte",
+      "year": 2024,
+      "games": 10
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Charlotte",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4888888888888889,
+      "n": 225
+    },
+    "sec_per_play": {
+      "value": 35.0,
+      "n": 224
+    },
+    "fourth_down_go_rate": {
+      "value": 0.6666666666666666,
+      "n": 3
+    },
+    "explosive_pass_rate": {
+      "value": 0.12025316455696203,
+      "n": 158
+    }
+  },
+  "sticky_by_season": {
+    "Charlotte 2024": {
+      "neutral_pass_rate": {
+        "value": 0.4888888888888889,
+        "n": 225
+      },
+      "sec_per_play": {
+        "value": 35.0,
+        "n": 224
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6666666666666666,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.12025316455696203,
+        "n": 158
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Charlotte 2024": 0.4888888888888889
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Charlotte 2024": 35.0
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Charlotte 2024": 0.12025316455696203
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

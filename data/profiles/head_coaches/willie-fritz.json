@@ -1,0 +1,355 @@
+{
+  "coach": "Willie Fritz",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2015,
+      "n_full": 2,
+      "school": "Georgia Southern"
+    },
+    {
+      "first": 2016,
+      "last": 2023,
+      "n_full": 7,
+      "school": "Tulane"
+    },
+    {
+      "first": 2024,
+      "last": 2025,
+      "n_full": 1,
+      "school": "Houston"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Georgia Southern",
+      "year": 2014,
+      "games": 12
+    },
+    {
+      "school": "Georgia Southern",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "Tulane",
+      "year": 2016,
+      "games": 12
+    },
+    {
+      "school": "Tulane",
+      "year": 2017,
+      "games": 12
+    },
+    {
+      "school": "Tulane",
+      "year": 2018,
+      "games": 13
+    },
+    {
+      "school": "Tulane",
+      "year": 2019,
+      "games": 13
+    },
+    {
+      "school": "Tulane",
+      "year": 2021,
+      "games": 12
+    },
+    {
+      "school": "Tulane",
+      "year": 2022,
+      "games": 14
+    },
+    {
+      "school": "Tulane",
+      "year": 2023,
+      "games": 13
+    },
+    {
+      "school": "Houston",
+      "year": 2024,
+      "games": 12
+    },
+    {
+      "school": "Houston",
+      "year": 2025,
+      "games": null
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Tulane",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.3258388101003113,
+      "n": 2891
+    },
+    "sec_per_play": {
+      "value": 30.976039464411556,
+      "n": 1419
+    },
+    "fourth_down_go_rate": {
+      "value": 0.4625,
+      "n": 80
+    },
+    "explosive_pass_rate": {
+      "value": 0.10337243401759531,
+      "n": 1364
+    }
+  },
+  "sticky_by_season": {
+    "Georgia Southern 2014": {
+      "neutral_pass_rate": {
+        "value": 0.20920502092050208,
+        "n": 239
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 51
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.09523809523809523,
+        "n": 63
+      }
+    },
+    "Georgia Southern 2015": {
+      "neutral_pass_rate": {
+        "value": 0.14615384615384616,
+        "n": 260
+      },
+      "sec_per_play": {
+        "value": 31.0,
+        "n": 68
+      },
+      "fourth_down_go_rate": {
+        "value": 0.625,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.06666666666666667,
+        "n": 60
+      }
+    },
+    "Tulane 2016": {
+      "neutral_pass_rate": {
+        "value": 0.2546816479400749,
+        "n": 267
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 49
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5555555555555556,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.10679611650485436,
+        "n": 103
+      }
+    },
+    "Tulane 2017": {
+      "neutral_pass_rate": {
+        "value": 0.3151750972762646,
+        "n": 257
+      },
+      "sec_per_play": {
+        "value": 29.0,
+        "n": 48
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.09433962264150944,
+        "n": 106
+      }
+    },
+    "Tulane 2018": {
+      "neutral_pass_rate": {
+        "value": 0.3296296296296296,
+        "n": 270
+      },
+      "sec_per_play": {
+        "value": 31,
+        "n": 105
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.10714285714285714,
+        "n": 140
+      }
+    },
+    "Tulane 2019": {
+      "neutral_pass_rate": {
+        "value": 0.3188976377952756,
+        "n": 254
+      },
+      "sec_per_play": {
+        "value": 24.0,
+        "n": 88
+      },
+      "fourth_down_go_rate": {
+        "value": 0.75,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.10569105691056911,
+        "n": 123
+      }
+    },
+    "Tulane 2021": {
+      "neutral_pass_rate": {
+        "value": 0.39204545454545453,
+        "n": 176
+      },
+      "sec_per_play": {
+        "value": 29.0,
+        "n": 134
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5714285714285714,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.08247422680412371,
+        "n": 97
+      }
+    },
+    "Tulane 2022": {
+      "neutral_pass_rate": {
+        "value": 0.4561933534743202,
+        "n": 331
+      },
+      "sec_per_play": {
+        "value": 31,
+        "n": 153
+      },
+      "fourth_down_go_rate": {
+        "value": 0.42857142857142855,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.13829787234042554,
+        "n": 188
+      }
+    },
+    "Tulane 2023": {
+      "neutral_pass_rate": {
+        "value": 0.4095238095238095,
+        "n": 315
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 129
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.12234042553191489,
+        "n": 188
+      }
+    },
+    "Houston 2024": {
+      "neutral_pass_rate": {
+        "value": 0.355,
+        "n": 200
+      },
+      "sec_per_play": {
+        "value": 36,
+        "n": 235
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6666666666666666,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.07272727272727272,
+        "n": 110
+      }
+    },
+    "Houston 2025": {
+      "neutral_pass_rate": {
+        "value": 0.35714285714285715,
+        "n": 322
+      },
+      "sec_per_play": {
+        "value": 31,
+        "n": 359
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.0913978494623656,
+        "n": 186
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Georgia Southern 2014": 0.20920502092050208,
+        "Georgia Southern 2015": 0.14615384615384616,
+        "Tulane 2016": 0.2546816479400749,
+        "Tulane 2017": 0.3151750972762646,
+        "Tulane 2018": 0.3296296296296296,
+        "Tulane 2019": 0.3188976377952756,
+        "Tulane 2021": 0.39204545454545453,
+        "Tulane 2022": 0.4561933534743202,
+        "Tulane 2023": 0.4095238095238095,
+        "Houston 2024": 0.355,
+        "Houston 2025": 0.35714285714285715
+      },
+      "spread": 0.31003950732047403,
+      "n_seasons": 11
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Tulane 2022": 31,
+        "Houston 2024": 36,
+        "Houston 2025": 31
+      },
+      "spread": 5,
+      "n_seasons": 3
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Tulane 2016": 0.10679611650485436,
+        "Tulane 2017": 0.09433962264150944,
+        "Tulane 2018": 0.10714285714285714,
+        "Tulane 2019": 0.10569105691056911,
+        "Tulane 2021": 0.08247422680412371,
+        "Tulane 2022": 0.13829787234042554,
+        "Tulane 2023": 0.12234042553191489,
+        "Houston 2024": 0.07272727272727272,
+        "Houston 2025": 0.0913978494623656
+      },
+      "spread": 0.06557059961315281,
+      "n_seasons": 9
+    }
+  }
+}

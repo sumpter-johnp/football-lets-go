@@ -1,0 +1,65 @@
+coach,new_team,metric,hc_dna_pred,program_pred,actual,hc_dna_err,program_err,n_hc,n_program,n_actual,usable,winner
+Brent Brennan,Arizona,neutral_pass_rate,0.5228,0.5502,0.5742,0.0514,0.024,1622,269,209,True,program
+Brent Brennan,Arizona,sec_per_play,31.0665,34.0,34.5,3.4335,0.5,496,191,248,True,program
+Brent Brennan,Arizona,fourth_down_go_rate,0.1364,1.0,0.0,,,44,4,1,False,
+Brent Brennan,Arizona,explosive_pass_rate,0.1048,0.1268,0.0904,0.0144,0.0365,1174,205,166,True,hc_dna
+Bronco Mendenhall,New Mexico,neutral_pass_rate,0.5534,0.3992,0.4818,0.0717,0.0826,2275,248,274,True,hc_dna
+Bronco Mendenhall,New Mexico,sec_per_play,24.8214,35.0,27.0,2.1786,8.0,1243,168,280,True,hc_dna
+Bronco Mendenhall,New Mexico,fourth_down_go_rate,0.4722,1.0,0.3333,,,36,1,3,False,
+Bronco Mendenhall,New Mexico,explosive_pass_rate,0.09,0.1194,0.1,0.01,0.0194,1678,134,170,True,hc_dna
+Bryant Vincent,UL Monroe,neutral_pass_rate,0.3567,0.4449,0.3205,0.0362,0.1244,314,236,234,True,hc_dna
+Bryant Vincent,UL Monroe,sec_per_play,33.5,28.0,38.0,,,74,43,263,False,
+Bryant Vincent,UL Monroe,fourth_down_go_rate,0.3333,0.25,0.8333,,,3,4,6,False,
+Bryant Vincent,UL Monroe,explosive_pass_rate,0.1419,0.1161,0.087,0.055,0.0292,155,155,115,True,program
+Curt Cignetti,Indiana,neutral_pass_rate,0.4731,0.4179,0.4508,0.0224,0.0329,577,280,264,True,hc_dna
+Curt Cignetti,Indiana,sec_per_play,34.2059,32.0,35.0,,,68,149,280,False,
+Curt Cignetti,Indiana,fourth_down_go_rate,0.4,0.5,0.3333,,,10,8,3,False,
+Curt Cignetti,Indiana,explosive_pass_rate,0.1213,0.1471,0.1562,0.035,0.0092,371,170,160,True,program
+Derek Mason,Middle Tennessee,neutral_pass_rate,0.3757,0.5296,0.5593,0.1836,0.0297,1613,287,177,True,program
+Derek Mason,Middle Tennessee,sec_per_play,29.985,27.0,35.0,5.015,8.0,798,166,219,True,hc_dna
+Derek Mason,Middle Tennessee,fourth_down_go_rate,0.3265,0.5,0.5,,,49,4,6,False,
+Derek Mason,Middle Tennessee,explosive_pass_rate,0.0834,0.1106,0.1135,0.0301,0.0029,947,217,141,True,program
+Jedd Fisch,Washington,neutral_pass_rate,0.4948,0.5599,0.5032,0.0085,0.0567,859,384,310,True,hc_dna
+Jedd Fisch,Washington,sec_per_play,28.2669,29.0,33.0,4.7331,4.0,532,347,325,True,program
+Jedd Fisch,Washington,fourth_down_go_rate,0.7059,0.75,0.375,,,17,4,16,False,
+Jedd Fisch,Washington,explosive_pass_rate,0.1109,0.1392,0.0876,0.0234,0.0516,613,273,217,True,hc_dna
+Jon Sumrall,Tulane,neutral_pass_rate,0.4717,0.4095,0.3498,0.1219,0.0597,706,315,263,True,program
+Jon Sumrall,Tulane,sec_per_play,26.2088,30.0,33.0,,,182,129,334,False,
+Jon Sumrall,Tulane,fourth_down_go_rate,0.5385,0.2,0.8,,,13,10,5,False,
+Jon Sumrall,Tulane,explosive_pass_rate,0.1025,0.1223,0.1418,0.0393,0.0195,488,188,134,True,program
+Jonathan Smith,Michigan State,neutral_pass_rate,0.4008,0.4468,0.437,0.0362,0.0098,1270,235,238,True,program
+Jonathan Smith,Michigan State,sec_per_play,31.3834,33.0,38.0,,,493,103,232,False,
+Jonathan Smith,Michigan State,fourth_down_go_rate,0.7143,0.5556,0.5,,,21,9,4,False,
+Jonathan Smith,Michigan State,explosive_pass_rate,0.0947,0.0637,0.1149,0.0201,0.0512,739,157,148,True,hc_dna
+Kalen DeBoer,Alabama,neutral_pass_rate,0.5771,0.4111,0.4132,0.1639,0.0021,1012,343,288,True,program
+Kalen DeBoer,Alabama,sec_per_play,29.3607,32.0,27.0,2.3607,5.0,657,330,329,True,hc_dna
+Kalen DeBoer,Alabama,fourth_down_go_rate,0.6667,0.3333,0.5,,,12,3,4,False,
+Kalen DeBoer,Alabama,explosive_pass_rate,0.1119,0.135,0.135,0.0231,0.0,742,200,163,True,program
+Ken Niumatalolo,San José State,neutral_pass_rate,0.1149,0.4436,0.6,0.4851,0.1564,2367,257,340,True,program
+Ken Niumatalolo,San José State,sec_per_play,32.7364,36.0,31.0,1.7364,5.0,1119,202,347,True,hc_dna
+Ken Niumatalolo,San José State,fourth_down_go_rate,0.6429,0.5,0.5,,,70,2,2,False,
+Ken Niumatalolo,San José State,explosive_pass_rate,0.1654,0.0926,0.1498,0.0156,0.0572,393,162,267,True,hc_dna
+Major Applewhite,South Alabama,neutral_pass_rate,0.4752,0.4286,0.4819,0.0067,0.0533,604,224,276,True,hc_dna
+Major Applewhite,South Alabama,sec_per_play,20.4727,25.0,28.0,,,311,21,245,False,
+Major Applewhite,South Alabama,fourth_down_go_rate,0.5,0.6667,0.375,,,8,3,8,False,
+Major Applewhite,South Alabama,explosive_pass_rate,0.1281,0.0606,0.1379,0.0099,0.0773,406,132,174,True,hc_dna
+Manny Diaz,Duke,neutral_pass_rate,0.5562,0.444,0.5618,0.0056,0.1178,552,259,267,True,hc_dna
+Manny Diaz,Duke,sec_per_play,22.9457,30.0,26.0,3.0543,4.0,387,240,295,True,hc_dna
+Manny Diaz,Duke,fourth_down_go_rate,0.375,0.7143,0.1429,,,8,7,7,False,
+Manny Diaz,Duke,explosive_pass_rate,0.1122,0.0683,0.0826,0.0296,0.0142,419,161,218,True,program
+Pete Lembo,Buffalo,neutral_pass_rate,0.4242,0.3628,0.3992,0.025,0.0363,554,226,243,True,hc_dna
+Pete Lembo,Buffalo,sec_per_play,25.6187,34.0,29.0,,,139,139,101,False,
+Pete Lembo,Buffalo,fourth_down_go_rate,0.25,0.625,0.2,,,16,8,10,False,
+Pete Lembo,Buffalo,explosive_pass_rate,0.0635,0.0698,0.1448,0.0813,0.0751,362,129,145,True,program
+Sean Lewis,San Diego State,neutral_pass_rate,0.4072,0.3754,0.4715,0.0643,0.0961,1110,285,316,True,hc_dna
+Sean Lewis,San Diego State,sec_per_play,21.7333,39.5,24.0,,,300,52,384,False,
+Sean Lewis,San Diego State,fourth_down_go_rate,0.4074,0.3333,0.5556,,,27,9,9,False,
+Sean Lewis,San Diego State,explosive_pass_rate,0.095,0.097,0.0487,0.0463,0.0483,621,165,226,True,hc_dna
+Tony Sanchez,New Mexico State,neutral_pass_rate,0.3587,0.3892,0.3125,0.0462,0.0767,1299,370,224,True,hc_dna
+Tony Sanchez,New Mexico State,sec_per_play,30.8333,40.0,35.0,,,108,97,105,False,
+Tony Sanchez,New Mexico State,fourth_down_go_rate,0.4118,0.3333,0.5,,,34,6,6,False,
+Tony Sanchez,New Mexico State,explosive_pass_rate,0.0742,0.1117,0.0769,0.0027,0.0348,674,197,117,True,hc_dna
+Willie Fritz,Houston,neutral_pass_rate,0.3191,0.5285,0.355,0.0359,0.1735,2369,246,200,True,hc_dna
+Willie Fritz,Houston,sec_per_play,29.5345,45.0,36.0,,,825,10,235,False,
+Willie Fritz,Houston,fourth_down_go_rate,0.4375,0.6,0.6667,,,64,5,6,False,
+Willie Fritz,Houston,explosive_pass_rate,0.1086,0.073,0.0727,0.0359,0.0003,1068,178,110,True,program

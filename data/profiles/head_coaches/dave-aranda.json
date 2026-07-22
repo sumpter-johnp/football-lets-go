@@ -1,0 +1,177 @@
+{
+  "coach": "Dave Aranda",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2020,
+      "last": 2025,
+      "n_full": 4,
+      "school": "Baylor"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Baylor",
+      "year": 2021,
+      "games": 14
+    },
+    {
+      "school": "Baylor",
+      "year": 2022,
+      "games": 13
+    },
+    {
+      "school": "Baylor",
+      "year": 2023,
+      "games": 12
+    },
+    {
+      "school": "Baylor",
+      "year": 2024,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Baylor",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Baylor",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.459552495697074,
+      "n": 1162
+    },
+    "sec_per_play": {
+      "value": 28.371145374449338,
+      "n": 908
+    },
+    "fourth_down_go_rate": {
+      "value": 0.8378378378378378,
+      "n": 37
+    },
+    "explosive_pass_rate": {
+      "value": 0.11789181692094314,
+      "n": 721
+    }
+  },
+  "sticky_by_season": {
+    "Baylor 2021": {
+      "neutral_pass_rate": {
+        "value": 0.46630727762803237,
+        "n": 371
+      },
+      "sec_per_play": {
+        "value": 29.0,
+        "n": 306
+      },
+      "fourth_down_go_rate": {
+        "value": 0.9333333333333333,
+        "n": 15
+      },
+      "explosive_pass_rate": {
+        "value": 0.11711711711711711,
+        "n": 222
+      }
+    },
+    "Baylor 2022": {
+      "neutral_pass_rate": {
+        "value": 0.4402730375426621,
+        "n": 293
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 276
+      },
+      "fourth_down_go_rate": {
+        "value": 0.8181818181818182,
+        "n": 11
+      },
+      "explosive_pass_rate": {
+        "value": 0.08426966292134831,
+        "n": 178
+      }
+    },
+    "Baylor 2023": {
+      "neutral_pass_rate": {
+        "value": 0.4759825327510917,
+        "n": 229
+      },
+      "sec_per_play": {
+        "value": 29.0,
+        "n": 84
+      },
+      "fourth_down_go_rate": {
+        "value": 0.7142857142857143,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.11842105263157894,
+        "n": 152
+      }
+    },
+    "Baylor 2024": {
+      "neutral_pass_rate": {
+        "value": 0.45724907063197023,
+        "n": 269
+      },
+      "sec_per_play": {
+        "value": 25.5,
+        "n": 242
+      },
+      "fourth_down_go_rate": {
+        "value": 0.75,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.15384615384615385,
+        "n": 169
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Baylor 2021": 0.46630727762803237,
+        "Baylor 2022": 0.4402730375426621,
+        "Baylor 2023": 0.4759825327510917,
+        "Baylor 2024": 0.45724907063197023
+      },
+      "spread": 0.03570949520842959,
+      "n_seasons": 4
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Baylor 2021": 29.0,
+        "Baylor 2022": 30.0,
+        "Baylor 2024": 25.5
+      },
+      "spread": 4.5,
+      "n_seasons": 3
+    },
+    "fourth_down_go_rate": {
+      "per_season": {
+        "Baylor 2021": 0.9333333333333333
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Baylor 2021": 0.11711711711711711,
+        "Baylor 2022": 0.08426966292134831,
+        "Baylor 2023": 0.11842105263157894,
+        "Baylor 2024": 0.15384615384615385
+      },
+      "spread": 0.06957649092480554,
+      "n_seasons": 4
+    }
+  }
+}

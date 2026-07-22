@@ -1,0 +1,118 @@
+{
+  "coach": "G.J. Kinne",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2023,
+      "last": 2025,
+      "n_full": 2,
+      "school": "Texas State"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Texas State",
+      "year": 2023,
+      "games": 13
+    },
+    {
+      "school": "Texas State",
+      "year": 2024,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Texas State",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.44832826747720367,
+      "n": 658
+    },
+    "sec_per_play": {
+      "value": 24.874172185430464,
+      "n": 453
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5714285714285714,
+      "n": 7
+    },
+    "explosive_pass_rate": {
+      "value": 0.11302211302211303,
+      "n": 407
+    }
+  },
+  "sticky_by_season": {
+    "Texas State 2023": {
+      "neutral_pass_rate": {
+        "value": 0.45565749235474007,
+        "n": 327
+      },
+      "sec_per_play": {
+        "value": 20,
+        "n": 85
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.11538461538461539,
+        "n": 208
+      }
+    },
+    "Texas State 2024": {
+      "neutral_pass_rate": {
+        "value": 0.44108761329305135,
+        "n": 331
+      },
+      "sec_per_play": {
+        "value": 26.0,
+        "n": 368
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.11055276381909548,
+        "n": 199
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Texas State 2023": 0.45565749235474007,
+        "Texas State 2024": 0.44108761329305135
+      },
+      "spread": 0.014569879061688717,
+      "n_seasons": 2
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Texas State 2024": 26.0
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Texas State 2023": 0.11538461538461539,
+        "Texas State 2024": 0.11055276381909548
+      },
+      "spread": 0.004831851565519907,
+      "n_seasons": 2
+    }
+  }
+}

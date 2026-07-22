@@ -1,0 +1,318 @@
+{
+  "coach": "Scott Satterfield",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2018,
+      "n_full": 5,
+      "school": "App State"
+    },
+    {
+      "first": 2019,
+      "last": 2022,
+      "n_full": 3,
+      "school": "Louisville"
+    },
+    {
+      "first": 2023,
+      "last": 2025,
+      "n_full": 2,
+      "school": "Cincinnati"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "App State",
+      "year": 2014,
+      "games": 12
+    },
+    {
+      "school": "App State",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "App State",
+      "year": 2016,
+      "games": 13
+    },
+    {
+      "school": "App State",
+      "year": 2017,
+      "games": 13
+    },
+    {
+      "school": "App State",
+      "year": 2018,
+      "games": 12
+    },
+    {
+      "school": "Louisville",
+      "year": 2019,
+      "games": 13
+    },
+    {
+      "school": "Louisville",
+      "year": 2021,
+      "games": 13
+    },
+    {
+      "school": "Louisville",
+      "year": 2022,
+      "games": 12
+    },
+    {
+      "school": "Cincinnati",
+      "year": 2023,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Louisville",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Cincinnati",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Cincinnati",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.3459983831851253,
+      "n": 2474
+    },
+    "sec_per_play": {
+      "value": 28.504923903312445,
+      "n": 1117
+    },
+    "fourth_down_go_rate": {
+      "value": 0.4444444444444444,
+      "n": 63
+    },
+    "explosive_pass_rate": {
+      "value": 0.12198912198912198,
+      "n": 1287
+    }
+  },
+  "sticky_by_season": {
+    "App State 2014": {
+      "neutral_pass_rate": {
+        "value": 0.33482142857142855,
+        "n": 224
+      },
+      "sec_per_play": {
+        "value": 24.0,
+        "n": 24
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.1440677966101695,
+        "n": 118
+      }
+    },
+    "App State 2015": {
+      "neutral_pass_rate": {
+        "value": 0.2661596958174905,
+        "n": 263
+      },
+      "sec_per_play": {
+        "value": 28.0,
+        "n": 110
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.15126050420168066,
+        "n": 119
+      }
+    },
+    "App State 2016": {
+      "neutral_pass_rate": {
+        "value": 0.33739837398373984,
+        "n": 246
+      },
+      "sec_per_play": {
+        "value": 28,
+        "n": 143
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.12396694214876033,
+        "n": 121
+      }
+    },
+    "App State 2017": {
+      "neutral_pass_rate": {
+        "value": 0.3902439024390244,
+        "n": 287
+      },
+      "sec_per_play": {
+        "value": 28.0,
+        "n": 82
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5555555555555556,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.12883435582822086,
+        "n": 163
+      }
+    },
+    "App State 2018": {
+      "neutral_pass_rate": {
+        "value": 0.35185185185185186,
+        "n": 270
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 97
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.11805555555555555,
+        "n": 144
+      }
+    },
+    "Louisville 2019": {
+      "neutral_pass_rate": {
+        "value": 0.32974910394265233,
+        "n": 279
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 113
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.14084507042253522,
+        "n": 142
+      }
+    },
+    "Louisville 2021": {
+      "neutral_pass_rate": {
+        "value": 0.34146341463414637,
+        "n": 287
+      },
+      "sec_per_play": {
+        "value": 28.0,
+        "n": 244
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4444444444444444,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.1032258064516129,
+        "n": 155
+      }
+    },
+    "Louisville 2022": {
+      "neutral_pass_rate": {
+        "value": 0.37694704049844235,
+        "n": 321
+      },
+      "sec_per_play": {
+        "value": 28.0,
+        "n": 272
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.08139534883720931,
+        "n": 172
+      }
+    },
+    "Cincinnati 2023": {
+      "neutral_pass_rate": {
+        "value": 0.37037037037037035,
+        "n": 297
+      },
+      "sec_per_play": {
+        "value": 35.5,
+        "n": 32
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 12
+      },
+      "explosive_pass_rate": {
+        "value": 0.12418300653594772,
+        "n": 153
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "App State 2014": 0.33482142857142855,
+        "App State 2015": 0.2661596958174905,
+        "App State 2016": 0.33739837398373984,
+        "App State 2017": 0.3902439024390244,
+        "App State 2018": 0.35185185185185186,
+        "Louisville 2019": 0.32974910394265233,
+        "Louisville 2021": 0.34146341463414637,
+        "Louisville 2022": 0.37694704049844235,
+        "Cincinnati 2023": 0.37037037037037035
+      },
+      "spread": 0.12408420662153391,
+      "n_seasons": 9
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Louisville 2021": 28.0,
+        "Louisville 2022": 28.0
+      },
+      "spread": 0.0,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {
+        "Cincinnati 2023": 0.5
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "App State 2014": 0.1440677966101695,
+        "App State 2015": 0.15126050420168066,
+        "App State 2016": 0.12396694214876033,
+        "App State 2017": 0.12883435582822086,
+        "App State 2018": 0.11805555555555555,
+        "Louisville 2019": 0.14084507042253522,
+        "Louisville 2021": 0.1032258064516129,
+        "Louisville 2022": 0.08139534883720931,
+        "Cincinnati 2023": 0.12418300653594772
+      },
+      "spread": 0.06986515536447135,
+      "n_seasons": 9
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "coach": "Curt Cignetti",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2022,
+      "last": 2023,
+      "n_full": 2,
+      "school": "James Madison"
+    },
+    {
+      "first": 2024,
+      "last": 2025,
+      "n_full": 1,
+      "school": "Indiana"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "James Madison",
+      "year": 2022,
+      "games": 11
+    },
+    {
+      "school": "James Madison",
+      "year": 2023,
+      "games": 12
+    },
+    {
+      "school": "Indiana",
+      "year": 2024,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Indiana",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4661117717003567,
+      "n": 841
+    },
+    "sec_per_play": {
+      "value": 34.8448275862069,
+      "n": 348
+    },
+    "fourth_down_go_rate": {
+      "value": 0.38461538461538464,
+      "n": 13
+    },
+    "explosive_pass_rate": {
+      "value": 0.1318267419962335,
+      "n": 531
+    }
+  },
+  "sticky_by_season": {
+    "James Madison 2022": {
+      "neutral_pass_rate": {
+        "value": 0.41637010676156583,
+        "n": 281
+      },
+      "sec_per_play": {
+        "value": 41.0,
+        "n": 26
+      },
+      "fourth_down_go_rate": {
+        "value": 0.42857142857142855,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.12804878048780488,
+        "n": 164
+      }
+    },
+    "James Madison 2023": {
+      "neutral_pass_rate": {
+        "value": 0.527027027027027,
+        "n": 296
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 42
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.11594202898550725,
+        "n": 207
+      }
+    },
+    "Indiana 2024": {
+      "neutral_pass_rate": {
+        "value": 0.45075757575757575,
+        "n": 264
+      },
+      "sec_per_play": {
+        "value": 35.0,
+        "n": 280
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.15625,
+        "n": 160
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "James Madison 2022": 0.41637010676156583,
+        "James Madison 2023": 0.527027027027027,
+        "Indiana 2024": 0.45075757575757575
+      },
+      "spread": 0.11065692026546115,
+      "n_seasons": 3
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Indiana 2024": 35.0
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "James Madison 2022": 0.12804878048780488,
+        "James Madison 2023": 0.11594202898550725,
+        "Indiana 2024": 0.15625
+      },
+      "spread": 0.04030797101449275,
+      "n_seasons": 3
+    }
+  }
+}

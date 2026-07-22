@@ -1,0 +1,256 @@
+{
+  "coach": "Derek Mason",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2020,
+      "n_full": 6,
+      "school": "Vanderbilt"
+    },
+    {
+      "first": 2024,
+      "last": 2025,
+      "n_full": 1,
+      "school": "Middle Tennessee"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Vanderbilt",
+      "year": 2014,
+      "games": 12
+    },
+    {
+      "school": "Vanderbilt",
+      "year": 2015,
+      "games": 12
+    },
+    {
+      "school": "Vanderbilt",
+      "year": 2016,
+      "games": 13
+    },
+    {
+      "school": "Vanderbilt",
+      "year": 2017,
+      "games": 12
+    },
+    {
+      "school": "Vanderbilt",
+      "year": 2018,
+      "games": 13
+    },
+    {
+      "school": "Vanderbilt",
+      "year": 2019,
+      "games": 12
+    },
+    {
+      "school": "Middle Tennessee",
+      "year": 2024,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Vanderbilt",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Middle Tennessee",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.39385474860335196,
+      "n": 1790
+    },
+    "sec_per_play": {
+      "value": 31.06489675516224,
+      "n": 1017
+    },
+    "fourth_down_go_rate": {
+      "value": 0.34545454545454546,
+      "n": 55
+    },
+    "explosive_pass_rate": {
+      "value": 0.08731617647058823,
+      "n": 1088
+    }
+  },
+  "sticky_by_season": {
+    "Vanderbilt 2014": {
+      "neutral_pass_rate": {
+        "value": 0.38839285714285715,
+        "n": 224
+      },
+      "sec_per_play": {
+        "value": 32,
+        "n": 221
+      },
+      "fourth_down_go_rate": {
+        "value": 0.625,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.0546875,
+        "n": 128
+      }
+    },
+    "Vanderbilt 2015": {
+      "neutral_pass_rate": {
+        "value": 0.33532934131736525,
+        "n": 334
+      },
+      "sec_per_play": {
+        "value": 27.5,
+        "n": 248
+      },
+      "fourth_down_go_rate": {
+        "value": 0.25,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.04395604395604396,
+        "n": 182
+      }
+    },
+    "Vanderbilt 2016": {
+      "neutral_pass_rate": {
+        "value": 0.34534534534534533,
+        "n": 333
+      },
+      "sec_per_play": {
+        "value": 31.0,
+        "n": 116
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.07027027027027027,
+        "n": 185
+      }
+    },
+    "Vanderbilt 2017": {
+      "neutral_pass_rate": {
+        "value": 0.45064377682403434,
+        "n": 233
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 102
+      },
+      "fourth_down_go_rate": {
+        "value": 0.42857142857142855,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.14012738853503184,
+        "n": 157
+      }
+    },
+    "Vanderbilt 2018": {
+      "neutral_pass_rate": {
+        "value": 0.3858520900321543,
+        "n": 311
+      },
+      "sec_per_play": {
+        "value": 28,
+        "n": 77
+      },
+      "fourth_down_go_rate": {
+        "value": 0.09090909090909091,
+        "n": 11
+      },
+      "explosive_pass_rate": {
+        "value": 0.11229946524064172,
+        "n": 187
+      }
+    },
+    "Vanderbilt 2019": {
+      "neutral_pass_rate": {
+        "value": 0.37640449438202245,
+        "n": 178
+      },
+      "sec_per_play": {
+        "value": 36.0,
+        "n": 34
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.07407407407407407,
+        "n": 108
+      }
+    },
+    "Middle Tennessee 2024": {
+      "neutral_pass_rate": {
+        "value": 0.559322033898305,
+        "n": 177
+      },
+      "sec_per_play": {
+        "value": 35,
+        "n": 219
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.11347517730496454,
+        "n": 141
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Vanderbilt 2014": 0.38839285714285715,
+        "Vanderbilt 2015": 0.33532934131736525,
+        "Vanderbilt 2016": 0.34534534534534533,
+        "Vanderbilt 2017": 0.45064377682403434,
+        "Vanderbilt 2018": 0.3858520900321543,
+        "Vanderbilt 2019": 0.37640449438202245,
+        "Middle Tennessee 2024": 0.559322033898305
+      },
+      "spread": 0.2239926925809398,
+      "n_seasons": 7
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Vanderbilt 2014": 32,
+        "Vanderbilt 2015": 27.5,
+        "Middle Tennessee 2024": 35
+      },
+      "spread": 7.5,
+      "n_seasons": 3
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Vanderbilt 2014": 0.0546875,
+        "Vanderbilt 2015": 0.04395604395604396,
+        "Vanderbilt 2016": 0.07027027027027027,
+        "Vanderbilt 2017": 0.14012738853503184,
+        "Vanderbilt 2018": 0.11229946524064172,
+        "Vanderbilt 2019": 0.07407407407407407,
+        "Middle Tennessee 2024": 0.11347517730496454
+      },
+      "spread": 0.09617134457898788,
+      "n_seasons": 7
+    }
+  }
+}

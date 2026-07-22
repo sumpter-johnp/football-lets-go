@@ -1,0 +1,143 @@
+{
+  "coach": "Ryan Day",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2018,
+      "last": 2025,
+      "n_full": 5,
+      "school": "Ohio State"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Ohio State",
+      "year": 2023,
+      "games": 13
+    },
+    {
+      "school": "Ohio State",
+      "year": 2024,
+      "games": 16
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Ohio State",
+      "year": 2018,
+      "reason": "partial season (3 games)"
+    },
+    {
+      "school": "Ohio State",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Ohio State",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Ohio State",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Ohio State",
+      "year": 2022,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Ohio State",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.46153846153846156,
+      "n": 650
+    },
+    "sec_per_play": {
+      "value": 32.740554156171285,
+      "n": 397
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5555555555555556,
+      "n": 18
+    },
+    "explosive_pass_rate": {
+      "value": 0.11848341232227488,
+      "n": 422
+    }
+  },
+  "sticky_by_season": {
+    "Ohio State 2023": {
+      "neutral_pass_rate": {
+        "value": 0.4371069182389937,
+        "n": 318
+      },
+      "sec_per_play": {
+        "value": 28.5,
+        "n": 138
+      },
+      "fourth_down_go_rate": {
+        "value": 0.375,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.10396039603960396,
+        "n": 202
+      }
+    },
+    "Ohio State 2024": {
+      "neutral_pass_rate": {
+        "value": 0.48493975903614456,
+        "n": 332
+      },
+      "sec_per_play": {
+        "value": 35,
+        "n": 259
+      },
+      "fourth_down_go_rate": {
+        "value": 0.7,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.1318181818181818,
+        "n": 220
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Ohio State 2023": 0.4371069182389937,
+        "Ohio State 2024": 0.48493975903614456
+      },
+      "spread": 0.04783284079715083,
+      "n_seasons": 2
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Ohio State 2024": 35
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Ohio State 2023": 0.10396039603960396,
+        "Ohio State 2024": 0.1318181818181818
+      },
+      "spread": 0.02785778577857785,
+      "n_seasons": 2
+    }
+  }
+}

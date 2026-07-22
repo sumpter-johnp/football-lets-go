@@ -1,0 +1,208 @@
+{
+  "coach": "Kalen DeBoer",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2020,
+      "last": 2021,
+      "n_full": 1,
+      "school": "Fresno State"
+    },
+    {
+      "first": 2022,
+      "last": 2023,
+      "n_full": 2,
+      "school": "Washington"
+    },
+    {
+      "first": 2024,
+      "last": 2025,
+      "n_full": 1,
+      "school": "Alabama"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Fresno State",
+      "year": 2021,
+      "games": 12
+    },
+    {
+      "school": "Washington",
+      "year": 2022,
+      "games": 13
+    },
+    {
+      "school": "Washington",
+      "year": 2023,
+      "games": 15
+    },
+    {
+      "school": "Alabama",
+      "year": 2024,
+      "games": 13
+    },
+    {
+      "school": "Alabama",
+      "year": 2025,
+      "games": null
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Fresno State",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.5338345864661654,
+      "n": 1596
+    },
+    "sec_per_play": {
+      "value": 29.237849779086893,
+      "n": 1358
+    },
+    "fourth_down_go_rate": {
+      "value": 0.68,
+      "n": 25
+    },
+    "explosive_pass_rate": {
+      "value": 0.11806797853309481,
+      "n": 1118
+    }
+  },
+  "sticky_by_season": {
+    "Fresno State 2021": {
+      "neutral_pass_rate": {
+        "value": 0.5463917525773195,
+        "n": 291
+      },
+      "sec_per_play": {
+        "value": 32,
+        "n": 79
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.08133971291866028,
+        "n": 209
+      }
+    },
+    "Washington 2022": {
+      "neutral_pass_rate": {
+        "value": 0.6231454005934718,
+        "n": 337
+      },
+      "sec_per_play": {
+        "value": 29,
+        "n": 231
+      },
+      "fourth_down_go_rate": {
+        "value": 0.8,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.1076923076923077,
+        "n": 260
+      }
+    },
+    "Washington 2023": {
+      "neutral_pass_rate": {
+        "value": 0.5598958333333334,
+        "n": 384
+      },
+      "sec_per_play": {
+        "value": 29,
+        "n": 347
+      },
+      "fourth_down_go_rate": {
+        "value": 0.75,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.1391941391941392,
+        "n": 273
+      }
+    },
+    "Alabama 2024": {
+      "neutral_pass_rate": {
+        "value": 0.4131944444444444,
+        "n": 288
+      },
+      "sec_per_play": {
+        "value": 27,
+        "n": 329
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.13496932515337423,
+        "n": 163
+      }
+    },
+    "Alabama 2025": {
+      "neutral_pass_rate": {
+        "value": 0.5033783783783784,
+        "n": 296
+      },
+      "sec_per_play": {
+        "value": 31.0,
+        "n": 372
+      },
+      "fourth_down_go_rate": {
+        "value": 0.7777777777777778,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.1267605633802817,
+        "n": 213
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Fresno State 2021": 0.5463917525773195,
+        "Washington 2022": 0.6231454005934718,
+        "Washington 2023": 0.5598958333333334,
+        "Alabama 2024": 0.4131944444444444,
+        "Alabama 2025": 0.5033783783783784
+      },
+      "spread": 0.20995095614902737,
+      "n_seasons": 5
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Washington 2022": 29,
+        "Washington 2023": 29,
+        "Alabama 2024": 27,
+        "Alabama 2025": 31.0
+      },
+      "spread": 4.0,
+      "n_seasons": 4
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Fresno State 2021": 0.08133971291866028,
+        "Washington 2022": 0.1076923076923077,
+        "Washington 2023": 0.1391941391941392,
+        "Alabama 2024": 0.13496932515337423,
+        "Alabama 2025": 0.1267605633802817
+      },
+      "spread": 0.05785442627547892,
+      "n_seasons": 5
+    }
+  }
+}

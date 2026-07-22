@@ -1,0 +1,121 @@
+{
+  "coach": "Doug Martin",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2021,
+      "n_full": 7,
+      "school": "New Mexico State"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "New Mexico State",
+      "year": 2021,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "New Mexico State",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "New Mexico State",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "New Mexico State",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "New Mexico State",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "New Mexico State",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "New Mexico State",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "New Mexico State",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.5985663082437276,
+      "n": 279
+    },
+    "sec_per_play": {
+      "value": 30.0,
+      "n": 70
+    },
+    "fourth_down_go_rate": {
+      "value": 0.0,
+      "n": 4
+    },
+    "explosive_pass_rate": {
+      "value": 0.05504587155963303,
+      "n": 218
+    }
+  },
+  "sticky_by_season": {
+    "New Mexico State 2021": {
+      "neutral_pass_rate": {
+        "value": 0.5985663082437276,
+        "n": 279
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 70
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.05504587155963303,
+        "n": 218
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "New Mexico State 2021": 0.5985663082437276
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "New Mexico State 2021": 0.05504587155963303
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

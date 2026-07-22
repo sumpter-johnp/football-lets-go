@@ -1,0 +1,138 @@
+{
+  "coach": "Matt Rhule",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2016,
+      "n_full": 3,
+      "school": "Temple"
+    },
+    {
+      "first": 2017,
+      "last": 2019,
+      "n_full": 3,
+      "school": "Baylor"
+    },
+    {
+      "first": 2023,
+      "last": 2025,
+      "n_full": 2,
+      "school": "Nebraska"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Nebraska",
+      "year": 2023,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Temple",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Temple",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Temple",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Baylor",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Baylor",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Baylor",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Nebraska",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Nebraska",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.3,
+      "n": 280
+    },
+    "sec_per_play": {
+      "value": 34.0,
+      "n": 39
+    },
+    "fourth_down_go_rate": {
+      "value": 0.42857142857142855,
+      "n": 7
+    },
+    "explosive_pass_rate": {
+      "value": 0.0948905109489051,
+      "n": 137
+    }
+  },
+  "sticky_by_season": {
+    "Nebraska 2023": {
+      "neutral_pass_rate": {
+        "value": 0.3,
+        "n": 280
+      },
+      "sec_per_play": {
+        "value": 34,
+        "n": 39
+      },
+      "fourth_down_go_rate": {
+        "value": 0.42857142857142855,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.0948905109489051,
+        "n": 137
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Nebraska 2023": 0.3
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Nebraska 2023": 0.0948905109489051
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

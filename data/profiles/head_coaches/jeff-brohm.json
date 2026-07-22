@@ -1,0 +1,317 @@
+{
+  "coach": "Jeff Brohm",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2016,
+      "n_full": 3,
+      "school": "Western Kentucky"
+    },
+    {
+      "first": 2017,
+      "last": 2022,
+      "n_full": 5,
+      "school": "Purdue"
+    },
+    {
+      "first": 2023,
+      "last": 2025,
+      "n_full": 2,
+      "school": "Louisville"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Western Kentucky",
+      "year": 2014,
+      "games": 13
+    },
+    {
+      "school": "Western Kentucky",
+      "year": 2015,
+      "games": 14
+    },
+    {
+      "school": "Western Kentucky",
+      "year": 2016,
+      "games": 13
+    },
+    {
+      "school": "Purdue",
+      "year": 2017,
+      "games": 13
+    },
+    {
+      "school": "Purdue",
+      "year": 2018,
+      "games": 13
+    },
+    {
+      "school": "Purdue",
+      "year": 2019,
+      "games": 12
+    },
+    {
+      "school": "Purdue",
+      "year": 2021,
+      "games": 13
+    },
+    {
+      "school": "Purdue",
+      "year": 2022,
+      "games": 13
+    },
+    {
+      "school": "Louisville",
+      "year": 2023,
+      "games": 14
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Purdue",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Louisville",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Louisville",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.5698888514651398,
+      "n": 2969
+    },
+    "sec_per_play": {
+      "value": 28.12326530612245,
+      "n": 1225
+    },
+    "fourth_down_go_rate": {
+      "value": 0.49122807017543857,
+      "n": 57
+    },
+    "explosive_pass_rate": {
+      "value": 0.09587217043941411,
+      "n": 2253
+    }
+  },
+  "sticky_by_season": {
+    "Western Kentucky 2014": {
+      "neutral_pass_rate": {
+        "value": 0.5434782608695652,
+        "n": 368
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 29
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.13740458015267176,
+        "n": 262
+      }
+    },
+    "Western Kentucky 2015": {
+      "neutral_pass_rate": {
+        "value": 0.6188925081433225,
+        "n": 307
+      },
+      "sec_per_play": {
+        "value": 19.5,
+        "n": 122
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5714285714285714,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.12048192771084337,
+        "n": 249
+      }
+    },
+    "Western Kentucky 2016": {
+      "neutral_pass_rate": {
+        "value": 0.51440329218107,
+        "n": 243
+      },
+      "sec_per_play": {
+        "value": 27,
+        "n": 93
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 1
+      },
+      "explosive_pass_rate": {
+        "value": 0.12352941176470589,
+        "n": 170
+      }
+    },
+    "Purdue 2017": {
+      "neutral_pass_rate": {
+        "value": 0.5887573964497042,
+        "n": 338
+      },
+      "sec_per_play": {
+        "value": 24.5,
+        "n": 128
+      },
+      "fourth_down_go_rate": {
+        "value": 0.45454545454545453,
+        "n": 11
+      },
+      "explosive_pass_rate": {
+        "value": 0.09665427509293681,
+        "n": 269
+      }
+    },
+    "Purdue 2018": {
+      "neutral_pass_rate": {
+        "value": 0.6463414634146342,
+        "n": 328
+      },
+      "sec_per_play": {
+        "value": 22.0,
+        "n": 160
+      },
+      "fourth_down_go_rate": {
+        "value": 0.75,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.08487084870848709,
+        "n": 271
+      }
+    },
+    "Purdue 2019": {
+      "neutral_pass_rate": {
+        "value": 0.630901287553648,
+        "n": 233
+      },
+      "sec_per_play": {
+        "value": 35.0,
+        "n": 10
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.1024390243902439,
+        "n": 205
+      }
+    },
+    "Purdue 2021": {
+      "neutral_pass_rate": {
+        "value": 0.6085918854415274,
+        "n": 419
+      },
+      "sec_per_play": {
+        "value": 29,
+        "n": 201
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2857142857142857,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.07418397626112759,
+        "n": 337
+      }
+    },
+    "Purdue 2022": {
+      "neutral_pass_rate": {
+        "value": 0.5598958333333334,
+        "n": 384
+      },
+      "sec_per_play": {
+        "value": 31,
+        "n": 129
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.05985915492957746,
+        "n": 284
+      }
+    },
+    "Louisville 2023": {
+      "neutral_pass_rate": {
+        "value": 0.4269340974212034,
+        "n": 349
+      },
+      "sec_per_play": {
+        "value": 34,
+        "n": 353
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4444444444444444,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.0825242718446602,
+        "n": 206
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Western Kentucky 2014": 0.5434782608695652,
+        "Western Kentucky 2015": 0.6188925081433225,
+        "Western Kentucky 2016": 0.51440329218107,
+        "Purdue 2017": 0.5887573964497042,
+        "Purdue 2018": 0.6463414634146342,
+        "Purdue 2019": 0.630901287553648,
+        "Purdue 2021": 0.6085918854415274,
+        "Purdue 2022": 0.5598958333333334,
+        "Louisville 2023": 0.4269340974212034
+      },
+      "spread": 0.21940736599343075,
+      "n_seasons": 9
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Purdue 2018": 22.0,
+        "Purdue 2021": 29,
+        "Louisville 2023": 34
+      },
+      "spread": 12.0,
+      "n_seasons": 3
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Western Kentucky 2014": 0.13740458015267176,
+        "Western Kentucky 2015": 0.12048192771084337,
+        "Western Kentucky 2016": 0.12352941176470589,
+        "Purdue 2017": 0.09665427509293681,
+        "Purdue 2018": 0.08487084870848709,
+        "Purdue 2019": 0.1024390243902439,
+        "Purdue 2021": 0.07418397626112759,
+        "Purdue 2022": 0.05985915492957746,
+        "Louisville 2023": 0.0825242718446602
+      },
+      "spread": 0.0775454252230943,
+      "n_seasons": 9
+    }
+  }
+}

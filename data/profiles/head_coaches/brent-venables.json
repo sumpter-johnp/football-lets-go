@@ -1,0 +1,164 @@
+{
+  "coach": "Brent Venables",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2022,
+      "last": 2025,
+      "n_full": 3,
+      "school": "Oklahoma"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Oklahoma",
+      "year": 2022,
+      "games": 13
+    },
+    {
+      "school": "Oklahoma",
+      "year": 2023,
+      "games": 13
+    },
+    {
+      "school": "Oklahoma",
+      "year": 2024,
+      "games": 13
+    },
+    {
+      "school": "Oklahoma",
+      "year": 2025,
+      "games": null
+    }
+  ],
+  "seasons_excluded": [],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.44715447154471544,
+      "n": 1230
+    },
+    "sec_per_play": {
+      "value": 24.05438066465257,
+      "n": 993
+    },
+    "fourth_down_go_rate": {
+      "value": 0.6153846153846154,
+      "n": 26
+    },
+    "explosive_pass_rate": {
+      "value": 0.11384217335058215,
+      "n": 773
+    }
+  },
+  "sticky_by_season": {
+    "Oklahoma 2022": {
+      "neutral_pass_rate": {
+        "value": 0.44333333333333336,
+        "n": 300
+      },
+      "sec_per_play": {
+        "value": 21.0,
+        "n": 96
+      },
+      "fourth_down_go_rate": {
+        "value": 0.7777777777777778,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.10270270270270271,
+        "n": 185
+      }
+    },
+    "Oklahoma 2023": {
+      "neutral_pass_rate": {
+        "value": 0.45121951219512196,
+        "n": 328
+      },
+      "sec_per_play": {
+        "value": 20,
+        "n": 219
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.16585365853658537,
+        "n": 205
+      }
+    },
+    "Oklahoma 2024": {
+      "neutral_pass_rate": {
+        "value": 0.38652482269503546,
+        "n": 282
+      },
+      "sec_per_play": {
+        "value": 25.0,
+        "n": 318
+      },
+      "fourth_down_go_rate": {
+        "value": 0.8,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.052980132450331126,
+        "n": 151
+      }
+    },
+    "Oklahoma 2025": {
+      "neutral_pass_rate": {
+        "value": 0.5,
+        "n": 320
+      },
+      "sec_per_play": {
+        "value": 26.5,
+        "n": 360
+      },
+      "fourth_down_go_rate": {
+        "value": 0.42857142857142855,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.11637931034482758,
+        "n": 232
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Oklahoma 2022": 0.44333333333333336,
+        "Oklahoma 2023": 0.45121951219512196,
+        "Oklahoma 2024": 0.38652482269503546,
+        "Oklahoma 2025": 0.5
+      },
+      "spread": 0.11347517730496454,
+      "n_seasons": 4
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Oklahoma 2023": 20,
+        "Oklahoma 2024": 25.0,
+        "Oklahoma 2025": 26.5
+      },
+      "spread": 6.5,
+      "n_seasons": 3
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Oklahoma 2022": 0.10270270270270271,
+        "Oklahoma 2023": 0.16585365853658537,
+        "Oklahoma 2024": 0.052980132450331126,
+        "Oklahoma 2025": 0.11637931034482758
+      },
+      "spread": 0.11287352608625426,
+      "n_seasons": 4
+    }
+  }
+}

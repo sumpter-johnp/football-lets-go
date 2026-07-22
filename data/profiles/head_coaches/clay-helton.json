@@ -1,0 +1,144 @@
+{
+  "coach": "Clay Helton",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2015,
+      "last": 2021,
+      "n_full": 4,
+      "school": "USC"
+    },
+    {
+      "first": 2022,
+      "last": 2025,
+      "n_full": 3,
+      "school": "Georgia Southern"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "USC",
+      "year": 2019,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "USC",
+      "year": 2015,
+      "reason": "partial season (9 games)"
+    },
+    {
+      "school": "USC",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "USC",
+      "year": 2021,
+      "reason": "partial season (2 games)"
+    },
+    {
+      "school": "USC",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "USC",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "USC",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Georgia Southern",
+      "year": 2022,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Georgia Southern",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Georgia Southern",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Georgia Southern",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.6592356687898089,
+      "n": 314
+    },
+    "sec_per_play": {
+      "value": 25.0,
+      "n": 281
+    },
+    "fourth_down_go_rate": {
+      "value": 0.0,
+      "n": 2
+    },
+    "explosive_pass_rate": {
+      "value": 0.1,
+      "n": 260
+    }
+  },
+  "sticky_by_season": {
+    "USC 2019": {
+      "neutral_pass_rate": {
+        "value": 0.6592356687898089,
+        "n": 314
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 281
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.1,
+        "n": 260
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "USC 2019": 0.6592356687898089
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {
+        "USC 2019": 25
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "USC 2019": 0.1
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

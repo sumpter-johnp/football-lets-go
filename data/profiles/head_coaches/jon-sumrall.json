@@ -1,0 +1,149 @@
+{
+  "coach": "Jon Sumrall",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2022,
+      "last": 2023,
+      "n_full": 2,
+      "school": "Troy"
+    },
+    {
+      "first": 2024,
+      "last": 2025,
+      "n_full": 1,
+      "school": "Tulane"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Troy",
+      "year": 2022,
+      "games": 14
+    },
+    {
+      "school": "Troy",
+      "year": 2023,
+      "games": 13
+    },
+    {
+      "school": "Tulane",
+      "year": 2024,
+      "games": 14
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Tulane",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.43859649122807015,
+      "n": 969
+    },
+    "sec_per_play": {
+      "value": 30.6046511627907,
+      "n": 516
+    },
+    "fourth_down_go_rate": {
+      "value": 0.6111111111111112,
+      "n": 18
+    },
+    "explosive_pass_rate": {
+      "value": 0.11093247588424437,
+      "n": 622
+    }
+  },
+  "sticky_by_season": {
+    "Troy 2022": {
+      "neutral_pass_rate": {
+        "value": 0.4415954415954416,
+        "n": 351
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 67
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.0970464135021097,
+        "n": 237
+      }
+    },
+    "Troy 2023": {
+      "neutral_pass_rate": {
+        "value": 0.5014084507042254,
+        "n": 355
+      },
+      "sec_per_play": {
+        "value": 24,
+        "n": 115
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5714285714285714,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.10756972111553785,
+        "n": 251
+      }
+    },
+    "Tulane 2024": {
+      "neutral_pass_rate": {
+        "value": 0.34980988593155893,
+        "n": 263
+      },
+      "sec_per_play": {
+        "value": 33.0,
+        "n": 334
+      },
+      "fourth_down_go_rate": {
+        "value": 0.8,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.1417910447761194,
+        "n": 134
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Troy 2022": 0.4415954415954416,
+        "Troy 2023": 0.5014084507042254,
+        "Tulane 2024": 0.34980988593155893
+      },
+      "spread": 0.15159856477266642,
+      "n_seasons": 3
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Tulane 2024": 33.0
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Troy 2022": 0.0970464135021097,
+        "Troy 2023": 0.10756972111553785,
+        "Tulane 2024": 0.1417910447761194
+      },
+      "spread": 0.0447446312740097,
+      "n_seasons": 3
+    }
+  }
+}

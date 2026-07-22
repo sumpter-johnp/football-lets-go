@@ -1,0 +1,287 @@
+{
+  "coach": "Dan Mullen",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2017,
+      "n_full": 4,
+      "school": "Mississippi State"
+    },
+    {
+      "first": 2018,
+      "last": 2021,
+      "n_full": 3,
+      "school": "Florida"
+    },
+    {
+      "first": 2025,
+      "last": 2025,
+      "n_full": 0,
+      "school": "UNLV"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Mississippi State",
+      "year": 2014,
+      "games": 13
+    },
+    {
+      "school": "Mississippi State",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "Mississippi State",
+      "year": 2016,
+      "games": 13
+    },
+    {
+      "school": "Mississippi State",
+      "year": 2017,
+      "games": 12
+    },
+    {
+      "school": "Florida",
+      "year": 2018,
+      "games": 13
+    },
+    {
+      "school": "Florida",
+      "year": 2019,
+      "games": 13
+    },
+    {
+      "school": "Florida",
+      "year": 2021,
+      "games": 11
+    },
+    {
+      "school": "UNLV",
+      "year": 2025,
+      "games": null
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Florida",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4592274678111588,
+      "n": 2330
+    },
+    "sec_per_play": {
+      "value": 25.387684729064038,
+      "n": 2030
+    },
+    "fourth_down_go_rate": {
+      "value": 0.34615384615384615,
+      "n": 52
+    },
+    "explosive_pass_rate": {
+      "value": 0.10392291810048176,
+      "n": 1453
+    }
+  },
+  "sticky_by_season": {
+    "Mississippi State 2014": {
+      "neutral_pass_rate": {
+        "value": 0.45454545454545453,
+        "n": 330
+      },
+      "sec_per_play": {
+        "value": 20.0,
+        "n": 330
+      },
+      "fourth_down_go_rate": {
+        "value": 0.1111111111111111,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.12437810945273632,
+        "n": 201
+      }
+    },
+    "Mississippi State 2015": {
+      "neutral_pass_rate": {
+        "value": 0.5905511811023622,
+        "n": 254
+      },
+      "sec_per_play": {
+        "value": 20,
+        "n": 179
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.1111111111111111,
+        "n": 189
+      }
+    },
+    "Mississippi State 2016": {
+      "neutral_pass_rate": {
+        "value": 0.4122137404580153,
+        "n": 262
+      },
+      "sec_per_play": {
+        "value": 23,
+        "n": 169
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.06493506493506493,
+        "n": 154
+      }
+    },
+    "Mississippi State 2017": {
+      "neutral_pass_rate": {
+        "value": 0.3220858895705521,
+        "n": 326
+      },
+      "sec_per_play": {
+        "value": 27.0,
+        "n": 300
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.07792207792207792,
+        "n": 154
+      }
+    },
+    "Florida 2018": {
+      "neutral_pass_rate": {
+        "value": 0.4124087591240876,
+        "n": 274
+      },
+      "sec_per_play": {
+        "value": 26.0,
+        "n": 254
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.08974358974358974,
+        "n": 156
+      }
+    },
+    "Florida 2019": {
+      "neutral_pass_rate": {
+        "value": 0.5634674922600619,
+        "n": 323
+      },
+      "sec_per_play": {
+        "value": 29.0,
+        "n": 320
+      },
+      "fourth_down_go_rate": {
+        "value": 0.45454545454545453,
+        "n": 11
+      },
+      "explosive_pass_rate": {
+        "value": 0.09836065573770492,
+        "n": 244
+      }
+    },
+    "Florida 2021": {
+      "neutral_pass_rate": {
+        "value": 0.4591194968553459,
+        "n": 318
+      },
+      "sec_per_play": {
+        "value": 25.0,
+        "n": 222
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.11734693877551021,
+        "n": 196
+      }
+    },
+    "UNLV 2025": {
+      "neutral_pass_rate": {
+        "value": 0.4773662551440329,
+        "n": 243
+      },
+      "sec_per_play": {
+        "value": 31.0,
+        "n": 256
+      },
+      "fourth_down_go_rate": {
+        "value": 0.75,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.13836477987421383,
+        "n": 159
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Mississippi State 2014": 0.45454545454545453,
+        "Mississippi State 2015": 0.5905511811023622,
+        "Mississippi State 2016": 0.4122137404580153,
+        "Mississippi State 2017": 0.3220858895705521,
+        "Florida 2018": 0.4124087591240876,
+        "Florida 2019": 0.5634674922600619,
+        "Florida 2021": 0.4591194968553459,
+        "UNLV 2025": 0.4773662551440329
+      },
+      "spread": 0.26846529153181004,
+      "n_seasons": 8
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Mississippi State 2014": 20.0,
+        "Mississippi State 2015": 20,
+        "Mississippi State 2016": 23,
+        "Mississippi State 2017": 27.0,
+        "Florida 2018": 26.0,
+        "Florida 2019": 29.0,
+        "Florida 2021": 25.0,
+        "UNLV 2025": 31.0
+      },
+      "spread": 11.0,
+      "n_seasons": 8
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Mississippi State 2014": 0.12437810945273632,
+        "Mississippi State 2015": 0.1111111111111111,
+        "Mississippi State 2016": 0.06493506493506493,
+        "Mississippi State 2017": 0.07792207792207792,
+        "Florida 2018": 0.08974358974358974,
+        "Florida 2019": 0.09836065573770492,
+        "Florida 2021": 0.11734693877551021,
+        "UNLV 2025": 0.13836477987421383
+      },
+      "spread": 0.0734297149391489,
+      "n_seasons": 8
+    }
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "coach": "Mark Stoops",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2025,
+      "n_full": 10,
+      "school": "Kentucky"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Kentucky",
+      "year": 2015,
+      "games": 12
+    },
+    {
+      "school": "Kentucky",
+      "year": 2023,
+      "games": 13
+    },
+    {
+      "school": "Kentucky",
+      "year": 2024,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Kentucky",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Kentucky",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Kentucky",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Kentucky",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Kentucky",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Kentucky",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Kentucky",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Kentucky",
+      "year": 2022,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Kentucky",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.44786096256684493,
+      "n": 748
+    },
+    "sec_per_play": {
+      "value": 31.28241563055062,
+      "n": 563
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5625,
+      "n": 16
+    },
+    "explosive_pass_rate": {
+      "value": 0.09603340292275574,
+      "n": 479
+    }
+  },
+  "sticky_by_season": {
+    "Kentucky 2015": {
+      "neutral_pass_rate": {
+        "value": 0.46779661016949153,
+        "n": 295
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 175
+      },
+      "fourth_down_go_rate": {
+        "value": 0.625,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.09183673469387756,
+        "n": 196
+      }
+    },
+    "Kentucky 2023": {
+      "neutral_pass_rate": {
+        "value": 0.495,
+        "n": 200
+      },
+      "sec_per_play": {
+        "value": 34.5,
+        "n": 90
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.0896551724137931,
+        "n": 145
+      }
+    },
+    "Kentucky 2024": {
+      "neutral_pass_rate": {
+        "value": 0.38735177865612647,
+        "n": 253
+      },
+      "sec_per_play": {
+        "value": 34.0,
+        "n": 298
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.10869565217391304,
+        "n": 138
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Kentucky 2015": 0.46779661016949153,
+        "Kentucky 2023": 0.495,
+        "Kentucky 2024": 0.38735177865612647
+      },
+      "spread": 0.10764822134387353,
+      "n_seasons": 3
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Kentucky 2015": 25,
+        "Kentucky 2024": 34.0
+      },
+      "spread": 9.0,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Kentucky 2015": 0.09183673469387756,
+        "Kentucky 2023": 0.0896551724137931,
+        "Kentucky 2024": 0.10869565217391304
+      },
+      "spread": 0.019040479760119938,
+      "n_seasons": 3
+    }
+  }
+}

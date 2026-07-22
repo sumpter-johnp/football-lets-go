@@ -1,0 +1,185 @@
+{
+  "coach": "Gus Malzahn",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2020,
+      "n_full": 6,
+      "school": "Auburn"
+    },
+    {
+      "first": 2021,
+      "last": 2024,
+      "n_full": 4,
+      "school": "UCF"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "UCF",
+      "year": 2021,
+      "games": 13
+    },
+    {
+      "school": "UCF",
+      "year": 2022,
+      "games": 14
+    },
+    {
+      "school": "UCF",
+      "year": 2023,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Auburn",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Auburn",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Auburn",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Auburn",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Auburn",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Auburn",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Auburn",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "UCF",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.391395592864638,
+      "n": 953
+    },
+    "sec_per_play": {
+      "value": 24.55263157894737,
+      "n": 532
+    },
+    "fourth_down_go_rate": {
+      "value": 0.3333333333333333,
+      "n": 12
+    },
+    "explosive_pass_rate": {
+      "value": 0.10095238095238095,
+      "n": 525
+    }
+  },
+  "sticky_by_season": {
+    "UCF 2021": {
+      "neutral_pass_rate": {
+        "value": 0.39403973509933776,
+        "n": 302
+      },
+      "sec_per_play": {
+        "value": 29.0,
+        "n": 166
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.09142857142857143,
+        "n": 175
+      }
+    },
+    "UCF 2022": {
+      "neutral_pass_rate": {
+        "value": 0.39502762430939226,
+        "n": 362
+      },
+      "sec_per_play": {
+        "value": 22.0,
+        "n": 268
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.07575757575757576,
+        "n": 198
+      }
+    },
+    "UCF 2023": {
+      "neutral_pass_rate": {
+        "value": 0.38408304498269896,
+        "n": 289
+      },
+      "sec_per_play": {
+        "value": 24.0,
+        "n": 98
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.14473684210526316,
+        "n": 152
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "UCF 2021": 0.39403973509933776,
+        "UCF 2022": 0.39502762430939226,
+        "UCF 2023": 0.38408304498269896
+      },
+      "spread": 0.010944579326693293,
+      "n_seasons": 3
+    },
+    "sec_per_play": {
+      "per_season": {
+        "UCF 2021": 29.0,
+        "UCF 2022": 22.0
+      },
+      "spread": 7.0,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "UCF 2021": 0.09142857142857143,
+        "UCF 2022": 0.07575757575757576,
+        "UCF 2023": 0.14473684210526316
+      },
+      "spread": 0.0689792663476874,
+      "n_seasons": 3
+    }
+  }
+}

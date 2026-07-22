@@ -1,0 +1,127 @@
+{
+  "coach": "Terry Bowden",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2018,
+      "n_full": 5,
+      "school": "Akron"
+    },
+    {
+      "first": 2021,
+      "last": 2023,
+      "n_full": 3,
+      "school": "UL Monroe"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "UL Monroe",
+      "year": 2023,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Akron",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Akron",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Akron",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Akron",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Akron",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "UL Monroe",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "UL Monroe",
+      "year": 2022,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4449152542372881,
+      "n": 236
+    },
+    "sec_per_play": {
+      "value": 28.0,
+      "n": 43
+    },
+    "fourth_down_go_rate": {
+      "value": 0.25,
+      "n": 4
+    },
+    "explosive_pass_rate": {
+      "value": 0.11612903225806452,
+      "n": 155
+    }
+  },
+  "sticky_by_season": {
+    "UL Monroe 2023": {
+      "neutral_pass_rate": {
+        "value": 0.4449152542372881,
+        "n": 236
+      },
+      "sec_per_play": {
+        "value": 28,
+        "n": 43
+      },
+      "fourth_down_go_rate": {
+        "value": 0.25,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.11612903225806452,
+        "n": 155
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "UL Monroe 2023": 0.4449152542372881
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "UL Monroe 2023": 0.11612903225806452
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

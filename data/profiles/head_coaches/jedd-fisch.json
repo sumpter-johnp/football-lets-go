@@ -1,0 +1,189 @@
+{
+  "coach": "Jedd Fisch",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2017,
+      "last": 2017,
+      "n_full": 0,
+      "school": "UCLA"
+    },
+    {
+      "first": 2021,
+      "last": 2023,
+      "n_full": 3,
+      "school": "Arizona"
+    },
+    {
+      "first": 2024,
+      "last": 2025,
+      "n_full": 1,
+      "school": "Washington"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Arizona",
+      "year": 2021,
+      "games": 12
+    },
+    {
+      "school": "Arizona",
+      "year": 2022,
+      "games": 12
+    },
+    {
+      "school": "Arizona",
+      "year": 2023,
+      "games": 13
+    },
+    {
+      "school": "Washington",
+      "year": 2024,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "UCLA",
+      "year": 2017,
+      "reason": "partial season (2 games)"
+    },
+    {
+      "school": "Washington",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.49700598802395207,
+      "n": 1169
+    },
+    "sec_per_play": {
+      "value": 30.061843640606767,
+      "n": 857
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5454545454545454,
+      "n": 33
+    },
+    "explosive_pass_rate": {
+      "value": 0.10481927710843374,
+      "n": 830
+    }
+  },
+  "sticky_by_season": {
+    "Arizona 2021": {
+      "neutral_pass_rate": {
+        "value": 0.41785714285714287,
+        "n": 280
+      },
+      "sec_per_play": {
+        "value": 24,
+        "n": 261
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4444444444444444,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.058823529411764705,
+        "n": 187
+      }
+    },
+    "Arizona 2022": {
+      "neutral_pass_rate": {
+        "value": 0.5161290322580645,
+        "n": 310
+      },
+      "sec_per_play": {
+        "value": 28.5,
+        "n": 80
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.14027149321266968,
+        "n": 221
+      }
+    },
+    "Arizona 2023": {
+      "neutral_pass_rate": {
+        "value": 0.550185873605948,
+        "n": 269
+      },
+      "sec_per_play": {
+        "value": 34,
+        "n": 191
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.12682926829268293,
+        "n": 205
+      }
+    },
+    "Washington 2024": {
+      "neutral_pass_rate": {
+        "value": 0.5032258064516129,
+        "n": 310
+      },
+      "sec_per_play": {
+        "value": 33,
+        "n": 325
+      },
+      "fourth_down_go_rate": {
+        "value": 0.375,
+        "n": 16
+      },
+      "explosive_pass_rate": {
+        "value": 0.08755760368663594,
+        "n": 217
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Arizona 2021": 0.41785714285714287,
+        "Arizona 2022": 0.5161290322580645,
+        "Arizona 2023": 0.550185873605948,
+        "Washington 2024": 0.5032258064516129
+      },
+      "spread": 0.13232873074880508,
+      "n_seasons": 4
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Arizona 2021": 24,
+        "Arizona 2023": 34,
+        "Washington 2024": 33
+      },
+      "spread": 10,
+      "n_seasons": 3
+    },
+    "fourth_down_go_rate": {
+      "per_season": {
+        "Washington 2024": 0.375
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Arizona 2021": 0.058823529411764705,
+        "Arizona 2022": 0.14027149321266968,
+        "Arizona 2023": 0.12682926829268293,
+        "Washington 2024": 0.08755760368663594
+      },
+      "spread": 0.08144796380090498,
+      "n_seasons": 4
+    }
+  }
+}

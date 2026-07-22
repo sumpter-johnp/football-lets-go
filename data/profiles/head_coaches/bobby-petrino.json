@@ -1,0 +1,179 @@
+{
+  "coach": "Bobby Petrino",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2017,
+      "n_full": 4,
+      "school": "Louisville"
+    },
+    {
+      "first": 2018,
+      "last": 2018,
+      "n_full": 1,
+      "school": "Western Kentucky"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Louisville",
+      "year": 2014,
+      "games": 13
+    },
+    {
+      "school": "Louisville",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "Louisville",
+      "year": 2016,
+      "games": 13
+    },
+    {
+      "school": "Louisville",
+      "year": 2017,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Western Kentucky",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.455188679245283,
+      "n": 1272
+    },
+    "sec_per_play": {
+      "value": 26.515930113052416,
+      "n": 973
+    },
+    "fourth_down_go_rate": {
+      "value": 0.30434782608695654,
+      "n": 23
+    },
+    "explosive_pass_rate": {
+      "value": 0.11581569115815692,
+      "n": 803
+    }
+  },
+  "sticky_by_season": {
+    "Louisville 2014": {
+      "neutral_pass_rate": {
+        "value": 0.4464751958224543,
+        "n": 383
+      },
+      "sec_per_play": {
+        "value": 27,
+        "n": 283
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.12916666666666668,
+        "n": 240
+      }
+    },
+    "Louisville 2015": {
+      "neutral_pass_rate": {
+        "value": 0.49230769230769234,
+        "n": 325
+      },
+      "sec_per_play": {
+        "value": 26,
+        "n": 189
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3076923076923077,
+        "n": 13
+      },
+      "explosive_pass_rate": {
+        "value": 0.10900473933649289,
+        "n": 211
+      }
+    },
+    "Louisville 2016": {
+      "neutral_pass_rate": {
+        "value": 0.42857142857142855,
+        "n": 231
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 261
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.13768115942028986,
+        "n": 138
+      }
+    },
+    "Louisville 2017": {
+      "neutral_pass_rate": {
+        "value": 0.44744744744744747,
+        "n": 333
+      },
+      "sec_per_play": {
+        "value": 28.0,
+        "n": 240
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.09345794392523364,
+        "n": 214
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Louisville 2014": 0.4464751958224543,
+        "Louisville 2015": 0.49230769230769234,
+        "Louisville 2016": 0.42857142857142855,
+        "Louisville 2017": 0.44744744744744747
+      },
+      "spread": 0.06373626373626379,
+      "n_seasons": 4
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Louisville 2014": 27,
+        "Louisville 2015": 26,
+        "Louisville 2016": 25,
+        "Louisville 2017": 28.0
+      },
+      "spread": 3.0,
+      "n_seasons": 4
+    },
+    "fourth_down_go_rate": {
+      "per_season": {
+        "Louisville 2015": 0.3076923076923077
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Louisville 2014": 0.12916666666666668,
+        "Louisville 2015": 0.10900473933649289,
+        "Louisville 2016": 0.13768115942028986,
+        "Louisville 2017": 0.09345794392523364
+      },
+      "spread": 0.044223215495056215,
+      "n_seasons": 4
+    }
+  }
+}

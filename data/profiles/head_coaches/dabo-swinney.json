@@ -1,0 +1,164 @@
+{
+  "coach": "Dabo Swinney",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2025,
+      "n_full": 10,
+      "school": "Clemson"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Clemson",
+      "year": 2022,
+      "games": 14
+    },
+    {
+      "school": "Clemson",
+      "year": 2023,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Clemson",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Clemson",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Clemson",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Clemson",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Clemson",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Clemson",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Clemson",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Clemson",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Clemson",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Clemson",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4660574412532637,
+      "n": 766
+    },
+    "sec_per_play": {
+      "value": 27.061692969870876,
+      "n": 697
+    },
+    "fourth_down_go_rate": {
+      "value": 0.3333333333333333,
+      "n": 9
+    },
+    "explosive_pass_rate": {
+      "value": 0.08582834331337326,
+      "n": 501
+    }
+  },
+  "sticky_by_season": {
+    "Clemson 2022": {
+      "neutral_pass_rate": {
+        "value": 0.4423076923076923,
+        "n": 364
+      },
+      "sec_per_play": {
+        "value": 26.5,
+        "n": 436
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2857142857142857,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.10964912280701754,
+        "n": 228
+      }
+    },
+    "Clemson 2023": {
+      "neutral_pass_rate": {
+        "value": 0.48756218905472637,
+        "n": 402
+      },
+      "sec_per_play": {
+        "value": 28,
+        "n": 261
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.06593406593406594,
+        "n": 273
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Clemson 2022": 0.4423076923076923,
+        "Clemson 2023": 0.48756218905472637
+      },
+      "spread": 0.04525449674703408,
+      "n_seasons": 2
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Clemson 2022": 26.5,
+        "Clemson 2023": 28
+      },
+      "spread": 1.5,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Clemson 2022": 0.10964912280701754,
+        "Clemson 2023": 0.06593406593406594
+      },
+      "spread": 0.0437150568729516,
+      "n_seasons": 2
+    }
+  }
+}

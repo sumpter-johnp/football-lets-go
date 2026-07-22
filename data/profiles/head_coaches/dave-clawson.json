@@ -1,0 +1,138 @@
+{
+  "coach": "Dave Clawson",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2024,
+      "n_full": 10,
+      "school": "Wake Forest"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Wake Forest",
+      "year": 2024,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Wake Forest",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Wake Forest",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Wake Forest",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Wake Forest",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Wake Forest",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Wake Forest",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Wake Forest",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Wake Forest",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Wake Forest",
+      "year": 2022,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Wake Forest",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4617737003058104,
+      "n": 327
+    },
+    "sec_per_play": {
+      "value": 28.0,
+      "n": 173
+    },
+    "fourth_down_go_rate": {
+      "value": 0.7142857142857143,
+      "n": 7
+    },
+    "explosive_pass_rate": {
+      "value": 0.08780487804878048,
+      "n": 205
+    }
+  },
+  "sticky_by_season": {
+    "Wake Forest 2024": {
+      "neutral_pass_rate": {
+        "value": 0.4617737003058104,
+        "n": 327
+      },
+      "sec_per_play": {
+        "value": 28,
+        "n": 173
+      },
+      "fourth_down_go_rate": {
+        "value": 0.7142857142857143,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.08780487804878048,
+        "n": 205
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Wake Forest 2024": 0.4617737003058104
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Wake Forest 2024": 28
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Wake Forest 2024": 0.08780487804878048
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

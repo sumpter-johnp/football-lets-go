@@ -1,0 +1,196 @@
+{
+  "coach": "Mack Brown",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2019,
+      "last": 2024,
+      "n_full": 5,
+      "school": "North Carolina"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "North Carolina",
+      "year": 2019,
+      "games": 13
+    },
+    {
+      "school": "North Carolina",
+      "year": 2021,
+      "games": 13
+    },
+    {
+      "school": "North Carolina",
+      "year": 2022,
+      "games": 14
+    },
+    {
+      "school": "North Carolina",
+      "year": 2023,
+      "games": 13
+    },
+    {
+      "school": "North Carolina",
+      "year": 2024,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "North Carolina",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.46001202645820805,
+      "n": 1663
+    },
+    "sec_per_play": {
+      "value": 26.98628795298727,
+      "n": 1021
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5,
+      "n": 28
+    },
+    "explosive_pass_rate": {
+      "value": 0.11173708920187793,
+      "n": 1065
+    }
+  },
+  "sticky_by_season": {
+    "North Carolina 2019": {
+      "neutral_pass_rate": {
+        "value": 0.45987654320987653,
+        "n": 324
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 131
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.14285714285714285,
+        "n": 210
+      }
+    },
+    "North Carolina 2021": {
+      "neutral_pass_rate": {
+        "value": 0.3868312757201646,
+        "n": 243
+      },
+      "sec_per_play": {
+        "value": 26,
+        "n": 203
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.1328125,
+        "n": 128
+      }
+    },
+    "North Carolina 2022": {
+      "neutral_pass_rate": {
+        "value": 0.5110565110565111,
+        "n": 407
+      },
+      "sec_per_play": {
+        "value": 26,
+        "n": 301
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.10877192982456141,
+        "n": 285
+      }
+    },
+    "North Carolina 2023": {
+      "neutral_pass_rate": {
+        "value": 0.4959785522788204,
+        "n": 373
+      },
+      "sec_per_play": {
+        "value": 28,
+        "n": 203
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6666666666666666,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.09387755102040816,
+        "n": 245
+      }
+    },
+    "North Carolina 2024": {
+      "neutral_pass_rate": {
+        "value": 0.40822784810126583,
+        "n": 316
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 183
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6666666666666666,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.09137055837563451,
+        "n": 197
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "North Carolina 2019": 0.45987654320987653,
+        "North Carolina 2021": 0.3868312757201646,
+        "North Carolina 2022": 0.5110565110565111,
+        "North Carolina 2023": 0.4959785522788204,
+        "North Carolina 2024": 0.40822784810126583
+      },
+      "spread": 0.12422523533634644,
+      "n_seasons": 5
+    },
+    "sec_per_play": {
+      "per_season": {
+        "North Carolina 2021": 26,
+        "North Carolina 2022": 26,
+        "North Carolina 2023": 28,
+        "North Carolina 2024": 30
+      },
+      "spread": 4,
+      "n_seasons": 4
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "North Carolina 2019": 0.14285714285714285,
+        "North Carolina 2021": 0.1328125,
+        "North Carolina 2022": 0.10877192982456141,
+        "North Carolina 2023": 0.09387755102040816,
+        "North Carolina 2024": 0.09137055837563451
+      },
+      "spread": 0.051486584481508335,
+      "n_seasons": 5
+    }
+  }
+}

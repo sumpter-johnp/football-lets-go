@@ -1,0 +1,205 @@
+{
+  "coach": "Kyle Whittingham",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2025,
+      "n_full": 10,
+      "school": "Utah"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Utah",
+      "year": 2017,
+      "games": 13
+    },
+    {
+      "school": "Utah",
+      "year": 2018,
+      "games": 14
+    },
+    {
+      "school": "Utah",
+      "year": 2024,
+      "games": 12
+    },
+    {
+      "school": "Utah",
+      "year": 2025,
+      "games": null
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Utah",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Utah",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Utah",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Utah",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Utah",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Utah",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Utah",
+      "year": 2022,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Utah",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4124293785310734,
+      "n": 1239
+    },
+    "sec_per_play": {
+      "value": 30.555885262116718,
+      "n": 1011
+    },
+    "fourth_down_go_rate": {
+      "value": 0.37037037037037035,
+      "n": 27
+    },
+    "explosive_pass_rate": {
+      "value": 0.09876543209876543,
+      "n": 729
+    }
+  },
+  "sticky_by_season": {
+    "Utah 2017": {
+      "neutral_pass_rate": {
+        "value": 0.42138364779874216,
+        "n": 318
+      },
+      "sec_per_play": {
+        "value": 28.0,
+        "n": 140
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.10106382978723404,
+        "n": 188
+      }
+    },
+    "Utah 2018": {
+      "neutral_pass_rate": {
+        "value": 0.38372093023255816,
+        "n": 344
+      },
+      "sec_per_play": {
+        "value": 29.0,
+        "n": 154
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.09947643979057591,
+        "n": 191
+      }
+    },
+    "Utah 2024": {
+      "neutral_pass_rate": {
+        "value": 0.44074074074074077,
+        "n": 270
+      },
+      "sec_per_play": {
+        "value": 38.0,
+        "n": 322
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2857142857142857,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.09826589595375723,
+        "n": 173
+      }
+    },
+    "Utah 2025": {
+      "neutral_pass_rate": {
+        "value": 0.41042345276872966,
+        "n": 307
+      },
+      "sec_per_play": {
+        "value": 26,
+        "n": 395
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.096045197740113,
+        "n": 177
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Utah 2017": 0.42138364779874216,
+        "Utah 2018": 0.38372093023255816,
+        "Utah 2024": 0.44074074074074077,
+        "Utah 2025": 0.41042345276872966
+      },
+      "spread": 0.05701981050818261,
+      "n_seasons": 4
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Utah 2018": 29.0,
+        "Utah 2024": 38.0,
+        "Utah 2025": 26
+      },
+      "spread": 12.0,
+      "n_seasons": 3
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Utah 2017": 0.10106382978723404,
+        "Utah 2018": 0.09947643979057591,
+        "Utah 2024": 0.09826589595375723,
+        "Utah 2025": 0.096045197740113
+      },
+      "spread": 0.005018632047121038,
+      "n_seasons": 4
+    }
+  }
+}

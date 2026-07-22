@@ -1,0 +1,194 @@
+{
+  "coach": "Tim Albin",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2021,
+      "last": 2024,
+      "n_full": 4,
+      "school": "Ohio"
+    },
+    {
+      "first": 2025,
+      "last": 2025,
+      "n_full": 0,
+      "school": "Charlotte"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Ohio",
+      "year": 2021,
+      "games": 12
+    },
+    {
+      "school": "Ohio",
+      "year": 2022,
+      "games": 14
+    },
+    {
+      "school": "Ohio",
+      "year": 2023,
+      "games": 13
+    },
+    {
+      "school": "Ohio",
+      "year": 2024,
+      "games": 14
+    },
+    {
+      "school": "Charlotte",
+      "year": 2025,
+      "games": null
+    }
+  ],
+  "seasons_excluded": [],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4195323246217332,
+      "n": 1454
+    },
+    "sec_per_play": {
+      "value": 32.58343634116193,
+      "n": 809
+    },
+    "fourth_down_go_rate": {
+      "value": 0.32142857142857145,
+      "n": 28
+    },
+    "explosive_pass_rate": {
+      "value": 0.10253456221198157,
+      "n": 868
+    }
+  },
+  "sticky_by_season": {
+    "Ohio 2021": {
+      "neutral_pass_rate": {
+        "value": 0.3024193548387097,
+        "n": 248
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 111
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.09166666666666666,
+        "n": 120
+      }
+    },
+    "Ohio 2022": {
+      "neutral_pass_rate": {
+        "value": 0.464,
+        "n": 375
+      },
+      "sec_per_play": {
+        "value": 32,
+        "n": 239
+      },
+      "fourth_down_go_rate": {
+        "value": 0.25,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.13333333333333333,
+        "n": 240
+      }
+    },
+    "Ohio 2023": {
+      "neutral_pass_rate": {
+        "value": 0.4662756598240469,
+        "n": 341
+      },
+      "sec_per_play": {
+        "value": 34,
+        "n": 113
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.09009009009009009,
+        "n": 222
+      }
+    },
+    "Ohio 2024": {
+      "neutral_pass_rate": {
+        "value": 0.4061433447098976,
+        "n": 293
+      },
+      "sec_per_play": {
+        "value": 36,
+        "n": 117
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2727272727272727,
+        "n": 11
+      },
+      "explosive_pass_rate": {
+        "value": 0.08496732026143791,
+        "n": 153
+      }
+    },
+    "Charlotte 2025": {
+      "neutral_pass_rate": {
+        "value": 0.4213197969543147,
+        "n": 197
+      },
+      "sec_per_play": {
+        "value": 32,
+        "n": 229
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.09774436090225563,
+        "n": 133
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Ohio 2021": 0.3024193548387097,
+        "Ohio 2022": 0.464,
+        "Ohio 2023": 0.4662756598240469,
+        "Ohio 2024": 0.4061433447098976,
+        "Charlotte 2025": 0.4213197969543147
+      },
+      "spread": 0.1638563049853372,
+      "n_seasons": 5
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Ohio 2022": 32,
+        "Charlotte 2025": 32
+      },
+      "spread": 0,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Ohio 2021": 0.09166666666666666,
+        "Ohio 2022": 0.13333333333333333,
+        "Ohio 2023": 0.09009009009009009,
+        "Ohio 2024": 0.08496732026143791,
+        "Charlotte 2025": 0.09774436090225563
+      },
+      "spread": 0.04836601307189542,
+      "n_seasons": 5
+    }
+  }
+}

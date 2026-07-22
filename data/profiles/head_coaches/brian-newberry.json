@@ -1,0 +1,117 @@
+{
+  "coach": "Brian Newberry",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2023,
+      "last": 2025,
+      "n_full": 2,
+      "school": "Navy"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Navy",
+      "year": 2023,
+      "games": 12
+    },
+    {
+      "school": "Navy",
+      "year": 2024,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Navy",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.16521739130434782,
+      "n": 460
+    },
+    "sec_per_play": {
+      "value": 33.50207468879668,
+      "n": 241
+    },
+    "fourth_down_go_rate": {
+      "value": 0.4375,
+      "n": 16
+    },
+    "explosive_pass_rate": {
+      "value": 0.10714285714285714,
+      "n": 140
+    }
+  },
+  "sticky_by_season": {
+    "Navy 2023": {
+      "neutral_pass_rate": {
+        "value": 0.152,
+        "n": 250
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 30
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 12
+      },
+      "explosive_pass_rate": {
+        "value": 0.08,
+        "n": 75
+      }
+    },
+    "Navy 2024": {
+      "neutral_pass_rate": {
+        "value": 0.18095238095238095,
+        "n": 210
+      },
+      "sec_per_play": {
+        "value": 34,
+        "n": 211
+      },
+      "fourth_down_go_rate": {
+        "value": 0.75,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.13846153846153847,
+        "n": 65
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Navy 2023": 0.152,
+        "Navy 2024": 0.18095238095238095
+      },
+      "spread": 0.02895238095238095,
+      "n_seasons": 2
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Navy 2024": 34
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {
+        "Navy 2023": 0.3333333333333333
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "explosive_pass_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    }
+  }
+}

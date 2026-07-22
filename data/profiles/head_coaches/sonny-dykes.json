@@ -1,0 +1,232 @@
+{
+  "coach": "Sonny Dykes",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2016,
+      "n_full": 3,
+      "school": "California"
+    },
+    {
+      "first": 2018,
+      "last": 2021,
+      "n_full": 3,
+      "school": "SMU"
+    },
+    {
+      "first": 2022,
+      "last": 2025,
+      "n_full": 3,
+      "school": "TCU"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "SMU",
+      "year": 2021,
+      "games": 12
+    },
+    {
+      "school": "TCU",
+      "year": 2022,
+      "games": 15
+    },
+    {
+      "school": "TCU",
+      "year": 2023,
+      "games": 12
+    },
+    {
+      "school": "TCU",
+      "year": 2024,
+      "games": 13
+    },
+    {
+      "school": "TCU",
+      "year": 2025,
+      "games": null
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "SMU",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "California",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "California",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "California",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "SMU",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "SMU",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.5224171539961013,
+      "n": 1539
+    },
+    "sec_per_play": {
+      "value": 26.701906412478337,
+      "n": 1154
+    },
+    "fourth_down_go_rate": {
+      "value": 0.47619047619047616,
+      "n": 21
+    },
+    "explosive_pass_rate": {
+      "value": 0.1057866184448463,
+      "n": 1106
+    }
+  },
+  "sticky_by_season": {
+    "SMU 2021": {
+      "neutral_pass_rate": {
+        "value": 0.5335463258785943,
+        "n": 313
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 77
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.13274336283185842,
+        "n": 226
+      }
+    },
+    "TCU 2022": {
+      "neutral_pass_rate": {
+        "value": 0.4935483870967742,
+        "n": 310
+      },
+      "sec_per_play": {
+        "value": 27.5,
+        "n": 348
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.11467889908256881,
+        "n": 218
+      }
+    },
+    "TCU 2023": {
+      "neutral_pass_rate": {
+        "value": 0.506993006993007,
+        "n": 286
+      },
+      "sec_per_play": {
+        "value": 27.5,
+        "n": 56
+      },
+      "fourth_down_go_rate": {
+        "value": 0.25,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.09359605911330049,
+        "n": 203
+      }
+    },
+    "TCU 2024": {
+      "neutral_pass_rate": {
+        "value": 0.5649122807017544,
+        "n": 285
+      },
+      "sec_per_play": {
+        "value": 27,
+        "n": 281
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.10747663551401869,
+        "n": 214
+      }
+    },
+    "TCU 2025": {
+      "neutral_pass_rate": {
+        "value": 0.5159420289855072,
+        "n": 345
+      },
+      "sec_per_play": {
+        "value": 26.0,
+        "n": 392
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 1
+      },
+      "explosive_pass_rate": {
+        "value": 0.08163265306122448,
+        "n": 245
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "SMU 2021": 0.5335463258785943,
+        "TCU 2022": 0.4935483870967742,
+        "TCU 2023": 0.506993006993007,
+        "TCU 2024": 0.5649122807017544,
+        "TCU 2025": 0.5159420289855072
+      },
+      "spread": 0.07136389360498019,
+      "n_seasons": 5
+    },
+    "sec_per_play": {
+      "per_season": {
+        "TCU 2022": 27.5,
+        "TCU 2024": 27,
+        "TCU 2025": 26.0
+      },
+      "spread": 1.5,
+      "n_seasons": 3
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "SMU 2021": 0.13274336283185842,
+        "TCU 2022": 0.11467889908256881,
+        "TCU 2023": 0.09359605911330049,
+        "TCU 2024": 0.10747663551401869,
+        "TCU 2025": 0.08163265306122448
+      },
+      "spread": 0.051110709770633936,
+      "n_seasons": 5
+    }
+  }
+}

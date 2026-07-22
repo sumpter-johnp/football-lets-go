@@ -1,0 +1,239 @@
+{
+  "coach": "Tom Herman",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2015,
+      "last": 2016,
+      "n_full": 2,
+      "school": "Houston"
+    },
+    {
+      "first": 2017,
+      "last": 2020,
+      "n_full": 3,
+      "school": "Texas"
+    },
+    {
+      "first": 2023,
+      "last": 2024,
+      "n_full": 2,
+      "school": "Florida Atlantic"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Houston",
+      "year": 2015,
+      "games": 14
+    },
+    {
+      "school": "Houston",
+      "year": 2016,
+      "games": 12
+    },
+    {
+      "school": "Texas",
+      "year": 2017,
+      "games": 13
+    },
+    {
+      "school": "Texas",
+      "year": 2018,
+      "games": 14
+    },
+    {
+      "school": "Texas",
+      "year": 2019,
+      "games": 13
+    },
+    {
+      "school": "Florida Atlantic",
+      "year": 2023,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Texas",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Florida Atlantic",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.45164556962025315,
+      "n": 1975
+    },
+    "sec_per_play": {
+      "value": 23.86254295532646,
+      "n": 1455
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5384615384615384,
+      "n": 39
+    },
+    "explosive_pass_rate": {
+      "value": 0.10514198004604758,
+      "n": 1303
+    }
+  },
+  "sticky_by_season": {
+    "Houston 2015": {
+      "neutral_pass_rate": {
+        "value": 0.4117647058823529,
+        "n": 357
+      },
+      "sec_per_play": {
+        "value": 20.0,
+        "n": 206
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.08878504672897196,
+        "n": 214
+      }
+    },
+    "Houston 2016": {
+      "neutral_pass_rate": {
+        "value": 0.4783950617283951,
+        "n": 324
+      },
+      "sec_per_play": {
+        "value": 23.0,
+        "n": 378
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5714285714285714,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.09954751131221719,
+        "n": 221
+      }
+    },
+    "Texas 2017": {
+      "neutral_pass_rate": {
+        "value": 0.4463087248322148,
+        "n": 298
+      },
+      "sec_per_play": {
+        "value": 26.0,
+        "n": 240
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.09547738693467336,
+        "n": 199
+      }
+    },
+    "Texas 2018": {
+      "neutral_pass_rate": {
+        "value": 0.44502617801047123,
+        "n": 382
+      },
+      "sec_per_play": {
+        "value": 25.0,
+        "n": 326
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.13580246913580246,
+        "n": 243
+      }
+    },
+    "Texas 2019": {
+      "neutral_pass_rate": {
+        "value": 0.45187165775401067,
+        "n": 374
+      },
+      "sec_per_play": {
+        "value": 24.0,
+        "n": 298
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.0975609756097561,
+        "n": 246
+      }
+    },
+    "Florida Atlantic 2023": {
+      "neutral_pass_rate": {
+        "value": 0.49166666666666664,
+        "n": 240
+      },
+      "sec_per_play": {
+        "value": 52,
+        "n": 7
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.1111111111111111,
+        "n": 180
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Houston 2015": 0.4117647058823529,
+        "Houston 2016": 0.4783950617283951,
+        "Texas 2017": 0.4463087248322148,
+        "Texas 2018": 0.44502617801047123,
+        "Texas 2019": 0.45187165775401067,
+        "Florida Atlantic 2023": 0.49166666666666664
+      },
+      "spread": 0.07990196078431372,
+      "n_seasons": 6
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Houston 2015": 20.0,
+        "Houston 2016": 23.0,
+        "Texas 2017": 26.0,
+        "Texas 2018": 25.0,
+        "Texas 2019": 24.0
+      },
+      "spread": 6.0,
+      "n_seasons": 5
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Houston 2015": 0.08878504672897196,
+        "Houston 2016": 0.09954751131221719,
+        "Texas 2017": 0.09547738693467336,
+        "Texas 2018": 0.13580246913580246,
+        "Texas 2019": 0.0975609756097561,
+        "Florida Atlantic 2023": 0.1111111111111111
+      },
+      "spread": 0.0470174224068305,
+      "n_seasons": 6
+    }
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "coach": "Brian Kelly",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2021,
+      "n_full": 7,
+      "school": "Notre Dame"
+    },
+    {
+      "first": 2022,
+      "last": 2025,
+      "n_full": 3,
+      "school": "LSU"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Notre Dame",
+      "year": 2014,
+      "games": 13
+    },
+    {
+      "school": "Notre Dame",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "Notre Dame",
+      "year": 2016,
+      "games": 12
+    },
+    {
+      "school": "Notre Dame",
+      "year": 2017,
+      "games": 13
+    },
+    {
+      "school": "Notre Dame",
+      "year": 2018,
+      "games": 13
+    },
+    {
+      "school": "Notre Dame",
+      "year": 2019,
+      "games": 13
+    },
+    {
+      "school": "Notre Dame",
+      "year": 2021,
+      "games": 12
+    },
+    {
+      "school": "LSU",
+      "year": 2022,
+      "games": 14
+    },
+    {
+      "school": "LSU",
+      "year": 2023,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Notre Dame",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "LSU",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "LSU",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.466143977191732,
+      "n": 2806
+    },
+    "sec_per_play": {
+      "value": 25.352552969781176,
+      "n": 2879
+    },
+    "fourth_down_go_rate": {
+      "value": 0.4375,
+      "n": 48
+    },
+    "explosive_pass_rate": {
+      "value": 0.11395219566425792,
+      "n": 1799
+    }
+  },
+  "sticky_by_season": {
+    "Notre Dame 2014": {
+      "neutral_pass_rate": {
+        "value": 0.4444444444444444,
+        "n": 369
+      },
+      "sec_per_play": {
+        "value": 25.0,
+        "n": 416
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2857142857142857,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.10869565217391304,
+        "n": 230
+      }
+    },
+    "Notre Dame 2015": {
+      "neutral_pass_rate": {
+        "value": 0.43205574912891986,
+        "n": 287
+      },
+      "sec_per_play": {
+        "value": 27.0,
+        "n": 336
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.11515151515151516,
+        "n": 165
+      }
+    },
+    "Notre Dame 2016": {
+      "neutral_pass_rate": {
+        "value": 0.40808823529411764,
+        "n": 272
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 185
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2857142857142857,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.147239263803681,
+        "n": 163
+      }
+    },
+    "Notre Dame 2017": {
+      "neutral_pass_rate": {
+        "value": 0.3728813559322034,
+        "n": 295
+      },
+      "sec_per_play": {
+        "value": 21,
+        "n": 331
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.11949685534591195,
+        "n": 159
+      }
+    },
+    "Notre Dame 2018": {
+      "neutral_pass_rate": {
+        "value": 0.5063291139240507,
+        "n": 316
+      },
+      "sec_per_play": {
+        "value": 22,
+        "n": 321
+      },
+      "fourth_down_go_rate": {
+        "value": 0.8,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.10407239819004525,
+        "n": 221
+      }
+    },
+    "Notre Dame 2019": {
+      "neutral_pass_rate": {
+        "value": 0.5107913669064749,
+        "n": 278
+      },
+      "sec_per_play": {
+        "value": 24,
+        "n": 313
+      },
+      "fourth_down_go_rate": {
+        "value": 0.14285714285714285,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.09895833333333333,
+        "n": 192
+      }
+    },
+    "Notre Dame 2021": {
+      "neutral_pass_rate": {
+        "value": 0.5263157894736842,
+        "n": 342
+      },
+      "sec_per_play": {
+        "value": 27.0,
+        "n": 412
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.10116731517509728,
+        "n": 257
+      }
+    },
+    "LSU 2022": {
+      "neutral_pass_rate": {
+        "value": 0.47477744807121663,
+        "n": 337
+      },
+      "sec_per_play": {
+        "value": 28,
+        "n": 353
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.0892018779342723,
+        "n": 213
+      }
+    },
+    "LSU 2023": {
+      "neutral_pass_rate": {
+        "value": 0.5064516129032258,
+        "n": 310
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 212
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.15577889447236182,
+        "n": 199
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Notre Dame 2014": 0.4444444444444444,
+        "Notre Dame 2015": 0.43205574912891986,
+        "Notre Dame 2016": 0.40808823529411764,
+        "Notre Dame 2017": 0.3728813559322034,
+        "Notre Dame 2018": 0.5063291139240507,
+        "Notre Dame 2019": 0.5107913669064749,
+        "Notre Dame 2021": 0.5263157894736842,
+        "LSU 2022": 0.47477744807121663,
+        "LSU 2023": 0.5064516129032258
+      },
+      "spread": 0.15343443354148079,
+      "n_seasons": 9
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Notre Dame 2014": 25.0,
+        "Notre Dame 2015": 27.0,
+        "Notre Dame 2016": 25,
+        "Notre Dame 2017": 21,
+        "Notre Dame 2018": 22,
+        "Notre Dame 2019": 24,
+        "Notre Dame 2021": 27.0,
+        "LSU 2022": 28,
+        "LSU 2023": 30.0
+      },
+      "spread": 9.0,
+      "n_seasons": 9
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Notre Dame 2014": 0.10869565217391304,
+        "Notre Dame 2015": 0.11515151515151516,
+        "Notre Dame 2016": 0.147239263803681,
+        "Notre Dame 2017": 0.11949685534591195,
+        "Notre Dame 2018": 0.10407239819004525,
+        "Notre Dame 2019": 0.09895833333333333,
+        "Notre Dame 2021": 0.10116731517509728,
+        "LSU 2022": 0.0892018779342723,
+        "LSU 2023": 0.15577889447236182
+      },
+      "spread": 0.06657701653808952,
+      "n_seasons": 9
+    }
+  }
+}

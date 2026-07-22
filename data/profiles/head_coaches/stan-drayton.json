@@ -1,0 +1,98 @@
+{
+  "coach": "Stan Drayton",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2022,
+      "last": 2024,
+      "n_full": 3,
+      "school": "Temple"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Temple",
+      "year": 2024,
+      "games": 10
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Temple",
+      "year": 2022,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Temple",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.47342995169082125,
+      "n": 207
+    },
+    "sec_per_play": {
+      "value": 32.0,
+      "n": 243
+    },
+    "fourth_down_go_rate": {
+      "value": 0.0,
+      "n": 1
+    },
+    "explosive_pass_rate": {
+      "value": 0.06802721088435375,
+      "n": 147
+    }
+  },
+  "sticky_by_season": {
+    "Temple 2024": {
+      "neutral_pass_rate": {
+        "value": 0.47342995169082125,
+        "n": 207
+      },
+      "sec_per_play": {
+        "value": 32,
+        "n": 243
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 1
+      },
+      "explosive_pass_rate": {
+        "value": 0.06802721088435375,
+        "n": 147
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Temple 2024": 0.47342995169082125
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Temple 2024": 32
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Temple 2024": 0.06802721088435375
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

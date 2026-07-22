@@ -1,0 +1,302 @@
+{
+  "coach": "Ken Niumatalolo",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2022,
+      "n_full": 8,
+      "school": "Navy"
+    },
+    {
+      "first": 2024,
+      "last": 2025,
+      "n_full": 1,
+      "school": "San Jos\u00e9 State"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Navy",
+      "year": 2014,
+      "games": 13
+    },
+    {
+      "school": "Navy",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "Navy",
+      "year": 2016,
+      "games": 14
+    },
+    {
+      "school": "Navy",
+      "year": 2017,
+      "games": 13
+    },
+    {
+      "school": "Navy",
+      "year": 2018,
+      "games": 13
+    },
+    {
+      "school": "Navy",
+      "year": 2019,
+      "games": 13
+    },
+    {
+      "school": "Navy",
+      "year": 2021,
+      "games": 12
+    },
+    {
+      "school": "Navy",
+      "year": 2022,
+      "games": 12
+    },
+    {
+      "school": "San Jos\u00e9 State",
+      "year": 2024,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Navy",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "San Jos\u00e9 State",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.17584041374214998,
+      "n": 2707
+    },
+    "sec_per_play": {
+      "value": 32.32537517053206,
+      "n": 1466
+    },
+    "fourth_down_go_rate": {
+      "value": 0.6388888888888888,
+      "n": 72
+    },
+    "explosive_pass_rate": {
+      "value": 0.1590909090909091,
+      "n": 660
+    }
+  },
+  "sticky_by_season": {
+    "Navy 2014": {
+      "neutral_pass_rate": {
+        "value": 0.13623188405797101,
+        "n": 345
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 152
+      },
+      "fourth_down_go_rate": {
+        "value": 0.75,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.1044776119402985,
+        "n": 67
+      }
+    },
+    "Navy 2015": {
+      "neutral_pass_rate": {
+        "value": 0.16556291390728478,
+        "n": 302
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 147
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.18181818181818182,
+        "n": 66
+      }
+    },
+    "Navy 2016": {
+      "neutral_pass_rate": {
+        "value": 0.15015015015015015,
+        "n": 333
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 114
+      },
+      "fourth_down_go_rate": {
+        "value": 0.75,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.19402985074626866,
+        "n": 67
+      }
+    },
+    "Navy 2017": {
+      "neutral_pass_rate": {
+        "value": 0.05604719764011799,
+        "n": 339
+      },
+      "sec_per_play": {
+        "value": 33.0,
+        "n": 192
+      },
+      "fourth_down_go_rate": {
+        "value": 0.8888888888888888,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.1724137931034483,
+        "n": 29
+      }
+    },
+    "Navy 2018": {
+      "neutral_pass_rate": {
+        "value": 0.0962962962962963,
+        "n": 270
+      },
+      "sec_per_play": {
+        "value": 34.0,
+        "n": 50
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4444444444444444,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.19047619047619047,
+        "n": 42
+      }
+    },
+    "Navy 2019": {
+      "neutral_pass_rate": {
+        "value": 0.12043795620437957,
+        "n": 274
+      },
+      "sec_per_play": {
+        "value": 34.0,
+        "n": 160
+      },
+      "fourth_down_go_rate": {
+        "value": 0.8,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.20930232558139536,
+        "n": 43
+      }
+    },
+    "Navy 2021": {
+      "neutral_pass_rate": {
+        "value": 0.0944055944055944,
+        "n": 286
+      },
+      "sec_per_play": {
+        "value": 35.0,
+        "n": 178
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5833333333333334,
+        "n": 12
+      },
+      "explosive_pass_rate": {
+        "value": 0.15217391304347827,
+        "n": 46
+      }
+    },
+    "Navy 2022": {
+      "neutral_pass_rate": {
+        "value": 0.09174311926605505,
+        "n": 218
+      },
+      "sec_per_play": {
+        "value": 36.0,
+        "n": 126
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.12121212121212122,
+        "n": 33
+      }
+    },
+    "San Jos\u00e9 State 2024": {
+      "neutral_pass_rate": {
+        "value": 0.6,
+        "n": 340
+      },
+      "sec_per_play": {
+        "value": 31,
+        "n": 347
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.149812734082397,
+        "n": 267
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Navy 2014": 0.13623188405797101,
+        "Navy 2015": 0.16556291390728478,
+        "Navy 2016": 0.15015015015015015,
+        "Navy 2017": 0.05604719764011799,
+        "Navy 2018": 0.0962962962962963,
+        "Navy 2019": 0.12043795620437957,
+        "Navy 2021": 0.0944055944055944,
+        "Navy 2022": 0.09174311926605505,
+        "San Jos\u00e9 State 2024": 0.6
+      },
+      "spread": 0.543952802359882,
+      "n_seasons": 9
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Navy 2014": 30.0,
+        "Navy 2017": 33.0,
+        "Navy 2019": 34.0,
+        "Navy 2021": 35.0,
+        "San Jos\u00e9 State 2024": 31
+      },
+      "spread": 5.0,
+      "n_seasons": 5
+    },
+    "fourth_down_go_rate": {
+      "per_season": {
+        "Navy 2021": 0.5833333333333334
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "San Jos\u00e9 State 2024": 0.149812734082397
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

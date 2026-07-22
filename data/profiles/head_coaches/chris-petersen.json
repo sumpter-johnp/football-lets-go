@@ -1,0 +1,134 @@
+{
+  "coach": "Chris Petersen",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2019,
+      "n_full": 6,
+      "school": "Washington"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Washington",
+      "year": 2018,
+      "games": 14
+    },
+    {
+      "school": "Washington",
+      "year": 2019,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Washington",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Washington",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Washington",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Washington",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4214618973561431,
+      "n": 643
+    },
+    "sec_per_play": {
+      "value": 29.168582375478927,
+      "n": 522
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5,
+      "n": 12
+    },
+    "explosive_pass_rate": {
+      "value": 0.11597938144329897,
+      "n": 388
+    }
+  },
+  "sticky_by_season": {
+    "Washington 2018": {
+      "neutral_pass_rate": {
+        "value": 0.37254901960784315,
+        "n": 357
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 305
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.12690355329949238,
+        "n": 197
+      }
+    },
+    "Washington 2019": {
+      "neutral_pass_rate": {
+        "value": 0.4825174825174825,
+        "n": 286
+      },
+      "sec_per_play": {
+        "value": 28,
+        "n": 217
+      },
+      "fourth_down_go_rate": {
+        "value": 0.7142857142857143,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.10471204188481675,
+        "n": 191
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Washington 2018": 0.37254901960784315,
+        "Washington 2019": 0.4825174825174825
+      },
+      "spread": 0.10996846290963935,
+      "n_seasons": 2
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Washington 2018": 30,
+        "Washington 2019": 28
+      },
+      "spread": 2,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Washington 2018": 0.12690355329949238,
+        "Washington 2019": 0.10471204188481675
+      },
+      "spread": 0.022191511414675624,
+      "n_seasons": 2
+    }
+  }
+}

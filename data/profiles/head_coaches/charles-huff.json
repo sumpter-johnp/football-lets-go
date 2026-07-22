@@ -1,0 +1,114 @@
+{
+  "coach": "Charles Huff",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2021,
+      "last": 2024,
+      "n_full": 4,
+      "school": "Marshall"
+    },
+    {
+      "first": 2025,
+      "last": 2025,
+      "n_full": 0,
+      "school": "Southern Miss"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Marshall",
+      "year": 2024,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Marshall",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Marshall",
+      "year": 2022,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Marshall",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Southern Miss",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.3673469387755102,
+      "n": 294
+    },
+    "sec_per_play": {
+      "value": 30.0,
+      "n": 294
+    },
+    "fourth_down_go_rate": {
+      "value": 0.14285714285714285,
+      "n": 7
+    },
+    "explosive_pass_rate": {
+      "value": 0.07878787878787878,
+      "n": 165
+    }
+  },
+  "sticky_by_season": {
+    "Marshall 2024": {
+      "neutral_pass_rate": {
+        "value": 0.3673469387755102,
+        "n": 294
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 294
+      },
+      "fourth_down_go_rate": {
+        "value": 0.14285714285714285,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.07878787878787878,
+        "n": 165
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Marshall 2024": 0.3673469387755102
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Marshall 2024": 30.0
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Marshall 2024": 0.07878787878787878
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

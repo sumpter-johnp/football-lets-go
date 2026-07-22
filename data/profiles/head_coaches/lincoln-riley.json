@@ -1,0 +1,218 @@
+{
+  "coach": "Lincoln Riley",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2017,
+      "last": 2021,
+      "n_full": 4,
+      "school": "Oklahoma"
+    },
+    {
+      "first": 2022,
+      "last": 2025,
+      "n_full": 3,
+      "school": "USC"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Oklahoma",
+      "year": 2017,
+      "games": 14
+    },
+    {
+      "school": "Oklahoma",
+      "year": 2018,
+      "games": 14
+    },
+    {
+      "school": "Oklahoma",
+      "year": 2019,
+      "games": 14
+    },
+    {
+      "school": "Oklahoma",
+      "year": 2021,
+      "games": 12
+    },
+    {
+      "school": "USC",
+      "year": 2022,
+      "games": 14
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Oklahoma",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "USC",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "USC",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "USC",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4858024691358025,
+      "n": 1620
+    },
+    "sec_per_play": {
+      "value": 27.64202810018326,
+      "n": 1637
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5789473684210527,
+      "n": 19
+    },
+    "explosive_pass_rate": {
+      "value": 0.1571290009699321,
+      "n": 1031
+    }
+  },
+  "sticky_by_season": {
+    "Oklahoma 2017": {
+      "neutral_pass_rate": {
+        "value": 0.4956772334293948,
+        "n": 347
+      },
+      "sec_per_play": {
+        "value": 28,
+        "n": 309
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.1889400921658986,
+        "n": 217
+      }
+    },
+    "Oklahoma 2018": {
+      "neutral_pass_rate": {
+        "value": 0.4437869822485207,
+        "n": 338
+      },
+      "sec_per_play": {
+        "value": 26,
+        "n": 375
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.18041237113402062,
+        "n": 194
+      }
+    },
+    "Oklahoma 2019": {
+      "neutral_pass_rate": {
+        "value": 0.3888888888888889,
+        "n": 270
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 295
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.2,
+        "n": 140
+      }
+    },
+    "Oklahoma 2021": {
+      "neutral_pass_rate": {
+        "value": 0.5257731958762887,
+        "n": 291
+      },
+      "sec_per_play": {
+        "value": 26.5,
+        "n": 284
+      },
+      "fourth_down_go_rate": {
+        "value": 0.8333333333333334,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.11219512195121951,
+        "n": 205
+      }
+    },
+    "USC 2022": {
+      "neutral_pass_rate": {
+        "value": 0.553475935828877,
+        "n": 374
+      },
+      "sec_per_play": {
+        "value": 28.0,
+        "n": 374
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.12727272727272726,
+        "n": 275
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Oklahoma 2017": 0.4956772334293948,
+        "Oklahoma 2018": 0.4437869822485207,
+        "Oklahoma 2019": 0.3888888888888889,
+        "Oklahoma 2021": 0.5257731958762887,
+        "USC 2022": 0.553475935828877
+      },
+      "spread": 0.1645870469399881,
+      "n_seasons": 5
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Oklahoma 2017": 28,
+        "Oklahoma 2018": 26,
+        "Oklahoma 2019": 30,
+        "Oklahoma 2021": 26.5,
+        "USC 2022": 28.0
+      },
+      "spread": 4,
+      "n_seasons": 5
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Oklahoma 2017": 0.1889400921658986,
+        "Oklahoma 2018": 0.18041237113402062,
+        "Oklahoma 2019": 0.2,
+        "Oklahoma 2021": 0.11219512195121951,
+        "USC 2022": 0.12727272727272726
+      },
+      "spread": 0.0878048780487805,
+      "n_seasons": 5
+    }
+  }
+}

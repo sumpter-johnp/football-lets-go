@@ -1,0 +1,121 @@
+{
+  "coach": "Tom Allen",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2016,
+      "last": 2023,
+      "n_full": 6,
+      "school": "Indiana"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Indiana",
+      "year": 2023,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Indiana",
+      "year": 2016,
+      "reason": "partial season (1 games)"
+    },
+    {
+      "school": "Indiana",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Indiana",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Indiana",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Indiana",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Indiana",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Indiana",
+      "year": 2022,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.41785714285714287,
+      "n": 280
+    },
+    "sec_per_play": {
+      "value": 32.0,
+      "n": 149
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5,
+      "n": 8
+    },
+    "explosive_pass_rate": {
+      "value": 0.14705882352941177,
+      "n": 170
+    }
+  },
+  "sticky_by_season": {
+    "Indiana 2023": {
+      "neutral_pass_rate": {
+        "value": 0.41785714285714287,
+        "n": 280
+      },
+      "sec_per_play": {
+        "value": 32,
+        "n": 149
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.14705882352941177,
+        "n": 170
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Indiana 2023": 0.41785714285714287
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Indiana 2023": 0.14705882352941177
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

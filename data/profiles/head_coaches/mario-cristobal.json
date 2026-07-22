@@ -1,0 +1,213 @@
+{
+  "coach": "Mario Cristobal",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2018,
+      "last": 2021,
+      "n_full": 3,
+      "school": "Oregon"
+    },
+    {
+      "first": 2022,
+      "last": 2025,
+      "n_full": 3,
+      "school": "Miami"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Oregon",
+      "year": 2018,
+      "games": 13
+    },
+    {
+      "school": "Oregon",
+      "year": 2019,
+      "games": 14
+    },
+    {
+      "school": "Oregon",
+      "year": 2021,
+      "games": 13
+    },
+    {
+      "school": "Miami",
+      "year": 2022,
+      "games": 12
+    },
+    {
+      "school": "Miami",
+      "year": 2023,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Oregon",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Miami",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Miami",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4478353442157559,
+      "n": 1409
+    },
+    "sec_per_play": {
+      "value": 28.3135593220339,
+      "n": 1298
+    },
+    "fourth_down_go_rate": {
+      "value": 0.38461538461538464,
+      "n": 26
+    },
+    "explosive_pass_rate": {
+      "value": 0.10294117647058823,
+      "n": 884
+    }
+  },
+  "sticky_by_season": {
+    "Oregon 2018": {
+      "neutral_pass_rate": {
+        "value": 0.40086206896551724,
+        "n": 232
+      },
+      "sec_per_play": {
+        "value": 25.0,
+        "n": 160
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.11888111888111888,
+        "n": 143
+      }
+    },
+    "Oregon 2019": {
+      "neutral_pass_rate": {
+        "value": 0.45045045045045046,
+        "n": 333
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 313
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.11009174311926606,
+        "n": 218
+      }
+    },
+    "Oregon 2021": {
+      "neutral_pass_rate": {
+        "value": 0.4536082474226804,
+        "n": 291
+      },
+      "sec_per_play": {
+        "value": 27.0,
+        "n": 330
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.10119047619047619,
+        "n": 168
+      }
+    },
+    "Miami 2022": {
+      "neutral_pass_rate": {
+        "value": 0.5061728395061729,
+        "n": 243
+      },
+      "sec_per_play": {
+        "value": 29,
+        "n": 193
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.1,
+        "n": 160
+      }
+    },
+    "Miami 2023": {
+      "neutral_pass_rate": {
+        "value": 0.4290322580645161,
+        "n": 310
+      },
+      "sec_per_play": {
+        "value": 34.5,
+        "n": 302
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4444444444444444,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.08717948717948718,
+        "n": 195
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Oregon 2018": 0.40086206896551724,
+        "Oregon 2019": 0.45045045045045046,
+        "Oregon 2021": 0.4536082474226804,
+        "Miami 2022": 0.5061728395061729,
+        "Miami 2023": 0.4290322580645161
+      },
+      "spread": 0.10531077054065563,
+      "n_seasons": 5
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Oregon 2018": 25.0,
+        "Oregon 2019": 25,
+        "Oregon 2021": 27.0,
+        "Miami 2022": 29,
+        "Miami 2023": 34.5
+      },
+      "spread": 9.5,
+      "n_seasons": 5
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Oregon 2018": 0.11888111888111888,
+        "Oregon 2019": 0.11009174311926606,
+        "Oregon 2021": 0.10119047619047619,
+        "Miami 2022": 0.1,
+        "Miami 2023": 0.08717948717948718
+      },
+      "spread": 0.031701631701631705,
+      "n_seasons": 5
+    }
+  }
+}

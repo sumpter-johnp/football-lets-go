@@ -1,0 +1,121 @@
+{
+  "coach": "Philip Montgomery",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2015,
+      "last": 2022,
+      "n_full": 7,
+      "school": "Tulsa"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Tulsa",
+      "year": 2022,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Tulsa",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Tulsa",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Tulsa",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Tulsa",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Tulsa",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Tulsa",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Tulsa",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.48770491803278687,
+      "n": 244
+    },
+    "sec_per_play": {
+      "value": 28.0,
+      "n": 102
+    },
+    "fourth_down_go_rate": {
+      "value": 0.0,
+      "n": 4
+    },
+    "explosive_pass_rate": {
+      "value": 0.08139534883720931,
+      "n": 172
+    }
+  },
+  "sticky_by_season": {
+    "Tulsa 2022": {
+      "neutral_pass_rate": {
+        "value": 0.48770491803278687,
+        "n": 244
+      },
+      "sec_per_play": {
+        "value": 28.0,
+        "n": 102
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.08139534883720931,
+        "n": 172
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Tulsa 2022": 0.48770491803278687
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Tulsa 2022": 0.08139534883720931
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

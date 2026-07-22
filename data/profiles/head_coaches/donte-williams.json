@@ -1,0 +1,87 @@
+{
+  "coach": "Donte Williams",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2021,
+      "last": 2021,
+      "n_full": 1,
+      "school": "USC"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "USC",
+      "year": 2021,
+      "games": 10
+    }
+  ],
+  "seasons_excluded": [],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.5657894736842105,
+      "n": 304
+    },
+    "sec_per_play": {
+      "value": 25.0,
+      "n": 317
+    },
+    "fourth_down_go_rate": {
+      "value": 1.0,
+      "n": 2
+    },
+    "explosive_pass_rate": {
+      "value": 0.0752212389380531,
+      "n": 226
+    }
+  },
+  "sticky_by_season": {
+    "USC 2021": {
+      "neutral_pass_rate": {
+        "value": 0.5657894736842105,
+        "n": 304
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 317
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.0752212389380531,
+        "n": 226
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "USC 2021": 0.5657894736842105
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {
+        "USC 2021": 25
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "USC 2021": 0.0752212389380531
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

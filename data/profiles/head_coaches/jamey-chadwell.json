@@ -1,0 +1,215 @@
+{
+  "coach": "Jamey Chadwell",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2017,
+      "last": 2017,
+      "n_full": 1,
+      "school": "Coastal Carolina"
+    },
+    {
+      "first": 2019,
+      "last": 2022,
+      "n_full": 3,
+      "school": "Coastal Carolina"
+    },
+    {
+      "first": 2023,
+      "last": 2025,
+      "n_full": 2,
+      "school": "Liberty"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Coastal Carolina",
+      "year": 2017,
+      "games": 12
+    },
+    {
+      "school": "Coastal Carolina",
+      "year": 2019,
+      "games": 12
+    },
+    {
+      "school": "Coastal Carolina",
+      "year": 2021,
+      "games": 13
+    },
+    {
+      "school": "Coastal Carolina",
+      "year": 2022,
+      "games": 12
+    },
+    {
+      "school": "Liberty",
+      "year": 2023,
+      "games": 14
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Coastal Carolina",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Liberty",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Liberty",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.3822784810126582,
+      "n": 1580
+    },
+    "sec_per_play": {
+      "value": 30.554597701149426,
+      "n": 348
+    },
+    "fourth_down_go_rate": {
+      "value": 0.4375,
+      "n": 32
+    },
+    "explosive_pass_rate": {
+      "value": 0.13112745098039216,
+      "n": 816
+    }
+  },
+  "sticky_by_season": {
+    "Coastal Carolina 2017": {
+      "neutral_pass_rate": {
+        "value": 0.3707865168539326,
+        "n": 267
+      },
+      "sec_per_play": {
+        "value": 43,
+        "n": 5
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.1292517006802721,
+        "n": 147
+      }
+    },
+    "Coastal Carolina 2019": {
+      "neutral_pass_rate": {
+        "value": 0.3786127167630058,
+        "n": 346
+      },
+      "sec_per_play": {
+        "value": 19.5,
+        "n": 8
+      },
+      "fourth_down_go_rate": {
+        "value": 0.7,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.0989010989010989,
+        "n": 182
+      }
+    },
+    "Coastal Carolina 2021": {
+      "neutral_pass_rate": {
+        "value": 0.42033898305084744,
+        "n": 295
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 210
+      },
+      "fourth_down_go_rate": {
+        "value": 0.16666666666666666,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.13548387096774195,
+        "n": 155
+      }
+    },
+    "Coastal Carolina 2022": {
+      "neutral_pass_rate": {
+        "value": 0.4340836012861736,
+        "n": 311
+      },
+      "sec_per_play": {
+        "value": 31.0,
+        "n": 96
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6666666666666666,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.15873015873015872,
+        "n": 189
+      }
+    },
+    "Liberty 2023": {
+      "neutral_pass_rate": {
+        "value": 0.3185595567867036,
+        "n": 361
+      },
+      "sec_per_play": {
+        "value": 34,
+        "n": 29
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.13286713286713286,
+        "n": 143
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Coastal Carolina 2017": 0.3707865168539326,
+        "Coastal Carolina 2019": 0.3786127167630058,
+        "Coastal Carolina 2021": 0.42033898305084744,
+        "Coastal Carolina 2022": 0.4340836012861736,
+        "Liberty 2023": 0.3185595567867036
+      },
+      "spread": 0.11552404449947001,
+      "n_seasons": 5
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Coastal Carolina 2021": 30.0
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Coastal Carolina 2017": 0.1292517006802721,
+        "Coastal Carolina 2019": 0.0989010989010989,
+        "Coastal Carolina 2021": 0.13548387096774195,
+        "Coastal Carolina 2022": 0.15873015873015872,
+        "Liberty 2023": 0.13286713286713286
+      },
+      "spread": 0.059829059829059825,
+      "n_seasons": 5
+    }
+  }
+}

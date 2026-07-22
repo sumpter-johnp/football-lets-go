@@ -1,0 +1,134 @@
+{
+  "coach": "Sam Pittman",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2020,
+      "last": 2025,
+      "n_full": 4,
+      "school": "Arkansas"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Arkansas",
+      "year": 2021,
+      "games": 13
+    },
+    {
+      "school": "Arkansas",
+      "year": 2022,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Arkansas",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Arkansas",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Arkansas",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Arkansas",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.3272425249169435,
+      "n": 602
+    },
+    "sec_per_play": {
+      "value": 23.067484662576685,
+      "n": 489
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5714285714285714,
+      "n": 14
+    },
+    "explosive_pass_rate": {
+      "value": 0.09634551495016612,
+      "n": 301
+    }
+  },
+  "sticky_by_season": {
+    "Arkansas 2021": {
+      "neutral_pass_rate": {
+        "value": 0.3122923588039867,
+        "n": 301
+      },
+      "sec_per_play": {
+        "value": 24,
+        "n": 261
+      },
+      "fourth_down_go_rate": {
+        "value": 0.7142857142857143,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.08391608391608392,
+        "n": 143
+      }
+    },
+    "Arkansas 2022": {
+      "neutral_pass_rate": {
+        "value": 0.34219269102990035,
+        "n": 301
+      },
+      "sec_per_play": {
+        "value": 22.0,
+        "n": 228
+      },
+      "fourth_down_go_rate": {
+        "value": 0.42857142857142855,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.10759493670886076,
+        "n": 158
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Arkansas 2021": 0.3122923588039867,
+        "Arkansas 2022": 0.34219269102990035
+      },
+      "spread": 0.02990033222591365,
+      "n_seasons": 2
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Arkansas 2021": 24,
+        "Arkansas 2022": 22.0
+      },
+      "spread": 2.0,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Arkansas 2021": 0.08391608391608392,
+        "Arkansas 2022": 0.10759493670886076
+      },
+      "spread": 0.023678852792776844,
+      "n_seasons": 2
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "coach": "Harlon Barnett",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2023,
+      "last": 2023,
+      "n_full": 1,
+      "school": "Michigan State"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Michigan State",
+      "year": 2023,
+      "games": 10
+    }
+  ],
+  "seasons_excluded": [],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.44680851063829785,
+      "n": 235
+    },
+    "sec_per_play": {
+      "value": 33.0,
+      "n": 103
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5555555555555556,
+      "n": 9
+    },
+    "explosive_pass_rate": {
+      "value": 0.06369426751592357,
+      "n": 157
+    }
+  },
+  "sticky_by_season": {
+    "Michigan State 2023": {
+      "neutral_pass_rate": {
+        "value": 0.44680851063829785,
+        "n": 235
+      },
+      "sec_per_play": {
+        "value": 33,
+        "n": 103
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5555555555555556,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.06369426751592357,
+        "n": 157
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Michigan State 2023": 0.44680851063829785
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Michigan State 2023": 0.06369426751592357
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

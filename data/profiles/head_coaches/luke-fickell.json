@@ -1,0 +1,203 @@
+{
+  "coach": "Luke Fickell",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2017,
+      "last": 2022,
+      "n_full": 5,
+      "school": "Cincinnati"
+    },
+    {
+      "first": 2022,
+      "last": 2025,
+      "n_full": 2,
+      "school": "Wisconsin"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Cincinnati",
+      "year": 2022,
+      "games": 12
+    },
+    {
+      "school": "Wisconsin",
+      "year": 2023,
+      "games": 13
+    },
+    {
+      "school": "Wisconsin",
+      "year": 2024,
+      "games": 12
+    },
+    {
+      "school": "Wisconsin",
+      "year": 2025,
+      "games": null
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Cincinnati",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Wisconsin",
+      "year": 2022,
+      "reason": "partial season (1 games)"
+    },
+    {
+      "school": "Cincinnati",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Cincinnati",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Cincinnati",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Cincinnati",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4651376146788991,
+      "n": 1090
+    },
+    "sec_per_play": {
+      "value": 31.039759036144577,
+      "n": 830
+    },
+    "fourth_down_go_rate": {
+      "value": 0.3333333333333333,
+      "n": 33
+    },
+    "explosive_pass_rate": {
+      "value": 0.07746478873239436,
+      "n": 710
+    }
+  },
+  "sticky_by_season": {
+    "Cincinnati 2022": {
+      "neutral_pass_rate": {
+        "value": 0.5274725274725275,
+        "n": 273
+      },
+      "sec_per_play": {
+        "value": 24,
+        "n": 171
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.09844559585492228,
+        "n": 193
+      }
+    },
+    "Wisconsin 2023": {
+      "neutral_pass_rate": {
+        "value": 0.43962848297213625,
+        "n": 323
+      },
+      "sec_per_play": {
+        "value": 26.0,
+        "n": 54
+      },
+      "fourth_down_go_rate": {
+        "value": 0.14285714285714285,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.06763285024154589,
+        "n": 207
+      }
+    },
+    "Wisconsin 2024": {
+      "neutral_pass_rate": {
+        "value": 0.4807692307692308,
+        "n": 260
+      },
+      "sec_per_play": {
+        "value": 31,
+        "n": 305
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6666666666666666,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.07386363636363637,
+        "n": 176
+      }
+    },
+    "Wisconsin 2025": {
+      "neutral_pass_rate": {
+        "value": 0.41025641025641024,
+        "n": 234
+      },
+      "sec_per_play": {
+        "value": 36.0,
+        "n": 300
+      },
+      "fourth_down_go_rate": {
+        "value": 0.35714285714285715,
+        "n": 14
+      },
+      "explosive_pass_rate": {
+        "value": 0.06716417910447761,
+        "n": 134
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Cincinnati 2022": 0.5274725274725275,
+        "Wisconsin 2023": 0.43962848297213625,
+        "Wisconsin 2024": 0.4807692307692308,
+        "Wisconsin 2025": 0.41025641025641024
+      },
+      "spread": 0.11721611721611724,
+      "n_seasons": 4
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Cincinnati 2022": 24,
+        "Wisconsin 2024": 31,
+        "Wisconsin 2025": 36.0
+      },
+      "spread": 12.0,
+      "n_seasons": 3
+    },
+    "fourth_down_go_rate": {
+      "per_season": {
+        "Wisconsin 2025": 0.35714285714285715
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Cincinnati 2022": 0.09844559585492228,
+        "Wisconsin 2023": 0.06763285024154589,
+        "Wisconsin 2024": 0.07386363636363637,
+        "Wisconsin 2025": 0.06716417910447761
+      },
+      "spread": 0.03128141675044467,
+      "n_seasons": 4
+    }
+  }
+}

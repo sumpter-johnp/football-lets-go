@@ -1,0 +1,214 @@
+{
+  "coach": "Jay Norvell",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2017,
+      "last": 2021,
+      "n_full": 4,
+      "school": "Nevada"
+    },
+    {
+      "first": 2022,
+      "last": 2025,
+      "n_full": 3,
+      "school": "Colorado State"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Nevada",
+      "year": 2017,
+      "games": 12
+    },
+    {
+      "school": "Nevada",
+      "year": 2018,
+      "games": 13
+    },
+    {
+      "school": "Nevada",
+      "year": 2019,
+      "games": 13
+    },
+    {
+      "school": "Nevada",
+      "year": 2021,
+      "games": 12
+    },
+    {
+      "school": "Colorado State",
+      "year": 2022,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Nevada",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Colorado State",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Colorado State",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Colorado State",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.5404284727021423,
+      "n": 1447
+    },
+    "sec_per_play": {
+      "value": 30.84,
+      "n": 200
+    },
+    "fourth_down_go_rate": {
+      "value": 0.46511627906976744,
+      "n": 43
+    },
+    "explosive_pass_rate": {
+      "value": 0.09724770642201835,
+      "n": 1090
+    }
+  },
+  "sticky_by_season": {
+    "Nevada 2017": {
+      "neutral_pass_rate": {
+        "value": 0.5574912891986062,
+        "n": 287
+      },
+      "sec_per_play": {
+        "value": 28,
+        "n": 41
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5714285714285714,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.11711711711711711,
+        "n": 222
+      }
+    },
+    "Nevada 2018": {
+      "neutral_pass_rate": {
+        "value": 0.5376044568245125,
+        "n": 359
+      },
+      "sec_per_play": {
+        "value": 24.5,
+        "n": 8
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 15
+      },
+      "explosive_pass_rate": {
+        "value": 0.09923664122137404,
+        "n": 262
+      }
+    },
+    "Nevada 2019": {
+      "neutral_pass_rate": {
+        "value": 0.5265151515151515,
+        "n": 264
+      },
+      "sec_per_play": {
+        "value": 35,
+        "n": 29
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.09183673469387756,
+        "n": 196
+      }
+    },
+    "Nevada 2021": {
+      "neutral_pass_rate": {
+        "value": 0.6153846153846154,
+        "n": 312
+      },
+      "sec_per_play": {
+        "value": 26,
+        "n": 31
+      },
+      "fourth_down_go_rate": {
+        "value": 0.375,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.07954545454545454,
+        "n": 264
+      }
+    },
+    "Colorado State 2022": {
+      "neutral_pass_rate": {
+        "value": 0.43555555555555553,
+        "n": 225
+      },
+      "sec_per_play": {
+        "value": 33,
+        "n": 91
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.10273972602739725,
+        "n": 146
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Nevada 2017": 0.5574912891986062,
+        "Nevada 2018": 0.5376044568245125,
+        "Nevada 2019": 0.5265151515151515,
+        "Nevada 2021": 0.6153846153846154,
+        "Colorado State 2022": 0.43555555555555553
+      },
+      "spread": 0.1798290598290599,
+      "n_seasons": 5
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {
+        "Nevada 2018": 0.4
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Nevada 2017": 0.11711711711711711,
+        "Nevada 2018": 0.09923664122137404,
+        "Nevada 2019": 0.09183673469387756,
+        "Nevada 2021": 0.07954545454545454,
+        "Colorado State 2022": 0.10273972602739725
+      },
+      "spread": 0.03757166257166257,
+      "n_seasons": 5
+    }
+  }
+}

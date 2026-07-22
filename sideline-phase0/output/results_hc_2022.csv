@@ -1,0 +1,33 @@
+coach,new_team,metric,hc_dna_pred,program_pred,actual,hc_dna_err,program_err,n_hc,n_program,n_actual,usable,winner
+Billy Napier,Florida,neutral_pass_rate,0.4037,0.4591,0.4028,0.001,0.0563,961,318,288,True,hc_dna
+Billy Napier,Florida,sec_per_play,27.6621,25.0,29.0,1.3379,4.0,438,222,255,True,hc_dna
+Billy Napier,Florida,fourth_down_go_rate,0.4167,0.3333,0.6667,,,24,9,6,False,
+Billy Napier,Florida,explosive_pass_rate,0.1182,0.1173,0.1479,0.0297,0.0306,533,196,169,True,hc_dna
+Brian Kelly,LSU,neutral_pass_rate,0.459,0.5151,0.4748,0.0158,0.0403,2159,299,337,True,hc_dna
+Brian Kelly,LSU,sec_per_play,24.5229,28.0,28.0,3.4771,0.0,2314,270,353,True,program
+Brian Kelly,LSU,fourth_down_go_rate,0.425,0.6667,0.5,,,40,3,2,False,
+Brian Kelly,LSU,explosive_pass_rate,0.1118,0.0748,0.0892,0.0226,0.0144,1387,214,213,True,program
+Jay Norvell,Colorado State,neutral_pass_rate,0.5597,0.3117,0.4356,0.1242,0.1238,1222,324,225,True,program
+Jay Norvell,Colorado State,sec_per_play,29.0367,25.0,33.0,,,109,92,91,False,
+Jay Norvell,Colorado State,fourth_down_go_rate,0.4571,0.4444,0.5,,,35,9,8,False,
+Jay Norvell,Colorado State,explosive_pass_rate,0.0964,0.1,0.1027,0.0063,0.0027,944,170,146,True,program
+Jerry Kill,New Mexico State,neutral_pass_rate,0.237,0.5986,0.4158,0.1788,0.1828,270,279,190,True,hc_dna
+Jerry Kill,New Mexico State,sec_per_play,30.0,30.0,33.0,,,184,70,74,False,
+Jerry Kill,New Mexico State,fourth_down_go_rate,0.1429,0.0,1.0,,,7,4,3,False,
+Jerry Kill,New Mexico State,explosive_pass_rate,0.1415,0.055,0.1008,0.0407,0.0458,106,218,119,True,hc_dna
+Jim Mora,UConn,neutral_pass_rate,0.5141,0.5,0.2821,0.2321,0.2179,1311,226,273,True,program
+Jim Mora,UConn,sec_per_play,19.9791,49.5,30.0,,,1195,18,88,False,
+Jim Mora,UConn,fourth_down_go_rate,0.2414,0.6,0.4286,,,29,5,7,False,
+Jim Mora,UConn,explosive_pass_rate,0.0958,0.0774,0.0551,0.0407,0.0223,950,168,127,True,program
+Lincoln Riley,USC,neutral_pass_rate,0.4655,0.5658,0.5535,0.088,0.0123,1246,304,374,True,program
+Lincoln Riley,USC,sec_per_play,27.536,25.0,28.0,0.464,3.0,1263,317,374,True,hc_dna
+Lincoln Riley,USC,fourth_down_go_rate,0.5294,1.0,1.0,,,17,2,2,False,
+Lincoln Riley,USC,explosive_pass_rate,0.168,0.0752,0.1273,0.0407,0.0521,756,226,275,True,hc_dna
+Mario Cristobal,Miami,neutral_pass_rate,0.4381,0.5602,0.5062,0.0681,0.054,856,266,243,True,program
+Mario Cristobal,Miami,sec_per_play,25.8219,20.0,29.0,3.1781,9.0,803,197,193,True,hc_dna
+Mario Cristobal,Miami,fourth_down_go_rate,0.25,0.5,0.6,,,12,4,5,False,
+Mario Cristobal,Miami,explosive_pass_rate,0.1096,0.1366,0.1,0.0096,0.0366,529,205,160,True,hc_dna
+Mike MacIntyre,Florida International,neutral_pass_rate,0.465,0.4455,0.5515,,,1602,202,136,False,
+Mike MacIntyre,Florida International,sec_per_play,21.8494,24.0,45.0,,,644,44,8,False,
+Mike MacIntyre,Florida International,fourth_down_go_rate,0.3636,0.25,0.0,,,33,4,1,False,
+Mike MacIntyre,Florida International,explosive_pass_rate,0.0927,0.1471,0.0556,0.0371,0.0915,1036,136,108,True,hc_dna

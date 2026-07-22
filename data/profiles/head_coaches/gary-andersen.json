@@ -1,0 +1,123 @@
+{
+  "coach": "Gary Andersen",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2014,
+      "n_full": 1,
+      "school": "Wisconsin"
+    },
+    {
+      "first": 2015,
+      "last": 2017,
+      "n_full": 2,
+      "school": "Oregon State"
+    },
+    {
+      "first": 2019,
+      "last": 2020,
+      "n_full": 1,
+      "school": "Utah State"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Oregon State",
+      "year": 2016,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Oregon State",
+      "year": 2017,
+      "reason": "partial season (6 games)"
+    },
+    {
+      "school": "Utah State",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Wisconsin",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Oregon State",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Utah State",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.41409691629955947,
+      "n": 227
+    },
+    "sec_per_play": {
+      "value": 33.5,
+      "n": 6
+    },
+    "fourth_down_go_rate": {
+      "value": 0.0,
+      "n": 4
+    },
+    "explosive_pass_rate": {
+      "value": 0.08088235294117647,
+      "n": 136
+    }
+  },
+  "sticky_by_season": {
+    "Oregon State 2016": {
+      "neutral_pass_rate": {
+        "value": 0.41409691629955947,
+        "n": 227
+      },
+      "sec_per_play": {
+        "value": 33.5,
+        "n": 6
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.08088235294117647,
+        "n": 136
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Oregon State 2016": 0.41409691629955947
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Oregon State 2016": 0.08088235294117647
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "coach": "Ryan Walters",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2023,
+      "last": 2024,
+      "n_full": 2,
+      "school": "Purdue"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Purdue",
+      "year": 2023,
+      "games": 12
+    },
+    {
+      "school": "Purdue",
+      "year": 2024,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.45161290322580644,
+      "n": 403
+    },
+    "sec_per_play": {
+      "value": 33.81818181818182,
+      "n": 121
+    },
+    "fourth_down_go_rate": {
+      "value": 0.08333333333333333,
+      "n": 12
+    },
+    "explosive_pass_rate": {
+      "value": 0.060836501901140684,
+      "n": 263
+    }
+  },
+  "sticky_by_season": {
+    "Purdue 2023": {
+      "neutral_pass_rate": {
+        "value": 0.4600760456273764,
+        "n": 263
+      },
+      "sec_per_play": {
+        "value": 30.5,
+        "n": 48
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.0650887573964497,
+        "n": 169
+      }
+    },
+    "Purdue 2024": {
+      "neutral_pass_rate": {
+        "value": 0.4357142857142857,
+        "n": 140
+      },
+      "sec_per_play": {
+        "value": 36,
+        "n": 73
+      },
+      "fourth_down_go_rate": {
+        "value": 0.125,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.05319148936170213,
+        "n": 94
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Purdue 2023": 0.4600760456273764
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Purdue 2023": 0.0650887573964497,
+        "Purdue 2024": 0.05319148936170213
+      },
+      "spread": 0.011897268034747575,
+      "n_seasons": 2
+    }
+  }
+}

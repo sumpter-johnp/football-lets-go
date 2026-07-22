@@ -1,0 +1,177 @@
+{
+  "coach": "Jake Dickert",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2021,
+      "last": 2024,
+      "n_full": 3,
+      "school": "Washington State"
+    },
+    {
+      "first": 2025,
+      "last": 2025,
+      "n_full": 0,
+      "school": "Wake Forest"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Washington State",
+      "year": 2022,
+      "games": 13
+    },
+    {
+      "school": "Washington State",
+      "year": 2023,
+      "games": 12
+    },
+    {
+      "school": "Washington State",
+      "year": 2024,
+      "games": 12
+    },
+    {
+      "school": "Wake Forest",
+      "year": 2025,
+      "games": null
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Washington State",
+      "year": 2021,
+      "reason": "partial season (6 games)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.5831223628691983,
+      "n": 1185
+    },
+    "sec_per_play": {
+      "value": 29.629829290206647,
+      "n": 1113
+    },
+    "fourth_down_go_rate": {
+      "value": 0.7142857142857143,
+      "n": 35
+    },
+    "explosive_pass_rate": {
+      "value": 0.0935412026726058,
+      "n": 898
+    }
+  },
+  "sticky_by_season": {
+    "Washington State 2022": {
+      "neutral_pass_rate": {
+        "value": 0.6781609195402298,
+        "n": 261
+      },
+      "sec_per_play": {
+        "value": 28,
+        "n": 237
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5714285714285714,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.06808510638297872,
+        "n": 235
+      }
+    },
+    "Washington State 2023": {
+      "neutral_pass_rate": {
+        "value": 0.7007299270072993,
+        "n": 274
+      },
+      "sec_per_play": {
+        "value": 27.0,
+        "n": 204
+      },
+      "fourth_down_go_rate": {
+        "value": 0.875,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.08786610878661087,
+        "n": 239
+      }
+    },
+    "Washington State 2024": {
+      "neutral_pass_rate": {
+        "value": 0.5238095238095238,
+        "n": 357
+      },
+      "sec_per_play": {
+        "value": 32,
+        "n": 337
+      },
+      "fourth_down_go_rate": {
+        "value": 0.7777777777777778,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.11158798283261803,
+        "n": 233
+      }
+    },
+    "Wake Forest 2025": {
+      "neutral_pass_rate": {
+        "value": 0.46075085324232085,
+        "n": 293
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 335
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6363636363636364,
+        "n": 11
+      },
+      "explosive_pass_rate": {
+        "value": 0.1099476439790576,
+        "n": 191
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Washington State 2022": 0.6781609195402298,
+        "Washington State 2023": 0.7007299270072993,
+        "Washington State 2024": 0.5238095238095238,
+        "Wake Forest 2025": 0.46075085324232085
+      },
+      "spread": 0.23997907376497846,
+      "n_seasons": 4
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Washington State 2022": 28,
+        "Washington State 2023": 27.0,
+        "Washington State 2024": 32,
+        "Wake Forest 2025": 30
+      },
+      "spread": 5.0,
+      "n_seasons": 4
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Washington State 2022": 0.06808510638297872,
+        "Washington State 2023": 0.08786610878661087,
+        "Washington State 2024": 0.11158798283261803,
+        "Wake Forest 2025": 0.1099476439790576
+      },
+      "spread": 0.04350287644963931,
+      "n_seasons": 4
+    }
+  }
+}

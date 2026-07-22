@@ -1,0 +1,196 @@
+{
+  "coach": "Chip Kelly",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2018,
+      "last": 2023,
+      "n_full": 5,
+      "school": "UCLA"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "UCLA",
+      "year": 2018,
+      "games": 12
+    },
+    {
+      "school": "UCLA",
+      "year": 2019,
+      "games": 12
+    },
+    {
+      "school": "UCLA",
+      "year": 2021,
+      "games": 12
+    },
+    {
+      "school": "UCLA",
+      "year": 2022,
+      "games": 13
+    },
+    {
+      "school": "UCLA",
+      "year": 2023,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "UCLA",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.41200828157349895,
+      "n": 1449
+    },
+    "sec_per_play": {
+      "value": 25.58220502901354,
+      "n": 1034
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5555555555555556,
+      "n": 18
+    },
+    "explosive_pass_rate": {
+      "value": 0.10971428571428571,
+      "n": 875
+    }
+  },
+  "sticky_by_season": {
+    "UCLA 2018": {
+      "neutral_pass_rate": {
+        "value": 0.3786764705882353,
+        "n": 272
+      },
+      "sec_per_play": {
+        "value": 25.0,
+        "n": 146
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.08333333333333333,
+        "n": 168
+      }
+    },
+    "UCLA 2019": {
+      "neutral_pass_rate": {
+        "value": 0.4541984732824427,
+        "n": 262
+      },
+      "sec_per_play": {
+        "value": 25.0,
+        "n": 194
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5714285714285714,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.07142857142857142,
+        "n": 168
+      }
+    },
+    "UCLA 2021": {
+      "neutral_pass_rate": {
+        "value": 0.33448275862068966,
+        "n": 290
+      },
+      "sec_per_play": {
+        "value": 25.0,
+        "n": 190
+      },
+      "fourth_down_go_rate": {
+        "value": 0.75,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.1223021582733813,
+        "n": 139
+      }
+    },
+    "UCLA 2022": {
+      "neutral_pass_rate": {
+        "value": 0.4523076923076923,
+        "n": 325
+      },
+      "sec_per_play": {
+        "value": 23.0,
+        "n": 182
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6666666666666666,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.15577889447236182,
+        "n": 199
+      }
+    },
+    "UCLA 2023": {
+      "neutral_pass_rate": {
+        "value": 0.43666666666666665,
+        "n": 300
+      },
+      "sec_per_play": {
+        "value": 28.0,
+        "n": 322
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 1
+      },
+      "explosive_pass_rate": {
+        "value": 0.10945273631840796,
+        "n": 201
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "UCLA 2018": 0.3786764705882353,
+        "UCLA 2019": 0.4541984732824427,
+        "UCLA 2021": 0.33448275862068966,
+        "UCLA 2022": 0.4523076923076923,
+        "UCLA 2023": 0.43666666666666665
+      },
+      "spread": 0.11971571466175307,
+      "n_seasons": 5
+    },
+    "sec_per_play": {
+      "per_season": {
+        "UCLA 2019": 25.0,
+        "UCLA 2021": 25.0,
+        "UCLA 2022": 23.0,
+        "UCLA 2023": 28.0
+      },
+      "spread": 5.0,
+      "n_seasons": 4
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "UCLA 2018": 0.08333333333333333,
+        "UCLA 2019": 0.07142857142857142,
+        "UCLA 2021": 0.1223021582733813,
+        "UCLA 2022": 0.15577889447236182,
+        "UCLA 2023": 0.10945273631840796
+      },
+      "spread": 0.08435032304379039,
+      "n_seasons": 5
+    }
+  }
+}

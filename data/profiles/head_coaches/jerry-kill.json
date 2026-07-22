@@ -1,0 +1,160 @@
+{
+  "coach": "Jerry Kill",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2015,
+      "n_full": 1,
+      "school": "Minnesota"
+    },
+    {
+      "first": 2021,
+      "last": 2021,
+      "n_full": 0,
+      "school": "TCU"
+    },
+    {
+      "first": 2022,
+      "last": 2023,
+      "n_full": 2,
+      "school": "New Mexico State"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Minnesota",
+      "year": 2014,
+      "games": 13
+    },
+    {
+      "school": "New Mexico State",
+      "year": 2022,
+      "games": 13
+    },
+    {
+      "school": "New Mexico State",
+      "year": 2023,
+      "games": 15
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Minnesota",
+      "year": 2015,
+      "reason": "partial season (7 games)"
+    },
+    {
+      "school": "TCU",
+      "year": 2021,
+      "reason": "partial season (4 games)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.3457831325301205,
+      "n": 830
+    },
+    "sec_per_play": {
+      "value": 33.35774647887324,
+      "n": 355
+    },
+    "fourth_down_go_rate": {
+      "value": 0.375,
+      "n": 16
+    },
+    "explosive_pass_rate": {
+      "value": 0.11611374407582939,
+      "n": 422
+    }
+  },
+  "sticky_by_season": {
+    "Minnesota 2014": {
+      "neutral_pass_rate": {
+        "value": 0.23703703703703705,
+        "n": 270
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 184
+      },
+      "fourth_down_go_rate": {
+        "value": 0.14285714285714285,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.14150943396226415,
+        "n": 106
+      }
+    },
+    "New Mexico State 2022": {
+      "neutral_pass_rate": {
+        "value": 0.41578947368421054,
+        "n": 190
+      },
+      "sec_per_play": {
+        "value": 33.0,
+        "n": 74
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.10084033613445378,
+        "n": 119
+      }
+    },
+    "New Mexico State 2023": {
+      "neutral_pass_rate": {
+        "value": 0.3891891891891892,
+        "n": 370
+      },
+      "sec_per_play": {
+        "value": 40,
+        "n": 97
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.1116751269035533,
+        "n": 197
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Minnesota 2014": 0.23703703703703705,
+        "New Mexico State 2022": 0.41578947368421054,
+        "New Mexico State 2023": 0.3891891891891892
+      },
+      "spread": 0.1787524366471735,
+      "n_seasons": 3
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Minnesota 2014": 30.0
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Minnesota 2014": 0.14150943396226415,
+        "New Mexico State 2022": 0.10084033613445378,
+        "New Mexico State 2023": 0.1116751269035533
+      },
+      "spread": 0.04066909782781036,
+      "n_seasons": 3
+    }
+  }
+}
