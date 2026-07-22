@@ -1,12 +1,375 @@
 {
   "coach": "Andy Kotelnicki",
-  "stints_profiled": [],
-  "fragments_excluded": [
+  "stints_profiled": [
+    {
+      "school": "Kansas",
+      "season": 2021,
+      "n_games": 12,
+      "n_plays": 979
+    },
+    {
+      "school": "Kansas",
+      "season": 2022,
+      "n_games": 13,
+      "n_plays": 1081
+    },
     {
       "school": "Kansas",
       "season": 2023,
-      "n_games": 1,
-      "n_plays": 74
+      "n_games": 12,
+      "n_plays": 949
+    },
+    {
+      "school": "Penn State",
+      "season": 2024,
+      "n_games": 16,
+      "n_plays": 1367
+    },
+    {
+      "school": "Penn State",
+      "season": 2025,
+      "n_games": 13,
+      "n_plays": 1040
     }
-  ]
+  ],
+  "fragments_excluded": [],
+  "pooled_profile": {
+    "n_plays": 5416,
+    "n_games": 66,
+    "sticky": {
+      "neutral_pass_rate": {
+        "value": 0.3962686567164179,
+        "n": 1340
+      },
+      "sec_per_play": {
+        "value": 34.0,
+        "n": 1070
+      },
+      "fourth_down_go_rate": {
+        "value": 0.38461538461538464,
+        "n": 39
+      },
+      "explosive_pass_rate": {
+        "value": 0.12133333333333333,
+        "n": 750
+      }
+    },
+    "run_pass_by_down_distance": {
+      "1:long": {
+        "value": 0.3936899862825789,
+        "n": 729,
+        "ppa_mean": 0.21270717620438817
+      },
+      "1:medium": {
+        "value": 0.2777777777777778,
+        "n": 18,
+        "ppa_mean": 0.020331819393313372
+      },
+      "1:short": {
+        "value": 0.0,
+        "n": 14,
+        "ppa_mean": 0.5454379632151786
+      },
+      "1:xlong": {
+        "value": 0.4444444444444444,
+        "n": 18,
+        "ppa_mean": -0.11983121372102816
+      },
+      "2:long": {
+        "value": 0.4533898305084746,
+        "n": 236,
+        "ppa_mean": 0.363649836947828
+      },
+      "2:medium": {
+        "value": 0.36666666666666664,
+        "n": 150,
+        "ppa_mean": 0.17391984546184502
+      },
+      "2:short": {
+        "value": 0.3425925925925926,
+        "n": 108,
+        "ppa_mean": -0.04130969737164931
+      },
+      "2:xlong": {
+        "value": 0.47761194029850745,
+        "n": 67,
+        "ppa_mean": 0.18093387137377645
+      },
+      "3:long": {
+        "value": 0.7951807228915663,
+        "n": 83,
+        "ppa_mean": 0.597363914585206
+      },
+      "3:medium": {
+        "value": 0.6404494382022472,
+        "n": 89,
+        "ppa_mean": 0.5871764495124345
+      },
+      "3:short": {
+        "value": 0.32231404958677684,
+        "n": 121,
+        "ppa_mean": 0.5338189211841442
+      },
+      "3:xlong": {
+        "value": 0.7083333333333334,
+        "n": 48,
+        "ppa_mean": 0.27125969455598925
+      }
+    },
+    "run_pass_by_field_zone": {
+      "backed_up": {
+        "value": 0.3629032258064516,
+        "n": 124,
+        "ppa_mean": 0.29502073895848385
+      },
+      "fringe": {
+        "value": 0.45,
+        "n": 220,
+        "ppa_mean": -0.007925004828993665
+      },
+      "midfield": {
+        "value": 0.4263322884012539,
+        "n": 319,
+        "ppa_mean": 0.06266917667729924
+      },
+      "own_side": {
+        "value": 0.4147368421052632,
+        "n": 475,
+        "ppa_mean": 0.3148347040460284
+      },
+      "red_zone": {
+        "value": 0.26732673267326734,
+        "n": 202,
+        "ppa_mean": 0.3759038504048314
+      }
+    },
+    "pace_by_game_state": {
+      "neutral": {
+        "value": 32.0,
+        "n": 1474
+      },
+      "leading": {
+        "value": 32,
+        "n": 475
+      },
+      "trailing": {
+        "value": 28,
+        "n": 543
+      }
+    },
+    "red_zone": {
+      "value": 0.3447782546494993,
+      "n": 699,
+      "ppa_mean": 0.4257893862968436,
+      "trips": 264,
+      "td_per_trip": 0.6856060606060606
+    },
+    "short_yardage": {
+      "rush_rate": 0.77,
+      "n": 100,
+      "ppa_mean": 0.7598866317273975,
+      "conversion_rate": 0.75
+    },
+    "opening_script": {
+      "pass_rate_early_downs": 0.3834394904458599,
+      "n": 785,
+      "delta_vs_neutral": -0.012829166270558023
+    }
+  },
+  "predictability": {
+    "index": 0.056961230052483394,
+    "n": 1631,
+    "per_bucket": {
+      "1:long": {
+        "pass_rate": 0.3936899862825789,
+        "league": 0.44516129032258067,
+        "deviation": -0.051471304040001775,
+        "n": 729
+      },
+      "2:long": {
+        "pass_rate": 0.4533898305084746,
+        "league": 0.519434628975265,
+        "deviation": -0.06604479846679046,
+        "n": 236
+      },
+      "2:medium": {
+        "pass_rate": 0.36666666666666664,
+        "league": 0.3997194950911641,
+        "deviation": -0.03305282842449747,
+        "n": 150
+      },
+      "2:short": {
+        "pass_rate": 0.3425925925925926,
+        "league": 0.29179646936656284,
+        "deviation": 0.05079612322602978,
+        "n": 108
+      },
+      "2:xlong": {
+        "pass_rate": 0.47761194029850745,
+        "league": 0.6548165137614679,
+        "deviation": -0.17720457346296042,
+        "n": 67
+      },
+      "3:long": {
+        "pass_rate": 0.7951807228915663,
+        "league": 0.8386473429951691,
+        "deviation": -0.043466620103602804,
+        "n": 83
+      },
+      "3:medium": {
+        "pass_rate": 0.6404494382022472,
+        "league": 0.7417289220917823,
+        "deviation": -0.10127948388953512,
+        "n": 89
+      },
+      "3:short": {
+        "pass_rate": 0.32231404958677684,
+        "league": 0.32620817843866173,
+        "deviation": -0.0038941288518848927,
+        "n": 121
+      },
+      "3:xlong": {
+        "pass_rate": 0.7083333333333334,
+        "league": 0.7996918335901386,
+        "deviation": -0.09135850025680525,
+        "n": 48
+      }
+    },
+    "most_predictable": [
+      "2:xlong",
+      "3:medium",
+      "3:xlong"
+    ]
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Kansas 2021": 0.3422222222222222,
+        "Kansas 2022": 0.43434343434343436,
+        "Kansas 2023": 0.4188679245283019,
+        "Penn State 2024": 0.41688654353562005,
+        "Penn State 2025": 0.3626373626373626
+      },
+      "spread": 0.09212121212121216,
+      "n_seasons": 5
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Kansas 2021": 34.0,
+        "Kansas 2023": 35.0,
+        "Penn State 2024": 34,
+        "Penn State 2025": 31.5
+      },
+      "spread": 3.5,
+      "n_seasons": 4
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Kansas 2021": 0.10655737704918032,
+        "Kansas 2022": 0.1794871794871795,
+        "Kansas 2023": 0.16778523489932887,
+        "Penn State 2024": 0.10550458715596331,
+        "Penn State 2025": 0.0625
+      },
+      "spread": 0.11698717948717949,
+      "n_seasons": 5
+    }
+  },
+  "sticky_by_season": {
+    "Kansas 2021": {
+      "neutral_pass_rate": {
+        "value": 0.3422222222222222,
+        "n": 225
+      },
+      "sec_per_play": {
+        "value": 34.0,
+        "n": 178
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.10655737704918032,
+        "n": 122
+      }
+    },
+    "Kansas 2022": {
+      "neutral_pass_rate": {
+        "value": 0.43434343434343436,
+        "n": 198
+      },
+      "sec_per_play": {
+        "value": 33,
+        "n": 127
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2857142857142857,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.1794871794871795,
+        "n": 117
+      }
+    },
+    "Kansas 2023": {
+      "neutral_pass_rate": {
+        "value": 0.4188679245283019,
+        "n": 265
+      },
+      "sec_per_play": {
+        "value": 35.0,
+        "n": 244
+      },
+      "fourth_down_go_rate": {
+        "value": 0.25,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.16778523489932887,
+        "n": 149
+      }
+    },
+    "Penn State 2024": {
+      "neutral_pass_rate": {
+        "value": 0.41688654353562005,
+        "n": 379
+      },
+      "sec_per_play": {
+        "value": 34,
+        "n": 369
+      },
+      "fourth_down_go_rate": {
+        "value": 0.125,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.10550458715596331,
+        "n": 218
+      }
+    },
+    "Penn State 2025": {
+      "neutral_pass_rate": {
+        "value": 0.3626373626373626,
+        "n": 273
+      },
+      "sec_per_play": {
+        "value": 31.5,
+        "n": 152
+      },
+      "fourth_down_go_rate": {
+        "value": 0.7272727272727273,
+        "n": 11
+      },
+      "explosive_pass_rate": {
+        "value": 0.0625,
+        "n": 144
+      }
+    }
+  }
 }

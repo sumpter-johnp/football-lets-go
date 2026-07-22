@@ -5,8 +5,8 @@
     {
       "school": "Cincinnati",
       "season": 2023,
-      "n_games": 1,
-      "n_plays": 110
+      "n_games": 2,
+      "n_plays": 203
     },
     {
       "school": "Cincinnati",
@@ -17,8 +17,8 @@
     {
       "school": "Cincinnati",
       "season": 2025,
-      "n_games": 3,
-      "n_plays": 223
+      "n_games": 4,
+      "n_plays": 334
     }
   ]
 }

@@ -4,6 +4,12 @@
   "fragments_excluded": [
     {
       "school": "UCF",
+      "season": 2023,
+      "n_games": 1,
+      "n_plays": 77
+    },
+    {
+      "school": "UCF",
       "season": 2024,
       "n_games": 2,
       "n_plays": 185

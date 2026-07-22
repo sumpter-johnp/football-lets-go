@@ -4,6 +4,18 @@
   "fragments_excluded": [
     {
       "school": "Baylor",
+      "season": 2021,
+      "n_games": 1,
+      "n_plays": 85
+    },
+    {
+      "school": "Baylor",
+      "season": 2022,
+      "n_games": 1,
+      "n_plays": 98
+    },
+    {
+      "school": "Baylor",
       "season": 2023,
       "n_games": 1,
       "n_plays": 82

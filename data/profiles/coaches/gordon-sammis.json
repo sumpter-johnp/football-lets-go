@@ -1,0 +1,295 @@
+{
+  "coach": "Gordon Sammis",
+  "stints_profiled": [
+    {
+      "school": "UConn",
+      "season": 2024,
+      "n_games": 13,
+      "n_plays": 1210
+    },
+    {
+      "school": "UConn",
+      "season": 2025,
+      "n_games": 13,
+      "n_plays": 1121
+    }
+  ],
+  "fragments_excluded": [],
+  "pooled_profile": {
+    "n_plays": 2331,
+    "n_games": 26,
+    "sticky": {
+      "neutral_pass_rate": {
+        "value": 0.48484848484848486,
+        "n": 594
+      },
+      "sec_per_play": {
+        "value": 31,
+        "n": 577
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.09693877551020408,
+        "n": 392
+      }
+    },
+    "run_pass_by_down_distance": {
+      "1:long": {
+        "value": 0.46153846153846156,
+        "n": 325,
+        "ppa_mean": 0.15608019190037292
+      },
+      "1:medium": {
+        "value": 0.5,
+        "n": 4,
+        "ppa_mean": 0.07931675661442811
+      },
+      "1:short": {
+        "value": 0.0,
+        "n": 6,
+        "ppa_mean": 0.4381779426565324
+      },
+      "1:xlong": {
+        "value": 0.7222222222222222,
+        "n": 18,
+        "ppa_mean": 0.312201109296008
+      },
+      "2:long": {
+        "value": 0.49586776859504134,
+        "n": 121,
+        "ppa_mean": 0.1796580844993089
+      },
+      "2:medium": {
+        "value": 0.5833333333333334,
+        "n": 60,
+        "ppa_mean": 0.3511875853363437
+      },
+      "2:short": {
+        "value": 0.4117647058823529,
+        "n": 34,
+        "ppa_mean": -0.06687816186273962
+      },
+      "2:xlong": {
+        "value": 0.5384615384615384,
+        "n": 26,
+        "ppa_mean": 0.5451824861532171
+      },
+      "3:long": {
+        "value": 0.7962962962962963,
+        "n": 54,
+        "ppa_mean": 0.40429562359931526
+      },
+      "3:medium": {
+        "value": 0.8484848484848485,
+        "n": 33,
+        "ppa_mean": 0.030397319533874794
+      },
+      "3:short": {
+        "value": 0.2682926829268293,
+        "n": 41,
+        "ppa_mean": 0.6089396241929421
+      },
+      "3:xlong": {
+        "value": 0.75,
+        "n": 20,
+        "ppa_mean": 0.15129007929824848
+      }
+    },
+    "run_pass_by_field_zone": {
+      "backed_up": {
+        "value": 0.43283582089552236,
+        "n": 67,
+        "ppa_mean": 0.32292119247409923
+      },
+      "fringe": {
+        "value": 0.5232558139534884,
+        "n": 86,
+        "ppa_mean": 0.04619472627458851
+      },
+      "midfield": {
+        "value": 0.5,
+        "n": 134,
+        "ppa_mean": 0.018193932887305204
+      },
+      "own_side": {
+        "value": 0.5,
+        "n": 230,
+        "ppa_mean": 0.2564955421619595
+      },
+      "red_zone": {
+        "value": 0.4155844155844156,
+        "n": 77,
+        "ppa_mean": 0.3501605121956477
+      }
+    },
+    "pace_by_game_state": {
+      "neutral": {
+        "value": 28,
+        "n": 783
+      },
+      "leading": {
+        "value": 31.0,
+        "n": 386
+      },
+      "trailing": {
+        "value": 26,
+        "n": 127
+      }
+    },
+    "red_zone": {
+      "value": 0.41434262948207173,
+      "n": 251,
+      "ppa_mean": 0.40305713090251527,
+      "trips": 93,
+      "td_per_trip": 0.6344086021505376
+    },
+    "short_yardage": {
+      "rush_rate": 0.8333333333333334,
+      "n": 30,
+      "ppa_mean": 1.0053848775767322,
+      "conversion_rate": 0.7333333333333333
+    },
+    "opening_script": {
+      "pass_rate_early_downs": 0.4560260586319218,
+      "n": 307,
+      "delta_vs_neutral": -0.028822426216563057
+    }
+  },
+  "predictability": {
+    "index": 0.04968266740270555,
+    "n": 714,
+    "per_bucket": {
+      "1:long": {
+        "pass_rate": 0.46153846153846156,
+        "league": 0.44516129032258067,
+        "deviation": 0.016377171215880892,
+        "n": 325
+      },
+      "2:long": {
+        "pass_rate": 0.49586776859504134,
+        "league": 0.519434628975265,
+        "deviation": -0.02356686038022371,
+        "n": 121
+      },
+      "2:medium": {
+        "pass_rate": 0.5833333333333334,
+        "league": 0.3997194950911641,
+        "deviation": 0.18361383824216926,
+        "n": 60
+      },
+      "2:short": {
+        "pass_rate": 0.4117647058823529,
+        "league": 0.29179646936656284,
+        "deviation": 0.11996823651579008,
+        "n": 34
+      },
+      "2:xlong": {
+        "pass_rate": 0.5384615384615384,
+        "league": 0.6548165137614679,
+        "deviation": -0.11635497529992944,
+        "n": 26
+      },
+      "3:long": {
+        "pass_rate": 0.7962962962962963,
+        "league": 0.8386473429951691,
+        "deviation": -0.042351046698872796,
+        "n": 54
+      },
+      "3:medium": {
+        "pass_rate": 0.8484848484848485,
+        "league": 0.7417289220917823,
+        "deviation": 0.10675592639306619,
+        "n": 33
+      },
+      "3:short": {
+        "pass_rate": 0.2682926829268293,
+        "league": 0.32620817843866173,
+        "deviation": -0.05791549551183245,
+        "n": 41
+      },
+      "3:xlong": {
+        "pass_rate": 0.75,
+        "league": 0.7996918335901386,
+        "deviation": -0.04969183359013862,
+        "n": 20
+      }
+    },
+    "most_predictable": [
+      "2:medium",
+      "2:short",
+      "2:xlong"
+    ]
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "UConn 2024": 0.4461538461538462,
+        "UConn 2025": 0.5149700598802395
+      },
+      "spread": 0.0688162137263933,
+      "n_seasons": 2
+    },
+    "sec_per_play": {
+      "per_season": {
+        "UConn 2024": 30,
+        "UConn 2025": 31.0
+      },
+      "spread": 1.0,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "UConn 2024": 0.05660377358490566,
+        "UConn 2025": 0.12446351931330472
+      },
+      "spread": 0.06785974572839906,
+      "n_seasons": 2
+    }
+  },
+  "sticky_by_season": {
+    "UConn 2024": {
+      "neutral_pass_rate": {
+        "value": 0.4461538461538462,
+        "n": 260
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 287
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.05660377358490566,
+        "n": 159
+      }
+    },
+    "UConn 2025": {
+      "neutral_pass_rate": {
+        "value": 0.5149700598802395,
+        "n": 334
+      },
+      "sec_per_play": {
+        "value": 31.0,
+        "n": 290
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.12446351931330472,
+        "n": 233
+      }
+    }
+  }
+}

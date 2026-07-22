@@ -1,0 +1,183 @@
+{
+  "school": "Oregon State",
+  "season": 2017,
+  "games_in_db": 12,
+  "profile": {
+    "n_plays": 1021,
+    "n_games": 12,
+    "sticky": {
+      "neutral_pass_rate": {
+        "value": 0.3881278538812785,
+        "n": 219
+      },
+      "sec_per_play": {
+        "value": 35,
+        "n": 61
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.0916030534351145,
+        "n": 131
+      }
+    },
+    "run_pass_by_down_distance": {
+      "1:long": {
+        "value": 0.3130434782608696,
+        "n": 115,
+        "ppa_mean": 0.04512157388189034
+      },
+      "1:medium": {
+        "value": 0.25,
+        "n": 4,
+        "ppa_mean": 0.20299190421319394
+      },
+      "1:short": {
+        "value": 0.0,
+        "n": 5,
+        "ppa_mean": 0.5152646016382645
+      },
+      "1:xlong": {
+        "value": 0.5,
+        "n": 4,
+        "ppa_mean": 0.8844253881398916
+      },
+      "2:long": {
+        "value": 0.4897959183673469,
+        "n": 49,
+        "ppa_mean": 0.014532682815533668
+      },
+      "2:medium": {
+        "value": 0.45454545454545453,
+        "n": 11,
+        "ppa_mean": 0.1642989390497012
+      },
+      "2:short": {
+        "value": 0.1875,
+        "n": 16,
+        "ppa_mean": 0.07402526561786865
+      },
+      "2:xlong": {
+        "value": 0.9333333333333333,
+        "n": 15,
+        "ppa_mean": 0.4806145050461224
+      },
+      "3:long": {
+        "value": 1.0,
+        "n": 14,
+        "ppa_mean": 0.4923165938248454
+      },
+      "3:medium": {
+        "value": 0.7,
+        "n": 20,
+        "ppa_mean": 0.4117167001969758
+      },
+      "3:short": {
+        "value": 0.4,
+        "n": 20,
+        "ppa_mean": 0.5482458588233027
+      },
+      "3:xlong": {
+        "value": 1.0,
+        "n": 10,
+        "ppa_mean": 0.04048122973329331
+      }
+    },
+    "run_pass_by_field_zone": {
+      "backed_up": {
+        "value": 0.4166666666666667,
+        "n": 36,
+        "ppa_mean": 0.16291080738027727
+      },
+      "fringe": {
+        "value": 0.5,
+        "n": 32,
+        "ppa_mean": -0.32531725745175244
+      },
+      "midfield": {
+        "value": 0.4423076923076923,
+        "n": 52,
+        "ppa_mean": -0.10534009835685035
+      },
+      "own_side": {
+        "value": 0.38961038961038963,
+        "n": 77,
+        "ppa_mean": 0.19819056011362957
+      },
+      "red_zone": {
+        "value": 0.045454545454545456,
+        "n": 22,
+        "ppa_mean": 0.7720194628718915
+      }
+    },
+    "pace_by_game_state": {
+      "neutral": {
+        "value": 30.5,
+        "n": 100
+      },
+      "leading": {
+        "value": null,
+        "n": 0
+      },
+      "trailing": {
+        "value": 22,
+        "n": 63
+      }
+    },
+    "red_zone": {
+      "value": 0.3375,
+      "n": 80,
+      "ppa_mean": 0.5365786042077461,
+      "trips": 32,
+      "td_per_trip": 0.6875
+    },
+    "short_yardage": {
+      "rush_rate": 0.6111111111111112,
+      "n": 18,
+      "ppa_mean": 0.5614646249797078,
+      "conversion_rate": 0.6666666666666666
+    },
+    "opening_script": {
+      "pass_rate_early_downs": 0.3873239436619718,
+      "n": 142,
+      "delta_vs_neutral": -0.0008039102193067027
+    }
+  },
+  "predictability": {
+    "index": 0.09292284352915281,
+    "n": 204,
+    "per_bucket": {
+      "1:long": {
+        "pass_rate": 0.3130434782608696,
+        "league": 0.44516129032258067,
+        "deviation": -0.13211781206171108,
+        "n": 115
+      },
+      "2:long": {
+        "pass_rate": 0.4897959183673469,
+        "league": 0.519434628975265,
+        "deviation": -0.029638710607918117,
+        "n": 49
+      },
+      "3:medium": {
+        "pass_rate": 0.7,
+        "league": 0.7417289220917823,
+        "deviation": -0.04172892209178236,
+        "n": 20
+      },
+      "3:short": {
+        "pass_rate": 0.4,
+        "league": 0.32620817843866173,
+        "deviation": 0.07379182156133829,
+        "n": 20
+      }
+    },
+    "most_predictable": [
+      "1:long",
+      "3:short",
+      "3:medium"
+    ]
+  }
+}

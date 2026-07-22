@@ -1,0 +1,184 @@
+{
+  "school": "San Jos\u00e9 State",
+  "season": 2021,
+  "games_in_db": 12,
+  "profile": {
+    "n_plays": 1015,
+    "n_games": 12,
+    "sticky": {
+      "neutral_pass_rate": {
+        "value": 0.48,
+        "n": 275
+      },
+      "sec_per_play": {
+        "value": 24.5,
+        "n": 38
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2857142857142857,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.11827956989247312,
+        "n": 186
+      }
+    },
+    "run_pass_by_down_distance": {
+      "1:long": {
+        "value": 0.4583333333333333,
+        "n": 144,
+        "ppa_mean": 0.024598207170328935
+      },
+      "1:short": {
+        "value": 0.4,
+        "n": 5,
+        "ppa_mean": -0.12318079770326285
+      },
+      "1:xlong": {
+        "value": 0.4,
+        "n": 10,
+        "ppa_mean": 0.6783271298672947
+      },
+      "2:long": {
+        "value": 0.6938775510204082,
+        "n": 49,
+        "ppa_mean": 0.415824652097335
+      },
+      "2:medium": {
+        "value": 0.2222222222222222,
+        "n": 27,
+        "ppa_mean": -0.12148976816423324
+      },
+      "2:short": {
+        "value": 0.125,
+        "n": 16,
+        "ppa_mean": 0.1663546359848432
+      },
+      "2:xlong": {
+        "value": 0.75,
+        "n": 24,
+        "ppa_mean": 0.18814629778586653
+      },
+      "3:long": {
+        "value": 0.9583333333333334,
+        "n": 24,
+        "ppa_mean": 0.10956455071745075
+      },
+      "3:medium": {
+        "value": 0.75,
+        "n": 12,
+        "ppa_mean": 0.9165426234466211
+      },
+      "3:short": {
+        "value": 0.42105263157894735,
+        "n": 19,
+        "ppa_mean": 0.3200103489987365
+      },
+      "3:xlong": {
+        "value": 0.6666666666666666,
+        "n": 18,
+        "ppa_mean": 0.49007626907660623
+      }
+    },
+    "run_pass_by_field_zone": {
+      "backed_up": {
+        "value": 0.4358974358974359,
+        "n": 39,
+        "ppa_mean": 0.3365539144282887
+      },
+      "fringe": {
+        "value": 0.3783783783783784,
+        "n": 37,
+        "ppa_mean": -0.1286886098196363
+      },
+      "midfield": {
+        "value": 0.6181818181818182,
+        "n": 55,
+        "ppa_mean": 0.16432058032271837
+      },
+      "own_side": {
+        "value": 0.5094339622641509,
+        "n": 106,
+        "ppa_mean": 0.11935699855308468
+      },
+      "red_zone": {
+        "value": 0.34210526315789475,
+        "n": 38,
+        "ppa_mean": 0.10337581089168964
+      }
+    },
+    "pace_by_game_state": {
+      "neutral": {
+        "value": 23,
+        "n": 57
+      },
+      "leading": {
+        "value": 30,
+        "n": 39
+      },
+      "trailing": {
+        "value": 30,
+        "n": 69
+      }
+    },
+    "red_zone": {
+      "value": 0.49074074074074076,
+      "n": 108,
+      "ppa_mean": 0.09139760496827731,
+      "trips": 36,
+      "td_per_trip": 0.5277777777777778
+    },
+    "short_yardage": {
+      "rush_rate": 0.8,
+      "n": 15,
+      "ppa_mean": -0.5684146797089418,
+      "conversion_rate": 0.4
+    },
+    "opening_script": {
+      "pass_rate_early_downs": 0.45774647887323944,
+      "n": 142,
+      "delta_vs_neutral": -0.022253521126760545
+    }
+  },
+  "predictability": {
+    "index": 0.07609616111590499,
+    "n": 268,
+    "per_bucket": {
+      "1:long": {
+        "pass_rate": 0.4583333333333333,
+        "league": 0.44516129032258067,
+        "deviation": 0.013172043010752643,
+        "n": 144
+      },
+      "2:long": {
+        "pass_rate": 0.6938775510204082,
+        "league": 0.519434628975265,
+        "deviation": 0.1744429220451431,
+        "n": 49
+      },
+      "2:medium": {
+        "pass_rate": 0.2222222222222222,
+        "league": 0.3997194950911641,
+        "deviation": -0.1774972728689419,
+        "n": 27
+      },
+      "2:xlong": {
+        "pass_rate": 0.75,
+        "league": 0.6548165137614679,
+        "deviation": 0.09518348623853212,
+        "n": 24
+      },
+      "3:long": {
+        "pass_rate": 0.9583333333333334,
+        "league": 0.8386473429951691,
+        "deviation": 0.1196859903381643,
+        "n": 24
+      }
+    },
+    "most_predictable": [
+      "2:medium",
+      "2:long",
+      "3:long"
+    ]
+  }
+}

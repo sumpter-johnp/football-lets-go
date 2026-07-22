@@ -1,0 +1,183 @@
+{
+  "school": "Utah State",
+  "season": 2025,
+  "games_in_db": 13,
+  "profile": {
+    "n_plays": 1160,
+    "n_games": 13,
+    "sticky": {
+      "neutral_pass_rate": {
+        "value": 0.506578947368421,
+        "n": 304
+      },
+      "sec_per_play": {
+        "value": 28.0,
+        "n": 352
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.1,
+        "n": 220
+      }
+    },
+    "run_pass_by_down_distance": {
+      "1:long": {
+        "value": 0.5,
+        "n": 164,
+        "ppa_mean": 0.12259642240589802
+      },
+      "1:medium": {
+        "value": 0.0,
+        "n": 1,
+        "ppa_mean": -0.4501093998890865
+      },
+      "1:short": {
+        "value": 0.2,
+        "n": 5,
+        "ppa_mean": -0.3621335731586862
+      },
+      "1:xlong": {
+        "value": 0.5384615384615384,
+        "n": 13,
+        "ppa_mean": -0.3448507804007269
+      },
+      "2:long": {
+        "value": 0.4426229508196721,
+        "n": 61,
+        "ppa_mean": 0.09960545165913941
+      },
+      "2:medium": {
+        "value": 0.6111111111111112,
+        "n": 18,
+        "ppa_mean": -0.011666997692048181
+      },
+      "2:short": {
+        "value": 0.4375,
+        "n": 16,
+        "ppa_mean": -0.16825845973129705
+      },
+      "2:xlong": {
+        "value": 0.7307692307692307,
+        "n": 26,
+        "ppa_mean": 0.336555297150687
+      },
+      "3:long": {
+        "value": 0.875,
+        "n": 32,
+        "ppa_mean": 0.9163332012451939
+      },
+      "3:medium": {
+        "value": 0.8125,
+        "n": 16,
+        "ppa_mean": -0.045988548398750995
+      },
+      "3:short": {
+        "value": 0.5294117647058824,
+        "n": 17,
+        "ppa_mean": 0.534786230659575
+      },
+      "3:xlong": {
+        "value": 0.8666666666666667,
+        "n": 15,
+        "ppa_mean": 0.1842724896336082
+      }
+    },
+    "run_pass_by_field_zone": {
+      "backed_up": {
+        "value": 0.5957446808510638,
+        "n": 47,
+        "ppa_mean": -0.00394617223667737
+      },
+      "fringe": {
+        "value": 0.5681818181818182,
+        "n": 44,
+        "ppa_mean": -0.013471956037215854
+      },
+      "midfield": {
+        "value": 0.5454545454545454,
+        "n": 66,
+        "ppa_mean": 0.2400668245273263
+      },
+      "own_side": {
+        "value": 0.5096153846153846,
+        "n": 104,
+        "ppa_mean": 0.08346846861621872
+      },
+      "red_zone": {
+        "value": 0.27906976744186046,
+        "n": 43,
+        "ppa_mean": 0.03373127166924318
+      }
+    },
+    "pace_by_game_state": {
+      "neutral": {
+        "value": 27.0,
+        "n": 458
+      },
+      "leading": {
+        "value": 29.0,
+        "n": 150
+      },
+      "trailing": {
+        "value": 23.0,
+        "n": 172
+      }
+    },
+    "red_zone": {
+      "value": 0.3949579831932773,
+      "n": 119,
+      "ppa_mean": 0.332908418239218,
+      "trips": 46,
+      "td_per_trip": 0.6304347826086957
+    },
+    "short_yardage": {
+      "rush_rate": 0.6666666666666666,
+      "n": 15,
+      "ppa_mean": 0.625980037329166,
+      "conversion_rate": 0.5333333333333333
+    },
+    "opening_script": {
+      "pass_rate_early_downs": 0.47468354430379744,
+      "n": 158,
+      "delta_vs_neutral": -0.03189540306462357
+    }
+  },
+  "predictability": {
+    "index": 0.059424439649980065,
+    "n": 283,
+    "per_bucket": {
+      "1:long": {
+        "pass_rate": 0.5,
+        "league": 0.44516129032258067,
+        "deviation": 0.05483870967741933,
+        "n": 164
+      },
+      "2:long": {
+        "pass_rate": 0.4426229508196721,
+        "league": 0.519434628975265,
+        "deviation": -0.07681167815559292,
+        "n": 61
+      },
+      "2:xlong": {
+        "pass_rate": 0.7307692307692307,
+        "league": 0.6548165137614679,
+        "deviation": 0.07595271700776285,
+        "n": 26
+      },
+      "3:long": {
+        "pass_rate": 0.875,
+        "league": 0.8386473429951691,
+        "deviation": 0.036352657004830924,
+        "n": 32
+      }
+    },
+    "most_predictable": [
+      "2:long",
+      "2:xlong",
+      "1:long"
+    ]
+  }
+}

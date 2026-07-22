@@ -1,0 +1,170 @@
+{
+  "school": "Oregon State",
+  "season": 2016,
+  "games_in_db": 12,
+  "profile": {
+    "n_plays": 1067,
+    "n_games": 12,
+    "sticky": {
+      "neutral_pass_rate": {
+        "value": 0.41409691629955947,
+        "n": 227
+      },
+      "sec_per_play": {
+        "value": 33.5,
+        "n": 6
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.08088235294117647,
+        "n": 136
+      }
+    },
+    "run_pass_by_down_distance": {
+      "1:long": {
+        "value": 0.3559322033898305,
+        "n": 118,
+        "ppa_mean": -0.002602112365380948
+      },
+      "1:medium": {
+        "value": 0.0,
+        "n": 2,
+        "ppa_mean": -0.5080389992595853
+      },
+      "1:short": {
+        "value": 0.0,
+        "n": 1,
+        "ppa_mean": 1.464451732731337
+      },
+      "1:xlong": {
+        "value": 0.6,
+        "n": 5,
+        "ppa_mean": 1.1966744970829715
+      },
+      "2:long": {
+        "value": 0.5185185185185185,
+        "n": 54,
+        "ppa_mean": 0.29585002905432073
+      },
+      "2:medium": {
+        "value": 0.3157894736842105,
+        "n": 19,
+        "ppa_mean": -0.25943508645542357
+      },
+      "2:short": {
+        "value": 0.2857142857142857,
+        "n": 14,
+        "ppa_mean": 0.10276891251485577
+      },
+      "2:xlong": {
+        "value": 0.7857142857142857,
+        "n": 14,
+        "ppa_mean": 0.8450858906324898
+      },
+      "3:long": {
+        "value": 0.8235294117647058,
+        "n": 17,
+        "ppa_mean": 0.1529868159044222
+      },
+      "3:medium": {
+        "value": 0.7894736842105263,
+        "n": 19,
+        "ppa_mean": 0.8536697945280883
+      },
+      "3:short": {
+        "value": 0.3125,
+        "n": 16,
+        "ppa_mean": 0.671393692791064
+      },
+      "3:xlong": {
+        "value": 1.0,
+        "n": 8,
+        "ppa_mean": -0.6006556693412924
+      }
+    },
+    "run_pass_by_field_zone": {
+      "backed_up": {
+        "value": 0.41379310344827586,
+        "n": 29,
+        "ppa_mean": 0.6593113677668166
+      },
+      "fringe": {
+        "value": 0.43902439024390244,
+        "n": 41,
+        "ppa_mean": -0.36306786672109037
+      },
+      "midfield": {
+        "value": 0.4375,
+        "n": 48,
+        "ppa_mean": 0.327876827834332
+      },
+      "own_side": {
+        "value": 0.4444444444444444,
+        "n": 81,
+        "ppa_mean": -0.03434975137642554
+      },
+      "red_zone": {
+        "value": 0.25,
+        "n": 28,
+        "ppa_mean": 0.4732605045223126
+      }
+    },
+    "pace_by_game_state": {
+      "neutral": {
+        "value": 25.5,
+        "n": 14
+      },
+      "leading": {
+        "value": 9,
+        "n": 7
+      },
+      "trailing": {
+        "value": 29,
+        "n": 67
+      }
+    },
+    "red_zone": {
+      "value": 0.34444444444444444,
+      "n": 90,
+      "ppa_mean": 0.5256228857639594,
+      "trips": 36,
+      "td_per_trip": 0.7222222222222222
+    },
+    "short_yardage": {
+      "rush_rate": 0.625,
+      "n": 8,
+      "ppa_mean": 0.5553227777749802,
+      "conversion_rate": 0.75
+    },
+    "opening_script": {
+      "pass_rate_early_downs": 0.3916083916083916,
+      "n": 143,
+      "delta_vs_neutral": -0.022488524691167855
+    }
+  },
+  "predictability": {
+    "index": 0.061502919899586235,
+    "n": 172,
+    "per_bucket": {
+      "1:long": {
+        "pass_rate": 0.3559322033898305,
+        "league": 0.44516129032258067,
+        "deviation": -0.08922908693275017,
+        "n": 118
+      },
+      "2:long": {
+        "pass_rate": 0.5185185185185185,
+        "league": 0.519434628975265,
+        "deviation": -0.000916110456746555,
+        "n": 54
+      }
+    },
+    "most_predictable": [
+      "1:long",
+      "2:long"
+    ]
+  }
+}

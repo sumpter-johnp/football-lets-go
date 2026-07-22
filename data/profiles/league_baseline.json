@@ -1,54 +1,54 @@
 {
   "caveat": "Baseline from all offensive plays currently in sideline.plays \u2014 biased toward games involving the fully ingested teams. Firms up as the ingest queue lands.",
-  "n_plays": 19475,
+  "n_plays": 58830,
   "buckets": {
     "1:long": {
-      "pass_rate": 0.4852459016393443,
-      "n": 2440
+      "pass_rate": 0.44516129032258067,
+      "n": 7595
     },
     "1:medium": {
-      "pass_rate": 0.26666666666666666,
-      "n": 60
+      "pass_rate": 0.2696629213483146,
+      "n": 178
     },
     "1:short": {
-      "pass_rate": 0.14516129032258066,
-      "n": 62
+      "pass_rate": 0.11976047904191617,
+      "n": 167
     },
     "1:xlong": {
-      "pass_rate": 0.5555555555555556,
-      "n": 90
+      "pass_rate": 0.5400696864111498,
+      "n": 287
     },
     "2:long": {
-      "pass_rate": 0.5316455696202531,
-      "n": 948
+      "pass_rate": 0.519434628975265,
+      "n": 2830
     },
     "2:medium": {
-      "pass_rate": 0.4133949191685912,
-      "n": 433
+      "pass_rate": 0.3997194950911641,
+      "n": 1426
     },
     "2:short": {
-      "pass_rate": 0.2576271186440678,
-      "n": 295
+      "pass_rate": 0.29179646936656284,
+      "n": 963
     },
     "2:xlong": {
-      "pass_rate": 0.6702127659574468,
-      "n": 282
+      "pass_rate": 0.6548165137614679,
+      "n": 872
     },
     "3:long": {
-      "pass_rate": 0.8298507462686567,
-      "n": 335
+      "pass_rate": 0.8386473429951691,
+      "n": 1035
     },
     "3:medium": {
-      "pass_rate": 0.7581699346405228,
-      "n": 306
+      "pass_rate": 0.7417289220917823,
+      "n": 937
     },
     "3:short": {
-      "pass_rate": 0.33035714285714285,
-      "n": 336
+      "pass_rate": 0.32620817843866173,
+      "n": 1076
     },
     "3:xlong": {
-      "pass_rate": 0.8378378378378378,
-      "n": 222
+      "pass_rate": 0.7996918335901386,
+      "n": 649
     }
   }
 }

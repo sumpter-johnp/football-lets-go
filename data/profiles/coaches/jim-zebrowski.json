@@ -1,12 +1,274 @@
 {
   "coach": "Jim Zebrowski",
-  "stints_profiled": [],
-  "fragments_excluded": [
+  "stints_profiled": [
+    {
+      "school": "Kansas",
+      "season": 2023,
+      "n_games": 1,
+      "n_plays": 93
+    },
     {
       "school": "Kansas",
       "season": 2025,
-      "n_games": 1,
-      "n_plays": 93
+      "n_games": 12,
+      "n_plays": 1021
     }
-  ]
+  ],
+  "fragments_excluded": [],
+  "pooled_profile": {
+    "n_plays": 1114,
+    "n_games": 13,
+    "sticky": {
+      "neutral_pass_rate": {
+        "value": 0.4230769230769231,
+        "n": 286
+      },
+      "sec_per_play": {
+        "value": 35.0,
+        "n": 308
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5714285714285714,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.16666666666666666,
+        "n": 168
+      }
+    },
+    "run_pass_by_down_distance": {
+      "1:long": {
+        "value": 0.35570469798657717,
+        "n": 149,
+        "ppa_mean": 0.24109963356207045
+      },
+      "1:medium": {
+        "value": 0.6,
+        "n": 5,
+        "ppa_mean": -0.046382579515658606
+      },
+      "1:short": {
+        "value": 0.0,
+        "n": 4,
+        "ppa_mean": 0.7321478414307425
+      },
+      "1:xlong": {
+        "value": 0.25,
+        "n": 8,
+        "ppa_mean": 0.36692368615817716
+      },
+      "2:long": {
+        "value": 0.5813953488372093,
+        "n": 43,
+        "ppa_mean": 0.3741764806267751
+      },
+      "2:medium": {
+        "value": 0.5,
+        "n": 32,
+        "ppa_mean": 0.13576351135833473
+      },
+      "2:short": {
+        "value": 0.3333333333333333,
+        "n": 24,
+        "ppa_mean": 0.11960905104491977
+      },
+      "2:xlong": {
+        "value": 0.6666666666666666,
+        "n": 21,
+        "ppa_mean": 0.2671907337350178
+      },
+      "3:long": {
+        "value": 0.8,
+        "n": 15,
+        "ppa_mean": 0.419309115981363
+      },
+      "3:medium": {
+        "value": 0.7916666666666666,
+        "n": 24,
+        "ppa_mean": 0.7692803205537085
+      },
+      "3:short": {
+        "value": 0.21052631578947367,
+        "n": 19,
+        "ppa_mean": 0.6861196297560889
+      },
+      "3:xlong": {
+        "value": 0.5384615384615384,
+        "n": 13,
+        "ppa_mean": 0.05304506856696437
+      }
+    },
+    "run_pass_by_field_zone": {
+      "backed_up": {
+        "value": 0.391304347826087,
+        "n": 23,
+        "ppa_mean": 0.5770911699197585
+      },
+      "fringe": {
+        "value": 0.4634146341463415,
+        "n": 41,
+        "ppa_mean": -0.0310077293620254
+      },
+      "midfield": {
+        "value": 0.47126436781609193,
+        "n": 87,
+        "ppa_mean": 0.07589256724699896
+      },
+      "own_side": {
+        "value": 0.422680412371134,
+        "n": 97,
+        "ppa_mean": 0.41060799012785554
+      },
+      "red_zone": {
+        "value": 0.2894736842105263,
+        "n": 38,
+        "ppa_mean": 0.3167933848654676
+      }
+    },
+    "pace_by_game_state": {
+      "neutral": {
+        "value": 34.0,
+        "n": 370
+      },
+      "leading": {
+        "value": 35.5,
+        "n": 170
+      },
+      "trailing": {
+        "value": 26,
+        "n": 173
+      }
+    },
+    "red_zone": {
+      "value": 0.3046875,
+      "n": 128,
+      "ppa_mean": 0.19694615624104492,
+      "trips": 51,
+      "td_per_trip": 0.5686274509803921
+    },
+    "short_yardage": {
+      "rush_rate": 0.6875,
+      "n": 16,
+      "ppa_mean": 1.2945630433967683,
+      "conversion_rate": 0.8125
+    },
+    "opening_script": {
+      "pass_rate_early_downs": 0.48366013071895425,
+      "n": 153,
+      "delta_vs_neutral": 0.06058320764203118
+    }
+  },
+  "predictability": {
+    "index": 0.0738790552396579,
+    "n": 293,
+    "per_bucket": {
+      "1:long": {
+        "pass_rate": 0.35570469798657717,
+        "league": 0.44516129032258067,
+        "deviation": -0.0894565923360035,
+        "n": 149
+      },
+      "2:long": {
+        "pass_rate": 0.5813953488372093,
+        "league": 0.519434628975265,
+        "deviation": 0.06196071986194429,
+        "n": 43
+      },
+      "2:medium": {
+        "pass_rate": 0.5,
+        "league": 0.3997194950911641,
+        "deviation": 0.10028050490883589,
+        "n": 32
+      },
+      "2:short": {
+        "pass_rate": 0.3333333333333333,
+        "league": 0.29179646936656284,
+        "deviation": 0.041536863966770476,
+        "n": 24
+      },
+      "2:xlong": {
+        "pass_rate": 0.6666666666666666,
+        "league": 0.6548165137614679,
+        "deviation": 0.011850152905198752,
+        "n": 21
+      },
+      "3:medium": {
+        "pass_rate": 0.7916666666666666,
+        "league": 0.7417289220917823,
+        "deviation": 0.04993774457488431,
+        "n": 24
+      }
+    },
+    "most_predictable": [
+      "2:medium",
+      "1:long",
+      "2:long"
+    ]
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Kansas 2025": 0.4115384615384615
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Kansas 2025": 35
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Kansas 2025": 0.152317880794702
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  },
+  "sticky_by_season": {
+    "Kansas 2023": {
+      "neutral_pass_rate": {
+        "value": 0.5384615384615384,
+        "n": 26
+      },
+      "sec_per_play": {
+        "value": 39,
+        "n": 29
+      },
+      "fourth_down_go_rate": {
+        "value": null,
+        "n": 0
+      },
+      "explosive_pass_rate": {
+        "value": 0.29411764705882354,
+        "n": 17
+      }
+    },
+    "Kansas 2025": {
+      "neutral_pass_rate": {
+        "value": 0.4115384615384615,
+        "n": 260
+      },
+      "sec_per_play": {
+        "value": 35,
+        "n": 279
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5714285714285714,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.152317880794702,
+        "n": 151
+      }
+    }
+  }
 }
