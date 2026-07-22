@@ -1,0 +1,53 @@
+coach,new_team,metric,coach_dna_pred,program_pred,actual,coach_dna_err,program_err,n_coach,n_program,n_actual,usable,winner
+Phil Longo,Wisconsin,neutral_pass_rate,0.5008,0.3438,0.4396,0.0612,0.0959,1805,288,323,True,coach_dna
+Phil Longo,Wisconsin,sec_per_play,24.1154,33.0,26.0,,,1144,238,54,False,
+Phil Longo,Wisconsin,fourth_down_go_rate,0.3793,0.1667,0.1429,,,29,6,7,False,
+Phil Longo,Wisconsin,explosive_pass_rate,0.1346,0.098,0.0676,0.0669,0.0304,1204,153,207,True,program
+Bobby Petrino,Texas A&M,neutral_pass_rate,0.4623,0.4552,0.4177,0.0446,0.0375,1709,290,328,True,program
+Bobby Petrino,Texas A&M,sec_per_play,26.0387,30.0,29.0,2.9613,1.0,1059,259,179,True,program
+Bobby Petrino,Texas A&M,fourth_down_go_rate,0.3684,0.2,0.5,,,38,5,10,False,
+Bobby Petrino,Texas A&M,explosive_pass_rate,0.1038,0.099,0.1422,0.0383,0.0432,1098,192,204,True,coach_dna
+Garrett Riley,Clemson,neutral_pass_rate,0.5018,0.4423,0.4876,0.0142,0.0453,855,364,402,True,coach_dna
+Garrett Riley,Clemson,sec_per_play,26.0714,26.5,28.0,1.9286,1.5,560,436,261,True,program
+Garrett Riley,Clemson,fourth_down_go_rate,0.5,0.2857,0.5,,,14,7,2,False,
+Garrett Riley,Clemson,explosive_pass_rate,0.1338,0.1096,0.0659,0.0678,0.0437,598,228,273,True,program
+Tommy Rees,Alabama,neutral_pass_rate,0.4423,0.5305,0.4111,0.0312,0.1195,945,262,343,True,coach_dna
+Tommy Rees,Alabama,sec_per_play,28.5395,26.0,32.0,3.4605,6.0,1012,281,330,True,coach_dna
+Tommy Rees,Alabama,fourth_down_go_rate,0.6429,0.4286,0.3333,,,14,7,3,False,
+Tommy Rees,Alabama,explosive_pass_rate,0.1135,0.1429,0.135,0.0215,0.0079,599,189,200,True,program
+Kendal Briles,TCU,neutral_pass_rate,0.3871,0.4935,0.507,0.1198,0.0134,1338,310,286,True,program
+Kendal Briles,TCU,sec_per_play,23.3866,27.5,27.5,,,1032,348,56,False,
+Kendal Briles,TCU,fourth_down_go_rate,0.44,1.0,0.25,,,25,2,4,False,
+Kendal Briles,TCU,explosive_pass_rate,0.1145,0.1147,0.0936,0.0209,0.0211,760,218,203,True,coach_dna
+Graham Harrell,Purdue,neutral_pass_rate,0.5633,0.5599,0.4601,0.1032,0.0998,1067,384,263,True,program
+Graham Harrell,Purdue,sec_per_play,25.0962,31.0,30.5,,,904,129,48,False,
+Graham Harrell,Purdue,fourth_down_go_rate,0.5294,0.5,0.0,,,17,4,4,False,
+Graham Harrell,Purdue,explosive_pass_rate,0.0891,0.0599,0.0651,0.024,0.0052,797,284,169,True,program
+Marcus Satterfield,Nebraska,neutral_pass_rate,0.4738,0.4478,0.3,0.1738,0.1478,477,297,280,True,program
+Marcus Satterfield,Nebraska,sec_per_play,27.8375,23.0,34.0,,,283,149,39,False,
+Marcus Satterfield,Nebraska,fourth_down_go_rate,0.3333,0.0,0.4286,,,12,7,7,False,
+Marcus Satterfield,Nebraska,explosive_pass_rate,0.1293,0.1269,0.0949,0.0344,0.032,317,197,137,True,program
+Jamey Chadwell,Liberty,neutral_pass_rate,0.4047,0.5183,0.3186,0.0861,0.1998,1233,355,361,True,coach_dna
+Jamey Chadwell,Liberty,sec_per_play,30.8488,35.0,34.0,,,410,58,29,False,
+Jamey Chadwell,Liberty,fourth_down_go_rate,0.6,0.5333,0.4,,,30,15,5,False,
+Jamey Chadwell,Liberty,explosive_pass_rate,0.1354,0.07,0.1329,0.0025,0.0629,672,243,143,True,coach_dna
+Troy Taylor,Stanford,neutral_pass_rate,0.4147,0.5467,0.5184,0.1037,0.0284,1037,214,245,True,program
+Troy Taylor,Stanford,sec_per_play,28.5257,28.5,30.0,,,331,56,83,False,
+Troy Taylor,Stanford,fourth_down_go_rate,0.4286,0.5,0.4,,,21,2,5,False,
+Troy Taylor,Stanford,explosive_pass_rate,0.101,0.0688,0.1059,0.0049,0.0371,614,160,170,True,coach_dna
+Jeff Brohm,Louisville,neutral_pass_rate,0.5879,0.3769,0.4269,0.1609,0.05,2783,321,349,True,program
+Jeff Brohm,Louisville,sec_per_play,25.9242,28.0,34.0,8.0758,6.0,923,272,353,True,program
+Jeff Brohm,Louisville,fourth_down_go_rate,0.5,0.4,0.4444,,,50,10,9,False,
+Jeff Brohm,Louisville,explosive_pass_rate,0.0962,0.0814,0.0825,0.0137,0.0011,2173,172,206,True,program
+Kevin Barbay,Mississippi State,neutral_pass_rate,,0.6564,0.4019,,,0,291,214,False,
+Kevin Barbay,Mississippi State,sec_per_play,,25.0,29.0,,,0,250,102,False,
+Kevin Barbay,Mississippi State,fourth_down_go_rate,,0.6,0.5,,,0,10,6,False,
+Kevin Barbay,Mississippi State,explosive_pass_rate,,0.0565,0.0866,,,0,248,127,False,
+Shannon Dawson,Miami,neutral_pass_rate,0.492,0.5062,0.429,0.063,0.0771,2067,243,310,True,coach_dna
+Shannon Dawson,Miami,sec_per_play,27.1358,29.0,34.5,7.3642,5.5,707,193,302,True,program
+Shannon Dawson,Miami,fourth_down_go_rate,0.4884,0.6,0.4444,,,43,5,9,False,
+Shannon Dawson,Miami,explosive_pass_rate,0.105,0.1,0.0872,0.0178,0.0128,1429,160,195,True,program
+Scott Satterfield,Cincinnati,neutral_pass_rate,0.36,0.5275,0.3704,0.0103,0.1571,1136,273,297,True,coach_dna
+Scott Satterfield,Cincinnati,sec_per_play,29.0238,24.0,35.5,,,713,171,32,False,
+Scott Satterfield,Cincinnati,fourth_down_go_rate,0.4615,0.3333,0.5,,,26,9,12,False,
+Scott Satterfield,Cincinnati,explosive_pass_rate,0.1122,0.0984,0.1242,0.012,0.0257,615,193,153,True,coach_dna
