@@ -43,6 +43,30 @@ MIN_SAMPLES = {
     "explosive_pass_rate": 80,
 }
 
+# Mirrors sideline-phase0/src/metrics.py (keep in sync): fourth_down_go_rate
+# retired from scored comparisons 2026-07-22 — zero usable movers in every
+# backtest cycle of both tracks. Still computed and reported for context.
+SCORED_METRICS = [m for m in MIN_SAMPLES if m != "fourth_down_go_rate"]
+
+# Phase 2 lead-with decision (John, 2026-07-22; evidence in
+# sideline-phase0/output/blend_analysis.md): headline prediction per dial is
+# the 50/50 coach-history x program-identity blend, EXCEPT sec_per_play which
+# leads with the pure coach-side value — pace travels with the coach
+# (monotone in both backtest tracks; replicates Phase 0's independent 8-1).
+BLEND_WEIGHTS = {m: 0.5 for m in SCORED_METRICS}
+BLEND_WEIGHTS["sec_per_play"] = 1.0
+
+
+def blend_value(metric: str, coach_v, program_v):
+    """Headline prediction: weighted blend, falling back to whichever
+    component exists (None if neither)."""
+    w = BLEND_WEIGHTS.get(metric, 0.5)
+    if coach_v is None:
+        return program_v
+    if program_v is None:
+        return coach_v
+    return w * coach_v + (1 - w) * program_v
+
 
 def _rate(plays: list[dict], pred) -> dict:
     n = len(plays)

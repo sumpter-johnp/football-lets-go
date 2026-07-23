@@ -107,6 +107,7 @@ CFBD ingestion into Supabase; plays table with situation fields and EPA. Coach s
 
 **Phase 2 — Tendency engine (2 weeks).**
 Situation-bucket queries, predictability scoring, cross-season stability checks. Output as clean JSON per team/coach.
+*Lead-with decision (2026-07-22, backed by 13 backtest cycles — see `docs/validation_plan.md` and `sideline-phase0/output/blend_analysis.md`): headline predictions use the 50/50 coach-history × program-identity blend (pace: pure coach-side); coach-side source is verified play-caller profile > HC-regime profile > none-flag. The original "if program wins, demote coach DNA to a sidebar" branch is closed — pure program identity lost to the blend on every dial in both tracks.*
 
 **Phase 3 — Matchup + brief generation (2 weeks).**
 BYU-vs-opponent intersection logic; report template; LLM synthesis with charts (charting via a simple plotting pipeline); human review pass.

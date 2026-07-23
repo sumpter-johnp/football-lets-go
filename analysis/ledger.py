@@ -41,7 +41,7 @@ from psycopg2.extras import RealDictCursor
 
 import db
 from build_profiles import slug
-from tendencies import MIN_SAMPLES, sticky_metrics
+from tendencies import MIN_SAMPLES, SCORED_METRICS, blend_value, sticky_metrics
 
 PROFILES = REPO_ROOT / "data" / "profiles"
 LEDGER = REPO_ROOT / "data" / "ledger"
@@ -179,8 +179,9 @@ def score(season: int) -> None:
         lines.append(f"## {pred['school']} (caller: {pred['play_caller']}, "
                      f"{n_games} games ingested)")
         lines.append("")
-        lines.append("| metric | coach_dna pred | program pred | actual | dna err | prog err | winner | n_actual |")
-        lines.append("|---|---|---|---|---|---|---|---|")
+        lines.append("| metric | blend pred (headline) | coach_dna pred | program pred | actual "
+                     "| blend err | dna err | prog err | winner | n_actual |")
+        lines.append("|---|---|---|---|---|---|---|---|---|---|")
         for m in pred["metrics"]:
             a = actual[m]["value"]
             n = actual[m]["n"]
@@ -192,7 +193,13 @@ def score(season: int) -> None:
                 cells[name] = v
                 row[f"{name}_pred"] = v
                 row[f"{name}_err"] = abs(v - a) if v is not None and a is not None else None
-            usable = a is not None and n >= MIN_SAMPLES[m]
+            # Headline prediction per the Phase 2 lead-with decision — derived
+            # here from the two FROZEN components, so provenance is intact.
+            bv = blend_value(m, cells["coach_dna"], cells["program"])
+            row["blend_pred"] = bv
+            row["blend_err"] = abs(bv - a) if bv is not None and a is not None else None
+            # retired dials are reported but never scored or tallied
+            usable = a is not None and n >= MIN_SAMPLES[m] and m in SCORED_METRICS
             winner = None
             if usable and row["coach_dna_err"] is not None and row["program_err"] is not None:
                 winner = "coach_dna" if row["coach_dna_err"] <= row["program_err"] else "program"
@@ -200,10 +207,12 @@ def score(season: int) -> None:
             row["winner"] = winner
             rows.append(row)
             fmt = lambda v: f"{v:.3f}" if isinstance(v, float) else (str(v) if v is not None else "—")
+            flag = winner or ("retired" if m not in SCORED_METRICS
+                             else "low n" if not usable else "—")
             lines.append(
-                f"| {m} | {fmt(cells['coach_dna'])} | {fmt(cells['program'])} | {fmt(a)} "
-                f"| {fmt(row['coach_dna_err'])} | {fmt(row['program_err'])} "
-                f"| {winner or ('low n' if not usable else '—')} | {n} |")
+                f"| {m} | {fmt(bv)} | {fmt(cells['coach_dna'])} | {fmt(cells['program'])} | {fmt(a)} "
+                f"| {fmt(row['blend_err'])} | {fmt(row['coach_dna_err'])} | {fmt(row['program_err'])} "
+                f"| {flag} | {n} |")
         lines.append("")
     conn.close()
 
@@ -211,6 +220,14 @@ def score(season: int) -> None:
     dna_wins = sum(r["winner"] == "coach_dna" for r in usable)
     lines.append(f"**Head-to-head (usable pairs only): coach DNA {dna_wins} — "
                  f"{len(usable) - dna_wins} program.**")
+    with_blend = [r for r in usable if r["blend_err"] is not None]
+    if with_blend:
+        mb = sum(r["blend_err"] for r in with_blend) / len(with_blend)
+        blend_beats = sum(r["blend_err"] <= min(r["coach_dna_err"], r["program_err"])
+                          for r in with_blend)
+        lines.append(f"\nBlend (headline) mean abs err {mb:.3f} over "
+                     f"{len(with_blend)} usable pairs; at-or-better than both "
+                     f"pure predictors on {blend_beats}/{len(with_blend)}.")
 
     LEDGER.mkdir(parents=True, exist_ok=True)
     stamp = datetime.now(timezone.utc).strftime("%Y%m%d")

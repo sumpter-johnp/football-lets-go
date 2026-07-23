@@ -55,6 +55,20 @@ aggression (mean rate .36 vs .48). Still computed and kept in results CSVs
 and profiles for the audit trail; excluded from all tallies and p-values
 (metrics.SCORED_METRICS is the single source of truth).
 
+**Phase 2 lead-with decision — MADE 2026-07-22 (John): blend leads.**
+Headline dial predictions = 50/50 coach-history × program-identity;
+sec_per_play leads with the pure coach-side profile (pace travels with the
+coach — monotone in both tracks and replicates Phase 0's independent 8–1).
+Evidence in `output/blend_analysis.md` (`src/blend_analysis.py`): the
+untuned 50/50 blend beats pure program 103–51 (p<.0001) / 83–52 (p=.010)
+and edges pure coach-side in both tracks; w=0.5 was not tuned, so the claim
+carries no researcher degrees of freedom. Pure program identity — the
+original fallback design — is the worst predictor on every dial in both
+tracks. Coach-side source hierarchy (pre-registered): verified play-caller
+profile > HC-regime profile > pure program with a "no coach history" flag;
+the two coach-side families are never pooled. Both components always shown
+with sample sizes in the brief.
+
 Cross-cycle aggregation: `python3 src/verdict_combined.py` →
 `output/verdict_combined.md` (the two tracks are never pooled together).
 151 HC regime profiles live in `data/profiles/head_coaches/` (regime-level,
