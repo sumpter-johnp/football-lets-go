@@ -73,7 +73,10 @@ Cross-cycle aggregation: `python3 src/verdict_combined.py` →
 `output/verdict_combined.md` (the two tracks are never pooled together).
 151 HC regime profiles live in `data/profiles/head_coaches/` (regime-level,
 rebuilt 2026-07-22 with the 2015–2019 cache; never mix with play-caller
-profiles in `data/profiles/coaches/`).
+profiles in `data/profiles/coaches/`). How they slot into the brief —
+decided 2026-07-22 (John): full context layer, four jobs (coverage /
+corroboration flags / deep-pool descriptive stats / credibility box) —
+spelled out in `docs/coach_dna/README.md`.
 
 **API budget (measured against the shared cache, 2026-07-15).** Offense-side
 pulls cost ~17 calls per uncached team-season. The Phase 0 client now shares

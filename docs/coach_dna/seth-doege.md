@@ -47,6 +47,28 @@ note the say/do tension flagged in Tempo below.*
 - CONFIRMED — Extended through 2028 ($1.1M/$1.6M/$1.7M). (tucson.com, Feb 2026)
 - CONFIRMED — 2026: "I feel a lot more confident going into Year 2... We don't have to reinstall everything, it's just adding and subtracting and finding out what works." Also: "I want him [Fifita] to have an answer for every play." (tucson.com, Jul 3, 2026)
 
+## HC-regime cross-check (Brent Brennan, added 2026-07-22)
+
+Regime-level profile `data/profiles/head_coaches/brent-brennan.json` (8
+seasons: SJSU 2017–23 + Arizona 2024–; regime = plays under the HC
+regardless of caller — never pooled with Doege's play-caller profile):
+
+- **Pace: AGREE** — Doege situation-neutral 30 s/snap, Brennan regime 31.2
+  (n=1091). Two independent attribution layers both say slow-to-average,
+  against the stated up-tempo identity — hardens the say/do tension flagged
+  under Tempo above.
+- **Neutral pass rate: DIVERGE** — Doege .423 (n=575) vs regime .522
+  (n=2112). The pass-heavy regime number is SJSU-era (Brennan's old OCs);
+  the run-lean present is Doege's. Read: Arizona's offensive identity
+  belongs to the OC, not a Brennan house style — scout Doege, not Brennan.
+- **4th down (descriptive only — dial retired from scored verdicts):
+  regime go rate .14 on n=50 across 8 seasons** — historically conservative,
+  vs Brennan's own 2025 "extremely aggressive this year on fourth down."
+  The 2025 aggression is new and likely situational, not a stable regime
+  trait; n=5 in the 2025 neutral decision zone (go .2) is consistent with
+  aggression concentrated in non-neutral spots. Worth one brief bullet: if
+  the game script stays neutral, history says the punt team comes out.
+
 ## Sources
 - https://arizonasports.com/story/3567440/arizona-seth-doege-noah-fifita/ (Dec 13, 2024)
 - https://arizonawildcats.com/news/2024/12/13/football-seth-doege-hired-as-arizonas-offensive-coordinator (Dec 13, 2024)

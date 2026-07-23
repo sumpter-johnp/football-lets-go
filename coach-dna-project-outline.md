@@ -77,7 +77,7 @@ The differentiated piece. Join `coach_stints` to `plays` so every play is attrib
 
 1. **One-page summary** — five bullets a head coach could read in 90 seconds
 2. **Opponent identity** — offensive and defensive tendency profile, predictability scores, what's stable vs. noisy
-3. **Coach DNA** — coordinator career profiles, philosophy notes from the public record, what changed since their last stop
+3. **Coach DNA** — coordinator career profiles, philosophy notes from the public record, what changed since their last stop; plus the HC-regime context layer (decision 2026-07-22, see `docs/coach_dna/README.md`): coverage where no play-caller profile exists, agree/diverge corroboration flags, deep-pool descriptive stats, credibility box
 4. **How they may attack BYU** — their strengths mapped onto BYU's statistical weaknesses (threats)
 5. **Where BYU's leverage is** — BYU strengths mapped onto their statistical weaknesses (opportunities)
 6. **Situational appendix** — 4th-down/2-pt profiles, red zone, pace, opening scripts, with sample sizes on everything
