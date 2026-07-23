@@ -45,6 +45,17 @@ MIN_SAMPLES = {
     "explosive_pass_rate": 80,
 }
 
+# fourth_down_go_rate retired from SCORED verdicts 2026-07-22 (John's call,
+# after 8 cycles across both tracks produced ZERO usable movers): a single
+# neutral-filtered season yields ~5 decision-zone snaps (median), and even a
+# maximally widened decision-pure definition (zone 21-80, Q4 outside final
+# 5:00) reaches only 4/41 movers with both single-season legs >= 12.
+# Loosening to 4th-and-<=5 changes what the dial measures (punt-avoidance,
+# go rate .36 vs .48) and still loses half the movers. The metric is STILL
+# COMPUTED and kept in results CSVs / profiles for the audit trail — it just
+# never counts in win/loss tallies or p-values.
+SCORED_METRICS = [m for m in MIN_SAMPLES if m != "fourth_down_go_rate"]
+
 
 def _clock_seconds(play: dict) -> int | None:
     clock = play.get("clock") or {}

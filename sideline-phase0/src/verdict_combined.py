@@ -18,10 +18,9 @@ from collections import defaultdict
 from pathlib import Path
 
 from backtest import binom_p_two_sided
-from metrics import MIN_SAMPLES
+from metrics import SCORED_METRICS
 
 OUT = Path(__file__).resolve().parent.parent / "output"
-METRIC_NAMES = list(MIN_SAMPLES)
 
 FAMILIES = {
     "Play-caller DNA vs program identity": {
@@ -39,7 +38,10 @@ FAMILIES = {
 
 def main() -> None:
     lines = ["# Combined backtest verdict — all cycles\n",
-             "Two separate hypotheses; never pooled with each other.\n"]
+             "Two separate hypotheses; never pooled with each other.\n",
+             "Retired dial: fourth_down_go_rate (2026-07-22) — zero usable "
+             "movers in every cycle of both tracks; raw counts remain in the "
+             "results CSVs, never scored.\n"]
 
     for family, spec in FAMILIES.items():
         files = sorted(
@@ -65,7 +67,7 @@ def main() -> None:
         overall_a = overall_b = 0
         lines.append("| metric | usable | DNA MAE | program MAE | head-to-head | p |")
         lines.append("|---|---|---|---|---|---|")
-        for name in METRIC_NAMES:
+        for name in SCORED_METRICS:
             sub = [r for r in usable if r["metric"] == name]
             if not sub:
                 lines.append(f"| {name} | 0 | — | — | — | — |")

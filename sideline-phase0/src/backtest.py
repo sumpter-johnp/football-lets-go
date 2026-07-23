@@ -25,7 +25,7 @@ import math
 from pathlib import Path
 
 from cfbd import CFBDClient
-from metrics import MIN_SAMPLES, compute_metrics, pool_metrics
+from metrics import MIN_SAMPLES, SCORED_METRICS, compute_metrics, pool_metrics
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "output"
@@ -151,7 +151,7 @@ def run(movers_path: Path, test_year: int):
 def write_verdict(rows: list[dict], path: Path, test_year: int):
     lines = [f"# Backtest verdict, {test_year} movers — does coach DNA travel?\n"]
     overall_a = overall_b = 0
-    for m in METRIC_NAMES:
+    for m in SCORED_METRICS:
         sub = [r for r in rows if r["metric"] == m and r["usable"]]
         if not sub:
             lines.append(f"## {m}\nNo usable samples (check MIN_SAMPLES / data coverage).\n")
@@ -182,7 +182,9 @@ def write_verdict(rows: list[dict], path: Path, test_year: int):
         "- Split by metric -> the DNA profile only claims the dials that traveled "
         "(this is the expected outcome; partial persistence is still a win).\n\n"
         "Caveats: one season of ~15 movers is a small n; explosive_pass_rate is "
-        "personnel-contaminated; scrambles are logged as rushes."
+        "personnel-contaminated; scrambles are logged as rushes.\n\n"
+        "Retired dial: fourth_down_go_rate (2026-07-22) — zero usable movers in "
+        "every cycle; raw counts remain in the results CSV, never scored."
     )
     path.write_text("\n".join(lines))
 
