@@ -1,0 +1,15 @@
+{
+  "_comment": "Manual corrections to CFBD /coaches records, applied by src/hc_database.py at build time (season rows matched on year+school, then patched). Every entry must carry a note with the evidence and verification date. Keep this file tiny: it exists for upstream data errors only, never for modeling choices.",
+  "overrides": [
+    {
+      "coach": "Bobby Petrino",
+      "year": 2018,
+      "match_school": "Western Kentucky",
+      "set": {
+        "school": "Louisville",
+        "full": false
+      },
+      "note": "CFBD mislabels Petrino's 2018 season as Western Kentucky. The row (10 g, 2-8) is his actual partial Louisville 2018: fired 2018-11-11 after 10 of Louisville's 12 games (Lorenzo Ward interim, 2 g — correctly present in CFBD). WKU's real 2018 HC, Mike Sanford Jr. (12 g, 3-9), is also correctly present, so this row is a pure duplicate-school error. full forced to false because 10 games clears FULL_SEASON_GAMES=10 despite being a partial season. Web-verified 2026-07-22."
+    }
+  ]
+}

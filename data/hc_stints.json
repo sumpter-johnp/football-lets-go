@@ -1107,10 +1107,10 @@
       },
       {
         "fbs": true,
-        "full": true,
+        "full": false,
         "games": 10,
         "losses": 8,
-        "school": "Western Kentucky",
+        "school": "Louisville",
         "wins": 2,
         "year": 2018
       }
@@ -1118,15 +1118,9 @@
     "stints": [
       {
         "first": 2014,
-        "last": 2017,
+        "last": 2018,
         "n_full": 4,
         "school": "Louisville"
-      },
-      {
-        "first": 2018,
-        "last": 2018,
-        "n_full": 1,
-        "school": "Western Kentucky"
       }
     ]
   },

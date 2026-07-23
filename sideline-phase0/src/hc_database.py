@@ -17,6 +17,9 @@ excluded from everything downstream, pre-registered 2026-07-22).
 full = null when CFBD has no game counts for the year (as of 2026-07-22
 that is all of 2025: /coaches returns games=0 with SRS/SP populated) —
 school assignment is trusted, season completeness is NOT verified.
+Manual corrections to upstream CFBD errors live in
+data/hc_stint_overrides.json (matched on coach+year+school, applied before
+stints/ambiguous_years are computed; each entry documents its evidence).
 ambiguous_years flags a name appearing at 2+ schools in the same year with
 2+ games at each — usually a midseason move by one person, but possibly two
 people sharing a name; downstream movers logic skips those years.
@@ -38,9 +41,36 @@ from cfbd import CFBDClient
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 OUT_PATH = REPO_ROOT / "data" / "hc_stints.json"
+OVERRIDES_PATH = REPO_ROOT / "data" / "hc_stint_overrides.json"
 
 FULL_SEASON_GAMES = 10
 COVID_YEAR = 2020
+
+
+def apply_overrides(coaches: dict) -> None:
+    """Patch upstream CFBD errors documented in hc_stint_overrides.json.
+
+    Runs after season rows are collected, before stints/ambiguous_years are
+    computed. An override that matches nothing is a hard error — it means
+    the upstream data changed and the correction needs re-verifying.
+    """
+    if not OVERRIDES_PATH.exists():
+        return
+    overrides = json.loads(OVERRIDES_PATH.read_text())["overrides"]
+    for ov in overrides:
+        entry = coaches.get(ov["coach"])
+        matches = [
+            s for s in (entry["seasons"] if entry else [])
+            if s["year"] == ov["year"] and s["school"] == ov["match_school"]
+        ]
+        if len(matches) != 1:
+            raise SystemExit(
+                f"override for {ov['coach']} {ov['year']} {ov['match_school']} "
+                f"matched {len(matches)} season rows (expected 1) — upstream "
+                f"data changed, re-verify {OVERRIDES_PATH.name}")
+        matches[0].update(ov["set"])
+        print(f"override applied: {ov['coach']} {ov['year']} "
+              f"{ov['match_school']} -> {ov['set']}")
 
 
 def coach_name(rec: dict) -> str:
@@ -84,6 +114,8 @@ def build(start: int, end: int) -> dict:
                     "full": (games >= FULL_SEASON_GAMES and year != COVID_YEAR)
                             if year_has_games else None,
                 })
+
+    apply_overrides(coaches)
 
     for name, entry in coaches.items():
         seasons = sorted(entry["seasons"], key=lambda s: (s["year"], s["school"]))
