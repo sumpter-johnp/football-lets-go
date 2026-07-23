@@ -13,6 +13,16 @@
   "seasons_profiled": [
     {
       "school": "Penn State",
+      "year": 2016,
+      "games": 14
+    },
+    {
+      "school": "Penn State",
+      "year": 2017,
+      "games": 13
+    },
+    {
+      "school": "Penn State",
       "year": 2024,
       "games": 16
     },
@@ -36,16 +46,6 @@
     {
       "school": "Penn State",
       "year": 2015,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "Penn State",
-      "year": 2016,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "Penn State",
-      "year": 2017,
       "reason": "not cached (rerun with --fetch --coach)"
     },
     {
@@ -76,23 +76,59 @@
   ],
   "pooled_profile": {
     "neutral_pass_rate": {
-      "value": 0.3941717791411043,
-      "n": 652
+      "value": 0.43908227848101267,
+      "n": 1264
     },
     "sec_per_play": {
-      "value": 33.27063339731286,
-      "n": 521
+      "value": 30.230355220667384,
+      "n": 929
     },
     "fourth_down_go_rate": {
-      "value": 0.47368421052631576,
-      "n": 19
+      "value": 0.40625,
+      "n": 32
     },
     "explosive_pass_rate": {
-      "value": 0.08839779005524862,
-      "n": 362
+      "value": 0.11702127659574468,
+      "n": 752
     }
   },
   "sticky_by_season": {
+    "Penn State 2016": {
+      "neutral_pass_rate": {
+        "value": 0.4417910447761194,
+        "n": 335
+      },
+      "sec_per_play": {
+        "value": 25.0,
+        "n": 188
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3076923076923077,
+        "n": 13
+      },
+      "explosive_pass_rate": {
+        "value": 0.16494845360824742,
+        "n": 194
+      }
+    },
+    "Penn State 2017": {
+      "neutral_pass_rate": {
+        "value": 0.5415162454873647,
+        "n": 277
+      },
+      "sec_per_play": {
+        "value": 27.5,
+        "n": 220
+      },
+      "fourth_down_go_rate": {
+        "value": null,
+        "n": 0
+      },
+      "explosive_pass_rate": {
+        "value": 0.12244897959183673,
+        "n": 196
+      }
+    },
     "Penn State 2024": {
       "neutral_pass_rate": {
         "value": 0.41688654353562005,
@@ -133,32 +169,40 @@
   "stability": {
     "neutral_pass_rate": {
       "per_season": {
+        "Penn State 2016": 0.4417910447761194,
+        "Penn State 2017": 0.5415162454873647,
         "Penn State 2024": 0.41688654353562005,
         "Penn State 2025": 0.3626373626373626
       },
-      "spread": 0.05424918089825742,
-      "n_seasons": 2
+      "spread": 0.17887888285000203,
+      "n_seasons": 4
     },
     "sec_per_play": {
       "per_season": {
+        "Penn State 2016": 25.0,
+        "Penn State 2017": 27.5,
         "Penn State 2024": 34,
         "Penn State 2025": 31.5
       },
-      "spread": 2.5,
-      "n_seasons": 2
+      "spread": 9.0,
+      "n_seasons": 4
     },
     "fourth_down_go_rate": {
-      "per_season": {},
+      "per_season": {
+        "Penn State 2016": 0.3076923076923077
+      },
       "spread": null,
-      "n_seasons": 0
+      "n_seasons": 1
     },
     "explosive_pass_rate": {
       "per_season": {
+        "Penn State 2016": 0.16494845360824742,
+        "Penn State 2017": 0.12244897959183673,
         "Penn State 2024": 0.10550458715596331,
         "Penn State 2025": 0.0625
       },
-      "spread": 0.04300458715596331,
-      "n_seasons": 2
+      "spread": 0.10244845360824742,
+      "n_seasons": 4
     }
   }
 }

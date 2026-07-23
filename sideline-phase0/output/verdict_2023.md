@@ -12,9 +12,6 @@
 - head-to-head: coach DNA 1 – 4 program (sign-test p = 0.375)
 - **edge: program identity**
 
-## fourth_down_go_rate
-No usable samples (check MIN_SAMPLES / data coverage).
-
 ## explosive_pass_rate
 - movers with usable data: 12
 - coach-DNA MAE: 0.0271 | program MAE: 0.0269
@@ -30,3 +27,5 @@ Interpretation guide:
 - Split by metric -> the DNA profile only claims the dials that traveled (this is the expected outcome; partial persistence is still a win).
 
 Caveats: one season of ~15 movers is a small n; explosive_pass_rate is personnel-contaminated; scrambles are logged as rushes.
+
+Retired dial: fourth_down_go_rate (2026-07-22) — zero usable movers in every cycle; raw counts remain in the results CSV, never scored.

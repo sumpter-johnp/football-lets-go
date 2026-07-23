@@ -1,0 +1,227 @@
+{
+  "coach": "Matt Wells",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2018,
+      "n_full": 5,
+      "school": "Utah State"
+    },
+    {
+      "first": 2019,
+      "last": 2021,
+      "n_full": 1,
+      "school": "Texas Tech"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Utah State",
+      "year": 2014,
+      "games": 14
+    },
+    {
+      "school": "Utah State",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "Utah State",
+      "year": 2016,
+      "games": 12
+    },
+    {
+      "school": "Utah State",
+      "year": 2017,
+      "games": 13
+    },
+    {
+      "school": "Utah State",
+      "year": 2018,
+      "games": 12
+    },
+    {
+      "school": "Texas Tech",
+      "year": 2019,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Texas Tech",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Texas Tech",
+      "year": 2021,
+      "reason": "partial season (8 games)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4982164090368609,
+      "n": 1682
+    },
+    "sec_per_play": {
+      "value": 23.25735294117647,
+      "n": 544
+    },
+    "fourth_down_go_rate": {
+      "value": 0.21212121212121213,
+      "n": 33
+    },
+    "explosive_pass_rate": {
+      "value": 0.08517887563884156,
+      "n": 1174
+    }
+  },
+  "sticky_by_season": {
+    "Utah State 2014": {
+      "neutral_pass_rate": {
+        "value": 0.4533762057877814,
+        "n": 311
+      },
+      "sec_per_play": {
+        "value": 27.0,
+        "n": 134
+      },
+      "fourth_down_go_rate": {
+        "value": 0.14285714285714285,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.105,
+        "n": 200
+      }
+    },
+    "Utah State 2015": {
+      "neutral_pass_rate": {
+        "value": 0.45614035087719296,
+        "n": 285
+      },
+      "sec_per_play": {
+        "value": 27,
+        "n": 135
+      },
+      "fourth_down_go_rate": {
+        "value": 0.16666666666666666,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.109375,
+        "n": 192
+      }
+    },
+    "Utah State 2016": {
+      "neutral_pass_rate": {
+        "value": 0.44573643410852715,
+        "n": 258
+      },
+      "sec_per_play": {
+        "value": 25.0,
+        "n": 46
+      },
+      "fourth_down_go_rate": {
+        "value": 0.25,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.07471264367816093,
+        "n": 174
+      }
+    },
+    "Utah State 2017": {
+      "neutral_pass_rate": {
+        "value": 0.48880597014925375,
+        "n": 268
+      },
+      "sec_per_play": {
+        "value": 23.0,
+        "n": 76
+      },
+      "fourth_down_go_rate": {
+        "value": 0.14285714285714285,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.06451612903225806,
+        "n": 186
+      }
+    },
+    "Utah State 2018": {
+      "neutral_pass_rate": {
+        "value": 0.5679442508710801,
+        "n": 287
+      },
+      "sec_per_play": {
+        "value": 16.5,
+        "n": 86
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.0871559633027523,
+        "n": 218
+      }
+    },
+    "Texas Tech 2019": {
+      "neutral_pass_rate": {
+        "value": 0.5787545787545788,
+        "n": 273
+      },
+      "sec_per_play": {
+        "value": 16,
+        "n": 67
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.06862745098039216,
+        "n": 204
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Utah State 2014": 0.4533762057877814,
+        "Utah State 2015": 0.45614035087719296,
+        "Utah State 2016": 0.44573643410852715,
+        "Utah State 2017": 0.48880597014925375,
+        "Utah State 2018": 0.5679442508710801,
+        "Texas Tech 2019": 0.5787545787545788
+      },
+      "spread": 0.13301814464605166,
+      "n_seasons": 6
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Utah State 2014": 0.105,
+        "Utah State 2015": 0.109375,
+        "Utah State 2016": 0.07471264367816093,
+        "Utah State 2017": 0.06451612903225806,
+        "Utah State 2018": 0.0871559633027523,
+        "Texas Tech 2019": 0.06862745098039216
+      },
+      "spread": 0.04485887096774194,
+      "n_seasons": 6
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "coach": "Mike Riley",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2014,
+      "n_full": 1,
+      "school": "Oregon State"
+    },
+    {
+      "first": 2015,
+      "last": 2017,
+      "n_full": 3,
+      "school": "Nebraska"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Oregon State",
+      "year": 2014,
+      "games": 12
+    },
+    {
+      "school": "Nebraska",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "Nebraska",
+      "year": 2017,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Nebraska",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.44506726457399104,
+      "n": 892
+    },
+    "sec_per_play": {
+      "value": 29.40995260663507,
+      "n": 422
+    },
+    "fourth_down_go_rate": {
+      "value": 0.3333333333333333,
+      "n": 21
+    },
+    "explosive_pass_rate": {
+      "value": 0.10052910052910052,
+      "n": 567
+    }
+  },
+  "sticky_by_season": {
+    "Oregon State 2014": {
+      "neutral_pass_rate": {
+        "value": 0.524822695035461,
+        "n": 282
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 123
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.1111111111111111,
+        "n": 198
+      }
+    },
+    "Nebraska 2015": {
+      "neutral_pass_rate": {
+        "value": 0.38596491228070173,
+        "n": 342
+      },
+      "sec_per_play": {
+        "value": 29,
+        "n": 295
+      },
+      "fourth_down_go_rate": {
+        "value": 0.18181818181818182,
+        "n": 11
+      },
+      "explosive_pass_rate": {
+        "value": 0.0851063829787234,
+        "n": 188
+      }
+    },
+    "Nebraska 2017": {
+      "neutral_pass_rate": {
+        "value": 0.43656716417910446,
+        "n": 268
+      },
+      "sec_per_play": {
+        "value": 41.5,
+        "n": 4
+      },
+      "fourth_down_go_rate": {
+        "value": 0.75,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.10497237569060773,
+        "n": 181
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Oregon State 2014": 0.524822695035461,
+        "Nebraska 2015": 0.38596491228070173,
+        "Nebraska 2017": 0.43656716417910446
+      },
+      "spread": 0.13885778275475924,
+      "n_seasons": 3
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Nebraska 2015": 29
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Oregon State 2014": 0.1111111111111111,
+        "Nebraska 2015": 0.0851063829787234,
+        "Nebraska 2017": 0.10497237569060773
+      },
+      "spread": 0.026004728132387703,
+      "n_seasons": 3
+    }
+  }
+}

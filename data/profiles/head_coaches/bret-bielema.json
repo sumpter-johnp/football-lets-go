@@ -1,0 +1,174 @@
+{
+  "coach": "Bret Bielema",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2017,
+      "n_full": 4,
+      "school": "Arkansas"
+    },
+    {
+      "first": 2021,
+      "last": 2025,
+      "n_full": 4,
+      "school": "Illinois"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Arkansas",
+      "year": 2017,
+      "games": 12
+    },
+    {
+      "school": "Illinois",
+      "year": 2021,
+      "games": 12
+    },
+    {
+      "school": "Illinois",
+      "year": 2022,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Arkansas",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Arkansas",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Arkansas",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Illinois",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Illinois",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Illinois",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.35714285714285715,
+      "n": 980
+    },
+    "sec_per_play": {
+      "value": 29.325842696629213,
+      "n": 534
+    },
+    "fourth_down_go_rate": {
+      "value": 0.2727272727272727,
+      "n": 22
+    },
+    "explosive_pass_rate": {
+      "value": 0.09719626168224299,
+      "n": 535
+    }
+  },
+  "sticky_by_season": {
+    "Arkansas 2017": {
+      "neutral_pass_rate": {
+        "value": 0.36330935251798563,
+        "n": 278
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 140
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2222222222222222,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.125,
+        "n": 152
+      }
+    },
+    "Illinois 2021": {
+      "neutral_pass_rate": {
+        "value": 0.29260450160771706,
+        "n": 311
+      },
+      "sec_per_play": {
+        "value": 33,
+        "n": 137
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.08496732026143791,
+        "n": 153
+      }
+    },
+    "Illinois 2022": {
+      "neutral_pass_rate": {
+        "value": 0.4040920716112532,
+        "n": 391
+      },
+      "sec_per_play": {
+        "value": 27,
+        "n": 257
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5714285714285714,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.08695652173913043,
+        "n": 230
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Arkansas 2017": 0.36330935251798563,
+        "Illinois 2021": 0.29260450160771706,
+        "Illinois 2022": 0.4040920716112532
+      },
+      "spread": 0.11148757000353615,
+      "n_seasons": 3
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Illinois 2022": 27
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Arkansas 2017": 0.125,
+        "Illinois 2021": 0.08496732026143791,
+        "Illinois 2022": 0.08695652173913043
+      },
+      "spread": 0.04003267973856209,
+      "n_seasons": 3
+    }
+  }
+}

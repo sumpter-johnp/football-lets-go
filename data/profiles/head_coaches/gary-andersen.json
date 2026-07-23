@@ -24,9 +24,24 @@
   ],
   "seasons_profiled": [
     {
+      "school": "Wisconsin",
+      "year": 2014,
+      "games": 13
+    },
+    {
+      "school": "Oregon State",
+      "year": 2015,
+      "games": 12
+    },
+    {
       "school": "Oregon State",
       "year": 2016,
       "games": 12
+    },
+    {
+      "school": "Utah State",
+      "year": 2019,
+      "games": 13
     }
   ],
   "seasons_excluded": [
@@ -39,42 +54,63 @@
       "school": "Utah State",
       "year": 2020,
       "reason": "COVID season (pre-registered exclusion)"
-    },
-    {
-      "school": "Wisconsin",
-      "year": 2014,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "Oregon State",
-      "year": 2015,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "Utah State",
-      "year": 2019,
-      "reason": "not cached (rerun with --fetch --coach)"
     }
   ],
   "pooled_profile": {
     "neutral_pass_rate": {
-      "value": 0.41409691629955947,
-      "n": 227
+      "value": 0.4023193577163247,
+      "n": 1121
     },
     "sec_per_play": {
-      "value": 33.5,
-      "n": 6
+      "value": 27.806451612903224,
+      "n": 558
     },
     "fourth_down_go_rate": {
-      "value": 0.0,
-      "n": 4
+      "value": 0.2,
+      "n": 20
     },
     "explosive_pass_rate": {
-      "value": 0.08088235294117647,
-      "n": 136
+      "value": 0.09538461538461539,
+      "n": 650
     }
   },
   "sticky_by_season": {
+    "Wisconsin 2014": {
+      "neutral_pass_rate": {
+        "value": 0.2884012539184953,
+        "n": 319
+      },
+      "sec_per_play": {
+        "value": 31.0,
+        "n": 340
+      },
+      "fourth_down_go_rate": {
+        "value": 0.75,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.08450704225352113,
+        "n": 142
+      }
+    },
+    "Oregon State 2015": {
+      "neutral_pass_rate": {
+        "value": 0.3232758620689655,
+        "n": 232
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 137
+      },
+      "fourth_down_go_rate": {
+        "value": 0.1111111111111111,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.09166666666666666,
+        "n": 120
+      }
+    },
     "Oregon State 2016": {
       "neutral_pass_rate": {
         "value": 0.41409691629955947,
@@ -92,20 +128,43 @@
         "value": 0.08088235294117647,
         "n": 136
       }
+    },
+    "Utah State 2019": {
+      "neutral_pass_rate": {
+        "value": 0.5539358600583091,
+        "n": 343
+      },
+      "sec_per_play": {
+        "value": 18,
+        "n": 75
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.1111111111111111,
+        "n": 252
+      }
     }
   },
   "stability": {
     "neutral_pass_rate": {
       "per_season": {
-        "Oregon State 2016": 0.41409691629955947
+        "Wisconsin 2014": 0.2884012539184953,
+        "Oregon State 2015": 0.3232758620689655,
+        "Oregon State 2016": 0.41409691629955947,
+        "Utah State 2019": 0.5539358600583091
+      },
+      "spread": 0.2655346061398138,
+      "n_seasons": 4
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Wisconsin 2014": 31.0
       },
       "spread": null,
       "n_seasons": 1
-    },
-    "sec_per_play": {
-      "per_season": {},
-      "spread": null,
-      "n_seasons": 0
     },
     "fourth_down_go_rate": {
       "per_season": {},
@@ -114,10 +173,13 @@
     },
     "explosive_pass_rate": {
       "per_season": {
-        "Oregon State 2016": 0.08088235294117647
+        "Wisconsin 2014": 0.08450704225352113,
+        "Oregon State 2015": 0.09166666666666666,
+        "Oregon State 2016": 0.08088235294117647,
+        "Utah State 2019": 0.1111111111111111
       },
-      "spread": null,
-      "n_seasons": 1
+      "spread": 0.03022875816993463,
+      "n_seasons": 4
     }
   }
 }

@@ -1,0 +1,195 @@
+{
+  "coach": "Scott Frost",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2016,
+      "last": 2017,
+      "n_full": 2,
+      "school": "UCF"
+    },
+    {
+      "first": 2018,
+      "last": 2022,
+      "n_full": 3,
+      "school": "Nebraska"
+    },
+    {
+      "first": 2025,
+      "last": 2025,
+      "n_full": 0,
+      "school": "UCF"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "UCF",
+      "year": 2016,
+      "games": 13
+    },
+    {
+      "school": "UCF",
+      "year": 2017,
+      "games": 13
+    },
+    {
+      "school": "Nebraska",
+      "year": 2018,
+      "games": 12
+    },
+    {
+      "school": "Nebraska",
+      "year": 2021,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Nebraska",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Nebraska",
+      "year": 2022,
+      "reason": "partial season (3 games)"
+    },
+    {
+      "school": "Nebraska",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "UCF",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4471947194719472,
+      "n": 1212
+    },
+    "sec_per_play": {
+      "value": 23.94140625,
+      "n": 512
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5263157894736842,
+      "n": 19
+    },
+    "explosive_pass_rate": {
+      "value": 0.12364130434782608,
+      "n": 736
+    }
+  },
+  "sticky_by_season": {
+    "UCF 2016": {
+      "neutral_pass_rate": {
+        "value": 0.44193548387096776,
+        "n": 310
+      },
+      "sec_per_play": {
+        "value": 19.0,
+        "n": 72
+      },
+      "fourth_down_go_rate": {
+        "value": 0.75,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.07,
+        "n": 200
+      }
+    },
+    "UCF 2017": {
+      "neutral_pass_rate": {
+        "value": 0.5116279069767442,
+        "n": 344
+      },
+      "sec_per_play": {
+        "value": 19.5,
+        "n": 130
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.16595744680851063,
+        "n": 235
+      }
+    },
+    "Nebraska 2018": {
+      "neutral_pass_rate": {
+        "value": 0.44360902255639095,
+        "n": 266
+      },
+      "sec_per_play": {
+        "value": 23,
+        "n": 135
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.07792207792207792,
+        "n": 154
+      }
+    },
+    "Nebraska 2021": {
+      "neutral_pass_rate": {
+        "value": 0.3801369863013699,
+        "n": 292
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 175
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.17687074829931973,
+        "n": 147
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "UCF 2016": 0.44193548387096776,
+        "UCF 2017": 0.5116279069767442,
+        "Nebraska 2018": 0.44360902255639095,
+        "Nebraska 2021": 0.3801369863013699
+      },
+      "spread": 0.13149092067537432,
+      "n_seasons": 4
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Nebraska 2021": 30
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "UCF 2016": 0.07,
+        "UCF 2017": 0.16595744680851063,
+        "Nebraska 2018": 0.07792207792207792,
+        "Nebraska 2021": 0.17687074829931973
+      },
+      "spread": 0.10687074829931972,
+      "n_seasons": 4
+    }
+  }
+}

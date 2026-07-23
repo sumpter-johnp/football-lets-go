@@ -1,0 +1,93 @@
+{
+  "coach": "Frank Beamer",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2015,
+      "n_full": 2,
+      "school": "Virginia Tech"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Virginia Tech",
+      "year": 2015,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Virginia Tech",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.3894080996884735,
+      "n": 321
+    },
+    "sec_per_play": {
+      "value": 25.0,
+      "n": 312
+    },
+    "fourth_down_go_rate": {
+      "value": 0.0,
+      "n": 7
+    },
+    "explosive_pass_rate": {
+      "value": 0.08947368421052632,
+      "n": 190
+    }
+  },
+  "sticky_by_season": {
+    "Virginia Tech 2015": {
+      "neutral_pass_rate": {
+        "value": 0.3894080996884735,
+        "n": 321
+      },
+      "sec_per_play": {
+        "value": 25.0,
+        "n": 312
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.08947368421052632,
+        "n": 190
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Virginia Tech 2015": 0.3894080996884735
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Virginia Tech 2015": 25.0
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Virginia Tech 2015": 0.08947368421052632
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

@@ -13,6 +13,11 @@
   "seasons_profiled": [
     {
       "school": "Texas Tech",
+      "year": 2022,
+      "games": 13
+    },
+    {
+      "school": "Texas Tech",
       "year": 2024,
       "games": 13
     },
@@ -25,34 +30,47 @@
   "seasons_excluded": [
     {
       "school": "Texas Tech",
-      "year": 2022,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "Texas Tech",
       "year": 2023,
       "reason": "not cached (rerun with --fetch --coach)"
     }
   ],
   "pooled_profile": {
     "neutral_pass_rate": {
-      "value": 0.498134328358209,
-      "n": 536
+      "value": 0.5208098987626547,
+      "n": 889
     },
     "sec_per_play": {
-      "value": 25.25194401244168,
-      "n": 643
+      "value": 24.37530864197531,
+      "n": 810
     },
     "fourth_down_go_rate": {
-      "value": 0.5833333333333334,
-      "n": 12
+      "value": 0.6,
+      "n": 20
     },
     "explosive_pass_rate": {
-      "value": 0.08443271767810026,
-      "n": 379
+      "value": 0.08544303797468354,
+      "n": 632
     }
   },
   "sticky_by_season": {
+    "Texas Tech 2022": {
+      "neutral_pass_rate": {
+        "value": 0.5552407932011332,
+        "n": 353
+      },
+      "sec_per_play": {
+        "value": 21,
+        "n": 167
+      },
+      "fourth_down_go_rate": {
+        "value": 0.625,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.08695652173913043,
+        "n": 253
+      }
+    },
     "Texas Tech 2024": {
       "neutral_pass_rate": {
         "value": 0.5353535353535354,
@@ -93,19 +111,21 @@
   "stability": {
     "neutral_pass_rate": {
       "per_season": {
+        "Texas Tech 2022": 0.5552407932011332,
         "Texas Tech 2024": 0.5353535353535354,
         "Texas Tech 2025": 0.45188284518828453
       },
-      "spread": 0.08347069016525083,
-      "n_seasons": 2
+      "spread": 0.10335794801284864,
+      "n_seasons": 3
     },
     "sec_per_play": {
       "per_season": {
+        "Texas Tech 2022": 21,
         "Texas Tech 2024": 27.0,
         "Texas Tech 2025": 23
       },
-      "spread": 4.0,
-      "n_seasons": 2
+      "spread": 6.0,
+      "n_seasons": 3
     },
     "fourth_down_go_rate": {
       "per_season": {},
@@ -114,11 +134,12 @@
     },
     "explosive_pass_rate": {
       "per_season": {
+        "Texas Tech 2022": 0.08695652173913043,
         "Texas Tech 2024": 0.0779816513761468,
         "Texas Tech 2025": 0.09316770186335403
       },
       "spread": 0.01518605048720724,
-      "n_seasons": 2
+      "n_seasons": 3
     }
   }
 }

@@ -18,6 +18,31 @@
   ],
   "seasons_profiled": [
     {
+      "school": "Florida State",
+      "year": 2014,
+      "games": 14
+    },
+    {
+      "school": "Florida State",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "Florida State",
+      "year": 2016,
+      "games": 13
+    },
+    {
+      "school": "Florida State",
+      "year": 2017,
+      "games": 11
+    },
+    {
+      "school": "Texas A&M",
+      "year": 2018,
+      "games": 13
+    },
+    {
       "school": "Texas A&M",
       "year": 2022,
       "games": 12
@@ -35,31 +60,6 @@
       "reason": "COVID season (pre-registered exclusion)"
     },
     {
-      "school": "Florida State",
-      "year": 2014,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "Florida State",
-      "year": 2015,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "Florida State",
-      "year": 2016,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "Florida State",
-      "year": 2017,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "Texas A&M",
-      "year": 2018,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
       "school": "Texas A&M",
       "year": 2019,
       "reason": "not cached (rerun with --fetch --coach)"
@@ -72,23 +72,113 @@
   ],
   "pooled_profile": {
     "neutral_pass_rate": {
-      "value": 0.43527508090614886,
-      "n": 618
+      "value": 0.4604904632152589,
+      "n": 2202
     },
     "sec_per_play": {
-      "value": 29.591324200913242,
-      "n": 438
+      "value": 28.93653756416239,
+      "n": 2143
     },
     "fourth_down_go_rate": {
-      "value": 0.4,
-      "n": 15
+      "value": 0.2571428571428571,
+      "n": 35
     },
     "explosive_pass_rate": {
-      "value": 0.12121212121212122,
-      "n": 396
+      "value": 0.11095406360424029,
+      "n": 1415
     }
   },
   "sticky_by_season": {
+    "Florida State 2014": {
+      "neutral_pass_rate": {
+        "value": 0.5302197802197802,
+        "n": 364
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 417
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.109375,
+        "n": 256
+      }
+    },
+    "Florida State 2015": {
+      "neutral_pass_rate": {
+        "value": 0.4885245901639344,
+        "n": 305
+      },
+      "sec_per_play": {
+        "value": 29.0,
+        "n": 356
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.11374407582938388,
+        "n": 211
+      }
+    },
+    "Florida State 2016": {
+      "neutral_pass_rate": {
+        "value": 0.4772727272727273,
+        "n": 264
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 300
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.1242603550295858,
+        "n": 169
+      }
+    },
+    "Florida State 2017": {
+      "neutral_pass_rate": {
+        "value": 0.40384615384615385,
+        "n": 312
+      },
+      "sec_per_play": {
+        "value": 31,
+        "n": 341
+      },
+      "fourth_down_go_rate": {
+        "value": 0.16666666666666666,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.1,
+        "n": 180
+      }
+    },
+    "Texas A&M 2018": {
+      "neutral_pass_rate": {
+        "value": 0.44542772861356933,
+        "n": 339
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 291
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.08866995073891626,
+        "n": 203
+      }
+    },
     "Texas A&M 2022": {
       "neutral_pass_rate": {
         "value": 0.45517241379310347,
@@ -129,19 +219,29 @@
   "stability": {
     "neutral_pass_rate": {
       "per_season": {
+        "Florida State 2014": 0.5302197802197802,
+        "Florida State 2015": 0.4885245901639344,
+        "Florida State 2016": 0.4772727272727273,
+        "Florida State 2017": 0.40384615384615385,
+        "Texas A&M 2018": 0.44542772861356933,
         "Texas A&M 2022": 0.45517241379310347,
         "Texas A&M 2023": 0.4176829268292683
       },
-      "spread": 0.037489486963835195,
-      "n_seasons": 2
+      "spread": 0.12637362637362637,
+      "n_seasons": 7
     },
     "sec_per_play": {
       "per_season": {
+        "Florida State 2014": 25,
+        "Florida State 2015": 29.0,
+        "Florida State 2016": 30.0,
+        "Florida State 2017": 31,
+        "Texas A&M 2018": 30,
         "Texas A&M 2022": 30,
         "Texas A&M 2023": 29
       },
-      "spread": 1,
-      "n_seasons": 2
+      "spread": 6,
+      "n_seasons": 7
     },
     "fourth_down_go_rate": {
       "per_season": {},
@@ -150,11 +250,16 @@
     },
     "explosive_pass_rate": {
       "per_season": {
+        "Florida State 2014": 0.109375,
+        "Florida State 2015": 0.11374407582938388,
+        "Florida State 2016": 0.1242603550295858,
+        "Florida State 2017": 0.1,
+        "Texas A&M 2018": 0.08866995073891626,
         "Texas A&M 2022": 0.09895833333333333,
         "Texas A&M 2023": 0.14215686274509803
       },
-      "spread": 0.043198529411764705,
-      "n_seasons": 2
+      "spread": 0.053486912006181775,
+      "n_seasons": 7
     }
   }
 }

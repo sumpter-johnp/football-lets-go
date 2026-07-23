@@ -1,0 +1,222 @@
+{
+  "coach": "Dino Babers",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2015,
+      "n_full": 2,
+      "school": "Bowling Green"
+    },
+    {
+      "first": 2016,
+      "last": 2023,
+      "n_full": 7,
+      "school": "Syracuse"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Bowling Green",
+      "year": 2014,
+      "games": 14
+    },
+    {
+      "school": "Bowling Green",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "Syracuse",
+      "year": 2016,
+      "games": 12
+    },
+    {
+      "school": "Syracuse",
+      "year": 2021,
+      "games": 12
+    },
+    {
+      "school": "Syracuse",
+      "year": 2022,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Syracuse",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Syracuse",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Syracuse",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Syracuse",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Syracuse",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.48413192283758555,
+      "n": 1607
+    },
+    "sec_per_play": {
+      "value": 22.602222222222224,
+      "n": 900
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5833333333333334,
+      "n": 24
+    },
+    "explosive_pass_rate": {
+      "value": 0.08163265306122448,
+      "n": 1078
+    }
+  },
+  "sticky_by_season": {
+    "Bowling Green 2014": {
+      "neutral_pass_rate": {
+        "value": 0.5025125628140703,
+        "n": 398
+      },
+      "sec_per_play": {
+        "value": 18.0,
+        "n": 230
+      },
+      "fourth_down_go_rate": {
+        "value": 0.625,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.08928571428571429,
+        "n": 280
+      }
+    },
+    "Bowling Green 2015": {
+      "neutral_pass_rate": {
+        "value": 0.5602094240837696,
+        "n": 382
+      },
+      "sec_per_play": {
+        "value": 17.0,
+        "n": 178
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.08695652173913043,
+        "n": 276
+      }
+    },
+    "Syracuse 2016": {
+      "neutral_pass_rate": {
+        "value": 0.5506072874493927,
+        "n": 247
+      },
+      "sec_per_play": {
+        "value": 16.0,
+        "n": 84
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.09844559585492228,
+        "n": 193
+      }
+    },
+    "Syracuse 2021": {
+      "neutral_pass_rate": {
+        "value": 0.321656050955414,
+        "n": 314
+      },
+      "sec_per_play": {
+        "value": 29,
+        "n": 209
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.04487179487179487,
+        "n": 156
+      }
+    },
+    "Syracuse 2022": {
+      "neutral_pass_rate": {
+        "value": 0.4774436090225564,
+        "n": 266
+      },
+      "sec_per_play": {
+        "value": 29,
+        "n": 199
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.07514450867052024,
+        "n": 173
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Bowling Green 2014": 0.5025125628140703,
+        "Bowling Green 2015": 0.5602094240837696,
+        "Syracuse 2016": 0.5506072874493927,
+        "Syracuse 2021": 0.321656050955414,
+        "Syracuse 2022": 0.4774436090225564
+      },
+      "spread": 0.23855337312835562,
+      "n_seasons": 5
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Bowling Green 2014": 18.0,
+        "Bowling Green 2015": 17.0,
+        "Syracuse 2021": 29,
+        "Syracuse 2022": 29
+      },
+      "spread": 12.0,
+      "n_seasons": 4
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Bowling Green 2014": 0.08928571428571429,
+        "Bowling Green 2015": 0.08695652173913043,
+        "Syracuse 2016": 0.09844559585492228,
+        "Syracuse 2021": 0.04487179487179487,
+        "Syracuse 2022": 0.07514450867052024
+      },
+      "spread": 0.05357380098312741,
+      "n_seasons": 5
+    }
+  }
+}

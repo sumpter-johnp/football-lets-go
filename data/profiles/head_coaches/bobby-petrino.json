@@ -5,15 +5,9 @@
   "stints": [
     {
       "first": 2014,
-      "last": 2017,
+      "last": 2018,
       "n_full": 4,
       "school": "Louisville"
-    },
-    {
-      "first": 2018,
-      "last": 2018,
-      "n_full": 1,
-      "school": "Western Kentucky"
     }
   ],
   "seasons_profiled": [
@@ -40,9 +34,9 @@
   ],
   "seasons_excluded": [
     {
-      "school": "Western Kentucky",
+      "school": "Louisville",
       "year": 2018,
-      "reason": "not cached (rerun with --fetch --coach)"
+      "reason": "partial season (10 games)"
     }
   ],
   "pooled_profile": {

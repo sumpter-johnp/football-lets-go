@@ -1,0 +1,180 @@
+{
+  "coach": "Charlie Strong",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2016,
+      "n_full": 3,
+      "school": "Texas"
+    },
+    {
+      "first": 2017,
+      "last": 2019,
+      "n_full": 3,
+      "school": "South Florida"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Texas",
+      "year": 2014,
+      "games": 13
+    },
+    {
+      "school": "Texas",
+      "year": 2015,
+      "games": 12
+    },
+    {
+      "school": "Texas",
+      "year": 2016,
+      "games": 12
+    },
+    {
+      "school": "South Florida",
+      "year": 2017,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "South Florida",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "South Florida",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.38778625954198476,
+      "n": 1310
+    },
+    "sec_per_play": {
+      "value": 21.072477962781587,
+      "n": 1021
+    },
+    "fourth_down_go_rate": {
+      "value": 0.2631578947368421,
+      "n": 19
+    },
+    "explosive_pass_rate": {
+      "value": 0.1074964639321075,
+      "n": 707
+    }
+  },
+  "sticky_by_season": {
+    "Texas 2014": {
+      "neutral_pass_rate": {
+        "value": 0.44126984126984126,
+        "n": 315
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 333
+      },
+      "fourth_down_go_rate": {
+        "value": 0.16666666666666666,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.06190476190476191,
+        "n": 210
+      }
+    },
+    "Texas 2015": {
+      "neutral_pass_rate": {
+        "value": 0.26976744186046514,
+        "n": 215
+      },
+      "sec_per_play": {
+        "value": 26.0,
+        "n": 136
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.18478260869565216,
+        "n": 92
+      }
+    },
+    "Texas 2016": {
+      "neutral_pass_rate": {
+        "value": 0.3944954128440367,
+        "n": 436
+      },
+      "sec_per_play": {
+        "value": 17,
+        "n": 417
+      },
+      "fourth_down_go_rate": {
+        "value": 0.25,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.09333333333333334,
+        "n": 225
+      }
+    },
+    "South Florida 2017": {
+      "neutral_pass_rate": {
+        "value": 0.40406976744186046,
+        "n": 344
+      },
+      "sec_per_play": {
+        "value": 19,
+        "n": 135
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.1388888888888889,
+        "n": 180
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Texas 2014": 0.44126984126984126,
+        "Texas 2015": 0.26976744186046514,
+        "Texas 2016": 0.3944954128440367,
+        "South Florida 2017": 0.40406976744186046
+      },
+      "spread": 0.17150239940937612,
+      "n_seasons": 4
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Texas 2014": 25,
+        "Texas 2016": 17
+      },
+      "spread": 8,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Texas 2014": 0.06190476190476191,
+        "Texas 2015": 0.18478260869565216,
+        "Texas 2016": 0.09333333333333334,
+        "South Florida 2017": 0.1388888888888889
+      },
+      "spread": 0.12287784679089025,
+      "n_seasons": 4
+    }
+  }
+}

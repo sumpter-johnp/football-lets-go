@@ -1,0 +1,111 @@
+{
+  "coach": "Jeff Traylor",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2020,
+      "last": 2025,
+      "n_full": 4,
+      "school": "UTSA"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "UTSA",
+      "year": 2021,
+      "games": 14
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "UTSA",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "UTSA",
+      "year": 2022,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "UTSA",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "UTSA",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "UTSA",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.49271137026239065,
+      "n": 343
+    },
+    "sec_per_play": {
+      "value": 24.5,
+      "n": 72
+    },
+    "fourth_down_go_rate": {
+      "value": 1.0,
+      "n": 2
+    },
+    "explosive_pass_rate": {
+      "value": 0.13656387665198239,
+      "n": 227
+    }
+  },
+  "sticky_by_season": {
+    "UTSA 2021": {
+      "neutral_pass_rate": {
+        "value": 0.49271137026239065,
+        "n": 343
+      },
+      "sec_per_play": {
+        "value": 24.5,
+        "n": 72
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.13656387665198239,
+        "n": 227
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "UTSA 2021": 0.49271137026239065
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "UTSA 2021": 0.13656387665198239
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

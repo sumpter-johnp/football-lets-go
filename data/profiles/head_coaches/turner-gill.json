@@ -1,0 +1,85 @@
+{
+  "coach": "Turner Gill",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2018,
+      "last": 2018,
+      "n_full": 1,
+      "school": "Liberty"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Liberty",
+      "year": 2018,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.41818181818181815,
+      "n": 330
+    },
+    "sec_per_play": {
+      "value": 34.0,
+      "n": 5
+    },
+    "fourth_down_go_rate": {
+      "value": 0.375,
+      "n": 8
+    },
+    "explosive_pass_rate": {
+      "value": 0.0963302752293578,
+      "n": 218
+    }
+  },
+  "sticky_by_season": {
+    "Liberty 2018": {
+      "neutral_pass_rate": {
+        "value": 0.41818181818181815,
+        "n": 330
+      },
+      "sec_per_play": {
+        "value": 34,
+        "n": 5
+      },
+      "fourth_down_go_rate": {
+        "value": 0.375,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.0963302752293578,
+        "n": 218
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Liberty 2018": 0.41818181818181815
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Liberty 2018": 0.0963302752293578
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

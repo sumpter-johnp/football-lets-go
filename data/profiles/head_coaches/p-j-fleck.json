@@ -1,0 +1,209 @@
+{
+  "coach": "P.J. Fleck",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2016,
+      "n_full": 3,
+      "school": "Western Michigan"
+    },
+    {
+      "first": 2017,
+      "last": 2025,
+      "n_full": 7,
+      "school": "Minnesota"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Western Michigan",
+      "year": 2014,
+      "games": 13
+    },
+    {
+      "school": "Western Michigan",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "Western Michigan",
+      "year": 2016,
+      "games": 14
+    },
+    {
+      "school": "Minnesota",
+      "year": 2017,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Minnesota",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Minnesota",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Minnesota",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Minnesota",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Minnesota",
+      "year": 2022,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Minnesota",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Minnesota",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Minnesota",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.38769804287045667,
+      "n": 1073
+    },
+    "sec_per_play": {
+      "value": 30.542079207920793,
+      "n": 404
+    },
+    "fourth_down_go_rate": {
+      "value": 0.4782608695652174,
+      "n": 23
+    },
+    "explosive_pass_rate": {
+      "value": 0.1232876712328767,
+      "n": 584
+    }
+  },
+  "sticky_by_season": {
+    "Western Michigan 2014": {
+      "neutral_pass_rate": {
+        "value": 0.38493723849372385,
+        "n": 239
+      },
+      "sec_per_play": {
+        "value": 32.0,
+        "n": 84
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.125,
+        "n": 136
+      }
+    },
+    "Western Michigan 2015": {
+      "neutral_pass_rate": {
+        "value": 0.42857142857142855,
+        "n": 273
+      },
+      "sec_per_play": {
+        "value": 33.0,
+        "n": 162
+      },
+      "fourth_down_go_rate": {
+        "value": 0.75,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.12345679012345678,
+        "n": 162
+      }
+    },
+    "Western Michigan 2016": {
+      "neutral_pass_rate": {
+        "value": 0.44876325088339225,
+        "n": 283
+      },
+      "sec_per_play": {
+        "value": 27,
+        "n": 145
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5714285714285714,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.13043478260869565,
+        "n": 161
+      }
+    },
+    "Minnesota 2017": {
+      "neutral_pass_rate": {
+        "value": 0.28776978417266186,
+        "n": 278
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 13
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.112,
+        "n": 125
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Western Michigan 2014": 0.38493723849372385,
+        "Western Michigan 2015": 0.42857142857142855,
+        "Western Michigan 2016": 0.44876325088339225,
+        "Minnesota 2017": 0.28776978417266186
+      },
+      "spread": 0.1609934667107304,
+      "n_seasons": 4
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Western Michigan 2015": 33.0
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Western Michigan 2014": 0.125,
+        "Western Michigan 2015": 0.12345679012345678,
+        "Western Michigan 2016": 0.13043478260869565,
+        "Minnesota 2017": 0.112
+      },
+      "spread": 0.018434782608695646,
+      "n_seasons": 4
+    }
+  }
+}

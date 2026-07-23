@@ -1,0 +1,112 @@
+{
+  "coach": "Sonny Cumbie",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2021,
+      "last": 2021,
+      "n_full": 0,
+      "school": "Texas Tech"
+    },
+    {
+      "first": 2022,
+      "last": 2025,
+      "n_full": 3,
+      "school": "Louisiana Tech"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Louisiana Tech",
+      "year": 2022,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Texas Tech",
+      "year": 2021,
+      "reason": "partial season (5 games)"
+    },
+    {
+      "school": "Louisiana Tech",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Louisiana Tech",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Louisiana Tech",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.5622119815668203,
+      "n": 217
+    },
+    "sec_per_play": {
+      "value": 30.0,
+      "n": 34
+    },
+    "fourth_down_go_rate": {
+      "value": 1.0,
+      "n": 3
+    },
+    "explosive_pass_rate": {
+      "value": 0.125,
+      "n": 168
+    }
+  },
+  "sticky_by_season": {
+    "Louisiana Tech 2022": {
+      "neutral_pass_rate": {
+        "value": 0.5622119815668203,
+        "n": 217
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 34
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.125,
+        "n": 168
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Louisiana Tech 2022": 0.5622119815668203
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Louisiana Tech 2022": 0.125
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

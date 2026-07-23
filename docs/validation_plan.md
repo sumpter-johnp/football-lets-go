@@ -14,7 +14,8 @@ pace 8–1 (p = 0.039), early-down pass rate 7–3, explosive-pass rate 5–5,
 4th-down go rate no usable samples. One season of ~15 movers = small n,
 hence layer 2.
 
-## 2. Backtest expansion — DONE 2026-07-22 (four cycles, two hypotheses)
+## 2. Backtest expansion — DONE 2026-07-22 (two hypotheses; HC track
+## extended to nine cycles 2026-07-22)
 
 **Play-caller track** (hand-verified movers, `movers_2022..2025.csv`): the
 2022 cycle (19 movers, two independent agent sweeps merged 2026-07-22) joined
@@ -26,23 +27,39 @@ replicate; treat single-cycle sign tests as noise. Note MAE favors coach DNA
 on all three usable dials (e.g. pass rate .068 vs .080) — DNA loses its
 coin-flips small and wins big.
 
-**HC-regime track** (NEW — systematic, no hand-verification: CFBD /coaches
+**HC-regime track** (systematic, no hand-verification: CFBD /coaches
 attribution via `hc_database.py`, backtest via `backtest_hc.py`,
-pre-registered filters in the file header): 37 HC movers, 2022–2025.
-**HC regime beats program identity in ALL FOUR cycles** (11–8, 9–4, 23–16,
-10–8), pooled **53–36, p = 0.089**, better MAE on every usable dial. Not
-p<.05, but the only directionally stable signal in the project so far.
-Regime-level caveat: the HC's coordinators often move with him — this track
-deliberately bundles staff+scheme into "regime".
+pre-registered filters in the file header): extended 2026-07-22 from four
+cycles (2022–2025, 37 movers, 53–36 p=.089) to **nine cycles — 2015–2019 +
+2022–2025, 67 movers, 154 usable pairs** (2020/2021 excluded by design,
+COVID). Pooled: **HC regime 90–64 program, sign-test p = 0.044**, better
+MAE on all three scored dials (pass rate .075 vs .083; pace 3.10 vs 4.50;
+explosive .0242 vs .0274). Directional record by cycle: 7 wins, 1 tie
+(2018: 7–7), 1 loss (2019: 7–11) — no longer a perfect streak, which is
+what an honest real signal looks like at these n's. Per-cycle detail in
+`output/verdict_hc_<year>.md`. Regime-level caveat: the HC's coordinators
+often move with him — this track deliberately bundles staff+scheme into
+"regime". Data-quality note: CFBD /coaches has one verified error, Petrino's
+2018 partial Louisville season mislabeled as Western Kentucky — corrected
+via `data/hc_stint_overrides.json` (documented override mechanism in
+`hc_database.py`; every other 2015–2019 mover hand-checked against known
+coaching history 2026-07-22).
 
-fourth_down_go_rate: still zero usable samples in every cycle of both tracks
-(MIN_SAMPLES=12 in the 34–70 yd decision zone is rarely met by one season).
-Either drop the dial or widen the zone before citing it.
+fourth_down_go_rate: RETIRED from scored verdicts 2026-07-22 (John's call).
+Zero usable samples in every cycle of both tracks — a neutral-filtered season
+yields ~5 decision-zone snaps (median), and the widening study (cached-data
+prototype, 74 team-seasons) showed even a maximal decision-pure definition
+(zone 21–80, Q4 outside final 5:00) reaches only 4/41 movers; loosening to
+4th-and-≤5 salvages 22/41 but measures punt-avoidance instead of go
+aggression (mean rate .36 vs .48). Still computed and kept in results CSVs
+and profiles for the audit trail; excluded from all tallies and p-values
+(metrics.SCORED_METRICS is the single source of truth).
 
 Cross-cycle aggregation: `python3 src/verdict_combined.py` →
 `output/verdict_combined.md` (the two tracks are never pooled together).
-105 HC regime profiles live in `data/profiles/head_coaches/` (regime-level;
-never mix with play-caller profiles in `data/profiles/coaches/`).
+151 HC regime profiles live in `data/profiles/head_coaches/` (regime-level,
+rebuilt 2026-07-22 with the 2015–2019 cache; never mix with play-caller
+profiles in `data/profiles/coaches/`).
 
 **API budget (measured against the shared cache, 2026-07-15).** Offense-side
 pulls cost ~17 calls per uncached team-season. The Phase 0 client now shares

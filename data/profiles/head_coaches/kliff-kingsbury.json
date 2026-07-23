@@ -1,0 +1,108 @@
+{
+  "coach": "Kliff Kingsbury",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2018,
+      "n_full": 5,
+      "school": "Texas Tech"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Texas Tech",
+      "year": 2018,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Texas Tech",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Texas Tech",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Texas Tech",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Texas Tech",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.5690140845070423,
+      "n": 355
+    },
+    "sec_per_play": {
+      "value": 24.0,
+      "n": 167
+    },
+    "fourth_down_go_rate": {
+      "value": 0.6666666666666666,
+      "n": 6
+    },
+    "explosive_pass_rate": {
+      "value": 0.08791208791208792,
+      "n": 273
+    }
+  },
+  "sticky_by_season": {
+    "Texas Tech 2018": {
+      "neutral_pass_rate": {
+        "value": 0.5690140845070423,
+        "n": 355
+      },
+      "sec_per_play": {
+        "value": 24,
+        "n": 167
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6666666666666666,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.08791208791208792,
+        "n": 273
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Texas Tech 2018": 0.5690140845070423
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Texas Tech 2018": 24
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Texas Tech 2018": 0.08791208791208792
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

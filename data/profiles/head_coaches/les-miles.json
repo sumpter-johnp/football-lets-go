@@ -1,0 +1,155 @@
+{
+  "coach": "Les Miles",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2016,
+      "n_full": 2,
+      "school": "LSU"
+    },
+    {
+      "first": 2019,
+      "last": 2020,
+      "n_full": 1,
+      "school": "Kansas"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "LSU",
+      "year": 2014,
+      "games": 13
+    },
+    {
+      "school": "LSU",
+      "year": 2015,
+      "games": 12
+    },
+    {
+      "school": "Kansas",
+      "year": 2019,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "LSU",
+      "year": 2016,
+      "reason": "partial season (4 games)"
+    },
+    {
+      "school": "Kansas",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.3236914600550964,
+      "n": 726
+    },
+    "sec_per_play": {
+      "value": 29.217928902627513,
+      "n": 647
+    },
+    "fourth_down_go_rate": {
+      "value": 0.2222222222222222,
+      "n": 18
+    },
+    "explosive_pass_rate": {
+      "value": 0.11989100817438691,
+      "n": 367
+    }
+  },
+  "sticky_by_season": {
+    "LSU 2014": {
+      "neutral_pass_rate": {
+        "value": 0.23949579831932774,
+        "n": 238
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 287
+      },
+      "fourth_down_go_rate": {
+        "value": 0.16666666666666666,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.1134020618556701,
+        "n": 97
+      }
+    },
+    "LSU 2015": {
+      "neutral_pass_rate": {
+        "value": 0.30798479087452474,
+        "n": 263
+      },
+      "sec_per_play": {
+        "value": 29,
+        "n": 287
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.136,
+        "n": 125
+      }
+    },
+    "Kansas 2019": {
+      "neutral_pass_rate": {
+        "value": 0.4311111111111111,
+        "n": 225
+      },
+      "sec_per_play": {
+        "value": 27,
+        "n": 73
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2857142857142857,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.1103448275862069,
+        "n": 145
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "LSU 2014": 0.23949579831932774,
+        "LSU 2015": 0.30798479087452474,
+        "Kansas 2019": 0.4311111111111111
+      },
+      "spread": 0.19161531279178337,
+      "n_seasons": 3
+    },
+    "sec_per_play": {
+      "per_season": {
+        "LSU 2014": 30,
+        "LSU 2015": 29
+      },
+      "spread": 1,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "LSU 2014": 0.1134020618556701,
+        "LSU 2015": 0.136,
+        "Kansas 2019": 0.1103448275862069
+      },
+      "spread": 0.025655172413793115,
+      "n_seasons": 3
+    }
+  }
+}

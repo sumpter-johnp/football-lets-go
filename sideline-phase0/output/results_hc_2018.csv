@@ -1,0 +1,25 @@
+coach,new_team,metric,hc_dna_pred,program_pred,actual,hc_dna_err,program_err,n_hc,n_program,n_actual,usable,winner
+Chad Morris,Arkansas,neutral_pass_rate,0.4206,0.3633,0.3738,0.0468,0.0105,913,278,214,True,program
+Chad Morris,Arkansas,sec_per_play,21.9726,30.0,24.0,,,329,140,76,False,
+Chad Morris,Arkansas,fourth_down_go_rate,0.1333,0.2222,0.0,,,15,9,5,False,
+Chad Morris,Arkansas,explosive_pass_rate,0.1168,0.125,0.0492,0.0677,0.0758,582,152,122,True,hc_dna
+Jimbo Fisher,Texas A&M,neutral_pass_rate,0.4771,0.4554,0.4454,0.0317,0.01,1245,325,339,True,program
+Jimbo Fisher,Texas A&M,sec_per_play,28.5149,22.0,30.0,1.4851,8.0,1414,271,291,True,hc_dna
+Jimbo Fisher,Texas A&M,fourth_down_go_rate,0.1333,0.0909,0.2,,,15,11,5,False,
+Jimbo Fisher,Texas A&M,explosive_pass_rate,0.1115,0.1136,0.0887,0.0228,0.025,816,220,203,True,hc_dna
+Kevin Sumlin,Arizona,neutral_pass_rate,0.4779,0.3025,0.3678,0.1102,0.0652,1224,314,242,True,program
+Kevin Sumlin,Arizona,sec_per_play,21.735,25.0,22.0,,,1230,99,132,False,
+Kevin Sumlin,Arizona,fourth_down_go_rate,0.2414,0.3333,0.5,,,29,6,2,False,
+Kevin Sumlin,Arizona,explosive_pass_rate,0.0974,0.0922,0.1111,0.0137,0.0189,821,141,135,True,hc_dna
+Scott Frost,Nebraska,neutral_pass_rate,0.4786,0.4366,0.4436,0.035,0.007,654,268,266,True,program
+Scott Frost,Nebraska,sec_per_play,19.3218,41.5,23.0,,,202,4,135,False,
+Scott Frost,Nebraska,fourth_down_go_rate,0.5556,0.75,0.5,,,9,4,4,False,
+Scott Frost,Nebraska,explosive_pass_rate,0.1218,0.105,0.0779,0.0439,0.0271,435,181,154,True,program
+Sonny Dykes,SMU,neutral_pass_rate,0.5745,0.452,0.5405,0.034,0.0885,825,323,222,True,hc_dna
+Sonny Dykes,SMU,sec_per_play,20.729,20.0,23.0,,,524,96,75,False,
+Sonny Dykes,SMU,fourth_down_go_rate,0.3636,0.4,0.4,,,22,5,5,False,
+Sonny Dykes,SMU,explosive_pass_rate,0.1108,0.1256,0.0714,0.0393,0.0542,623,215,168,True,hc_dna
+Willie Taggart,Florida State,neutral_pass_rate,0.3293,0.4038,0.4378,0.1085,0.0339,1069,312,217,True,program
+Willie Taggart,Florida State,sec_per_play,28.0357,31.0,22.0,6.0357,9.0,504,341,267,True,hc_dna
+Willie Taggart,Florida State,fourth_down_go_rate,0.3846,0.1667,0.3333,,,26,6,3,False,
+Willie Taggart,Florida State,explosive_pass_rate,0.1369,0.1,0.0903,0.0466,0.0097,526,180,144,True,program

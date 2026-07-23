@@ -19,6 +19,11 @@
   "seasons_profiled": [
     {
       "school": "Duke",
+      "year": 2022,
+      "games": 13
+    },
+    {
+      "school": "Duke",
       "year": 2023,
       "games": 12
     },
@@ -30,11 +35,6 @@
   ],
   "seasons_excluded": [
     {
-      "school": "Duke",
-      "year": 2022,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
       "school": "Texas A&M",
       "year": 2025,
       "reason": "not cached (rerun with --fetch --coach)"
@@ -42,23 +42,41 @@
   ],
   "pooled_profile": {
     "neutral_pass_rate": {
-      "value": 0.4107806691449814,
-      "n": 538
+      "value": 0.4304556354916067,
+      "n": 834
     },
     "sec_per_play": {
-      "value": 30.58974358974359,
-      "n": 585
+      "value": 31.109919571045577,
+      "n": 746
     },
     "fourth_down_go_rate": {
-      "value": 0.6153846153846154,
-      "n": 13
+      "value": 0.5263157894736842,
+      "n": 19
     },
     "explosive_pass_rate": {
-      "value": 0.09433962264150944,
-      "n": 318
+      "value": 0.09362549800796813,
+      "n": 502
     }
   },
   "sticky_by_season": {
+    "Duke 2022": {
+      "neutral_pass_rate": {
+        "value": 0.46621621621621623,
+        "n": 296
+      },
+      "sec_per_play": {
+        "value": 33,
+        "n": 161
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.09239130434782608,
+        "n": 184
+      }
+    },
     "Duke 2023": {
       "neutral_pass_rate": {
         "value": 0.444015444015444,
@@ -99,19 +117,21 @@
   "stability": {
     "neutral_pass_rate": {
       "per_season": {
+        "Duke 2022": 0.46621621621621623,
         "Duke 2023": 0.444015444015444,
         "Texas A&M 2024": 0.37992831541218636
       },
-      "spread": 0.06408712860325766,
-      "n_seasons": 2
+      "spread": 0.08628790080402987,
+      "n_seasons": 3
     },
     "sec_per_play": {
       "per_season": {
+        "Duke 2022": 33,
         "Duke 2023": 30.0,
         "Texas A&M 2024": 31
       },
-      "spread": 1.0,
-      "n_seasons": 2
+      "spread": 3.0,
+      "n_seasons": 3
     },
     "fourth_down_go_rate": {
       "per_season": {},
@@ -120,11 +140,12 @@
     },
     "explosive_pass_rate": {
       "per_season": {
+        "Duke 2022": 0.09239130434782608,
         "Duke 2023": 0.06832298136645963,
         "Texas A&M 2024": 0.12101910828025478
       },
       "spread": 0.05269612691379515,
-      "n_seasons": 2
+      "n_seasons": 3
     }
   }
 }

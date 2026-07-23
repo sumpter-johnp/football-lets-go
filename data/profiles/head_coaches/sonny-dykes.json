@@ -24,6 +24,26 @@
   ],
   "seasons_profiled": [
     {
+      "school": "California",
+      "year": 2014,
+      "games": 12
+    },
+    {
+      "school": "California",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "California",
+      "year": 2016,
+      "games": 12
+    },
+    {
+      "school": "SMU",
+      "year": 2018,
+      "games": 12
+    },
+    {
       "school": "SMU",
       "year": 2021,
       "games": 12
@@ -56,26 +76,6 @@
       "reason": "COVID season (pre-registered exclusion)"
     },
     {
-      "school": "California",
-      "year": 2014,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "California",
-      "year": 2015,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "California",
-      "year": 2016,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "SMU",
-      "year": 2018,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
       "school": "SMU",
       "year": 2019,
       "reason": "not cached (rerun with --fetch --coach)"
@@ -83,23 +83,95 @@
   ],
   "pooled_profile": {
     "neutral_pass_rate": {
-      "value": 0.5224171539961013,
-      "n": 1539
+      "value": 0.5406032482598608,
+      "n": 2586
     },
     "sec_per_play": {
-      "value": 26.701906412478337,
-      "n": 1154
+      "value": 24.75812892184826,
+      "n": 1753
     },
     "fourth_down_go_rate": {
-      "value": 0.47619047619047616,
-      "n": 21
+      "value": 0.4166666666666667,
+      "n": 48
     },
     "explosive_pass_rate": {
-      "value": 0.1057866184448463,
-      "n": 1106
+      "value": 0.1043753294675804,
+      "n": 1897
     }
   },
   "sticky_by_season": {
+    "California 2014": {
+      "neutral_pass_rate": {
+        "value": 0.5327868852459017,
+        "n": 244
+      },
+      "sec_per_play": {
+        "value": 22,
+        "n": 133
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2857142857142857,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.11176470588235295,
+        "n": 170
+      }
+    },
+    "California 2015": {
+      "neutral_pass_rate": {
+        "value": 0.5928338762214984,
+        "n": 307
+      },
+      "sec_per_play": {
+        "value": 22,
+        "n": 169
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.13025210084033614,
+        "n": 238
+      }
+    },
+    "California 2016": {
+      "neutral_pass_rate": {
+        "value": 0.5912408759124088,
+        "n": 274
+      },
+      "sec_per_play": {
+        "value": 19.0,
+        "n": 222
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.08837209302325581,
+        "n": 215
+      }
+    },
+    "SMU 2018": {
+      "neutral_pass_rate": {
+        "value": 0.5405405405405406,
+        "n": 222
+      },
+      "sec_per_play": {
+        "value": 23,
+        "n": 75
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.07142857142857142,
+        "n": 168
+      }
+    },
     "SMU 2021": {
       "neutral_pass_rate": {
         "value": 0.5335463258785943,
@@ -194,23 +266,29 @@
   "stability": {
     "neutral_pass_rate": {
       "per_season": {
+        "California 2014": 0.5327868852459017,
+        "California 2015": 0.5928338762214984,
+        "California 2016": 0.5912408759124088,
+        "SMU 2018": 0.5405405405405406,
         "SMU 2021": 0.5335463258785943,
         "TCU 2022": 0.4935483870967742,
         "TCU 2023": 0.506993006993007,
         "TCU 2024": 0.5649122807017544,
         "TCU 2025": 0.5159420289855072
       },
-      "spread": 0.07136389360498019,
-      "n_seasons": 5
+      "spread": 0.09928548912472424,
+      "n_seasons": 9
     },
     "sec_per_play": {
       "per_season": {
+        "California 2015": 22,
+        "California 2016": 19.0,
         "TCU 2022": 27.5,
         "TCU 2024": 27,
         "TCU 2025": 26.0
       },
-      "spread": 1.5,
-      "n_seasons": 3
+      "spread": 8.5,
+      "n_seasons": 5
     },
     "fourth_down_go_rate": {
       "per_season": {},
@@ -219,14 +297,18 @@
     },
     "explosive_pass_rate": {
       "per_season": {
+        "California 2014": 0.11176470588235295,
+        "California 2015": 0.13025210084033614,
+        "California 2016": 0.08837209302325581,
+        "SMU 2018": 0.07142857142857142,
         "SMU 2021": 0.13274336283185842,
         "TCU 2022": 0.11467889908256881,
         "TCU 2023": 0.09359605911330049,
         "TCU 2024": 0.10747663551401869,
         "TCU 2025": 0.08163265306122448
       },
-      "spread": 0.051110709770633936,
-      "n_seasons": 5
+      "spread": 0.061314791403286995,
+      "n_seasons": 9
     }
   }
 }

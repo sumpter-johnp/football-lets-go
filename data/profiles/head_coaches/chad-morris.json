@@ -19,6 +19,16 @@
   "seasons_profiled": [
     {
       "school": "SMU",
+      "year": 2015,
+      "games": 12
+    },
+    {
+      "school": "SMU",
+      "year": 2016,
+      "games": 12
+    },
+    {
+      "school": "SMU",
       "year": 2017,
       "games": 13
     },
@@ -33,37 +43,62 @@
       "games": 10
     }
   ],
-  "seasons_excluded": [
-    {
-      "school": "SMU",
-      "year": 2015,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "SMU",
-      "year": 2016,
-      "reason": "not cached (rerun with --fetch --coach)"
-    }
-  ],
+  "seasons_excluded": [],
   "pooled_profile": {
     "neutral_pass_rate": {
-      "value": 0.43670886075949367,
-      "n": 790
+      "value": 0.42246376811594205,
+      "n": 1380
     },
     "sec_per_play": {
-      "value": 22.836575875486382,
-      "n": 257
+      "value": 22.812244897959182,
+      "n": 490
     },
     "fourth_down_go_rate": {
-      "value": 0.23529411764705882,
-      "n": 17
+      "value": 0.14814814814814814,
+      "n": 27
     },
     "explosive_pass_rate": {
-      "value": 0.08737864077669903,
-      "n": 515
+      "value": 0.09750566893424037,
+      "n": 882
     }
   },
   "sticky_by_season": {
+    "SMU 2015": {
+      "neutral_pass_rate": {
+        "value": 0.3660377358490566,
+        "n": 265
+      },
+      "sec_per_play": {
+        "value": 25.5,
+        "n": 118
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.10526315789473684,
+        "n": 152
+      }
+    },
+    "SMU 2016": {
+      "neutral_pass_rate": {
+        "value": 0.4338461538461538,
+        "n": 325
+      },
+      "sec_per_play": {
+        "value": 20,
+        "n": 115
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.11627906976744186,
+        "n": 215
+      }
+    },
     "SMU 2017": {
       "neutral_pass_rate": {
         "value": 0.4520123839009288,
@@ -122,12 +157,14 @@
   "stability": {
     "neutral_pass_rate": {
       "per_season": {
+        "SMU 2015": 0.3660377358490566,
+        "SMU 2016": 0.4338461538461538,
         "SMU 2017": 0.4520123839009288,
         "Arkansas 2018": 0.37383177570093457,
         "Arkansas 2019": 0.47035573122529645
       },
-      "spread": 0.09652395552436188,
-      "n_seasons": 3
+      "spread": 0.10431799537623987,
+      "n_seasons": 5
     },
     "sec_per_play": {
       "per_season": {},
@@ -141,12 +178,14 @@
     },
     "explosive_pass_rate": {
       "per_season": {
+        "SMU 2015": 0.10526315789473684,
+        "SMU 2016": 0.11627906976744186,
         "SMU 2017": 0.12558139534883722,
         "Arkansas 2018": 0.04918032786885246,
         "Arkansas 2019": 0.06741573033707865
       },
       "spread": 0.07640106747998476,
-      "n_seasons": 3
+      "n_seasons": 5
     }
   }
 }

@@ -1,0 +1,159 @@
+{
+  "coach": "Joe Moorhead",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2018,
+      "last": 2019,
+      "n_full": 2,
+      "school": "Mississippi State"
+    },
+    {
+      "first": 2022,
+      "last": 2025,
+      "n_full": 3,
+      "school": "Akron"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Mississippi State",
+      "year": 2018,
+      "games": 13
+    },
+    {
+      "school": "Mississippi State",
+      "year": 2019,
+      "games": 13
+    },
+    {
+      "school": "Akron",
+      "year": 2022,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Akron",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Akron",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Akron",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.425414364640884,
+      "n": 724
+    },
+    "sec_per_play": {
+      "value": 28.817223198594025,
+      "n": 569
+    },
+    "fourth_down_go_rate": {
+      "value": 0.3157894736842105,
+      "n": 19
+    },
+    "explosive_pass_rate": {
+      "value": 0.08816705336426914,
+      "n": 431
+    }
+  },
+  "sticky_by_season": {
+    "Mississippi State 2018": {
+      "neutral_pass_rate": {
+        "value": 0.3423076923076923,
+        "n": 260
+      },
+      "sec_per_play": {
+        "value": 29,
+        "n": 311
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2857142857142857,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.09558823529411764,
+        "n": 136
+      }
+    },
+    "Mississippi State 2019": {
+      "neutral_pass_rate": {
+        "value": 0.36666666666666664,
+        "n": 240
+      },
+      "sec_per_play": {
+        "value": 31.0,
+        "n": 134
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 2
+      },
+      "explosive_pass_rate": {
+        "value": 0.09090909090909091,
+        "n": 121
+      }
+    },
+    "Akron 2022": {
+      "neutral_pass_rate": {
+        "value": 0.5848214285714286,
+        "n": 224
+      },
+      "sec_per_play": {
+        "value": 26.0,
+        "n": 124
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.08045977011494253,
+        "n": 174
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Mississippi State 2018": 0.3423076923076923,
+        "Mississippi State 2019": 0.36666666666666664,
+        "Akron 2022": 0.5848214285714286
+      },
+      "spread": 0.2425137362637363,
+      "n_seasons": 3
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Mississippi State 2018": 29
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Mississippi State 2018": 0.09558823529411764,
+        "Mississippi State 2019": 0.09090909090909091,
+        "Akron 2022": 0.08045977011494253
+      },
+      "spread": 0.015128465179175113,
+      "n_seasons": 3
+    }
+  }
+}

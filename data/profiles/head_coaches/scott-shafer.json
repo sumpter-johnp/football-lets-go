@@ -1,0 +1,91 @@
+{
+  "coach": "Scott Shafer",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2015,
+      "n_full": 2,
+      "school": "Syracuse"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Syracuse",
+      "year": 2015,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Syracuse",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.32,
+      "n": 250
+    },
+    "sec_per_play": {
+      "value": 30.0,
+      "n": 94
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5,
+      "n": 6
+    },
+    "explosive_pass_rate": {
+      "value": 0.1,
+      "n": 120
+    }
+  },
+  "sticky_by_season": {
+    "Syracuse 2015": {
+      "neutral_pass_rate": {
+        "value": 0.32,
+        "n": 250
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 94
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.1,
+        "n": 120
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Syracuse 2015": 0.32
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Syracuse 2015": 0.1
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

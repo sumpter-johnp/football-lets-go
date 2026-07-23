@@ -1,0 +1,180 @@
+{
+  "coach": "Pat Narduzzi",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2015,
+      "last": 2025,
+      "n_full": 9,
+      "school": "Pittsburgh"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Pittsburgh",
+      "year": 2019,
+      "games": 13
+    },
+    {
+      "school": "Pittsburgh",
+      "year": 2021,
+      "games": 14
+    },
+    {
+      "school": "Pittsburgh",
+      "year": 2022,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Pittsburgh",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Pittsburgh",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Pittsburgh",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Pittsburgh",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Pittsburgh",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Pittsburgh",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Pittsburgh",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Pittsburgh",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.5130111524163569,
+      "n": 1076
+    },
+    "sec_per_play": {
+      "value": 27.333333333333332,
+      "n": 675
+    },
+    "fourth_down_go_rate": {
+      "value": 0.3888888888888889,
+      "n": 18
+    },
+    "explosive_pass_rate": {
+      "value": 0.09934640522875816,
+      "n": 765
+    }
+  },
+  "sticky_by_season": {
+    "Pittsburgh 2019": {
+      "neutral_pass_rate": {
+        "value": 0.5658263305322129,
+        "n": 357
+      },
+      "sec_per_play": {
+        "value": 24.5,
+        "n": 200
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.07420494699646643,
+        "n": 283
+      }
+    },
+    "Pittsburgh 2021": {
+      "neutral_pass_rate": {
+        "value": 0.5693215339233039,
+        "n": 339
+      },
+      "sec_per_play": {
+        "value": 24.0,
+        "n": 260
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5714285714285714,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.12406015037593984,
+        "n": 266
+      }
+    },
+    "Pittsburgh 2022": {
+      "neutral_pass_rate": {
+        "value": 0.4131578947368421,
+        "n": 380
+      },
+      "sec_per_play": {
+        "value": 34,
+        "n": 215
+      },
+      "fourth_down_go_rate": {
+        "value": 0.14285714285714285,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.10185185185185185,
+        "n": 216
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Pittsburgh 2019": 0.5658263305322129,
+        "Pittsburgh 2021": 0.5693215339233039,
+        "Pittsburgh 2022": 0.4131578947368421
+      },
+      "spread": 0.15616363918646176,
+      "n_seasons": 3
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Pittsburgh 2019": 24.5,
+        "Pittsburgh 2021": 24.0,
+        "Pittsburgh 2022": 34
+      },
+      "spread": 10.0,
+      "n_seasons": 3
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Pittsburgh 2019": 0.07420494699646643,
+        "Pittsburgh 2021": 0.12406015037593984,
+        "Pittsburgh 2022": 0.10185185185185185
+      },
+      "spread": 0.04985520337947341,
+      "n_seasons": 3
+    }
+  }
+}

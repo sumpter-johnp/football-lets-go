@@ -1,0 +1,133 @@
+{
+  "coach": "Ryan Silverfield",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2020,
+      "last": 2025,
+      "n_full": 4,
+      "school": "Memphis"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Memphis",
+      "year": 2021,
+      "games": 12
+    },
+    {
+      "school": "Memphis",
+      "year": 2022,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Memphis",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Memphis",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Memphis",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Memphis",
+      "year": 2025,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.49920760697305866,
+      "n": 631
+    },
+    "sec_per_play": {
+      "value": 23.605392156862745,
+      "n": 408
+    },
+    "fourth_down_go_rate": {
+      "value": 0.5384615384615384,
+      "n": 13
+    },
+    "explosive_pass_rate": {
+      "value": 0.10672853828306264,
+      "n": 431
+    }
+  },
+  "sticky_by_season": {
+    "Memphis 2021": {
+      "neutral_pass_rate": {
+        "value": 0.5412541254125413,
+        "n": 303
+      },
+      "sec_per_play": {
+        "value": 22,
+        "n": 277
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.09954751131221719,
+        "n": 221
+      }
+    },
+    "Memphis 2022": {
+      "neutral_pass_rate": {
+        "value": 0.4603658536585366,
+        "n": 328
+      },
+      "sec_per_play": {
+        "value": 27,
+        "n": 131
+      },
+      "fourth_down_go_rate": {
+        "value": 1.0,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.11428571428571428,
+        "n": 210
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Memphis 2021": 0.5412541254125413,
+        "Memphis 2022": 0.4603658536585366
+      },
+      "spread": 0.08088827175400465,
+      "n_seasons": 2
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Memphis 2021": 22
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Memphis 2021": 0.09954751131221719,
+        "Memphis 2022": 0.11428571428571428
+      },
+      "spread": 0.014738202973497094,
+      "n_seasons": 2
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "coach": "Jim Harbaugh",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2015,
+      "last": 2023,
+      "n_full": 8,
+      "school": "Michigan"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Michigan",
+      "year": 2019,
+      "games": 13
+    },
+    {
+      "school": "Michigan",
+      "year": 2021,
+      "games": 14
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Michigan",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Michigan",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Michigan",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Michigan",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Michigan",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Michigan",
+      "year": 2022,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Michigan",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4265975820379965,
+      "n": 579
+    },
+    "sec_per_play": {
+      "value": 28.06544901065449,
+      "n": 657
+    },
+    "fourth_down_go_rate": {
+      "value": 0.7692307692307693,
+      "n": 13
+    },
+    "explosive_pass_rate": {
+      "value": 0.1282798833819242,
+      "n": 343
+    }
+  },
+  "sticky_by_season": {
+    "Michigan 2019": {
+      "neutral_pass_rate": {
+        "value": 0.4432234432234432,
+        "n": 273
+      },
+      "sec_per_play": {
+        "value": 27,
+        "n": 307
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6666666666666666,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.13609467455621302,
+        "n": 169
+      }
+    },
+    "Michigan 2021": {
+      "neutral_pass_rate": {
+        "value": 0.4117647058823529,
+        "n": 306
+      },
+      "sec_per_play": {
+        "value": 29.0,
+        "n": 350
+      },
+      "fourth_down_go_rate": {
+        "value": 0.8,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.1206896551724138,
+        "n": 174
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Michigan 2019": 0.4432234432234432,
+        "Michigan 2021": 0.4117647058823529
+      },
+      "spread": 0.03145873734109028,
+      "n_seasons": 2
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Michigan 2019": 27,
+        "Michigan 2021": 29.0
+      },
+      "spread": 2.0,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Michigan 2019": 0.13609467455621302,
+        "Michigan 2021": 0.1206896551724138
+      },
+      "spread": 0.01540501938379922,
+      "n_seasons": 2
+    }
+  }
+}

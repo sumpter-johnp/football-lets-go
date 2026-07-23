@@ -1,0 +1,177 @@
+{
+  "coach": "Geoff Collins",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2017,
+      "last": 2018,
+      "n_full": 2,
+      "school": "Temple"
+    },
+    {
+      "first": 2019,
+      "last": 2022,
+      "n_full": 2,
+      "school": "Georgia Tech"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Temple",
+      "year": 2017,
+      "games": 13
+    },
+    {
+      "school": "Temple",
+      "year": 2018,
+      "games": 12
+    },
+    {
+      "school": "Georgia Tech",
+      "year": 2019,
+      "games": 12
+    },
+    {
+      "school": "Georgia Tech",
+      "year": 2021,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Georgia Tech",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Georgia Tech",
+      "year": 2022,
+      "reason": "partial season (4 games)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.40868794326241137,
+      "n": 1128
+    },
+    "sec_per_play": {
+      "value": 25.080717488789237,
+      "n": 446
+    },
+    "fourth_down_go_rate": {
+      "value": 0.4,
+      "n": 20
+    },
+    "explosive_pass_rate": {
+      "value": 0.10294117647058823,
+      "n": 680
+    }
+  },
+  "sticky_by_season": {
+    "Temple 2017": {
+      "neutral_pass_rate": {
+        "value": 0.45484949832775917,
+        "n": 299
+      },
+      "sec_per_play": {
+        "value": 26,
+        "n": 141
+      },
+      "fourth_down_go_rate": {
+        "value": 0.75,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.10101010101010101,
+        "n": 198
+      }
+    },
+    "Temple 2018": {
+      "neutral_pass_rate": {
+        "value": 0.4647887323943662,
+        "n": 355
+      },
+      "sec_per_play": {
+        "value": 22.5,
+        "n": 142
+      },
+      "fourth_down_go_rate": {
+        "value": 0.14285714285714285,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.10256410256410256,
+        "n": 234
+      }
+    },
+    "Georgia Tech 2019": {
+      "neutral_pass_rate": {
+        "value": 0.3173076923076923,
+        "n": 208
+      },
+      "sec_per_play": {
+        "value": 25.0,
+        "n": 38
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.10576923076923077,
+        "n": 104
+      }
+    },
+    "Georgia Tech 2021": {
+      "neutral_pass_rate": {
+        "value": 0.3533834586466165,
+        "n": 266
+      },
+      "sec_per_play": {
+        "value": 27,
+        "n": 125
+      },
+      "fourth_down_go_rate": {
+        "value": 0.75,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.10416666666666667,
+        "n": 144
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Temple 2017": 0.45484949832775917,
+        "Temple 2018": 0.4647887323943662,
+        "Georgia Tech 2019": 0.3173076923076923,
+        "Georgia Tech 2021": 0.3533834586466165
+      },
+      "spread": 0.1474810400866739,
+      "n_seasons": 4
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Temple 2017": 0.10101010101010101,
+        "Temple 2018": 0.10256410256410256,
+        "Georgia Tech 2019": 0.10576923076923077,
+        "Georgia Tech 2021": 0.10416666666666667
+      },
+      "spread": 0.00475912975912976,
+      "n_seasons": 4
+    }
+  }
+}

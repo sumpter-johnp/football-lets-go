@@ -1,0 +1,136 @@
+{
+  "coach": "Doc Holliday",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2020,
+      "n_full": 6,
+      "school": "Marshall"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Marshall",
+      "year": 2018,
+      "games": 13
+    },
+    {
+      "school": "Marshall",
+      "year": 2019,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Marshall",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Marshall",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Marshall",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Marshall",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Marshall",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4420401854714065,
+      "n": 647
+    },
+    "sec_per_play": {
+      "value": 30.905405405405407,
+      "n": 74
+    },
+    "fourth_down_go_rate": {
+      "value": 0.0,
+      "n": 11
+    },
+    "explosive_pass_rate": {
+      "value": 0.11518324607329843,
+      "n": 382
+    }
+  },
+  "sticky_by_season": {
+    "Marshall 2018": {
+      "neutral_pass_rate": {
+        "value": 0.49683544303797467,
+        "n": 316
+      },
+      "sec_per_play": {
+        "value": 29,
+        "n": 27
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.10194174757281553,
+        "n": 206
+      }
+    },
+    "Marshall 2019": {
+      "neutral_pass_rate": {
+        "value": 0.38972809667673713,
+        "n": 331
+      },
+      "sec_per_play": {
+        "value": 32,
+        "n": 47
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.13068181818181818,
+        "n": 176
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Marshall 2018": 0.49683544303797467,
+        "Marshall 2019": 0.38972809667673713
+      },
+      "spread": 0.10710734636123753,
+      "n_seasons": 2
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Marshall 2018": 0.10194174757281553,
+        "Marshall 2019": 0.13068181818181818
+      },
+      "spread": 0.028740070609002646,
+      "n_seasons": 2
+    }
+  }
+}

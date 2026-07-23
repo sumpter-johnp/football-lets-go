@@ -1,0 +1,87 @@
+{
+  "coach": "Bo Pelini",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2014,
+      "n_full": 1,
+      "school": "Nebraska"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Nebraska",
+      "year": 2014,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.3021148036253776,
+      "n": 331
+    },
+    "sec_per_play": {
+      "value": 25.0,
+      "n": 383
+    },
+    "fourth_down_go_rate": {
+      "value": 0.3333333333333333,
+      "n": 3
+    },
+    "explosive_pass_rate": {
+      "value": 0.09032258064516129,
+      "n": 155
+    }
+  },
+  "sticky_by_season": {
+    "Nebraska 2014": {
+      "neutral_pass_rate": {
+        "value": 0.3021148036253776,
+        "n": 331
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 383
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.09032258064516129,
+        "n": 155
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Nebraska 2014": 0.3021148036253776
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Nebraska 2014": 25
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Nebraska 2014": 0.09032258064516129
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

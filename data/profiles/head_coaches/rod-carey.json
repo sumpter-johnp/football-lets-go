@@ -1,0 +1,233 @@
+{
+  "coach": "Rod Carey",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2018,
+      "n_full": 5,
+      "school": "Northern Illinois"
+    },
+    {
+      "first": 2019,
+      "last": 2021,
+      "n_full": 2,
+      "school": "Temple"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Northern Illinois",
+      "year": 2014,
+      "games": 14
+    },
+    {
+      "school": "Northern Illinois",
+      "year": 2015,
+      "games": 14
+    },
+    {
+      "school": "Northern Illinois",
+      "year": 2016,
+      "games": 12
+    },
+    {
+      "school": "Northern Illinois",
+      "year": 2017,
+      "games": 13
+    },
+    {
+      "school": "Northern Illinois",
+      "year": 2018,
+      "games": 14
+    },
+    {
+      "school": "Temple",
+      "year": 2019,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Temple",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Temple",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4071709233791749,
+      "n": 2036
+    },
+    "sec_per_play": {
+      "value": 21.593279258400926,
+      "n": 863
+    },
+    "fourth_down_go_rate": {
+      "value": 0.4090909090909091,
+      "n": 44
+    },
+    "explosive_pass_rate": {
+      "value": 0.08044030482641829,
+      "n": 1181
+    }
+  },
+  "sticky_by_season": {
+    "Northern Illinois 2014": {
+      "neutral_pass_rate": {
+        "value": 0.39669421487603307,
+        "n": 363
+      },
+      "sec_per_play": {
+        "value": 23.0,
+        "n": 226
+      },
+      "fourth_down_go_rate": {
+        "value": 0.25,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.09424083769633508,
+        "n": 191
+      }
+    },
+    "Northern Illinois 2015": {
+      "neutral_pass_rate": {
+        "value": 0.36764705882352944,
+        "n": 340
+      },
+      "sec_per_play": {
+        "value": 20.0,
+        "n": 244
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6666666666666666,
+        "n": 12
+      },
+      "explosive_pass_rate": {
+        "value": 0.0625,
+        "n": 176
+      }
+    },
+    "Northern Illinois 2016": {
+      "neutral_pass_rate": {
+        "value": 0.41776315789473684,
+        "n": 304
+      },
+      "sec_per_play": {
+        "value": 21,
+        "n": 107
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 1
+      },
+      "explosive_pass_rate": {
+        "value": 0.09042553191489362,
+        "n": 188
+      }
+    },
+    "Northern Illinois 2017": {
+      "neutral_pass_rate": {
+        "value": 0.40425531914893614,
+        "n": 329
+      },
+      "sec_per_play": {
+        "value": 22.5,
+        "n": 110
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.05789473684210526,
+        "n": 190
+      }
+    },
+    "Northern Illinois 2018": {
+      "neutral_pass_rate": {
+        "value": 0.38974358974358975,
+        "n": 390
+      },
+      "sec_per_play": {
+        "value": 23,
+        "n": 105
+      },
+      "fourth_down_go_rate": {
+        "value": 0.23076923076923078,
+        "n": 13
+      },
+      "explosive_pass_rate": {
+        "value": 0.06363636363636363,
+        "n": 220
+      }
+    },
+    "Temple 2019": {
+      "neutral_pass_rate": {
+        "value": 0.4774193548387097,
+        "n": 310
+      },
+      "sec_per_play": {
+        "value": 20,
+        "n": 71
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.1111111111111111,
+        "n": 216
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Northern Illinois 2014": 0.39669421487603307,
+        "Northern Illinois 2015": 0.36764705882352944,
+        "Northern Illinois 2016": 0.41776315789473684,
+        "Northern Illinois 2017": 0.40425531914893614,
+        "Northern Illinois 2018": 0.38974358974358975,
+        "Temple 2019": 0.4774193548387097
+      },
+      "spread": 0.10977229601518024,
+      "n_seasons": 6
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Northern Illinois 2014": 23.0,
+        "Northern Illinois 2015": 20.0
+      },
+      "spread": 3.0,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {
+        "Northern Illinois 2015": 0.6666666666666666,
+        "Northern Illinois 2018": 0.23076923076923078
+      },
+      "spread": 0.43589743589743585,
+      "n_seasons": 2
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Northern Illinois 2014": 0.09424083769633508,
+        "Northern Illinois 2015": 0.0625,
+        "Northern Illinois 2016": 0.09042553191489362,
+        "Northern Illinois 2017": 0.05789473684210526,
+        "Northern Illinois 2018": 0.06363636363636363,
+        "Temple 2019": 0.1111111111111111
+      },
+      "spread": 0.05321637426900584,
+      "n_seasons": 6
+    }
+  }
+}

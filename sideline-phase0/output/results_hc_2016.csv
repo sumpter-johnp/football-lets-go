@@ -1,0 +1,21 @@
+coach,new_team,metric,hc_dna_pred,program_pred,actual,hc_dna_err,program_err,n_hc,n_program,n_actual,usable,winner
+Bronco Mendenhall,Virginia,neutral_pass_rate,0.5573,0.3968,0.5556,0.0018,0.1587,698,315,315,True,hc_dna
+Bronco Mendenhall,Virginia,sec_per_play,21.5187,32.5,21.5,,,534,80,116,False,
+Bronco Mendenhall,Virginia,fourth_down_go_rate,0.8,,0.2222,,,10,0,9,False,
+Bronco Mendenhall,Virginia,explosive_pass_rate,0.0886,0.0688,0.0502,0.0384,0.0186,508,189,239,True,program
+Dino Babers,Syracuse,neutral_pass_rate,0.5308,0.32,0.5506,0.0198,0.2306,780,250,247,True,hc_dna
+Dino Babers,Syracuse,sec_per_play,17.5637,30.0,16.0,,,408,94,84,False,
+Dino Babers,Syracuse,fourth_down_go_rate,0.6154,0.5,1.0,,,13,6,3,False,
+Dino Babers,Syracuse,explosive_pass_rate,0.0881,0.1,0.0984,0.0103,0.0016,556,120,193,True,program
+Justin Fuente,Virginia Tech,neutral_pass_rate,0.4605,0.3894,0.478,0.0175,0.0886,734,321,318,True,hc_dna
+Justin Fuente,Virginia Tech,sec_per_play,20.0,25.0,22.0,2.0,3.0,554,312,320,True,hc_dna
+Justin Fuente,Virginia Tech,fourth_down_go_rate,0.3077,0.0,0.2,,,13,7,10,False,
+Justin Fuente,Virginia Tech,explosive_pass_rate,0.0937,0.0895,0.1194,0.0257,0.0299,459,190,201,True,hc_dna
+Matt Campbell,Iowa State,neutral_pass_rate,0.4334,0.4402,0.4175,0.0158,0.0226,563,259,285,True,hc_dna
+Matt Campbell,Iowa State,sec_per_play,22.1465,24.5,24.5,,,389,132,134,False,
+Matt Campbell,Iowa State,fourth_down_go_rate,0.375,0.6667,0.6,,,8,6,5,False,
+Matt Campbell,Iowa State,explosive_pass_rate,0.0955,0.1124,0.0778,0.0177,0.0346,356,169,180,True,hc_dna
+Willie Fritz,Tulane,neutral_pass_rate,0.1764,0.3924,0.2547,0.0783,0.1377,499,237,267,True,hc_dna
+Willie Fritz,Tulane,sec_per_play,30.5714,28.0,30.0,,,119,125,49,False,
+Willie Fritz,Tulane,fourth_down_go_rate,0.4167,0.25,0.5556,,,12,8,9,False,
+Willie Fritz,Tulane,explosive_pass_rate,0.0813,0.0692,0.1068,0.0255,0.0376,123,159,103,True,hc_dna

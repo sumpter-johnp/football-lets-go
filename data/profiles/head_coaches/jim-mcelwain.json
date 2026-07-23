@@ -1,0 +1,206 @@
+{
+  "coach": "Jim McElwain",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2014,
+      "n_full": 1,
+      "school": "Colorado State"
+    },
+    {
+      "first": 2015,
+      "last": 2017,
+      "n_full": 2,
+      "school": "Florida"
+    },
+    {
+      "first": 2019,
+      "last": 2024,
+      "n_full": 5,
+      "school": "Central Michigan"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Colorado State",
+      "year": 2014,
+      "games": 12
+    },
+    {
+      "school": "Florida",
+      "year": 2015,
+      "games": 14
+    },
+    {
+      "school": "Florida",
+      "year": 2016,
+      "games": 13
+    },
+    {
+      "school": "Central Michigan",
+      "year": 2019,
+      "games": 14
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Florida",
+      "year": 2017,
+      "reason": "partial season (7 games)"
+    },
+    {
+      "school": "Central Michigan",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Central Michigan",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Central Michigan",
+      "year": 2022,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Central Michigan",
+      "year": 2023,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Central Michigan",
+      "year": 2024,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.48977695167286245,
+      "n": 1076
+    },
+    "sec_per_play": {
+      "value": 29.246835443037973,
+      "n": 632
+    },
+    "fourth_down_go_rate": {
+      "value": 0.19047619047619047,
+      "n": 21
+    },
+    "explosive_pass_rate": {
+      "value": 0.08930987821380243,
+      "n": 739
+    }
+  },
+  "sticky_by_season": {
+    "Colorado State 2014": {
+      "neutral_pass_rate": {
+        "value": 0.5265486725663717,
+        "n": 226
+      },
+      "sec_per_play": {
+        "value": 23.5,
+        "n": 54
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 1
+      },
+      "explosive_pass_rate": {
+        "value": 0.11042944785276074,
+        "n": 163
+      }
+    },
+    "Florida 2015": {
+      "neutral_pass_rate": {
+        "value": 0.45517241379310347,
+        "n": 290
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 299
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.08247422680412371,
+        "n": 194
+      }
+    },
+    "Florida 2016": {
+      "neutral_pass_rate": {
+        "value": 0.4684385382059801,
+        "n": 301
+      },
+      "sec_per_play": {
+        "value": 30.0,
+        "n": 254
+      },
+      "fourth_down_go_rate": {
+        "value": 0.14285714285714285,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.0825242718446602,
+        "n": 206
+      }
+    },
+    "Central Michigan 2019": {
+      "neutral_pass_rate": {
+        "value": 0.5212355212355212,
+        "n": 259
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 25
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.08522727272727272,
+        "n": 176
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Colorado State 2014": 0.5265486725663717,
+        "Florida 2015": 0.45517241379310347,
+        "Florida 2016": 0.4684385382059801,
+        "Central Michigan 2019": 0.5212355212355212
+      },
+      "spread": 0.07137625877326825,
+      "n_seasons": 4
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Florida 2015": 30,
+        "Florida 2016": 30.0
+      },
+      "spread": 0,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Colorado State 2014": 0.11042944785276074,
+        "Florida 2015": 0.08247422680412371,
+        "Florida 2016": 0.0825242718446602,
+        "Central Michigan 2019": 0.08522727272727272
+      },
+      "spread": 0.027955221048637027,
+      "n_seasons": 4
+    }
+  }
+}

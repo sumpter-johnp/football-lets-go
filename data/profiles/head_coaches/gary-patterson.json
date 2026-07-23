@@ -1,0 +1,164 @@
+{
+  "coach": "Gary Patterson",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2021,
+      "n_full": 6,
+      "school": "TCU"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "TCU",
+      "year": 2017,
+      "games": 14
+    },
+    {
+      "school": "TCU",
+      "year": 2018,
+      "games": 13
+    },
+    {
+      "school": "TCU",
+      "year": 2019,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "TCU",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "TCU",
+      "year": 2021,
+      "reason": "partial season (8 games)"
+    },
+    {
+      "school": "TCU",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "TCU",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "TCU",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.4171779141104294,
+      "n": 978
+    },
+    "sec_per_play": {
+      "value": 24.65089722675367,
+      "n": 613
+    },
+    "fourth_down_go_rate": {
+      "value": 0.15384615384615385,
+      "n": 13
+    },
+    "explosive_pass_rate": {
+      "value": 0.0847457627118644,
+      "n": 590
+    }
+  },
+  "sticky_by_season": {
+    "TCU 2017": {
+      "neutral_pass_rate": {
+        "value": 0.4563758389261745,
+        "n": 298
+      },
+      "sec_per_play": {
+        "value": 23.0,
+        "n": 252
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.1092896174863388,
+        "n": 183
+      }
+    },
+    "TCU 2018": {
+      "neutral_pass_rate": {
+        "value": 0.41952506596306066,
+        "n": 379
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 245
+      },
+      "fourth_down_go_rate": {
+        "value": 0.14285714285714285,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.08823529411764706,
+        "n": 238
+      }
+    },
+    "TCU 2019": {
+      "neutral_pass_rate": {
+        "value": 0.3754152823920266,
+        "n": 301
+      },
+      "sec_per_play": {
+        "value": 27.5,
+        "n": 116
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.05325443786982249,
+        "n": 169
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "TCU 2017": 0.4563758389261745,
+        "TCU 2018": 0.41952506596306066,
+        "TCU 2019": 0.3754152823920266
+      },
+      "spread": 0.08096055653414791,
+      "n_seasons": 3
+    },
+    "sec_per_play": {
+      "per_season": {
+        "TCU 2017": 23.0,
+        "TCU 2018": 25
+      },
+      "spread": 2.0,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "TCU 2017": 0.1092896174863388,
+        "TCU 2018": 0.08823529411764706,
+        "TCU 2019": 0.05325443786982249
+      },
+      "spread": 0.05603517961651631,
+      "n_seasons": 3
+    }
+  }
+}

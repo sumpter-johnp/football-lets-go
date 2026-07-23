@@ -18,6 +18,31 @@
   ],
   "seasons_profiled": [
     {
+      "school": "West Virginia",
+      "year": 2014,
+      "games": 13
+    },
+    {
+      "school": "West Virginia",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "West Virginia",
+      "year": 2016,
+      "games": 13
+    },
+    {
+      "school": "West Virginia",
+      "year": 2017,
+      "games": 13
+    },
+    {
+      "school": "West Virginia",
+      "year": 2018,
+      "games": 12
+    },
+    {
       "school": "Houston",
       "year": 2019,
       "games": 12
@@ -43,52 +68,117 @@
       "school": "Houston",
       "year": 2020,
       "reason": "COVID season (pre-registered exclusion)"
-    },
-    {
-      "school": "West Virginia",
-      "year": 2014,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "West Virginia",
-      "year": 2015,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "West Virginia",
-      "year": 2016,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "West Virginia",
-      "year": 2017,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "West Virginia",
-      "year": 2018,
-      "reason": "not cached (rerun with --fetch --coach)"
     }
   ],
   "pooled_profile": {
     "neutral_pass_rate": {
-      "value": 0.509090909090909,
-      "n": 1210
+      "value": 0.4844851904090268,
+      "n": 2836
     },
     "sec_per_play": {
-      "value": 27.82918149466192,
-      "n": 562
+      "value": 23.770121278941566,
+      "n": 1814
     },
     "fourth_down_go_rate": {
-      "value": 0.39285714285714285,
-      "n": 28
+      "value": 0.3684210526315789,
+      "n": 57
     },
     "explosive_pass_rate": {
-      "value": 0.10650887573964497,
-      "n": 845
+      "value": 0.10637177461822012,
+      "n": 1899
     }
   },
   "sticky_by_season": {
+    "West Virginia 2014": {
+      "neutral_pass_rate": {
+        "value": 0.4596774193548387,
+        "n": 372
+      },
+      "sec_per_play": {
+        "value": 20,
+        "n": 335
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.100418410041841,
+        "n": 239
+      }
+    },
+    "West Virginia 2015": {
+      "neutral_pass_rate": {
+        "value": 0.4075342465753425,
+        "n": 292
+      },
+      "sec_per_play": {
+        "value": 20.0,
+        "n": 124
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2222222222222222,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.11764705882352941,
+        "n": 170
+      }
+    },
+    "West Virginia 2016": {
+      "neutral_pass_rate": {
+        "value": 0.436046511627907,
+        "n": 344
+      },
+      "sec_per_play": {
+        "value": 20.0,
+        "n": 214
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.11330049261083744,
+        "n": 203
+      }
+    },
+    "West Virginia 2017": {
+      "neutral_pass_rate": {
+        "value": 0.5302491103202847,
+        "n": 281
+      },
+      "sec_per_play": {
+        "value": 23.0,
+        "n": 228
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.10476190476190476,
+        "n": 210
+      }
+    },
+    "West Virginia 2018": {
+      "neutral_pass_rate": {
+        "value": 0.5014836795252225,
+        "n": 337
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 351
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3333333333333333,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.09913793103448276,
+        "n": 232
+      }
+    },
     "Houston 2019": {
       "neutral_pass_rate": {
         "value": 0.4379310344827586,
@@ -165,21 +255,30 @@
   "stability": {
     "neutral_pass_rate": {
       "per_season": {
+        "West Virginia 2014": 0.4596774193548387,
+        "West Virginia 2015": 0.4075342465753425,
+        "West Virginia 2016": 0.436046511627907,
+        "West Virginia 2017": 0.5302491103202847,
+        "West Virginia 2018": 0.5014836795252225,
         "Houston 2019": 0.4379310344827586,
         "Houston 2021": 0.5225225225225225,
         "Houston 2022": 0.5425219941348973,
         "Houston 2023": 0.5284552845528455
       },
-      "spread": 0.10459095965213872,
-      "n_seasons": 4
+      "spread": 0.13498774755955484,
+      "n_seasons": 9
     },
     "sec_per_play": {
       "per_season": {
+        "West Virginia 2014": 20,
+        "West Virginia 2016": 20.0,
+        "West Virginia 2017": 23.0,
+        "West Virginia 2018": 25,
         "Houston 2019": 28.5,
         "Houston 2021": 27.0
       },
-      "spread": 1.5,
-      "n_seasons": 2
+      "spread": 8.5,
+      "n_seasons": 6
     },
     "fourth_down_go_rate": {
       "per_season": {},
@@ -188,13 +287,18 @@
     },
     "explosive_pass_rate": {
       "per_season": {
+        "West Virginia 2014": 0.100418410041841,
+        "West Virginia 2015": 0.11764705882352941,
+        "West Virginia 2016": 0.11330049261083744,
+        "West Virginia 2017": 0.10476190476190476,
+        "West Virginia 2018": 0.09913793103448276,
         "Houston 2019": 0.13714285714285715,
         "Houston 2021": 0.11983471074380166,
         "Houston 2022": 0.096,
         "Houston 2023": 0.07303370786516854
       },
       "spread": 0.06410914927768861,
-      "n_seasons": 4
+      "n_seasons": 9
     }
   }
 }

@@ -30,6 +30,26 @@
   ],
   "seasons_profiled": [
     {
+      "school": "South Florida",
+      "year": 2014,
+      "games": 12
+    },
+    {
+      "school": "South Florida",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "South Florida",
+      "year": 2016,
+      "games": 12
+    },
+    {
+      "school": "Oregon",
+      "year": 2017,
+      "games": 13
+    },
+    {
       "school": "Florida State",
       "year": 2018,
       "games": 12
@@ -52,26 +72,6 @@
       "reason": "COVID season (pre-registered exclusion)"
     },
     {
-      "school": "South Florida",
-      "year": 2014,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "South Florida",
-      "year": 2015,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "South Florida",
-      "year": 2016,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
-      "school": "Oregon",
-      "year": 2017,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
-    {
       "school": "Florida Atlantic",
       "year": 2021,
       "reason": "not cached (rerun with --fetch --coach)"
@@ -79,23 +79,95 @@
   ],
   "pooled_profile": {
     "neutral_pass_rate": {
-      "value": 0.391304347826087,
-      "n": 483
+      "value": 0.3485824742268041,
+      "n": 1552
     },
     "sec_per_play": {
-      "value": 23.339943342776206,
-      "n": 353
+      "value": 26.10151691948658,
+      "n": 857
     },
     "fourth_down_go_rate": {
-      "value": 0.3,
-      "n": 10
+      "value": 0.3611111111111111,
+      "n": 36
     },
     "explosive_pass_rate": {
-      "value": 0.11418685121107267,
-      "n": 289
+      "value": 0.12883435582822086,
+      "n": 815
     }
   },
   "sticky_by_season": {
+    "South Florida 2014": {
+      "neutral_pass_rate": {
+        "value": 0.33760683760683763,
+        "n": 234
+      },
+      "sec_per_play": {
+        "value": 33.0,
+        "n": 188
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.1,
+        "n": 130
+      }
+    },
+    "South Florida 2015": {
+      "neutral_pass_rate": {
+        "value": 0.27631578947368424,
+        "n": 304
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 179
+      },
+      "fourth_down_go_rate": {
+        "value": 0.1111111111111111,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.15328467153284672,
+        "n": 137
+      }
+    },
+    "South Florida 2016": {
+      "neutral_pass_rate": {
+        "value": 0.37857142857142856,
+        "n": 280
+      },
+      "sec_per_play": {
+        "value": 23,
+        "n": 97
+      },
+      "fourth_down_go_rate": {
+        "value": 0.875,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.15333333333333332,
+        "n": 150
+      }
+    },
+    "Oregon 2017": {
+      "neutral_pass_rate": {
+        "value": 0.33067729083665337,
+        "n": 251
+      },
+      "sec_per_play": {
+        "value": 30.5,
+        "n": 40
+      },
+      "fourth_down_go_rate": {
+        "value": 0.4,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.13761467889908258,
+        "n": 109
+      }
+    },
     "Florida State 2018": {
       "neutral_pass_rate": {
         "value": 0.4377880184331797,
@@ -136,18 +208,24 @@
   "stability": {
     "neutral_pass_rate": {
       "per_season": {
+        "South Florida 2014": 0.33760683760683763,
+        "South Florida 2015": 0.27631578947368424,
+        "South Florida 2016": 0.37857142857142856,
+        "Oregon 2017": 0.33067729083665337,
         "Florida State 2018": 0.4377880184331797,
         "Florida Atlantic 2022": 0.3533834586466165
       },
-      "spread": 0.0844045597865632,
-      "n_seasons": 2
+      "spread": 0.16147222895949548,
+      "n_seasons": 6
     },
     "sec_per_play": {
       "per_season": {
+        "South Florida 2014": 33.0,
+        "South Florida 2015": 25,
         "Florida State 2018": 22
       },
-      "spread": null,
-      "n_seasons": 1
+      "spread": 11.0,
+      "n_seasons": 3
     },
     "fourth_down_go_rate": {
       "per_season": {},
@@ -156,11 +234,15 @@
     },
     "explosive_pass_rate": {
       "per_season": {
+        "South Florida 2014": 0.1,
+        "South Florida 2015": 0.15328467153284672,
+        "South Florida 2016": 0.15333333333333332,
+        "Oregon 2017": 0.13761467889908258,
         "Florida State 2018": 0.09027777777777778,
         "Florida Atlantic 2022": 0.13793103448275862
       },
-      "spread": 0.04765325670498084,
-      "n_seasons": 2
+      "spread": 0.06305555555555555,
+      "n_seasons": 6
     }
   }
 }

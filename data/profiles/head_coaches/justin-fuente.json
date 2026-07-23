@@ -1,0 +1,171 @@
+{
+  "coach": "Justin Fuente",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2015,
+      "n_full": 2,
+      "school": "Memphis"
+    },
+    {
+      "first": 2016,
+      "last": 2021,
+      "n_full": 5,
+      "school": "Virginia Tech"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Memphis",
+      "year": 2014,
+      "games": 13
+    },
+    {
+      "school": "Memphis",
+      "year": 2015,
+      "games": 12
+    },
+    {
+      "school": "Virginia Tech",
+      "year": 2016,
+      "games": 14
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Virginia Tech",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Virginia Tech",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Virginia Tech",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Virginia Tech",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Virginia Tech",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.46577946768060835,
+      "n": 1052
+    },
+    "sec_per_play": {
+      "value": 20.732265446224257,
+      "n": 874
+    },
+    "fourth_down_go_rate": {
+      "value": 0.2608695652173913,
+      "n": 23
+    },
+    "explosive_pass_rate": {
+      "value": 0.10151515151515152,
+      "n": 660
+    }
+  },
+  "sticky_by_season": {
+    "Memphis 2014": {
+      "neutral_pass_rate": {
+        "value": 0.4403409090909091,
+        "n": 352
+      },
+      "sec_per_play": {
+        "value": 20,
+        "n": 241
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2222222222222222,
+        "n": 9
+      },
+      "explosive_pass_rate": {
+        "value": 0.07511737089201878,
+        "n": 213
+      }
+    },
+    "Memphis 2015": {
+      "neutral_pass_rate": {
+        "value": 0.4790575916230366,
+        "n": 382
+      },
+      "sec_per_play": {
+        "value": 20,
+        "n": 313
+      },
+      "fourth_down_go_rate": {
+        "value": 0.5,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.10975609756097561,
+        "n": 246
+      }
+    },
+    "Virginia Tech 2016": {
+      "neutral_pass_rate": {
+        "value": 0.4779874213836478,
+        "n": 318
+      },
+      "sec_per_play": {
+        "value": 22.0,
+        "n": 320
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.11940298507462686,
+        "n": 201
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Memphis 2014": 0.4403409090909091,
+        "Memphis 2015": 0.4790575916230366,
+        "Virginia Tech 2016": 0.4779874213836478
+      },
+      "spread": 0.03871668253212751,
+      "n_seasons": 3
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Memphis 2014": 20,
+        "Memphis 2015": 20,
+        "Virginia Tech 2016": 22.0
+      },
+      "spread": 2.0,
+      "n_seasons": 3
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Memphis 2014": 0.07511737089201878,
+        "Memphis 2015": 0.10975609756097561,
+        "Virginia Tech 2016": 0.11940298507462686
+      },
+      "spread": 0.04428561418260808,
+      "n_seasons": 3
+    }
+  }
+}

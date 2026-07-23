@@ -1,0 +1,104 @@
+{
+  "coach": "Paul Johnson",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2018,
+      "n_full": 5,
+      "school": "Georgia Tech"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Georgia Tech",
+      "year": 2018,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Georgia Tech",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Georgia Tech",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Georgia Tech",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Georgia Tech",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.05952380952380952,
+      "n": 252
+    },
+    "sec_per_play": {
+      "value": 31.5,
+      "n": 134
+    },
+    "fourth_down_go_rate": {
+      "value": 0.6666666666666666,
+      "n": 3
+    },
+    "explosive_pass_rate": {
+      "value": 0.1875,
+      "n": 32
+    }
+  },
+  "sticky_by_season": {
+    "Georgia Tech 2018": {
+      "neutral_pass_rate": {
+        "value": 0.05952380952380952,
+        "n": 252
+      },
+      "sec_per_play": {
+        "value": 31.5,
+        "n": 134
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6666666666666666,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.1875,
+        "n": 32
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Georgia Tech 2018": 0.05952380952380952
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    }
+  }
+}

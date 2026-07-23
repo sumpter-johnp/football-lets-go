@@ -1,0 +1,98 @@
+{
+  "coach": "Mark Helfrich",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2016,
+      "n_full": 3,
+      "school": "Oregon"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Oregon",
+      "year": 2016,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Oregon",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Oregon",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.41106719367588934,
+      "n": 253
+    },
+    "sec_per_play": {
+      "value": 19.0,
+      "n": 176
+    },
+    "fourth_down_go_rate": {
+      "value": 0.2,
+      "n": 5
+    },
+    "explosive_pass_rate": {
+      "value": 0.14838709677419354,
+      "n": 155
+    }
+  },
+  "sticky_by_season": {
+    "Oregon 2016": {
+      "neutral_pass_rate": {
+        "value": 0.41106719367588934,
+        "n": 253
+      },
+      "sec_per_play": {
+        "value": 19.0,
+        "n": 176
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.14838709677419354,
+        "n": 155
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Oregon 2016": 0.41106719367588934
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Oregon 2016": 19.0
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Oregon 2016": 0.14838709677419354
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

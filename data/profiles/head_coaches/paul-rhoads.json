@@ -1,0 +1,91 @@
+{
+  "coach": "Paul Rhoads",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2015,
+      "n_full": 2,
+      "school": "Iowa State"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Iowa State",
+      "year": 2015,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Iowa State",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.44015444015444016,
+      "n": 259
+    },
+    "sec_per_play": {
+      "value": 24.5,
+      "n": 132
+    },
+    "fourth_down_go_rate": {
+      "value": 0.6666666666666666,
+      "n": 6
+    },
+    "explosive_pass_rate": {
+      "value": 0.11242603550295859,
+      "n": 169
+    }
+  },
+  "sticky_by_season": {
+    "Iowa State 2015": {
+      "neutral_pass_rate": {
+        "value": 0.44015444015444016,
+        "n": 259
+      },
+      "sec_per_play": {
+        "value": 24.5,
+        "n": 132
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6666666666666666,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.11242603550295859,
+        "n": 169
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Iowa State 2015": 0.44015444015444016
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Iowa State 2015": 0.11242603550295859
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

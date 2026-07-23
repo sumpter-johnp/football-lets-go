@@ -1,0 +1,96 @@
+{
+  "coach": "Bob Diaco",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2016,
+      "n_full": 3,
+      "school": "UConn"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "UConn",
+      "year": 2016,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "UConn",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "UConn",
+      "year": 2015,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.3426294820717131,
+      "n": 251
+    },
+    "sec_per_play": {
+      "value": 32.0,
+      "n": 59
+    },
+    "fourth_down_go_rate": {
+      "value": 0.3,
+      "n": 10
+    },
+    "explosive_pass_rate": {
+      "value": 0.05970149253731343,
+      "n": 134
+    }
+  },
+  "sticky_by_season": {
+    "UConn 2016": {
+      "neutral_pass_rate": {
+        "value": 0.3426294820717131,
+        "n": 251
+      },
+      "sec_per_play": {
+        "value": 32,
+        "n": 59
+      },
+      "fourth_down_go_rate": {
+        "value": 0.3,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.05970149253731343,
+        "n": 134
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "UConn 2016": 0.3426294820717131
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "UConn 2016": 0.05970149253731343
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

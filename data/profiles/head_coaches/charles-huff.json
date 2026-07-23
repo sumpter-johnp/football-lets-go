@@ -19,16 +19,16 @@
   "seasons_profiled": [
     {
       "school": "Marshall",
+      "year": 2021,
+      "games": 13
+    },
+    {
+      "school": "Marshall",
       "year": 2024,
       "games": 13
     }
   ],
   "seasons_excluded": [
-    {
-      "school": "Marshall",
-      "year": 2021,
-      "reason": "not cached (rerun with --fetch --coach)"
-    },
     {
       "school": "Marshall",
       "year": 2022,
@@ -47,23 +47,41 @@
   ],
   "pooled_profile": {
     "neutral_pass_rate": {
-      "value": 0.3673469387755102,
-      "n": 294
+      "value": 0.45794392523364486,
+      "n": 642
     },
     "sec_per_play": {
-      "value": 30.0,
-      "n": 294
+      "value": 27.482517482517483,
+      "n": 429
     },
     "fourth_down_go_rate": {
-      "value": 0.14285714285714285,
-      "n": 7
+      "value": 0.3333333333333333,
+      "n": 12
     },
     "explosive_pass_rate": {
-      "value": 0.07878787878787878,
-      "n": 165
+      "value": 0.08229426433915212,
+      "n": 401
     }
   },
   "sticky_by_season": {
+    "Marshall 2021": {
+      "neutral_pass_rate": {
+        "value": 0.5344827586206896,
+        "n": 348
+      },
+      "sec_per_play": {
+        "value": 22,
+        "n": 135
+      },
+      "fourth_down_go_rate": {
+        "value": 0.6,
+        "n": 5
+      },
+      "explosive_pass_rate": {
+        "value": 0.0847457627118644,
+        "n": 236
+      }
+    },
     "Marshall 2024": {
       "neutral_pass_rate": {
         "value": 0.3673469387755102,
@@ -86,10 +104,11 @@
   "stability": {
     "neutral_pass_rate": {
       "per_season": {
+        "Marshall 2021": 0.5344827586206896,
         "Marshall 2024": 0.3673469387755102
       },
-      "spread": null,
-      "n_seasons": 1
+      "spread": 0.1671358198451794,
+      "n_seasons": 2
     },
     "sec_per_play": {
       "per_season": {
@@ -105,10 +124,11 @@
     },
     "explosive_pass_rate": {
       "per_season": {
+        "Marshall 2021": 0.0847457627118644,
         "Marshall 2024": 0.07878787878787878
       },
-      "spread": null,
-      "n_seasons": 1
+      "spread": 0.005957883923985621,
+      "n_seasons": 2
     }
   }
 }

@@ -1,0 +1,155 @@
+{
+  "coach": "Paul Chryst",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2014,
+      "n_full": 1,
+      "school": "Pittsburgh"
+    },
+    {
+      "first": 2015,
+      "last": 2022,
+      "n_full": 6,
+      "school": "Wisconsin"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Pittsburgh",
+      "year": 2014,
+      "games": 12
+    },
+    {
+      "school": "Wisconsin",
+      "year": 2015,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Wisconsin",
+      "year": 2020,
+      "reason": "COVID season (pre-registered exclusion)"
+    },
+    {
+      "school": "Wisconsin",
+      "year": 2022,
+      "reason": "partial season (5 games)"
+    },
+    {
+      "school": "Wisconsin",
+      "year": 2016,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Wisconsin",
+      "year": 2017,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Wisconsin",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Wisconsin",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "Wisconsin",
+      "year": 2021,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.349002849002849,
+      "n": 702
+    },
+    "sec_per_play": {
+      "value": 29.770657672849914,
+      "n": 593
+    },
+    "fourth_down_go_rate": {
+      "value": 0.16666666666666666,
+      "n": 18
+    },
+    "explosive_pass_rate": {
+      "value": 0.10354223433242507,
+      "n": 367
+    }
+  },
+  "sticky_by_season": {
+    "Pittsburgh 2014": {
+      "neutral_pass_rate": {
+        "value": 0.2730263157894737,
+        "n": 304
+      },
+      "sec_per_play": {
+        "value": 30,
+        "n": 321
+      },
+      "fourth_down_go_rate": {
+        "value": 0.2,
+        "n": 10
+      },
+      "explosive_pass_rate": {
+        "value": 0.109375,
+        "n": 128
+      }
+    },
+    "Wisconsin 2015": {
+      "neutral_pass_rate": {
+        "value": 0.40703517587939697,
+        "n": 398
+      },
+      "sec_per_play": {
+        "value": 29.5,
+        "n": 272
+      },
+      "fourth_down_go_rate": {
+        "value": 0.125,
+        "n": 8
+      },
+      "explosive_pass_rate": {
+        "value": 0.100418410041841,
+        "n": 239
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Pittsburgh 2014": 0.2730263157894737,
+        "Wisconsin 2015": 0.40703517587939697
+      },
+      "spread": 0.1340088600899233,
+      "n_seasons": 2
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Pittsburgh 2014": 30,
+        "Wisconsin 2015": 29.5
+      },
+      "spread": 0.5,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Pittsburgh 2014": 0.109375,
+        "Wisconsin 2015": 0.100418410041841
+      },
+      "spread": 0.008956589958158997,
+      "n_seasons": 2
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "coach": "Bob Stoops",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2016,
+      "n_full": 3,
+      "school": "Oklahoma"
+    },
+    {
+      "first": 2021,
+      "last": 2021,
+      "n_full": 0,
+      "school": "Oklahoma"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Oklahoma",
+      "year": 2015,
+      "games": 13
+    },
+    {
+      "school": "Oklahoma",
+      "year": 2016,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Oklahoma",
+      "year": 2021,
+      "reason": "partial season (1 games)"
+    },
+    {
+      "school": "Oklahoma",
+      "year": 2014,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.454855195911414,
+      "n": 587
+    },
+    "sec_per_play": {
+      "value": 23.73170731707317,
+      "n": 615
+    },
+    "fourth_down_go_rate": {
+      "value": 0.0,
+      "n": 7
+    },
+    "explosive_pass_rate": {
+      "value": 0.1346704871060172,
+      "n": 349
+    }
+  },
+  "sticky_by_season": {
+    "Oklahoma 2015": {
+      "neutral_pass_rate": {
+        "value": 0.5095057034220533,
+        "n": 263
+      },
+      "sec_per_play": {
+        "value": 22.0,
+        "n": 260
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.11695906432748537,
+        "n": 171
+      }
+    },
+    "Oklahoma 2016": {
+      "neutral_pass_rate": {
+        "value": 0.4104938271604938,
+        "n": 324
+      },
+      "sec_per_play": {
+        "value": 25,
+        "n": 355
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 4
+      },
+      "explosive_pass_rate": {
+        "value": 0.15168539325842698,
+        "n": 178
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Oklahoma 2015": 0.5095057034220533,
+        "Oklahoma 2016": 0.4104938271604938
+      },
+      "spread": 0.09901187626155944,
+      "n_seasons": 2
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Oklahoma 2015": 22.0,
+        "Oklahoma 2016": 25
+      },
+      "spread": 3.0,
+      "n_seasons": 2
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Oklahoma 2015": 0.11695906432748537,
+        "Oklahoma 2016": 0.15168539325842698
+      },
+      "spread": 0.0347263289309416,
+      "n_seasons": 2
+    }
+  }
+}

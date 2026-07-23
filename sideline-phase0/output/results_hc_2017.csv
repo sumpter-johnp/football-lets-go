@@ -1,0 +1,25 @@
+coach,new_team,metric,hc_dna_pred,program_pred,actual,hc_dna_err,program_err,n_hc,n_program,n_actual,usable,winner
+Charlie Strong,South Florida,neutral_pass_rate,0.382,0.3786,0.4041,0.0221,0.0255,966,280,344,True,hc_dna
+Charlie Strong,South Florida,sec_per_play,21.3883,23.0,19.0,,,886,97,135,False,
+Charlie Strong,South Florida,fourth_down_go_rate,0.2353,0.875,0.5,,,17,8,2,False,
+Charlie Strong,South Florida,explosive_pass_rate,0.0968,0.1533,0.1389,0.0421,0.0144,527,150,180,True,program
+Matt Rhule,Baylor,neutral_pass_rate,0.4413,0.4817,0.4671,0.0258,0.0146,895,301,304,True,program
+Matt Rhule,Baylor,sec_per_play,27.2979,16.0,23.0,,,584,279,34,False,
+Matt Rhule,Baylor,fourth_down_go_rate,0.3529,0.7143,0.625,,,17,7,8,False,
+Matt Rhule,Baylor,explosive_pass_rate,0.119,0.0872,0.1193,0.0003,0.0321,580,195,218,True,hc_dna
+P.J. Fleck,Minnesota,neutral_pass_rate,0.4226,0.3207,0.2878,0.1349,0.0329,795,396,278,True,program
+P.J. Fleck,Minnesota,sec_per_play,30.5601,27.0,30.0,,,391,112,13,False,
+P.J. Fleck,Minnesota,fourth_down_go_rate,0.6154,0.0,0.3,,,13,7,10,False,
+P.J. Fleck,Minnesota,explosive_pass_rate,0.1264,0.1263,0.112,0.0144,0.0143,459,190,125,True,program
+Randy Edsall,UConn,neutral_pass_rate,0.4871,0.3426,0.4387,0.0484,0.096,232,251,269,True,hc_dna
+Randy Edsall,UConn,sec_per_play,25.0,32.0,19.0,,,172,59,51,False,
+Randy Edsall,UConn,fourth_down_go_rate,0.0,0.3,0.0,,,6,10,3,False,
+Randy Edsall,UConn,explosive_pass_rate,0.0637,0.0597,0.0958,0.0321,0.0361,157,134,167,True,hc_dna
+Tom Herman,Texas,neutral_pass_rate,0.4435,0.3945,0.4463,0.0028,0.0518,681,436,298,True,hc_dna
+Tom Herman,Texas,sec_per_play,21.9418,17.0,26.0,4.0582,9.0,584,417,240,True,hc_dna
+Tom Herman,Texas,fourth_down_go_rate,0.5882,0.25,0.3333,,,17,8,9,False,
+Tom Herman,Texas,explosive_pass_rate,0.0943,0.0933,0.0955,0.0012,0.0021,435,225,199,True,hc_dna
+Willie Taggart,Oregon,neutral_pass_rate,0.3289,0.4111,0.3307,0.0018,0.0804,818,253,251,True,hc_dna
+Willie Taggart,Oregon,sec_per_play,27.8233,19.0,30.5,,,464,176,40,False,
+Willie Taggart,Oregon,fourth_down_go_rate,0.381,0.2,0.4,,,21,5,5,False,
+Willie Taggart,Oregon,explosive_pass_rate,0.1367,0.1484,0.1376,0.0009,0.0108,417,155,109,True,hc_dna

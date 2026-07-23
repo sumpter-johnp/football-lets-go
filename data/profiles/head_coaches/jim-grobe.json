@@ -1,0 +1,87 @@
+{
+  "coach": "Jim Grobe",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2016,
+      "last": 2016,
+      "n_full": 1,
+      "school": "Baylor"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Baylor",
+      "year": 2016,
+      "games": 13
+    }
+  ],
+  "seasons_excluded": [],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.48172757475083056,
+      "n": 301
+    },
+    "sec_per_play": {
+      "value": 16.0,
+      "n": 279
+    },
+    "fourth_down_go_rate": {
+      "value": 0.7142857142857143,
+      "n": 7
+    },
+    "explosive_pass_rate": {
+      "value": 0.08717948717948718,
+      "n": 195
+    }
+  },
+  "sticky_by_season": {
+    "Baylor 2016": {
+      "neutral_pass_rate": {
+        "value": 0.48172757475083056,
+        "n": 301
+      },
+      "sec_per_play": {
+        "value": 16,
+        "n": 279
+      },
+      "fourth_down_go_rate": {
+        "value": 0.7142857142857143,
+        "n": 7
+      },
+      "explosive_pass_rate": {
+        "value": 0.08717948717948718,
+        "n": 195
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Baylor 2016": 0.48172757475083056
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Baylor 2016": 16
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Baylor 2016": 0.08717948717948718
+      },
+      "spread": null,
+      "n_seasons": 1
+    }
+  }
+}

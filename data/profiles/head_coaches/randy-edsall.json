@@ -1,0 +1,145 @@
+{
+  "coach": "Randy Edsall",
+  "level": "hc_regime",
+  "caveat": "Regime-level attribution: plays belong to the head-coach era, not a verified play-caller. Do not pool with data/profiles/coaches/ (play-caller DNA).",
+  "stints": [
+    {
+      "first": 2014,
+      "last": 2015,
+      "n_full": 1,
+      "school": "Maryland"
+    },
+    {
+      "first": 2017,
+      "last": 2019,
+      "n_full": 3,
+      "school": "UConn"
+    },
+    {
+      "first": 2021,
+      "last": 2021,
+      "n_full": 0,
+      "school": "UConn"
+    }
+  ],
+  "seasons_profiled": [
+    {
+      "school": "Maryland",
+      "year": 2014,
+      "games": 13
+    },
+    {
+      "school": "UConn",
+      "year": 2017,
+      "games": 12
+    }
+  ],
+  "seasons_excluded": [
+    {
+      "school": "Maryland",
+      "year": 2015,
+      "reason": "partial season (6 games)"
+    },
+    {
+      "school": "UConn",
+      "year": 2021,
+      "reason": "partial season (2 games)"
+    },
+    {
+      "school": "UConn",
+      "year": 2018,
+      "reason": "not cached (rerun with --fetch --coach)"
+    },
+    {
+      "school": "UConn",
+      "year": 2019,
+      "reason": "not cached (rerun with --fetch --coach)"
+    }
+  ],
+  "pooled_profile": {
+    "neutral_pass_rate": {
+      "value": 0.46107784431137727,
+      "n": 501
+    },
+    "sec_per_play": {
+      "value": 23.62780269058296,
+      "n": 223
+    },
+    "fourth_down_go_rate": {
+      "value": 0.0,
+      "n": 9
+    },
+    "explosive_pass_rate": {
+      "value": 0.08024691358024691,
+      "n": 324
+    }
+  },
+  "sticky_by_season": {
+    "Maryland 2014": {
+      "neutral_pass_rate": {
+        "value": 0.4870689655172414,
+        "n": 232
+      },
+      "sec_per_play": {
+        "value": 25.0,
+        "n": 172
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 6
+      },
+      "explosive_pass_rate": {
+        "value": 0.06369426751592357,
+        "n": 157
+      }
+    },
+    "UConn 2017": {
+      "neutral_pass_rate": {
+        "value": 0.43866171003717475,
+        "n": 269
+      },
+      "sec_per_play": {
+        "value": 19,
+        "n": 51
+      },
+      "fourth_down_go_rate": {
+        "value": 0.0,
+        "n": 3
+      },
+      "explosive_pass_rate": {
+        "value": 0.09580838323353294,
+        "n": 167
+      }
+    }
+  },
+  "stability": {
+    "neutral_pass_rate": {
+      "per_season": {
+        "Maryland 2014": 0.4870689655172414,
+        "UConn 2017": 0.43866171003717475
+      },
+      "spread": 0.048407255480066635,
+      "n_seasons": 2
+    },
+    "sec_per_play": {
+      "per_season": {
+        "Maryland 2014": 25.0
+      },
+      "spread": null,
+      "n_seasons": 1
+    },
+    "fourth_down_go_rate": {
+      "per_season": {},
+      "spread": null,
+      "n_seasons": 0
+    },
+    "explosive_pass_rate": {
+      "per_season": {
+        "Maryland 2014": 0.06369426751592357,
+        "UConn 2017": 0.09580838323353294
+      },
+      "spread": 0.03211411571760937,
+      "n_seasons": 2
+    }
+  }
+}

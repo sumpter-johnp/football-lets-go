@@ -1,0 +1,17 @@
+coach,new_team,metric,hc_dna_pred,program_pred,actual,hc_dna_err,program_err,n_hc,n_program,n_actual,usable,winner
+Gary Andersen,Oregon State,neutral_pass_rate,0.2884,0.5248,0.3233,0.0349,0.2015,319,282,232,True,hc_dna
+Gary Andersen,Oregon State,sec_per_play,31.0,30.0,25.0,,,340,123,137,False,
+Gary Andersen,Oregon State,fourth_down_go_rate,0.75,0.3333,0.1111,,,4,6,9,False,
+Gary Andersen,Oregon State,explosive_pass_rate,0.0845,0.1111,0.0917,0.0072,0.0194,142,198,120,True,hc_dna
+Jim McElwain,Florida,neutral_pass_rate,0.5265,0.3404,0.4552,0.0714,0.1147,226,282,290,True,hc_dna
+Jim McElwain,Florida,sec_per_play,23.5,25.0,30.0,,,54,330,299,False,
+Jim McElwain,Florida,fourth_down_go_rate,0.0,0.3333,0.2,,,1,6,10,False,
+Jim McElwain,Florida,explosive_pass_rate,0.1104,0.0637,0.0825,0.028,0.0188,163,157,194,True,program
+Mike Riley,Nebraska,neutral_pass_rate,0.5248,0.3021,0.386,0.1389,0.0839,282,331,342,True,program
+Mike Riley,Nebraska,sec_per_play,30.0,25.0,29.0,,,123,383,295,False,
+Mike Riley,Nebraska,fourth_down_go_rate,0.3333,0.3333,0.1818,,,6,3,11,False,
+Mike Riley,Nebraska,explosive_pass_rate,0.1111,0.0903,0.0851,0.026,0.0052,198,155,188,True,program
+Paul Chryst,Wisconsin,neutral_pass_rate,0.273,0.2884,0.407,0.134,0.1186,304,319,398,True,program
+Paul Chryst,Wisconsin,sec_per_play,30.0,31.0,29.5,0.5,1.5,321,340,272,True,hc_dna
+Paul Chryst,Wisconsin,fourth_down_go_rate,0.2,0.75,0.125,,,10,4,8,False,
+Paul Chryst,Wisconsin,explosive_pass_rate,0.1094,0.0845,0.1004,0.009,0.0159,128,142,239,True,hc_dna
